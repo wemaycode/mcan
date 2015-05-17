@@ -1,0 +1,219 @@
+body, .widget {
+	direction: rtl;
+}
+
+.flexslider, .owl-carousel, .page-sidebar {
+	direction: ltr !important;
+}
+
+/*============  FLOAT SECTION STYLE ============ */
+.left-side,.pull-left,
+/* HEADER */.top-nav ul li, .top-nav, .top-bar .left-side p, .cs-login-sec, .cs-login-sec ul li, .socialmedia,.logo-section .logo,.logo-section p,.search-top input[type="text"],.srtitle,.sr-info-sec,.navigation ul li,
+/* BLOG */.cs-blog time,.post-option li,.cs-blog a.continue-reading,.cs-blog .cs-media,.cs-section-title h2,
+/* WIDGET */.tagcloud a,.widget-sermon figure,.widget-sermon article h2 a,
+/* EVENT */.cs-events .cstime,.cs-events .cstime i,.events-classic figure,.cs-events .location-info > time,
+/* PROJECT */.cs-projects .cs-media,
+/* SERMON */.cs-sermons .post-links li,.causes-classic .cs-progres-bar,.cs-causes.causes-medium .cs-progres-bar, .cs-causes.causes-medium .cs-progres-bar,
+.cs_form_styling input[type="submit"],.messagebox-v3.icon_position_left i,.skillbar,.skills-v2 span,.blog-editor time,.cs-tags ul,.cs-tags .cs-title,.detail-post .socialmedia > h6,
+.blog-editor ul, .blog-editor p, blockquote,.cs-about-author .icon-auther,.cs-about-author figure,#cs-comments .thumblist li figure,.leave-form #form-style input,.sermons-detail.sermon-list figure,.cs-doners li .counter,
+.cs-doners li a,.cs-causes .patteren, .causes-detail .patteren,.progress-top .raising,.progress-top .goal,.widget-causes .cs-causes figure,.cs-search-area form,.cs-search-area input[type="text"],
+.widget_categories ul li a,.widget.widget_recent_comments .comment-author-link, .srtitle h5 i, .sr-info-sec figure, /* Shortcod */.dropcap-one:first-letter, .dropcap-one p:first-letter, .pagination ul li,
+.cs-events .cs-cat-list .toggle i, .colored-icon, .cs-causes figure, article.cs-team .social-media, .large-btn.has_icon i, .image-frame figure, .cs-services.classic figure, .extra-large-btn.has_icon i,
+.navigation, .nav-tabs > li, .cart-sec, .navigation .mega-grid > li > a {
+	float: right !important;
+}
+
+.right-side,.pull-right,
+/* Header */.cs-sermons.single-sermone .btn-style1,.search-top input[type="submit"],.breadcrumb ul,.cs-blog ul.post-option-btm,
+/* EVENT */.cs-events section figure,.cs-events .cs-cat-list .toggle,
+/* SERMON */.sermon-list figure,.cs-causes .btn-style1,.plain .skills-sec small,.thumblist li a.comment-reply-link,.cs-doners li p,.causes-detail .cs-btn-donate,.causes-detail .post-option,.copyright .signup {
+	float: left !important;
+}
+
+.blog-medium.has_shapes figure:before, .blog-small.has_shapes figure:before,.cs-events .cs-cat-list ul li a.custom-btn:after,.events-timeline .ev-inn:after, .events-timeline .ev-inn:before,.cs-projects section > a {
+	-webkit-transform: scale(-1);
+	   -moz-transform: scale(-1);
+	    -ms-transform: scale(-1);
+	     -o-transform: scale(-1);
+	        transform: scale(-1);
+}
+
+/*============  HEADER SETUP ============ */
+.top-nav ul li:before { left: 8px; }
+.top-nav ul li { padding: 0 0 0 22px; }
+.cs-login-sec { margin-right: 19px; margin-left: 0px; }
+.socialmedia li { margin-right: 15px; margin-left: 0px; }
+.logo-section p { padding: 13px 20px 0 0; }
+.search-top:after { left: 13px;right: auto; }
+.search-top { padding: 0 15px 0 0; }
+.navigation ul.mega-grid .dropdown-menu li > a i { margin-right: 0px; margin-left: 10px; }
+.dropdown-menu {left: auto;right: 0px;}
+.navigation ul .dropdown-menu ul {left: auto;right: 101%;}
+
+/*============  Sermone SETUP ============ */
+.btn-style1 i { margin-left: 15px; margin-right: 0px; }
+.btn-style1 { padding-left: 20px;padding-right: 0px; }
+
+/*============  Blog SETUP ============ */
+.cs-blog time {padding-left: 20px;padding-right: 0px; border-left: 1px solid #d7d7d7;border-right: none;}
+.blog-lrg time ~ section {padding-left: 0px;padding-right: 80px;}
+.cs-blog ul.post-option-btm li a i {margin-right: 0px;margin-left: 7px;}
+.cs-blog a.continue-reading i { margin-right: 0px; margin-left: 5px; }
+.blog-medium .title {padding-left: 0px;padding-right: 20px;}
+.blog-medium .cs-media ~ section {padding: 0 398px 0 0px;}
+.featured-post {left: auto;right: 0px;}
+.blog-medium.has_shapes figure:before, .blog-small.has_shapes figure:before {right: auto;left: 0px;}
+.blog-clean .cs-media ~ section { padding: 20px 195px 0 0px; }
+.post-option li {margin-right: 0px;margin-left: 13px;}
+.post-option li i {margin-right: 0px;margin-left: 5px;}
+.cs-blog-grid time ~ .title { padding-right: 65px; padding-left: 0px; }
+.cs-blog.blog-elite .blog-bottom li a i {margin-right: 0px;margin-left: 6px;}
+.blog-timeline {margin-right: 115px;margin-left: 0px;}
+.blog-timeline time {right: -115px;left: auto;}
+.blog-timeline:before {right: -49px;left: auto;}
+.blog-timeline time:after {right: 58px;left: auto;}
+.blog-timeline time {border: none;}
+.blog-small .cs-media ~ section { padding: 0 300px 0 0; }
+.blog-small .title { padding-right: 20px; padding-left: 0px; }
+
+/*============  WIDGET SETUP ============ */
+.twitter_widget .text a i { margin: 0 0px 0 5px; }
+.widget_search form label {left: 15px;right: auto;}
+.widget_text ul li { padding: 0 29px 0 0; }
+
+/*============  EVENT SETUP ============ */
+.cs-events .ev-inn section { padding: 0 25px 30px 0; }
+.cs-events .cstime i { margin: 5px 0 0 6px; }
+.cs-events section figure { margin: 0 15px 0 0; }
+.cs-filter-menu li i.fa, .cs-btnshowall i.fa { margin-left: 6px;margin-right: 0px; }
+.cs-events .location-info > span i { margin: 0 0 0 10px; }
+.filter-pager a:before { right: 5px; left: auto; }
+.cs-events .cs-cat-list ul li a.custom-btn { margin: 0 0 0 20px; }
+.cs-events .cs-cat-list ul li a.custom-btn:after {left: -10px;right: auto;}
+.events-classic figure ~ .left-sp { padding: 8px 195px 0 0px; }
+.events-classic .left-sp .location-info .info > span i, .events-classic .left-sp .location-info .info > .time-period i { margin: 0 0 0 5px; }
+.events-classic .left-sp .location-info .info { padding: 0 50px 0 0; }
+.events-timeline .ev-inn { padding: 20px 20px 20px 25px; }
+.events-timeline { padding: 0 50px 0 0; }
+.events-timeline:before {right: 15px;left: auto;}
+.events-timeline .ev-inn:after, .events-timeline .ev-inn:before {left: 100%;right: auto;}
+.events-timeline .ev-inn .cstime:before {left: auto;right: -79px;}
+.events-minimal .left-sp .location-info .info { padding: 0 50px 0 0; }
+.events-minimal .left-sp .location-info .info > span i, .events-minimal .left-sp .location-info .info > .time-period i { margin: 0 0 0 5px; }
+.widget_text ul li i { right: 0;left: auto; }
+.cs-projects section > a {left: 0px;right: auto;}
+
+/*============  PROJECTS SETUP ============ */
+.cs-projects.projects-classic section { margin: 0 300px 0 0; }
+
+/*============  SERMON SETUP ============ */
+.sermon-grid .post-links li { margin: 0 0px 0 10px; }
+.cs-sermons .post-links .btn-style1 {padding-left: 20px;padding-right: 0px;}
+.cs-sermons .post-links .btn-style1 i {margin-left: 15px;margin-right: 0px;}
+.cs-sermons .post-links .btn-style2 i {margin-left: 10px;margin-right: 0px;}
+.sermon-list figure ~ section { padding: 18px 20px 0 217px; }
+.cs-sermons figure:before {right: 0px;left: auto;}
+.cs-sermons .post-links li { margin: 0 0px 4px 12px; }
+.widget-sermon figure ~ .text { padding: 0 85px 0 0px; }
+
+/*============  TYPO SETUP ============ */
+.liststyle .cs-iconlist li i {margin-right: 0px;margin-left: 12px;}
+button.close-v1, button.close-v2 { border-radius: 6px 0 0; left: 0; right: auto; }
+.messagebox i {margin-right: 0px;margin-left: 10px;}
+.messagebox-v3 .custom-btn {left: 30px;right: auto;}
+.messagebox-v3.icon_position_left i { margin: 0 0px 0 18px; }
+
+/*============  COMMONELEMENT SETUP ============ */
+.panel-heading a i { float: right; margin: 0 0 0 15px; }
+.panel-heading .collapse.collapsed:before,.panel-heading .collapse:before {left: 15px;right: auto;}
+.panel-group.simple .panel-heading .collapse:before, .panel-group.box .panel-heading .collapse:before {left: 0px;right: auto;}
+.panel-group.simple .panel-heading a i { margin: 1px 0 0 15px; }
+.skills-v3 .skillbar small {right: 5px;}
+.pr-classic ul li {text-align: right;}
+.pr-classic ul li i { margin-left: 10px; margin-right: 0px; }
+
+/*============  DETAIL PAGE SETUP ============ */
+.blog-editor time { border-left: 1px solid #d7d7d7;border-right: none; padding-left: 20px;padding-right: 0px; }
+.blog-editor .post-option-panel time ~ .rich_editor_text, .blog-editor .post-option-panel time ~ .cs-attachments { padding-right: 80px;padding-left: 0px; }
+blockquote:before {right: 0px;left: auto;}
+blockquote { padding: 0 70px 0 0; }
+.cs-tags ul li { margin: 0 7px 0 0; }
+.cs-tags .cs-title { margin-left: 15px;margin-right: 0px; }
+.cs-tags .cs-title:after {left: -15px;right: auto;}
+.detail-post .socialmedia h6:before {left: 12px;right: auto;top: -3px;}
+.detail-post .socialmedia > h6 {padding-right: 0px;padding-left: 30px;}
+.cs-about-author .icon-auther ~ .inner { margin: 0 50px 0 0; }
+.cs-about-author .inner:before {left: auto;right: -14px;-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);transform: rotate(-90deg);}
+.cs-about-author .text { margin-right: 95px; margin-left: 0px;}
+.post-recent .cs-blog-grid time {padding-right: 0px;}
+#cs-comments .thumblist li .text { padding-right: 98px;padding-left: 0px; }
+#cs-comments .children { margin-right: 100px; margin-left: 0px; }
+.blog-editor .post-option {width: auto;padding-right: 25px;}
+#form-style p span { margin: 6px 14px 0 0;}
+.cs-title i {margin-left: 7px;}
+.event-info ul li span i { margin: 0 0px 0 10px; }
+.event-speakers ul li { margin: 0 0 0 40px; }
+.event-speakers h4 { margin: 0 0px 15px 130px; }
+.prev-next-post .prev { border-left: 1px solid #e7e7e7; border-right: none; padding: 20px 0 20px 20px; }
+.skills-v3 .skillbar span {text-align: left;}
+.sermons-detail.sermon-list figure ~ section { padding: 0 270px 0 0; }
+.cs-doners li .counter { border-left: 1px solid #ededed;border-right: none;}
+.cs-doners li a { padding: 6px 15px 0 0; }
+.cs-doners li p { padding: 6px 0 0 15px; }
+.progress-top .goal { margin: 4px 10px 0 0; }
+.widget-causes figure ~ section { padding: 0 85px 0 0; }
+.cs-donation-form .other-amount label span {right: 11px;}
+.cs-search-area .search-submit:before {left: 12px;right: auto;}
+.cs-search-area input[type="submit"] {border-left: none;border-right: 1px solid #d0d0d0;}
+.widget_categories ul li {text-align: left;}.widget.widget_recent_comments li {text-align: right;}
+.widget.widget_recent_comments .comment-author-link { margin-left: 7px;margin-right: 0px; }
+.widget_nav_menu ul li i {margin-left: 7px;margin-right: 0px;}
+
+/*Resolve Issues*/
+#main-header .top-bar .left-side p i {display: inline-block; margin: 0 0 0 7px;}
+.cs-sermons.single-sermone .srtitle {margin: 5px 0 0 28px;}
+.cs-sermons.single-sermone .srtitle h5 i {margin: -6px 0 0 12px;}
+.cs-sermons.single-sermone .sr-info-sec figure ~ .sep-info {padding: 0 59px 0 0;}
+.cs-sermons.single-sermone .sr-info-sec {padding: 0 28px 0 0; border-right: 1px solid #292929; border-left: none;}
+.cs-sermons.single-sermone .sr-info-sec:before, .cs-sermons.single-sermone .sr-info-sec:after {right: -1px; left: auto; border-right: 8px solid #333333; border-left: none;}
+.cs-sermons.single-sermone .sr-info-sec:after {right: 0; left: auto; border-right: 8px solid #292929; border-left: none;}
+.cs-sermons.sermon-grid .post-links .btn-style2 i {margin: 0}
+.cs-sermons.sermon-grid figure:before {right: 25px;}
+.cs-causes.latest-causes.center a.btn-style1, .main-section article.cs-team.round .social-media, article.cs-team.round .post-option li {float: none!important;}
+.twitter-section .widget_slider div i {margin: 0 0 0 2px;}
+.twitter-section .widget_slider .text {direction: rtl;}
+.copyright .footer-mid-sec .signup .submit-btn:before {right: 0; left: auto;}
+.copyright .footer-mid-sec .signup .submit-btn {left: 6px; right: auto;}
+
+
+/*Shortcod Style*/
+.main-section .dropcap-one:first-letter, .main-section .dropcap-one p:first-letter{margin: 0 0 0 20px!important; font-size: 30px!important;}
+.main-section .cs-events .cs-cat-list ul li {margin: 0 0 0 5px;}
+.main-section .cs-events .cs-cat-list .toggle i {margin: 6px 0 0 7px;}
+.main-section .cs-price-table .sigun_up {padding: 5px 30px;}
+.main-section .cs-causes.causes-medium figure ~ section {padding: 0 290px 0 0;}
+.main-section .cs-sermons.sermon-list figure:before {left: 0; right: auto;}
+.main-section .projects-medium .post-option {padding: 0 0 0 20px;}
+.main-section .cs-projects section h2 {padding: 0 0 0 15px;}
+.main-section .image-frame section {overflow: visible;}
+.main-section .table.tablev1 th {text-align: right; vertical-align: middle;}
+.main-section .default.has_icon {padding: 0 0 0 15px;}
+.main-section .image-frame figure {margin: 0 0 10px 20px;}
+.main-section .dropcap-440 P:first-letter {font-size: 30px !important; padding: 15px 20px;}
+.main-section .pr-classic ul {padding: 10px 25px 25px;}
+.main-section .liststyle li {text-align: right;}
+
+/*Home RTL*/
+.main-section .cs-services.classic figure ~ .text {padding: 0 95px 0 0;}
+.main-section .top-left {text-align: right;}
+.main-section .cs-testimonial.left, .main-section .cs-testimonial .cs-author span {text-align: right;}
+#main-header .navbar-toggle.addclose {right: 14px; left: auto;}
+.main-section .features {text-align: center;}
+#main-header .cs-users i {margin: 0 0 0 6px;}
+.main-section .nav-tabs > li > a i {margin: 0 0 0 3px;}
+.main-section .liststyle ul {margin: 0 12px 0 0;}
+.main-section .events-classic .left-sp .location-info .info > .time-period time {margin: 0 0 0 20px;}
+#main-header .cart-sec {margin: 0 10px 0 0;}
+#main-header .cart-sec i {margin: 0 0 0 5px;}
+#main-header .navigation ul > li > a i {margin: 0 0 0 10px;}
+.main-section .events-classic .left-sp .location-info .info > .time-period a:before {right: -10px; left: auto;}

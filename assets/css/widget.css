@@ -1,0 +1,1006 @@
+/************************************Side Bar WIDGETS************************************/
+.widget {
+    float:left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.widget .cs-section-title {
+    margin-bottom: 20px;
+}
+.widget .cs-map-section, .widget.widget-recent-blog article:last-child, .widget.widget-team.cs-team article:last-child, .widget.widget-causes article:last-child  {
+    margin-bottom: 0px;
+}
+.widget .cs-section-title h2 {
+    font-size: 16px;
+    color: #000;
+    margin: 0px;
+}
+/**Search**/
+.widget_search form {
+    position: relative;
+}
+.widget_search, .widget_search form {
+    float: left;
+    width: 100%;
+}
+.widget_search form input[type="text"] {
+    color: #818181;
+    width: 100%;
+    border-color: #e0e0e0;
+}
+.widget_search form label {
+    position: absolute;
+    right: 15px;
+    height: 10px;
+    width: 10px;
+    top: 50%;
+    z-index: 0;
+    margin: -7px 0 0;
+}
+.widget_search form label:after {
+    content:"\f002";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 14px;
+}
+.widget_search form label input[type="submit"] {
+    text-indent: -9999px;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    border: 0;
+    margin: 0;
+    background: none;
+    z-index: 999;
+}
+/**Categories**/
+.widget.widget-caregories-list ul li a, .widget_categories ul li a, .widget_archive ul li a, .widget_pages ul li a,
+.widget.widget_recent_comments li a, .widget_meta ul li a, .widget_recent_entries ul li a, .widget_rss ul li a,
+widget_nav_menu ul li a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+     transition:all 0.2s ease-in-out 0s;
+    -moz-transition:all 0.2s ease-in-out 0s;
+    -o-transition:all 0.2s ease-in-out 0s;
+}
+.widget_categories ul {
+    float: left;
+    width: 100%;
+    font-weight: 300;
+}
+.widget_categories ul li:first-child {
+    border: 0;
+    padding-top: 0px;
+}
+.widget_categories ul li:last-child {
+    padding-bottom: 0px;
+}
+.widget_categories ul li {
+    text-align: right;
+}
+.widget_categories ul li a {
+    position: relative;
+    float: left;
+}
+.widget_categories ul li:hover a:after {
+    color: #ec2c3b;
+}
+.widget-comments ul li a {
+    float: left;
+}
+.widget-comments ul li{
+    color: #ccc;
+    text-align: right;
+}
+/**Widget Recent Blog**/
+.widget-recent-blog article {
+    margin: 0 0 15px;
+}
+.widget-recent-blog figure {
+    float: left;
+    width: 70px;
+}
+.widget-recent-blog figure ~ .text {
+    padding: 0 0 0 80px;
+}
+.widget-recent-blog .text h6 {
+    margin: 0 0 0px;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.widget-recent-blog .text h6 a {
+    color: #000;
+}
+.widget-recent-blog, .widget-recent-blog article, .widget-recent-blog .post-options {
+    float: left;
+    width: 100%;
+}
+.widget-recent-blog .post-option li {
+    color: #999999;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/**Widget Sermon**/
+.widget-sermon article {
+    float: left;
+    width: 100%;
+}
+.widget-sermon figure {
+    float: left;
+    width: 70px;
+}
+.widget-sermon figure ~ .text {
+    padding: 0 0 0 85px;
+    position: relative;
+    top: -4px;
+}
+.widget-sermon article h5 a {
+    font-size: 16px;
+    display: block;
+    float: left
+}
+.widget-sermon article h5 {
+    margin-bottom: 0px;
+}
+.widget.cs-sermons article {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #ebebeb;
+}
+.widget.cs-sermons article:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.widget-sermon .socialmedia li {
+    float: left;
+    margin: 0 0 3px 3px;
+} 
+.widget-sermon .socialmedia li i {
+    font-size: 12px;
+    color: #666;
+}
+.widget-sermon .socialmedia li:hover i{
+    color: #fff;
+}
+.widget-sermon .socialmedia {
+    border: none;
+    padding: 0px;
+}
+.widget-sermon .post-option {
+    padding: 0px;
+    border: none;
+    margin-bottom: 7px;
+}
+.widget-sermon .post-option ul li {
+    color: #999;
+}
+.widget-sermon .socialmedia li:first-child {
+    margin-left: 0px;
+}
+.widget-sermon .socialmedia li a {
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    display: block;
+    border: 1px solid #e3e6e9;
+    border-radius: 2px;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+.widget-sermon .socialmedia li a:hover,.widget-sermon .socialmedia li a:hover i {
+    border: 1px solid transparent;
+    color: #ffffff !important;
+}
+.widget-sermon.cs-sermons figure:before {
+    display: none;
+}
+/**Team widget**/
+.widget-team article {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #ebebeb;
+}
+.widget-team article:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+.widget-team.cs-team article {
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+    border-bottom: 1px dotted #ebebeb;
+}
+.widget-team.cs-team article:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: none;
+}
+.widget-team .cs-team .socialmedia li a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+}
+.widget-team .cs-team .socialmedia li i {
+    color: #fff;
+}
+.widget-team .cs-team .socialmedia li {
+    margin: 0 0 5px 5px;
+}
+.widget-team .cs-team .post-option {
+    margin-bottom: 10px;
+}
+.widget-causes figure ~ section {
+    padding: 0 0 0 85px;
+    float: none;
+}
+.widget-team article.cs-team figure {
+    width: auto;
+    float: left;
+    margin-bottom: 0px;
+}
+.widget-team figure ~ section {
+    padding: 0 0 0 110px;
+    float: none;
+}
+.widget-team h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.widget-team .socialmedia {
+    width: auto;
+    padding: 0px;
+    border: none;
+}
+/*---  Socialmedia Style ---*/
+.widget-team .socialmedia a[data-original-title="Facebook"] {
+    background-color: #4d75d2;
+}
+.widget-team .socialmedia a[data-original-title="twitter"] {
+    background-color: #88c0f9;
+}
+.widget-team .socialmedia a[data-original-title="google-plus"] {
+    background-color: #525252;
+}
+.widget-team .socialmedia a[data-original-title="youtube"] {
+    background-color: #ff0000;
+}
+.widget-team .socialmedia a[data-original-title="tumblr"] {
+    background-color: #1b2f74;
+}
+.widget-team .socialmedia a[data-original-title="instagram"] {
+    background-color: #4d65bd;
+}
+.widget-team .socialmedia a[data-original-title="linkedin"] {
+    background-color: #2b459e;
+}
+.widget-team .socialmedia a[data-original-title="git"] {
+    background-color: #1377bb;
+}
+.widget-team .socialmedia a[data-original-title="vine"] {
+    background-color: #3b8f4a;
+}
+.widget-team .socialmedia a[data-original-title="soundcloud"] {
+    background-color: #ff5200;
+}
+/**Team widget**/
+/**Latest Posts**/
+.widget_latest_post > ul > li:first-child {
+    border: 0 none;
+    padding-top: 0;
+}
+.widget_latest_post > ul > li:last-child {
+    padding-bottom: 0;
+}
+.widget_latest_post > ul > li {
+    border-top: 1px dotted #e0e0e0;
+    float: left;
+    list-style: none outside none;
+    padding: 13px 0;
+    width: 100%;
+}
+.widget_latest_post .cs-time {
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 4px 0 ;
+    text-align: center;
+    color: #7e7e7e;
+}
+.widget_latest_post .cs-time time {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #7e7e7e;
+}
+.widget_latest_post .letest-post-title{
+    padding: 6px 0 0 0px;
+    overflow: hidden;
+}
+.widget_latest_post .cs-time time, .widget_latest_post .cs-time span {
+    color: #ec2c3b;
+    display: block;
+    line-height: 1;
+}
+.widget_latest_post .cs-time span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.widget_latest_post .cs-time time{
+    font-size: 28px;
+    font-weight:500;
+    text-transform: uppercase;
+}
+.widget_latest_post .letest-post-title h5 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 3px;
+    text-transform: uppercase;
+}
+.widget_latest_post .letest-post-title h5 a {
+    color: #000;
+}
+.widget_latest_post .post-options{
+    margin: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.widget_latest_post .post-options li {
+    position: relative;
+    margin: 0 12px 0 0;
+    float: left;
+    line-height: 1.5;
+}
+.widget_latest_post .post-options li:first-child:before {
+    display: none;
+}
+.widget_latest_post .post-options li:before {
+    content:"|";
+    position: absolute;
+    left: -8px;
+    top: 0;
+    color: #ec2c3b;
+}
+.widget_latest_post .post-options li a {
+    color: #ec2c3b;
+}
+.widget_latest_post .events-post-title time {
+    color: #666666;
+    font-size: 14px;
+}
+/**Gallery**/
+.widget_latest_post .cs-section-title {
+    margin-bottom: 14px;
+}
+.widget_gallery .gallery-list {
+    margin: 0 0 0 -4px;
+    float: left;
+    width: 100%;
+}
+.widget_gallery .gallery-list li {
+    display: inline-block;
+    padding: 0 0 4px 3px;
+    width: 24%;
+}
+/** Widget Projects **/
+
+/** Widget Twitter **/
+.twitter_widget article {
+    border-bottom: 1px dotted #ccc;
+    padding: 0px 0 10px 0;
+    margin: 0px 0 10px 0;
+    float: left;
+    width: 100%;
+}
+.twitter_widget article:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.twitter_widget article.without-border {
+    border: 0;
+}
+.flexslider {
+    float: left;
+    width: 100%;
+}
+.twitter_widget p {
+    font-weight: 300;
+    line-height: 18px;
+    color: #333;
+    font-size: 14px;
+}
+.twitter_widget p a{
+    color:#ec2c3b;
+}
+.twitter_widget .text a {
+    color: #333;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.twitter_widget .text a i {
+    margin: 0 5px 0 0;
+    color: #ec2c3b;
+}
+.twitter_widget h6 {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    margin: 0;
+}
+.twitter_widget span {
+    color: #cdcdcd;
+    font-size: 12px;
+    font-style: italic;
+}
+/** Widget Donation **/
+.widget-donation .donat-widget {
+    padding: 30px;
+    background-color: #333333;
+    float: left;
+    width: 100%;
+}
+.widget-donation .donat-widget ul {
+    margin-left: -4%;
+    margin-bottom: 10px;
+    float: left;
+    width: 105%;
+}
+.widget-donation .donat-widget ul li {
+    float: left;
+    margin: 0px 0 4% 4%;
+    width: 46%;
+}
+.widget-donation .donat-widget ul li a {
+    font-size: 22px;
+    color: #fff;
+    background-color: #292929;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;    
+}
+.widget-donation .other-amount h6 {
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.widget-donation .other-amount header {
+     margin-bottom: 14px;
+     text-align: center;
+     width: 100%;
+     overflow:hidden;
+}
+.widget-donation .other-amount h6:before, .widget-donation .other-amount h6:after {
+    border-bottom: 1px solid #484848;
+    border-top: 1px solid #484848;
+    content: "";
+    height: 4px;
+    left: 100%;
+    margin-left: 10px;
+    position: absolute;
+    top: 6px;
+    width: 9999px;
+}
+.widget-donation .other-amount h6:after {
+    content: "";
+    left: auto;
+    margin-left: 0;
+    margin-right: 10px;
+    right: 100%;
+}
+.widget-donation .other-amount input {
+    border-radius: 2px;
+    padding: 10px 35px;
+    width: 100%;
+    background-color: #292929;
+    border: none;
+    color: #fff;
+}
+.widget-donation .other-amount label {
+    position: relative;
+    margin-bottom: 18px;
+}
+.widget-donation .other-amount {
+    display: block;
+    float: left;
+}
+.widget-donation .other-amount label i {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    color: #fff;
+    font-size: 16px;
+}
+.widget-donation .custom-btn {
+    height: 44px;
+    width: 100%;
+    line-height: 44px;
+    text-align: center;
+    padding: 0px;
+    background-color: #ec2c3b;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.widget-donation .other-amount .custom-btn, .widget #calendar_wrap, .widget-projects {
+    width: 100%;
+    float: left;
+}
+#calendar_wrap {
+    margin-bottom: 20px;
+}
+/** Widget Recent Comment **/
+.widget-comments ul{
+    float:left;
+    width:100%;
+}
+.widget-comments ul li{
+    border-top:1px dotted #e0e0e0;
+    padding:6px 0px;
+    font:14px;
+}
+.widget-comments ul li:first-child{
+    border:0;
+    padding-top: 0px;
+}
+.widget-comments ul li:last-child{
+    padding-bottom: 0px;
+}
+.widget-comments ul li span{
+    color:#ccc;
+}
+/** Widget tag Clouds **/
+.widget_tag_cloud .cs-tags {
+   margin-bottom: 0px;
+}
+.widget .cs-tags a {
+    margin-bottom: 12px;
+}
+.widget_tag_cloud  ul {
+    margin-left: -10px;
+}
+/** Widget Causes  **/
+.widget-causes .cs-causes figure {
+    float: left;
+    width: 68px;
+    height: 68px;
+}
+.widget-causes .cs-causes figure ~ .text {
+    padding-left: 84px;
+}
+.widget-causes .cs-causes h2 a {
+    font-size: 14px;
+    color: #000;
+}
+.widget-causes .cs-causes h2 {
+    margin-bottom: 0px;
+}
+.widget-causes .post-option li {
+    line-height: 16px;
+}
+.widget-causes .post-option {
+    margin-bottom: 5px;
+}
+.widget-causes .cs-skillbar {
+    background:none;
+    padding: 0px;
+    margin-bottom: 0px; 
+}
+.widget-causes .cs-causes .cs-amount span {
+    font-size: 12px;
+    font-weight: 400;
+}
+.widget-causes .cs-causes .cs-amount span.goal-amount {
+    color: #999;
+}
+.widget-causes .cs-skillbar:before, .widget.widget-caregories-list ul li a:after {
+    display: none;
+}
+.widget-causes .cs-causes {
+    margin-bottom: 25px;
+}
+/** Widget CS Listing  **/
+.cs-listing.list-view .orange {
+    background-color: #f9781c;
+}
+.cs-listing.list-view .purple {
+    background-color: #ab1355;
+}
+.cs-listing.list-view .grey {
+    background-color: #4c4c4c;
+}
+.cs-listing.list-view .blue {
+    background-color: #1ccdf9;
+}
+/** Widget Calender  **/
+.widget_calendar caption {
+    background-color: #c10000;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+}
+.widget_calendar thead {
+    background-color: #f10000;
+}
+.widget_calendar table thead tr th {
+    color: #fff;
+    font-size: 11px;
+    border: none; 
+}
+.widget_calendar .events-minimal {
+    padding: 15px;
+}
+/** Widget Event  **/
+.widget_event .events-minimal h2 {
+    font-size: 14px;
+}
+.widget_event .events-minimal time {
+    font-size: 18px;
+}
+.widget_event .events-minimal time span {
+    font-size: 32px;
+}
+/** Widget Projects **/
+.widget-projects .cs-listing  {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.widget-projects .cs-listing .text {
+    background-color: gray;
+}
+.widget-projects .cs-listing  figure ~ .text {
+    padding: 14px 10px 10px 100px;
+    min-height: 90px;
+    float: none;
+}
+.widget-projects .cs-listing.no-image .text {
+    float: left;
+    min-height: 90px;
+    padding: 15px;
+    background-color: #4c4c4c;
+    width: 100%;
+}
+.widget-projects .cs-listing.no-image {
+    width: 100%;
+}
+.widget-projects .cs-listing  figure {
+    float: left;
+    width: 90px;
+}
+.widget-projects .cs-listing .post-option li {
+    color: #fff;
+}
+.widget-projects .cs-listing h2 {
+    font-size: 14px !important;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.widget-projects .cs-listing h2 a {
+    color: #fff !important;
+}
+/** Widget Classice **/
+.widget-topevent .events-classic h2 {
+    font-size: 16px;
+}
+.widget-topevent .cs-events .location-info > time {
+    font-size: 18px;
+    text-align: left;
+}
+/*
+   Donation Form
+--------------------------------------*/
+.cs-donation-form {
+    width: 100%;
+    float: left;
+}
+.cs-donation-form  .donat-widget {
+    width: 100%;
+    float: left;
+    padding: 30px;
+    background-color: #333333;
+}
+.cs-donation-form h2 {
+    margin-bottom:0px;
+}
+.cs-donation-form .other-amount {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.cs-donation-form .other-amount h6 {
+    font-size: 14px;
+    color: #fff !important;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.cs-donation-form .other-amount header {
+     margin-bottom: 14px;
+     text-align: center;
+     width: 100%;
+}
+.cs-donation-form .other-amount h6:before, .cs-donation-form .other-amount h6:after {
+    border-bottom: 1px solid #484848;
+    border-top: 1px solid #484848;
+    content: "";
+    height: 4px;
+    left: 100%;
+    margin-left: 10px;
+    position: absolute;
+    top: 6px;
+    width: 9999px;
+}
+.cs-donation-form .other-amount h6:after {
+    content: "";
+    left: auto;
+    margin-left: 0;
+    margin-right: 10px;
+    right: 100%;
+}
+.cs-donation-form ul {
+    list-style: none;
+    margin: 0 0 10px 0px;
+    padding: 0;
+    width: 104%;
+    float: left;
+}
+.cs-donation-form ul li {
+    margin: 0 5px 10px 5px;
+    float: left;
+    width: 95px;
+    text-align: center;
+}
+.cs-donation-form ul li label {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 55px;
+    position: relative;
+    line-height: 55px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #292929;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+.cs-donation-form ul li label input {
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -20px;
+}
+.cs-donation-form ul li label.cs-active, .cs-donation-form ul li label:hover{
+    background-color: #ec2c3b;
+}
+.cs-donation-form  .other-amount label {
+    width: 100%;
+    float: left;
+    background-color: #292929;
+    padding: 0px 0px 0px 14px;
+    border-radius: 2px;
+    margin-bottom: 18px;
+}
+.cs-donation-form  .other-amount label span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    position: relative;
+    top: 2px;
+}
+.cs-donation-form .other-amount label input {
+    border: none;
+    background-color: #292929;
+    width: 95%;
+    font-size:18px;
+    color: #fff;
+}
+.cs-donation-form .donate-btn, .cs-donation-form .donate-btn input {
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+.cs-donation-form .donate-btn input {
+    line-height: 38px;
+    background-color: #ec2c3b;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+/*
+    Widget Defult Style
+--------------------------------------------*/
+/*
+    Widget Archive
+------------------------------------*/
+.widget_archive ul li {
+    float:left;
+    width: 100%;
+    text-align: right;
+}
+.widget_archive ul li a {
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+}
+.widget_archive ul li {
+    color: #ccc;
+}
+.widget select {
+    color: #333;
+    font-size: 14px;
+    border-color: #e0e0e0;
+}
+/*
+    Widget Recent Commments
+------------------------------------*/
+.widget.widget_recent_comments li {
+    color: #ccc;
+    text-align:left;
+}
+.widget.widget_recent_comments li a{
+    display: inline-block;
+    text-align: left;
+}
+.widget.widget_recent_comments .comment-author-link {
+    color: #333;
+    float: left;
+    font-weight: 600;
+    margin-right: 7px;
+}
+/*
+    Widget Gallery
+--------------------------------------------*/
+.widget_gallery .pagenone.cls-noresult-found .fa-warning {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 5px;
+    color: #ec2c3b;
+}
+.pagenone.cls-noresult-found h5 {
+    display: inline-block !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*
+    Widget Nav Menu
+--------------------------------------------*/
+.widget_nav_menu ul li {
+    display: inline-block;
+    float: left;
+    padding: 6px 0;
+    position: relative;
+    width: 100%;
+}
+/*
+    Widget Textwidget
+--------------------------------------------*/
+.widget.widget_text .textwidget p {
+    float: left;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.widget.widget_text img {
+    width: 100%;
+    height: auto;
+}
+.wp-smiley {
+    width: auto !important;
+}
+/*
+    Widget Recent entries
+--------------------------------------------*/
+.widget_recent_entries li:first-child, .widget_recent_comments ul li:first-child, .widget_meta ul li:first-child, .widget_pages ul li:first-child, .widget_archive ul li:first-child, .widget_rss ul li:first-child,
+.widget_nav_menu ul li:first-child {
+    border-top: none;
+    padding-top: 0px;
+}
+.widget_recent_entries li:last-child, .widget_recent_comments ul li:last-child, .widget_meta ul li:last-child, .widget_pages ul li:last-child, .widget_archive ul li:last-child, .widget_rss ul li:last-child,
+.widget_nav_menu ul li:last-child {
+    padding-bottom: 0px;
+}
+.widget_recent_comments ul li {
+    width: 100%;
+    float: left;
+}
+.widget_recent_comments ul li, .widget_meta ul li, .widget_pages ul li, .widget_archive ul li, .widget_rss ul li, .widget_recent_entries li, .widget_recent_comments ul li, .widget_nav_menu ul li,
+.widget_categories ul li {
+    padding: 6px 0px;
+    border-top: 1px dotted #e0e0e0;
+    float: left;
+    width: 100%;
+}
+.widget_search .cs-search-area .search-submit:before {
+    display: none;
+}
+.tagcloud a {
+    display:block;
+    font-size: 10px !important;
+    float: left;
+    margin: 0px 5px 5px 0px;
+    color: #ec2c3b;
+    text-transform: uppercase;
+    padding: 0 10px 0 16px;
+    border: 1px solid #ededed;
+    border-radius: 90px 0px 0px 90px / 45px 0px 0px 45px;
+    position: relative;
+    background-color: #FFF;
+    line-height: 24px;
+}
+.tagcloud a:before {
+    background-color: #FFF;
+    border: 1px solid #E3E3E3;
+    display: inline-block;
+    height: 3px;
+    left: 5px;
+    position: absolute;
+    top: 11px;
+    width: 3px;
+    content: "";
+}
+/* Twitter Slider Setup */
+.twitter-section {
+    text-align:center;
+    float:left;
+    width:100%;
+    position: relative;
+}
+.twitter-section li {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 12px;
+}
+.twitter-section div i {
+    color:#FFF;
+    vertical-align:middle;
+    font-size:24px;
+    margin-right: 2px;
+}
+.twitter-section .flex-control-nav, .twitter-section .flex-direction-nav,.twitter-section .follow-on {display: none;}
+
+.widget-causes .skills-sec span {
+    margin: 0px;
+    line-height: 1;
+}
+.widget-causes section {
+    padding: 0px;
+    margin-top: -6px;
+}
+.widget_nav_menu ul li i {
+    margin-right: 7px;
+}
+.archive .widget.evorgnizer figure { float: left; margin: 0 20px 0 0; }

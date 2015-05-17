@@ -1,0 +1,204 @@
+/*
+    Document        : mep-feature-playlist.css
+    Author          : Andrew Berezovsky <andrew.berezovsky@gmail.com>
+    Original Author : Junaid Qadir Baloch <shekhanzai.baloch@gmail.com>
+*/
+
+/* Start: Show/Hide Playlist*/
+
+
+/*Start: Playlist*/
+.mejs-playlist {
+  position: relative;
+  left: 0;
+  top: 55px !important;
+  height: auto!important;
+  width: 100% !important;
+  background: #fff;
+  border-top: none;
+}
+.mejs-playlist ul {
+  margin: 0;
+  padding: 0;
+}
+.mejs-playlist li:before {
+  content: "\f04b";
+  font-family: fontAwesome;
+  font-size: 10px;
+  line-height: 28px;
+  position: absolute;
+  left: 15px;
+  color: #fff;
+  width: 27px;
+  height: 27px;
+  background-color: #dddddd;
+  border-radius: 100%;
+  text-align: center;
+  display: inline-block;  
+}
+.mejs-playlist li:hover:before {
+	background: none;
+	border: 2px solid #fff;
+	line-height: 25px;
+}
+.mejs-playlist li.current {
+  	display: inline-block;
+    font-weight: bold;
+    margin: 15px 0 0;
+    width: 100%;
+}
+/*Start: Playlist*/
+.audio-player .mejs-playlist {
+  border: 1px solid #e4e4e4;
+  border-top: none;
+  box-shadow: 0 2px 0 #EDEDED;
+}
+.mejs-playlist li {
+  color: #333;
+  font-size: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 12px 25px 12px 56px;
+  font-weight: 500;
+  font-family: 'Montserrat',sans-serif;
+}
+.mejs-playlist li:before {
+   content: "\f04b";
+  font-family: fontAwesome;
+  font-size: 9px;
+  line-height: 27px;
+  position: absolute;
+  left: 18px;
+  color: #fff;
+  width: 27px;
+  height: 27px;
+  background-color: #ddd;
+  text-align: center;
+  border-radius: 100%;
+  padding: 0 0 0 2px;
+}
+.mejs-playlist li:hover {
+  background-color: #ec2c3b;
+  color: #fff;
+}
+.mejs-playlist li:hover:before, 
+.mejs-playlist li.current:before {
+  color: #fff;
+  border:2px solid #fff;
+  background:none;
+  line-height: 24px;
+}
+.mejs-playlist li.current {
+  font-weight: 500;
+}
+.mejs-playlist li.current {
+  background-color: #ec2c3b;
+  color: #fff;
+}
+.mejs-mediaelement {
+  position: relative;
+}
+.mejs-container .mejs-controls {
+  background: #181818;
+}
+.mejs-playpause-button button {
+  margin: 8px 7px 5px 9px !important;
+  position: relative;
+}
+.mejs-play button:before {
+  content: "\f04b";
+  position: absolute;
+  left: 3px;
+  top: 9px;
+  font-family: 'FontAwesome';
+  font-size: 14px;
+  color: #fff;
+  z-index: 99;
+}
+.mejs-controls .mejs-button button {
+  background-image: none;
+}
+.mejs-pause button:after {
+  content: "\f04c";
+  position: absolute;
+  left: 2px;
+  top: 9px;
+  font-family: 'FontAwesome';
+  font-size: 14px;
+  color: #fff;
+  z-index: 99;
+}
+.mejs-controls .mejs-volume-button:before {
+  content: "\f028";
+  position: absolute;
+  left: 6px;
+  top: 9px;
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  color: #848892;
+}
+.mejs-controls .mejs-volume-button {
+  position: relative;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total, .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-controls .mejs-time-rail .mejs-time-current{
+  border-radius: 6px;
+  height: 10px;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total, .mejs-controls .mejs-time-rail .mejs-time-loaded {
+  background-color: #e0e1e1;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+   background-color: #ec2c3b;
+}
+.mejs-controls .mejs-button button {
+  margin: 7px 7px;
+}
+.mejs-controls .mejs-button button:focus {
+  outline: none;
+}
+/*Blog Masnery */
+.blog-masnery .mejs-container {
+  background: none;
+}
+.blog-masnery .mejs-controls .mejs-time-rail .mejs-time-loaded {
+  background: none;
+}
+.blog-masnery .mejs-container .mejs-controls {
+  background: none;
+  top: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  float: left;
+  padding: 0 20px;
+}
+.blog-masnery .mejs-time  .mejs-currenttime, .blog-masnery .mejs-time .mejs-duration {
+  color: #000000 !important;
+  font-size: 14px !important; 
+  font-weight: 200;
+}
+.blog-masnery .mejs-time .mejs-currenttime {
+  padding: 0px 8px;
+}
+.blog-masnery .mejs-playpause-button {
+  background: #848892;
+  margin: 0px !important;
+  padding: 6px;
+  border-radius: 100%;
+  width: 32px !important;
+  height: 32px !important;
+}
+.blog-masnery .mejs-playpause-button
+.blog-masnery .mejs-controls .mejs-play, .blog-masnery .mejs-controls .mejs-pause {
+  margin: 0px;
+}
+.blog-masnery .mejs-controls div.mejs-horizontal-volume-slider {
+  top: 0px;
+}
+/*Blog Masnery */
+.mejs-inner {
+  width: 100%;
+  float: left;
+}

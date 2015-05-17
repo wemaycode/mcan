@@ -1,0 +1,6353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Awaken v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-05 15:12:56+0000\n"
+"Last-Translator: admin <info@pixfill.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Farsi\n"
+"X-Poedit-Country: IRAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: archive.php:185
+#: cs-templates/blog-styles/blog_templates.php:232
+#: cs-templates/blog-styles/blog_templates.php:444
+#: cs-templates/blog-styles/blog_templates.php:543
+#: cs-templates/event-styles/event_templates.php:265
+#: cs-templates/event-styles/single-events.php:146
+#: cs-templates/event-styles/single-events.php:291
+#: cs-templates/project-styles/single-project.php:101
+#: cs-templates/project-styles/single-project.php:213
+#: cs-templates/sermon-styles/sermon_templates.php:71
+#: cs-templates/sermon-styles/single-sermons.php:143
+#: cs-templates/sermon-styles/single-sermons.php:334
+#: include/shortcodes/loops_function.php:529
+#: include/shortcodes/loops_function.php:550
+#: include/shortcodes/shortcode_functions.php:456
+#: include/shortcodes/shortcode_functions.php:496
+#: index.php:95
+#: single.php:202
+#: single.php:277
+#, php-format
+#@ Awaken
+msgid "%1$s"
+msgstr ""
+
+#: archive.php:194
+#: cs-templates/blog-styles/blog_templates.php:64
+#: cs-templates/blog-styles/blog_templates.php:126
+#: cs-templates/blog-styles/blog_templates.php:184
+#: cs-templates/blog-styles/blog_templates.php:260
+#: cs-templates/blog-styles/blog_templates.php:329
+#: cs-templates/blog-styles/blog_templates.php:385
+#: cs-templates/blog-styles/blog_templates.php:502
+#: cs-templates/blog-styles/blog_templates.php:625
+#: index.php:110
+#@ Awaken
+msgid "Continue Reading"
+msgstr "ادامه مطلب"
+
+#: archive.php:196
+#: cs-templates/blog-styles/blog_templates.php:66
+#: cs-templates/blog-styles/blog_templates.php:128
+#: cs-templates/blog-styles/blog_templates.php:186
+#: cs-templates/blog-styles/blog_templates.php:262
+#: cs-templates/blog-styles/blog_templates.php:331
+#: cs-templates/blog-styles/blog_templates.php:387
+#: cs-templates/blog-styles/blog_templates.php:504
+#: cs-templates/blog-styles/blog_templates.php:618
+#: functions.php:4489
+#: include/shortcodes/loops_function.php:610
+#: index.php:113
+#@ Awaken
+msgid "0"
+msgstr ""
+
+#: archive.php:196
+#: cs-templates/blog-styles/blog_templates.php:66
+#: cs-templates/blog-styles/blog_templates.php:128
+#: cs-templates/blog-styles/blog_templates.php:186
+#: cs-templates/blog-styles/blog_templates.php:262
+#: cs-templates/blog-styles/blog_templates.php:331
+#: cs-templates/blog-styles/blog_templates.php:387
+#: cs-templates/blog-styles/blog_templates.php:504
+#: cs-templates/blog-styles/blog_templates.php:618
+#: include/shortcodes/loops_function.php:610
+#: index.php:113
+#@ Awaken
+msgid "1"
+msgstr ""
+
+#: archive.php:196
+#: cs-templates/blog-styles/blog_templates.php:66
+#: cs-templates/blog-styles/blog_templates.php:128
+#: cs-templates/blog-styles/blog_templates.php:186
+#: cs-templates/blog-styles/blog_templates.php:262
+#: cs-templates/blog-styles/blog_templates.php:331
+#: cs-templates/blog-styles/blog_templates.php:387
+#: cs-templates/blog-styles/blog_templates.php:504
+#: cs-templates/blog-styles/blog_templates.php:618
+#: include/shortcodes/loops_function.php:610
+#: index.php:113
+#@ Awaken
+msgid "%"
+msgstr ""
+
+#: archive.php:199
+#: cs-templates/blog-styles/blog_templates.php:69
+#: cs-templates/blog-styles/blog_templates.php:131
+#: cs-templates/blog-styles/blog_templates.php:189
+#: cs-templates/blog-styles/blog_templates.php:265
+#: cs-templates/blog-styles/blog_templates.php:334
+#: cs-templates/blog-styles/blog_templates.php:390
+#: cs-templates/blog-styles/blog_templates.php:507
+#: cs-templates/blog-styles/blog_templates.php:621
+#: cs-templates/event-styles/single-events.php:303
+#: cs-templates/sermon-styles/single-sermons.php:344
+#: index.php:116
+#: single.php:292
+#@ Awaken
+msgid "Share"
+msgstr ""
+
+#: comments.php:15
+#@ Awaken
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:15
+#: include/shortcodes/loops_function.php:610
+#: include/theme-components/cs-widgets/widgets.php:614
+#@ Awaken
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:15
+#: include/shortcodes/loops_function.php:610
+#: include/theme-components/cs-widgets/widgets.php:614
+#@ Awaken
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:21
+#: comments.php:28
+#@ Awaken
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:22
+#: comments.php:29
+#@ Awaken
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:39
+#, php-format
+#@ Awaken
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:40
+#, php-format
+#@ Awaken
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:41
+#, php-format
+#@ Awaken
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+#@ Awaken
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: comments.php:50
+#: include/shortcodes/loops_elements.php:717
+#@ Awaken
+msgid "Name"
+msgstr ""
+
+#: comments.php:56
+#: include/shortcodes/loops_elements.php:797
+#@ Awaken
+msgid "Email"
+msgstr ""
+
+#: comments.php:63
+#: cs-templates/event-styles/single-events.php:156
+#@ Awaken
+msgid "Website"
+msgstr ""
+
+#: comments.php:69
+#: include/shortcodes/shortcode_functions.php:1707
+#: include/shortcodes/typography_elements.php:1146
+#@ Awaken
+msgid "Message"
+msgstr ""
+
+#: comments.php:80
+#@ Awaken
+msgid "<h2 class=\"cs-section-title\">Leave us a reply</h2>"
+msgstr ""
+
+#: comments.php:81
+#, php-format
+#@ Awaken
+msgid "<h2 class=\"cs-section-title\">Leave a Reply to %s </h2>"
+msgstr ""
+
+#: comments.php:82
+#@ Awaken
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:83
+#: functions.php:3334
+#: include/theme-components/cs-importer/wordpress-importer.php:299
+#@ Awaken
+msgid "Submit"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:144
+#: cs-templates/event-styles/event_element.php:181
+#: cs-templates/sermon-styles/sermon_element.php:107
+#: include/shortcodes/loops_elements.php:547
+#@ Awaken
+msgid "Filterable"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:135
+#: cs-templates/blog-styles/blog_element.php:150
+#: cs-templates/event-styles/event_element.php:145
+#: cs-templates/event-styles/event_element.php:185
+#: cs-templates/sermon-styles/sermon_element.php:113
+#: include/admin_functions.php:410
+#: include/admin_functions.php:425
+#: include/admin_functions.php:442
+#: include/page_options.php:438
+#: include/shortcodes/common_elements.php:105
+#: include/shortcodes/common_elements.php:349
+#: include/shortcodes/common_elements.php:758
+#: include/shortcodes/common_elements.php:1053
+#: include/shortcodes/common_elements.php:1626
+#: include/shortcodes/common_elements.php:2685
+#: include/shortcodes/contentblock_elements.php:623
+#: include/shortcodes/loops_elements.php:92
+#: include/shortcodes/loops_elements.php:103
+#: include/shortcodes/loops_elements.php:348
+#: include/shortcodes/loops_elements.php:537
+#: include/shortcodes/loops_elements.php:555
+#: include/shortcodes/media_elements.php:386
+#: include/shortcodes/typography_elements.php:85
+#: include/shortcodes/typography_elements.php:941
+#: include/shortcodes/typography_elements.php:1247
+#@ Awaken
+msgid "Yes"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:136
+#: cs-templates/blog-styles/blog_element.php:151
+#: cs-templates/event-styles/event_element.php:146
+#: cs-templates/event-styles/event_element.php:186
+#: cs-templates/sermon-styles/sermon_element.php:114
+#: include/admin_functions.php:411
+#: include/admin_functions.php:426
+#: include/admin_functions.php:441
+#: include/page_options.php:439
+#: include/shortcodes/common_elements.php:106
+#: include/shortcodes/common_elements.php:348
+#: include/shortcodes/common_elements.php:759
+#: include/shortcodes/common_elements.php:1052
+#: include/shortcodes/common_elements.php:1627
+#: include/shortcodes/common_elements.php:2684
+#: include/shortcodes/contentblock_elements.php:624
+#: include/shortcodes/loops_elements.php:93
+#: include/shortcodes/loops_elements.php:104
+#: include/shortcodes/loops_elements.php:349
+#: include/shortcodes/loops_elements.php:538
+#: include/shortcodes/loops_elements.php:558
+#: include/shortcodes/media_elements.php:387
+#: include/shortcodes/typography_elements.php:86
+#: include/shortcodes/typography_elements.php:942
+#: include/shortcodes/typography_elements.php:1248
+#@ Awaken
+msgid "No"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:238
+#@ Awaken
+msgid "Comments 0"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:238
+#@ Awaken
+msgid "Comments 1"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:238
+#@ Awaken
+msgid "Comments %"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:611
+#@ Awaken
+msgid "Posted by"
+msgstr ""
+
+#: cs-templates/event-styles/event_functions.php:276
+#: include/shortcodes/shortcode_functions.php:2382
+#@ Awaken
+msgid "No Event Found"
+msgstr ""
+
+#: cs-templates/event-styles/event_templates.php:45
+#: cs-templates/event-styles/event_templates.php:122
+#@ Awaken
+msgid "TO"
+msgstr ""
+
+#: cs-templates/event-styles/event_templates.php:92
+#: cs-templates/event-styles/single-events.php:208
+#@ Awaken
+msgid "Event Location"
+msgstr ""
+
+#: cs-templates/event-styles/event_templates.php:175
+#: cs-templates/event-styles/event_templates.php:221
+#@ Awaken
+msgid "-"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:161
+#@ Awaken
+msgid "PHONE"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:168
+#@ Awaken
+msgid "EMAIL"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:196
+#@ Awaken
+msgid "Event Time"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:202
+#@ Awaken
+msgid "Event Start Date"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:221
+#@ Awaken
+msgid "Event Speakers"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:267
+#: cs-templates/sermon-styles/single-sermons.php:272
+#: include/shortcodes/shortcode_functions.php:514
+#: index.php:108
+#: page-blank.php:21
+#: page.php:74
+#: page.php:334
+#: single.php:215
+#@ Awaken
+msgid "Pages:"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:283
+#: cs-templates/project-styles/single-project.php:205
+#: cs-templates/sermon-styles/single-sermons.php:326
+#: functions.php:3425
+#: functions.php:3852
+#: functions.php:3922
+#: functions.php:3975
+#: single.php:271
+#: single.php:274
+#@ Awaken
+msgid "Tags"
+msgstr ""
+
+#: cs-templates/project-styles/project_templates.php:95
+#: include/shortcodes/common_function.php:602
+#: include/shortcodes/common_function.php:635
+#: include/shortcodes/loops_function.php:625
+#: include/shortcodes/loops_function.php:634
+#@ Awaken
+msgid "Read More"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:75
+#@ Awaken
+msgid "Project Detail"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:82
+#@ Awaken
+msgid "Started Date"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:90
+#: include/theme-components/cs-posttypes/pt_portfolios.php:214
+#@ Awaken
+msgid "Completion Date"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:99
+#: functions.php:3429
+#: functions.php:3849
+#: functions.php:3919
+#: functions.php:3972
+#@ Awaken
+msgid "Categories"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:108
+#: include/theme-components/cs-posttypes/pt_portfolios.php:223
+#@ Awaken
+msgid "Project Plan"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:156
+#: cs-templates/sermon-styles/single-sermons.php:286
+#: single.php:231
+#@ Awaken
+msgid "Attachments"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:229
+#@ Awaken
+msgid "Share Now"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:257
+#@ Awaken
+msgid "Related Post"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_functions.php:193
+#: include/shortcodes/shortcode_functions.php:1602
+#@ Awaken
+msgid "Latest Sermon"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_templates.php:79
+#@ Awaken
+msgid "Play Now"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_templates.php:84
+#: cs-templates/sermon-styles/single-sermons.php:156
+#@ Awaken
+msgid "Download Audio"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_templates.php:88
+#@ Awaken
+msgid "Notes"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_templates.php:265
+#@ Awaken
+msgid "Listen Now"
+msgstr ""
+
+#: cs-templates/sermon-styles/single-sermons.php:151
+#@ Awaken
+msgid "Summary:&nbsp;"
+msgstr ""
+
+#: cs-templates/sermon-styles/single-sermons.php:363
+#@ Awaken
+msgid "Related Sermons"
+msgstr ""
+
+#: functions-theme.php:138
+#@ Awaken
+msgid "<i class=\"fa fa-long-arrow-left\"></i>"
+msgstr ""
+
+#: functions-theme.php:174
+#@ Awaken
+msgid "<i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#: functions-theme.php:497
+#@ Awaken
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions-theme.php:499
+#@ Awaken
+msgid "Main sidebar that appears on the right."
+msgstr ""
+
+#: functions-theme.php:553
+#@ Awaken
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions-theme.php:558
+#, php-format
+#@ Awaken
+msgid "<span>%1$s</span>"
+msgstr ""
+
+#: functions-theme.php:572
+#@ Awaken
+msgid "(Edit)"
+msgstr ""
+
+#: functions-theme.php:624
+#@ Awaken
+msgid "Sorry, We are down for maintenance"
+msgstr ""
+
+#: functions-theme.php:625
+#@ Awaken
+msgid "We're currently under maintenance, if all goas as planned we'll be back in"
+msgstr ""
+
+#: functions-theme.php:744
+#@ Awaken
+msgid "ERROR 404"
+msgstr ""
+
+#: functions-theme.php:750
+#@ Awaken
+msgid "The Page you Were Looking for Could not be found."
+msgstr ""
+
+#: functions-theme.php:795
+#@ Awaken
+msgid "Current Page"
+msgstr ""
+
+#: functions.php:2765
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:268
+#@ Awaken
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:2766
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:269
+#@ Awaken
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:2767
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:270
+#, php-format
+#@ Awaken
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:2768
+#@ Awaken
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:2769
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:273
+#, php-format
+#@ Awaken
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2770
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:278
+#, php-format
+#@ Awaken
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2771
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2772
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:288
+#, php-format
+#@ Awaken
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2773
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:293
+#, php-format
+#@ Awaken
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2774
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2775
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:303
+#, php-format
+#@ Awaken
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2776
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2777
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:313
+#@ Awaken
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2778
+#@ Awaken
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:2779
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:322
+#@ Awaken
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:2780
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:324
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2277
+#@ Awaken
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:2781
+#, php-format
+#@ Awaken
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:2826
+#, php-format
+#@ Awaken
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:2903
+#@ Awaken
+msgid "View All Posts"
+msgstr ""
+
+#: functions.php:3328
+#@ Awaken
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: functions.php:3403
+#: include/shortcodes/common_elements.php:754
+#@ Awaken
+msgid "Featured"
+msgstr ""
+
+#: functions.php:3421
+#: functions.php:3978
+#: include/shortcodes/shortcode_functions.php:628
+#@ Awaken
+msgid "Author"
+msgstr ""
+
+#: functions.php:3421
+#: functions.php:3425
+#: functions.php:3429
+#: functions.php:3453
+#@ Awaken
+msgid "Archives"
+msgstr ""
+
+#: functions.php:3433
+#, php-format
+#@ Awaken
+msgid "Search Results %1$s %2$s"
+msgstr ""
+
+#: functions.php:3437
+#, php-format
+#@ Awaken
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: functions.php:3441
+#, php-format
+#@ Awaken
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: functions.php:3441
+#@ Awaken
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: functions.php:3445
+#, php-format
+#@ Awaken
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: functions.php:3445
+#@ Awaken
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: functions.php:3449
+#@ Awaken
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:3470
+#: include/theme-components/cs-widgets/widgets.php:1420
+#@ Awaken
+msgid "No results found."
+msgstr ""
+
+#: functions.php:3478
+#, php-format
+#@ Awaken
+msgid "<p>Ready to publish your first post? <a href=\"%1$s\">Get Started Here</a>.</p>"
+msgstr ""
+
+#: functions.php:3484
+#@ Awaken
+msgid "Suggestions:"
+msgstr ""
+
+#: functions.php:3486
+#@ Awaken
+msgid "Make sure all words are spelled correctly"
+msgstr ""
+
+#: functions.php:3487
+#@ Awaken
+msgid "Wildcard searches (using the asterisk *) are not supported"
+msgstr ""
+
+#: functions.php:3488
+#@ Awaken
+msgid "Try more general keywords, especially if you are attempting a name"
+msgstr ""
+
+#: functions.php:3493
+#@ Awaken
+msgid "<p>It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.</p>"
+msgstr ""
+
+#: functions.php:3679
+#: include/theme-options/theme_options.php:1203
+#@ Awaken
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:3680
+#: include/theme-options/theme_options.php:765
+#@ Awaken
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:3681
+#: include/theme-options/theme_options.php:586
+#@ Awaken
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:3792
+#: functions.php:3828
+#@ Awaken
+msgid "<a>No Tags Found.</a>"
+msgstr ""
+
+#: functions.php:3846
+#: functions.php:3916
+#: functions.php:3969
+#@ Awaken
+msgid "Filter By"
+msgstr ""
+
+#: functions.php:3855
+#@ Awaken
+msgid "Organizers"
+msgstr ""
+
+#: functions.php:3859
+#: functions.php:3926
+#: functions.php:3982
+#@ Awaken
+msgid "Show All"
+msgstr ""
+
+#: functions.php:3861
+#: functions.php:3928
+#: functions.php:3985
+#@ Awaken
+msgid "Date Published"
+msgstr ""
+
+#: functions.php:3861
+#: functions.php:3928
+#: functions.php:3986
+#@ Awaken
+msgid "Alphabetical"
+msgstr ""
+
+#: functions.php:3868
+#: functions.php:3935
+#: functions.php:3993
+#@ Awaken
+msgid "All Categories"
+msgstr ""
+
+#: functions.php:3892
+#@ Awaken
+msgid "No Organizer Found."
+msgstr ""
+
+#: functions.php:4126
+#@ Awaken
+msgid "Like This"
+msgstr ""
+
+#: functions.php:4486
+#@ Awaken
+msgid "Cart"
+msgstr ""
+
+#: include/admin_functions.php:1177
+#@ Awaken
+msgid "http://fortawesome.github.io/Font-Awesome/icons/"
+msgstr ""
+
+#: include/page_options.php:134
+#@ Awaken
+msgid "Default Subheader"
+msgstr ""
+
+#: include/page_options.php:135
+#@ Awaken
+msgid "Custom Subheader"
+msgstr ""
+
+#: include/page_options.php:136
+#: include/page_options.php:569
+#: include/theme-options/theme_options.php:541
+#: include/theme-options/theme_options.php:649
+#@ Awaken
+msgid "Revolution Slider"
+msgstr ""
+
+#: include/page_options.php:137
+#: include/shortcodes/shortcode_functions.php:1701
+#@ Awaken
+msgid "Map"
+msgstr ""
+
+#: include/page_options.php:138
+#@ Awaken
+msgid "No Subheader"
+msgstr ""
+
+#: include/page_options.php:155
+#: include/shortcodes/media_elements.php:426
+#@ Awaken
+msgid "Text Align"
+msgstr ""
+
+#: include/page_options.php:337
+#: include/page_options.php:599
+#@ Awaken
+msgid "http://codecanyon.net/"
+msgstr ""
+
+#: include/page_options.php:830
+#@ Awaken
+msgid "Page Options"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:427
+#@ Awaken
+msgid "Likes"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:569
+#@ Awaken
+msgid "Posted On "
+msgstr ""
+
+#: include/shortcodes/loops_function.php:575
+#@ Awaken
+msgid "BY "
+msgstr ""
+
+#: include/shortcodes/loops_function.php:587
+#@ Awaken
+msgid " Posted On "
+msgstr ""
+
+#: include/shortcodes/loops_function.php:610
+#@ Awaken
+msgid "0 Comment"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:1187
+#: include/theme-components/cs-widgets/widgets.php:803
+#, php-format
+#@ Awaken
+msgid "%d seconds ago"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:1188
+#: include/theme-components/cs-widgets/widgets.php:804
+#, php-format
+#@ Awaken
+msgid "About a Minute Ago"
+msgid_plural "%d Minutes Ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/shortcodes/loops_function.php:1189
+#: include/shortcodes/loops_function.php:1190
+#: include/theme-components/cs-widgets/widgets.php:805
+#: include/theme-components/cs-widgets/widgets.php:806
+#, php-format
+#@ Awaken
+msgid "About an Hour Ago"
+msgid_plural "%d Hours Ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/shortcodes/loops_function.php:1191
+#: include/theme-components/cs-widgets/widgets.php:807
+#, php-format
+#@ Awaken
+msgid "About a Day Ago"
+msgid_plural "%d Days Ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/shortcodes/loops_function.php:1192
+#: include/theme-components/cs-widgets/widgets.php:808
+#, php-format
+#@ Awaken
+msgid "About a Week Ago"
+msgid_plural "%d Weeks Ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/shortcodes/loops_function.php:1193
+#: include/theme-components/cs-widgets/widgets.php:809
+#, php-format
+#@ Awaken
+msgid "About a Month Ago"
+msgid_plural "%d Months Ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/shortcodes/loops_function.php:1194
+#: include/theme-components/cs-widgets/widgets.php:810
+#, php-format
+#@ Awaken
+msgid "About a year Ago"
+msgid_plural "%d years Ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/shortcodes/shortcode_functions.php:218
+#@ Awaken
+msgid "View All"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:628
+#@ Awaken
+msgid "About"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:675
+#@ Awaken
+msgid "Edit"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:820
+#, php-format
+#@ Awaken
+msgid "%s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:271
+#@ Awaken
+msgid "Something went wrong."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:318
+#@ Awaken
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:323
+#@ Awaken
+msgid "Return to the dashboard"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:326
+#, php-format
+#@ Awaken
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:327
+#@ Awaken
+msgid "Dismiss this notice"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:645
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2517
+#@ Awaken
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1540
+#@ Awaken
+msgid "Pre-Packaged"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1545
+#@ Awaken
+msgid "WordPress Repository"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1549
+#@ Awaken
+msgid "Required"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1551
+#@ Awaken
+msgid "Recommended"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1555
+#@ Awaken
+msgid "Not Installed"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1557
+#@ Awaken
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1640
+#, php-format
+#@ Awaken
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1659
+#, php-format
+#@ Awaken
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1705
+#, php-format
+#@ Awaken
+msgid "No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1721
+#@ Awaken
+msgid "Plugin"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1722
+#@ Awaken
+msgid "Source"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1210
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1723
+#@ Awaken
+msgid "Type"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1724
+#@ Awaken
+msgid "Status"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1742
+#@ Awaken
+msgid "Install"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1743
+#@ Awaken
+msgid "Activate"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1795
+#@ Awaken
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1893
+#@ Awaken
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1911
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:325
+#@ Awaken
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2260
+#@ Awaken
+msgid "Install package not available."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2261
+#, php-format
+#@ Awaken
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2262
+#@ Awaken
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2263
+#@ Awaken
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2264
+#@ Awaken
+msgid "Plugin install failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2265
+#@ Awaken
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2276
+#@ Awaken
+msgid "Plugin activation failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2399
+#, php-format
+#@ Awaken
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2400
+#, php-format
+#@ Awaken
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2404
+#@ Awaken
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2405
+#, php-format
+#@ Awaken
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2405
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2412
+#@ Awaken
+msgid "Show Details"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2405
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2412
+#@ Awaken
+msgid "Hide Details"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2406
+#@ Awaken
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2407
+#, php-format
+#@ Awaken
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2411
+#@ Awaken
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2412
+#, php-format
+#@ Awaken
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2413
+#@ Awaken
+msgid "All installations have been completed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2414
+#, php-format
+#@ Awaken
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:283
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:298
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:308
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:328
+#@ Awaken
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:719
+#@ Awaken
+msgid "The remote plugin package is does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:719
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:723
+#@ Awaken
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:723
+#@ Awaken
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:768
+#, php-format
+#@ Awaken
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:893
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1907
+#@ Awaken
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1536
+#@ Awaken
+msgid "External Source"
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:314
+#: searchform.php:11
+#@ Awaken
+msgid "Enter your search"
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:329
+#@ Awaken
+msgid "Contribute Now"
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:41
+#: include/theme-components/cs-importer/parsers.php:62
+#@ Awaken
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:42
+#@ Awaken
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:66
+#: include/theme-components/cs-importer/parsers.php:71
+#: include/theme-components/cs-importer/parsers.php:261
+#: include/theme-components/cs-importer/parsers.php:450
+#@ Awaken
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:60
+#@ Awaken
+msgid "Error."
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:68
+#: include/theme-components/cs-importer/wordpress-importer.php:134
+#: include/theme-components/cs-importer/wordpress-importer.php:148
+#: include/theme-components/cs-importer/wordpress-importer.php:209
+#: include/theme-components/cs-importer/wordpress-importer.php:213
+#: include/theme-components/cs-importer/wordpress-importer.php:222
+#@ Awaken
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:70
+#: include/theme-components/cs-importer/wordpress-importer.php:135
+#@ Awaken
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:106
+#@ Awaken
+msgid "Attention Please Wait"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:107
+#@ Awaken
+msgid "Dont Refresh Page"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:107
+#@ Awaken
+msgid "We are fetching dummy data for you. It can take 2 to 10 minutes depending upon data speed."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:188
+#@ Awaken
+msgid "All done."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:188
+#@ Awaken
+msgid "Have fun!"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:189
+#@ Awaken
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:214
+#, php-format
+#@ Awaken
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:230
+#, php-format
+#@ Awaken
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:253
+#, php-format
+#@ Awaken
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:279
+#@ Awaken
+msgid "Assign Authors"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:280
+#@ Awaken
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:282
+#, php-format
+#@ Awaken
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:292
+#@ Awaken
+msgid "Import Attachments"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:295
+#@ Awaken
+msgid "Download and import file attachments"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:311
+#@ Awaken
+msgid "Import author:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:322
+#@ Awaken
+msgid "or create new user with login name:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:325
+#@ Awaken
+msgid "as a new user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:333
+#@ Awaken
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:335
+#@ Awaken
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:336
+#@ Awaken
+msgid "- Select -"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:386
+#, php-format
+#@ Awaken
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:434
+#, php-format
+#@ Awaken
+msgid "Failed to import category %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:471
+#, php-format
+#@ Awaken
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:514
+#: include/theme-components/cs-importer/wordpress-importer.php:639
+#, php-format
+#@ Awaken
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:535
+#, php-format
+#@ Awaken
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:556
+#, php-format
+#@ Awaken
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:611
+#, php-format
+#@ Awaken
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:754
+#@ Awaken
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:761
+#, php-format
+#@ Awaken
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:847
+#@ Awaken
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:860
+#@ Awaken
+msgid "Invalid file type"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:903
+#@ Awaken
+msgid "Remote server did not respond"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:909
+#, php-format
+#@ Awaken
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:916
+#@ Awaken
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:921
+#@ Awaken
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:927
+#, php-format
+#@ Awaken
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1024
+#@ Awaken
+msgid "Import WordPress"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1031
+#, php-format
+#@ Awaken
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1046
+#@ Awaken
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1047
+#@ Awaken
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: include/theme-components/cs-mailchimp/mailchimp_functions.php:32
+#@ Awaken
+msgid "Signup weekly newsletter"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:68
+#, php-format
+#@ Awaken
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:72
+#, php-format
+#@ Awaken
+msgid "%s (Pending)"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:96
+#@ Awaken
+msgid "Move up"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:109
+#@ Awaken
+msgid "Move down"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:111
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:113
+#@ Awaken
+msgid "Edit Menu Item"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:122
+#@ Awaken
+msgid "URL"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:129
+#@ Awaken
+msgid "Navigation Label"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:135
+#@ Awaken
+msgid "Title Attribute"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:142
+#@ Awaken
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:147
+#@ Awaken
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:153
+#@ Awaken
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:159
+#@ Awaken
+msgid "Description"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:161
+#@ Awaken
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:169
+#@ Awaken
+msgid "Active Mega Menu"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:177
+#@ Awaken
+msgid "hide text"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:185
+#@ Awaken
+msgid "disable link"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:204
+#, php-format
+#@ Awaken
+msgid "Original: %s"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:217
+#@ Awaken
+msgid "Remove"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:218
+#@ Awaken
+msgid "Cancel"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1845
+#: include/theme-components/cs-posttypes/pt_events.php:37
+#@ Awaken
+msgid "Events"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:145
+#: include/theme-components/cs-posttypes/pt_portfolios.php:155
+#: include/theme-components/cs-posttypes/pt_sermons.php:145
+#: include/theme-options/theme_options.php:206
+#@ Awaken
+msgid "General"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:146
+#: include/theme-components/cs-posttypes/pt_portfolios.php:156
+#: include/theme-components/cs-posttypes/pt_sermons.php:146
+#: include/theme-options/theme_options.php:212
+#@ Awaken
+msgid "Sub Header"
+msgstr ""
+
+#: include/page_builder.php:258
+#: include/theme-components/cs-posttypes/pt_events.php:148
+#: include/theme-components/cs-posttypes/pt_portfolios.php:158
+#: include/theme-components/cs-posttypes/pt_sermons.php:148
+#@ Awaken
+msgid "Header Absolute"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:151
+#: include/theme-components/cs-posttypes/pt_portfolios.php:161
+#: include/theme-components/cs-posttypes/pt_sermons.php:151
+#@ Awaken
+msgid "SEO Options"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:153
+#@ Awaken
+msgid "Speakers"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:154
+#: include/theme-components/cs-posttypes/pt_portfolios.php:163
+#@ Awaken
+msgid "Location"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:155
+#@ Awaken
+msgid "Event Options"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:180
+#@ Awaken
+msgid "Select Members"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:21
+#@ Awaken
+msgid "Speaker"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:31
+#@ Awaken
+msgid "Notes Link"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:41
+#@ Awaken
+msgid "Download Audio Link"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:51
+#@ Awaken
+msgid "Sermon Summery"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:61
+#@ Awaken
+msgid "Sermon Listings"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:65
+#: include/theme-components/cs-posttypes/pt_functions.php:103
+#: include/theme-components/cs-posttypes/pt_functions.php:168
+#@ Awaken
+msgid "Sermon Title"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:104
+#@ Awaken
+msgid "Sermon URL"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:97
+#@ Awaken
+msgid "Add Sermon"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:105
+#@ Awaken
+msgid "Actions"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:158
+#@ Awaken
+msgid "Edit Sermon"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:38
+#@ Awaken
+msgid "Projects"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:164
+#@ Awaken
+msgid "Project Options"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:206
+#@ Awaken
+msgid "Start Date"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:232
+#@ Awaken
+msgid "Link"
+msgstr ""
+
+#: include/page_options.php:171
+#: include/shortcodes/common_elements.php:660
+#: include/shortcodes/common_elements.php:1222
+#: include/shortcodes/common_elements.php:2280
+#: include/shortcodes/contentblock_elements.php:79
+#: include/shortcodes/contentblock_elements.php:181
+#: include/shortcodes/contentblock_elements.php:465
+#: include/shortcodes/loops_elements.php:156
+#: include/shortcodes/media_elements.php:242
+#: include/shortcodes/media_elements.php:393
+#: include/shortcodes/typography_elements.php:691
+#: include/shortcodes/typography_elements.php:1133
+#: include/theme-components/cs-posttypes/pt_portfolios.php:237
+#@ Awaken
+msgid "Title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2320
+#: include/theme-components/cs-posttypes/pt_portfolios.php:241
+#@ Awaken
+msgid "Url"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1996
+#: include/shortcodes/typography_elements.php:465
+#: include/shortcodes/typography_elements.php:576
+#: include/theme-components/cs-posttypes/pt_portfolios.php:245
+#@ Awaken
+msgid "Color"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:252
+#@ Awaken
+msgid "Listing Color"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:258
+#@ Awaken
+msgid "This color will apply only in Projet Listing (Classic View)"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_sermons.php:38
+#@ Awaken
+msgid "Sermons"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_sermons.php:154
+#@ Awaken
+msgid "Sermons Options"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:420
+#: include/theme-components/cs-widgets/widgets.php:452
+#@ Awaken
+msgid "No result found."
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:458
+#@ Awaken
+msgid "Please Enter Flickr API key from Theme Options."
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:614
+#@ Awaken
+msgid "Leave a comment"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:2323
+#@ Awaken
+msgid " Raised"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:2323
+#@ Awaken
+msgid "Goal "
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:2441
+#@ Awaken
+msgid "An error Occured, please try again later."
+msgstr ""
+
+#: include/theme-options/theme_options.php:14
+#@ Awaken
+msgid "Saving changes..."
+msgstr ""
+
+#: search.php:44
+#@ Awaken
+msgid "Featured : "
+msgstr ""
+
+#: single.php:320
+#@ Awaken
+msgid "Related Posts"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:73
+#: include/theme-components/cs-posttypes/pt_functions.php:176
+#@ Awaken
+msgid "Sermon Url"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:55
+#: include/shortcodes/loops_elements.php:459
+#@ Awaken
+msgid "Edit Blog Options"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:62
+#: cs-templates/event-styles/event_element.php:62
+#: cs-templates/sermon-styles/sermon_element.php:62
+#: include/shortcodes/common_elements.php:288
+#: include/shortcodes/common_elements.php:496
+#: include/shortcodes/common_elements.php:956
+#: include/shortcodes/common_elements.php:1201
+#: include/shortcodes/common_elements.php:1949
+#: include/shortcodes/common_elements.php:2478
+#: include/shortcodes/common_elements.php:2615
+#: include/shortcodes/contentblock_elements.php:70
+#: include/shortcodes/contentblock_elements.php:456
+#: include/shortcodes/loops_elements.php:70
+#: include/shortcodes/loops_elements.php:301
+#: include/shortcodes/loops_elements.php:697
+#: include/shortcodes/media_elements.php:64
+#: include/shortcodes/media_elements.php:191
+#: include/shortcodes/media_elements.php:348
+#: include/shortcodes/typography_elements.php:330
+#: include/shortcodes/typography_elements.php:435
+#: include/shortcodes/typography_elements.php:911
+#: include/shortcodes/typography_elements.php:1124
+#: include/shortcodes/typography_elements.php:1743
+#@ Awaken
+msgid "Section Title"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:69
+#: cs-templates/event-styles/event_element.php:105
+#: cs-templates/sermon-styles/sermon_element.php:69
+#: cs-templates/sermon-styles/sermon_element.php:241
+#: include/shortcodes/loops_elements.php:473
+#@ Awaken
+msgid "Choose Category"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:75
+#: include/admin_functions.php:749
+#: include/shortcodes/loops_elements.php:479
+#@ Awaken
+msgid "Select Category"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:81
+#@ Awaken
+msgid "Please select category to show posts. If you dont select category it will display all posts."
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:87
+#: include/shortcodes/loops_elements.php:491
+#@ Awaken
+msgid "Blog Design Views"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:93
+#@ Awaken
+msgid "Blog Small"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:94
+#@ Awaken
+msgid "Blog Medium"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:95
+#@ Awaken
+msgid "Blog Large"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:96
+#@ Awaken
+msgid "Blog Classic"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:97
+#@ Awaken
+msgid "Blog timeline"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:98
+#@ Awaken
+msgid "Blog 3 Column"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:99
+#@ Awaken
+msgid "Blog Grid"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:100
+#@ Awaken
+msgid "Blog Clean"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:101
+#@ Awaken
+msgid "Blog Box"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:102
+#@ Awaken
+msgid "Blog Elite"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:107
+#: cs-templates/event-styles/event_element.php:83
+#: cs-templates/event-styles/event_element.php:117
+#: cs-templates/sermon-styles/sermon_element.php:81
+#: cs-templates/sermon-styles/sermon_element.php:253
+#: include/shortcodes/loops_elements.php:485
+#: include/shortcodes/loops_elements.php:509
+#@ Awaken
+msgid "Please select category to show posts. If you dont select category it will display all posts"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:114
+#: cs-templates/event-styles/event_element.php:124
+#: include/shortcodes/loops_elements.php:327
+#: include/shortcodes/loops_elements.php:516
+#@ Awaken
+msgid "Post Order"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:120
+#: cs-templates/event-styles/event_element.php:130
+#: include/shortcodes/loops_elements.php:333
+#: include/shortcodes/loops_elements.php:522
+#@ Awaken
+msgid "Asc"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:121
+#: cs-templates/event-styles/event_element.php:131
+#: include/shortcodes/loops_elements.php:334
+#: include/shortcodes/loops_elements.php:523
+#@ Awaken
+msgid "DESC"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:129
+#: include/shortcodes/loops_elements.php:342
+#: include/shortcodes/loops_elements.php:531
+#@ Awaken
+msgid "Post Description"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:159
+#: cs-templates/event-styles/event_element.php:154
+#: include/shortcodes/loops_elements.php:357
+#@ Awaken
+msgid "Length of Excerpt"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:166
+#: cs-templates/event-styles/event_element.php:161
+#: include/shortcodes/loops_elements.php:364
+#: include/shortcodes/loops_elements.php:574
+#@ Awaken
+msgid "Enter number of character for short description text"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:173
+#: cs-templates/event-styles/event_element.php:168
+#: cs-templates/sermon-styles/sermon_element.php:126
+#: include/shortcodes/loops_elements.php:371
+#: include/shortcodes/loops_elements.php:581
+#@ Awaken
+msgid "No. of Post Per Page"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:180
+#: cs-templates/event-styles/event_element.php:175
+#: cs-templates/sermon-styles/sermon_element.php:133
+#: include/shortcodes/loops_elements.php:588
+#@ Awaken
+msgid "To display all the records, leave this field blank"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:186
+#: cs-templates/event-styles/event_element.php:192
+#: cs-templates/sermon-styles/sermon_element.php:139
+#: include/shortcodes/loops_elements.php:594
+#@ Awaken
+msgid "Pagination"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:190
+#: cs-templates/event-styles/event_element.php:196
+#: cs-templates/sermon-styles/sermon_element.php:143
+#: include/shortcodes/loops_elements.php:598
+#@ Awaken
+msgid "Show Pagination"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:191
+#: cs-templates/event-styles/event_element.php:197
+#: cs-templates/sermon-styles/sermon_element.php:144
+#: include/shortcodes/loops_elements.php:599
+#@ Awaken
+msgid "Single Page"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:202
+#: cs-templates/event-styles/event_element.php:209
+#: cs-templates/sermon-styles/sermon_element.php:155
+#: cs-templates/sermon-styles/sermon_element.php:275
+#: include/shortcodes/common_elements.php:189
+#: include/shortcodes/common_elements.php:409
+#: include/shortcodes/common_elements.php:550
+#: include/shortcodes/common_elements.php:862
+#: include/shortcodes/common_elements.php:1116
+#: include/shortcodes/common_elements.php:1351
+#: include/shortcodes/common_elements.php:1668
+#: include/shortcodes/common_elements.php:1859
+#: include/shortcodes/common_elements.php:2069
+#: include/shortcodes/common_elements.php:2363
+#: include/shortcodes/common_elements.php:2523
+#: include/shortcodes/common_elements.php:2735
+#: include/shortcodes/contentblock_elements.php:216
+#: include/shortcodes/contentblock_elements.php:376
+#: include/shortcodes/contentblock_elements.php:659
+#: include/shortcodes/contentblock_elements.php:960
+#: include/shortcodes/loops_elements.php:222
+#: include/shortcodes/loops_elements.php:387
+#: include/shortcodes/loops_elements.php:610
+#: include/shortcodes/loops_elements.php:832
+#: include/shortcodes/loops_elements.php:941
+#: include/shortcodes/media_elements.php:105
+#: include/shortcodes/media_elements.php:265
+#: include/shortcodes/media_elements.php:468
+#: include/shortcodes/media_elements.php:597
+#: include/shortcodes/typography_elements.php:129
+#: include/shortcodes/typography_elements.php:245
+#: include/shortcodes/typography_elements.php:354
+#: include/shortcodes/typography_elements.php:496
+#: include/shortcodes/typography_elements.php:609
+#: include/shortcodes/typography_elements.php:826
+#: include/shortcodes/typography_elements.php:1007
+#: include/shortcodes/typography_elements.php:1277
+#: include/shortcodes/typography_elements.php:1808
+#@ Awaken
+msgid "Insert"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:55
+#@ Awaken
+msgid "Edit Events Options"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:69
+#@ Awaken
+msgid "Events Design Views"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:75
+#@ Awaken
+msgid "Events Listing"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:76
+#@ Awaken
+msgid "Events Timeline"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:77
+#@ Awaken
+msgid "Events Classic"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:78
+#@ Awaken
+msgid "Events  Minimal"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:89
+#@ Awaken
+msgid "Events Listing Types"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:95
+#: include/admin_functions.php:736
+#@ Awaken
+msgid "All Events"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:96
+#: include/admin_functions.php:737
+#@ Awaken
+msgid "Upcoming Events"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:97
+#: include/admin_functions.php:738
+#@ Awaken
+msgid "Past Events"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:111
+#: cs-templates/sermon-styles/sermon_element.php:247
+#@ Awaken
+msgid "--Select Category--"
+msgstr ""
+
+#: cs-templates/event-styles/event_element.php:139
+#: include/admin_functions.php:779
+#@ Awaken
+msgid "Show Time"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_element.php:55
+#: cs-templates/sermon-styles/sermon_element.php:227
+#@ Awaken
+msgid "Edit Sermon Options"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_element.php:75
+#@ Awaken
+msgid "-- Select Category --"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_element.php:87
+#@ Awaken
+msgid "Sermon Design Views"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_element.php:93
+#@ Awaken
+msgid "Sermon Listing"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_element.php:94
+#@ Awaken
+msgid "Sermon Grid"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_element.php:95
+#@ Awaken
+msgid "Sermon Less"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_element.php:101
+#: cs-templates/sermon-styles/sermon_element.php:119
+#@ Awaken
+msgid "Please select the View"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_element.php:260
+#: include/page_options.php:249
+#: include/shortcodes/common_elements.php:1240
+#: include/shortcodes/contentblock_elements.php:98
+#: include/shortcodes/loops_elements.php:919
+#: include/shortcodes/typography_elements.php:1215
+#: include/theme-options/theme_options.php:707
+#: include/theme-options/theme_options.php:888
+#@ Awaken
+msgid "Text Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:64
+#@ Awaken
+msgid "Edit Button Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:70
+#@ Awaken
+msgid "Size"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:74
+#: include/shortcodes/common_elements.php:1531
+#: include/shortcodes/common_elements.php:2238
+#@ Awaken
+msgid "Extra Large"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:75
+#: include/shortcodes/common_elements.php:1530
+#: include/shortcodes/common_elements.php:2237
+#: include/shortcodes/contentblock_elements.php:327
+#@ Awaken
+msgid "Large"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:76
+#: include/shortcodes/common_elements.php:1529
+#: include/shortcodes/common_elements.php:2236
+#: include/shortcodes/contentblock_elements.php:326
+#: include/shortcodes/loops_elements.php:501
+#@ Awaken
+msgid "Medium"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:77
+#: include/shortcodes/common_elements.php:1528
+#: include/shortcodes/common_elements.php:2235
+#: include/shortcodes/contentblock_elements.php:325
+#: include/shortcodes/loops_elements.php:499
+#@ Awaken
+msgid "Small"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:79
+#@ Awaken
+msgid "Select column width. This width will be calculated depend page width"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:84
+#: include/shortcodes/common_elements.php:1602
+#@ Awaken
+msgid "Button Title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:92
+#: include/shortcodes/common_elements.php:1310
+#: include/shortcodes/common_elements.php:1314
+#: include/shortcodes/typography_elements.php:1190
+#@ Awaken
+msgid "Button Link"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:96
+#@ Awaken
+msgid "Button external&internal url"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:101
+#: include/shortcodes/contentblock_elements.php:619
+#: include/shortcodes/loops_elements.php:99
+#@ Awaken
+msgid "Border"
+msgstr ""
+
+#: include/admin_functions.php:547
+#: include/page_options.php:259
+#: include/shortcodes/common_elements.php:112
+#: include/shortcodes/contentblock_elements.php:631
+#: include/theme-options/theme_options.php:714
+#@ Awaken
+msgid "Border Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:120
+#: include/shortcodes/media_elements.php:454
+#@ Awaken
+msgid "Button Background Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:128
+#@ Awaken
+msgid "Button Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:132
+#@ Awaken
+msgid "select a color which you want on the buttons"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:137
+#: include/shortcodes/common_elements.php:1250
+#: include/shortcodes/common_elements.php:1502
+#: include/shortcodes/common_elements.php:1977
+#: include/shortcodes/contentblock_elements.php:357
+#: include/shortcodes/typography_elements.php:982
+#: include/shortcodes/typography_elements.php:1164
+#@ Awaken
+msgid "Fontawsome Icon"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:142
+#: include/shortcodes/common_elements.php:375
+#: include/shortcodes/common_elements.php:518
+#: include/shortcodes/common_elements.php:1255
+#: include/shortcodes/contentblock_elements.php:364
+#@ Awaken
+msgid "select the fontawsome Icons you would like to add to your menu items"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:147
+#@ Awaken
+msgid "Button Icon Position"
+msgstr ""
+
+#: include/admin_functions.php:360
+#: include/shortcodes/common_elements.php:151
+#: include/shortcodes/common_elements.php:1489
+#: include/shortcodes/common_elements.php:2271
+#: include/shortcodes/media_elements.php:430
+#: include/shortcodes/typography_elements.php:222
+#: include/shortcodes/typography_elements.php:745
+#@ Awaken
+msgid "Left"
+msgstr ""
+
+#: include/admin_functions.php:361
+#: include/shortcodes/common_elements.php:152
+#: include/shortcodes/common_elements.php:1490
+#: include/shortcodes/common_elements.php:2272
+#: include/shortcodes/media_elements.php:431
+#: include/shortcodes/typography_elements.php:224
+#: include/shortcodes/typography_elements.php:747
+#@ Awaken
+msgid "Right"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:154
+#@ Awaken
+msgid "set a position for the button"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:159
+#@ Awaken
+msgid "Button Type"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:163
+#: include/shortcodes/contentblock_elements.php:315
+#@ Awaken
+msgid "Square"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:164
+#@ Awaken
+msgid "Rounded"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:165
+#@ Awaken
+msgid "3D"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:167
+#@ Awaken
+msgid "Select the display type for the button"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:172
+#@ Awaken
+msgid "Target"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:176
+#@ Awaken
+msgid "Blank"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:177
+#@ Awaken
+msgid "Self"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:279
+#@ Awaken
+msgid "Edit Tabs Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:293
+#: include/shortcodes/common_elements.php:500
+#: include/shortcodes/common_elements.php:961
+#: include/shortcodes/common_elements.php:1205
+#: include/shortcodes/common_elements.php:1953
+#: include/shortcodes/common_elements.php:2483
+#: include/shortcodes/contentblock_elements.php:74
+#: include/shortcodes/contentblock_elements.php:460
+#: include/shortcodes/media_elements.php:67
+#: include/shortcodes/media_elements.php:194
+#: include/shortcodes/media_elements.php:351
+#: include/shortcodes/typography_elements.php:334
+#: include/shortcodes/typography_elements.php:439
+#: include/shortcodes/typography_elements.php:915
+#: include/shortcodes/typography_elements.php:1128
+#: include/shortcodes/typography_elements.php:1747
+#@ Awaken
+msgid "This is used for the one page navigation, to identify the section below. Give a title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:299
+#@ Awaken
+msgid "Tab Style"
+msgstr ""
+
+#: include/page_options.php:209
+#: include/shortcodes/common_elements.php:304
+#: include/shortcodes/loops_elements.php:497
+#: include/theme-options/theme_options.php:624
+#@ Awaken
+msgid "Default"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:305
+#@ Awaken
+msgid "Borderless"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:306
+#@ Awaken
+msgid "Vertical"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:343
+#: include/shortcodes/common_elements.php:2680
+#@ Awaken
+msgid "Active"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:352
+#: include/shortcodes/common_elements.php:1057
+#@ Awaken
+msgid "You can set the section that is active here by select dropdown"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:359
+#@ Awaken
+msgid "Tab Title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:369
+#@ Awaken
+msgid "Tab Fontawsome Icon"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:381
+#@ Awaken
+msgid "Tab Text"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:388
+#@ Awaken
+msgid "Enter tab body content here"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:489
+#@ Awaken
+msgid "Edit Toggle Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:505
+#@ Awaken
+msgid "Toggle Title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:513
+#@ Awaken
+msgid "Toggle Fontawsome Icon"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:523
+#@ Awaken
+msgid "Toggle State"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:527
+#@ Awaken
+msgid "Open"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:528
+#@ Awaken
+msgid "Close"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:530
+#@ Awaken
+msgid "Select this if you want toggle to be open by default"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:535
+#@ Awaken
+msgid "Toggle Text"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:539
+#: include/shortcodes/media_elements.php:413
+#: include/shortcodes/typography_elements.php:485
+#: include/shortcodes/typography_elements.php:711
+#: include/shortcodes/typography_elements.php:1260
+#@ Awaken
+msgid "Enter content here"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:634
+#@ Awaken
+msgid "Edit Price Table Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:643
+#: include/shortcodes/common_elements.php:2154
+#: include/shortcodes/contentblock_elements.php:298
+#@ Awaken
+msgid "Choose View"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:648
+#: include/shortcodes/common_elements.php:2160
+#: include/shortcodes/common_elements.php:2495
+#: include/shortcodes/media_elements.php:205
+#@ Awaken
+msgid "Classic"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:649
+#: include/shortcodes/media_elements.php:206
+#@ Awaken
+msgid "Simple"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:650
+#@ Awaken
+msgid "Modren"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:653
+#@ Awaken
+msgid "Choose a pricetable view"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:665
+#@ Awaken
+msgid "set title for the item"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:671
+#@ Awaken
+msgid "Title Background Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:679
+#@ Awaken
+msgid "Price"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:684
+#@ Awaken
+msgid "item Price"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:690
+#: include/shortcodes/common_elements.php:1476
+#: include/shortcodes/common_elements.php:1540
+#: include/shortcodes/common_elements.php:2175
+#: include/shortcodes/common_elements.php:2208
+#@ Awaken
+msgid "Image"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:696
+#@ Awaken
+msgid "set image for the item"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:720
+#@ Awaken
+msgid "set a time duration"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:726
+#@ Awaken
+msgid "Table Column Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:731
+#: include/shortcodes/common_elements.php:1244
+#: include/shortcodes/common_elements.php:1296
+#: include/shortcodes/common_elements.php:1588
+#: include/shortcodes/common_elements.php:2249
+#: include/shortcodes/common_elements.php:2315
+#: include/shortcodes/contentblock_elements.php:104
+#: include/shortcodes/typography_elements.php:580
+#: include/shortcodes/typography_elements.php:589
+#@ Awaken
+msgid "Provide a hex colour code here (include #) if you want to override the default"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:737
+#: include/shortcodes/common_elements.php:1301
+#: include/shortcodes/typography_elements.php:1182
+#@ Awaken
+msgid "Button Text"
+msgstr ""
+
+#: include/admin_functions.php:465
+#: include/page_options.php:239
+#: include/page_options.php:496
+#: include/page_options.php:626
+#: include/page_options.php:870
+#: include/shortcodes/common_elements.php:744
+#: include/shortcodes/common_elements.php:1292
+#: include/shortcodes/common_elements.php:2005
+#: include/shortcodes/common_elements.php:2245
+#: include/shortcodes/contentblock_elements.php:87
+#: include/shortcodes/loops_elements.php:164
+#: include/shortcodes/typography_elements.php:473
+#: include/shortcodes/typography_elements.php:585
+#: include/shortcodes/typography_elements.php:1223
+#: include/theme-options/theme_options.php:556
+#: include/theme-options/theme_options.php:700
+#: include/theme-options/theme_options.php:853
+#: include/theme-options/theme_options.php:880
+#: include/theme-options/theme_options.php:913
+#@ Awaken
+msgid "Background Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:746
+#@ Awaken
+msgid "Text color on the button,If you want to override the default"
+msgstr ""
+
+#: include/admin_functions.php:557
+#: include/page_options.php:662
+#: include/shortcodes/common_elements.php:765
+#: include/shortcodes/common_elements.php:984
+#: include/shortcodes/common_elements.php:1319
+#: include/shortcodes/common_elements.php:1636
+#: include/shortcodes/common_elements.php:1770
+#: include/shortcodes/common_elements.php:2037
+#: include/shortcodes/common_elements.php:2329
+#: include/shortcodes/common_elements.php:2624
+#: include/shortcodes/loops_elements.php:109
+#: include/shortcodes/loops_elements.php:804
+#@ Awaken
+msgid "Custom Id"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:770
+#: include/shortcodes/common_elements.php:1323
+#: include/shortcodes/common_elements.php:1640
+#: include/shortcodes/common_elements.php:1774
+#: include/shortcodes/common_elements.php:2041
+#: include/shortcodes/common_elements.php:2333
+#: include/shortcodes/contentblock_elements.php:115
+#@ Awaken
+msgid "Use this option if you want to use specified id for this element"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:776
+#: include/shortcodes/common_elements.php:995
+#: include/shortcodes/common_elements.php:1328
+#: include/shortcodes/common_elements.php:1645
+#: include/shortcodes/common_elements.php:1779
+#: include/shortcodes/common_elements.php:2046
+#: include/shortcodes/common_elements.php:2338
+#: include/shortcodes/common_elements.php:2632
+#: include/shortcodes/contentblock_elements.php:120
+#: include/shortcodes/loops_elements.php:115
+#: include/shortcodes/loops_elements.php:810
+#: include/shortcodes/typography_elements.php:801
+#@ Awaken
+msgid "Animation Class"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:795
+#: include/shortcodes/common_elements.php:1016
+#: include/shortcodes/common_elements.php:1345
+#: include/shortcodes/common_elements.php:1662
+#: include/shortcodes/common_elements.php:1797
+#: include/shortcodes/common_elements.php:2063
+#: include/shortcodes/common_elements.php:2356
+#: include/shortcodes/contentblock_elements.php:137
+#: include/shortcodes/typography_elements.php:819
+#@ Awaken
+msgid "Select Entrance animation type from the dropdown"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:802
+#@ Awaken
+msgid "Pricing Features"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:807
+#@ Awaken
+msgid "set feature price of the product"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:948
+#@ Awaken
+msgid "Edit Accordion Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:968
+#: include/shortcodes/common_elements.php:1455
+#: include/shortcodes/typography_elements.php:67
+#: include/shortcodes/typography_elements.php:444
+#: include/shortcodes/typography_elements.php:716
+#@ Awaken
+msgid "Style"
+msgstr ""
+
+#: include/page_options.php:837
+#: include/shortcodes/common_elements.php:973
+#@ Awaken
+msgid "default"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:974
+#@ Awaken
+msgid "box"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:978
+#@ Awaken
+msgid "choose a style type for accordion element"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:989
+#@ Awaken
+msgid "Use this option if you want to use specified  id for this element"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1063
+#@ Awaken
+msgid "Accordion Title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1069
+#@ Awaken
+msgid "Enter accordion title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1076
+#: include/shortcodes/common_elements.php:2701
+#@ Awaken
+msgid "Title Fontawsome Icon"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1082
+#: include/shortcodes/common_elements.php:1507
+#: include/shortcodes/common_elements.php:1982
+#: include/shortcodes/common_elements.php:2189
+#@ Awaken
+msgid "Select the fontawsome Icons you would like to add to your menu items"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1088
+#@ Awaken
+msgid "Accordion Text"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1094
+#: include/shortcodes/typography_elements.php:234
+#: include/shortcodes/typography_elements.php:343
+#@ Awaken
+msgid "Enter your content"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1193
+#@ Awaken
+msgid "Edit Call To Action Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1214
+#: include/shortcodes/typography_elements.php:770
+#: include/shortcodes/typography_elements.php:1157
+#@ Awaken
+msgid "Normal"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1215
+#@ Awaken
+msgid "With Center Icon"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1217
+#@ Awaken
+msgid "Select the display type for the call to action"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1226
+#@ Awaken
+msgid "Put the title for action element"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1231
+#: include/theme-options/theme_options.php:600
+#@ Awaken
+msgid "Short Text"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1235
+#@ Awaken
+msgid "Enter short detail about your call to action content"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1260
+#: include/shortcodes/common_elements.php:1512
+#: include/shortcodes/common_elements.php:1987
+#: include/shortcodes/common_elements.php:2194
+#: include/shortcodes/contentblock_elements.php:171
+#: include/shortcodes/contentblock_elements.php:334
+#: include/shortcodes/typography_elements.php:1173
+#@ Awaken
+msgid "Icon Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1264
+#@ Awaken
+msgid "set custom colour for icon"
+msgstr ""
+
+#: include/admin_functions.php:320
+#: include/admin_functions.php:331
+#: include/page_options.php:282
+#: include/page_options.php:449
+#: include/page_options.php:607
+#: include/shortcodes/common_elements.php:1269
+#: include/shortcodes/media_elements.php:356
+#: include/theme-options/theme_options.php:549
+#: include/theme-options/theme_options.php:723
+#@ Awaken
+msgid "Background Image"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1274
+#@ Awaken
+msgid "Select the background image for action element"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1305
+#: include/shortcodes/common_elements.php:1606
+#@ Awaken
+msgid "Text on the button"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1449
+#@ Awaken
+msgid "Edit Counter Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1460
+#@ Awaken
+msgid "Classic View"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1461
+#@ Awaken
+msgid "Modern View"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1462
+#@ Awaken
+msgid "Icon Border View"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1470
+#@ Awaken
+msgid "Choose Icon/Image"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1475
+#: include/shortcodes/common_elements.php:2174
+#: include/shortcodes/typography_elements.php:925
+#@ Awaken
+msgid "Icon"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1478
+#@ Awaken
+msgid "Choose an icon/image for the counter"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1484
+#: include/shortcodes/common_elements.php:2254
+#: include/shortcodes/common_elements.php:2267
+#: include/shortcodes/typography_elements.php:741
+#@ Awaken
+msgid "Align"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1491
+#@ Awaken
+msgid "Top Left"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1492
+#: include/shortcodes/common_elements.php:2259
+#@ Awaken
+msgid "Top Center"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1493
+#: include/shortcodes/common_elements.php:2260
+#@ Awaken
+msgid "Top Right"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1517
+#@ Awaken
+msgid "set a color for the counter icon"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1523
+#: include/shortcodes/common_elements.php:2231
+#@ Awaken
+msgid "Icon Size"
+msgstr ""
+
+#: include/admin_functions.php:319
+#: include/shortcodes/common_elements.php:1527
+#: include/shortcodes/typography_elements.php:924
+#@ Awaken
+msgid "None"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1563
+#@ Awaken
+msgid "set number"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1575
+#@ Awaken
+msgid "Sub Title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1579
+#@ Awaken
+msgid "Enter a sub title for the counter"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1584
+#: include/shortcodes/media_elements.php:401
+#: include/shortcodes/typography_elements.php:1206
+#@ Awaken
+msgid "Title Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1593
+#: include/shortcodes/media_elements.php:409
+#@ Awaken
+msgid "Content(s)"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1611
+#@ Awaken
+msgid "Button Url"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1615
+#@ Awaken
+msgid "Button external&internal Url"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1621
+#@ Awaken
+msgid "Border Frame"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1629
+#@ Awaken
+msgid "set yes/no border frame form the dropdown"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1749
+#@ Awaken
+msgid "Edit Progressbars Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1758
+#@ Awaken
+msgid "Progress Bar Style"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1762
+#@ Awaken
+msgid "Strip Progress bar"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1763
+#@ Awaken
+msgid "Pattern Progress bar"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1764
+#@ Awaken
+msgid "Plain Progress bar"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1818
+#@ Awaken
+msgid "Progress Bar Title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1826
+#@ Awaken
+msgid "Skill (in percentage)"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1831
+#@ Awaken
+msgid "Set the Skill (In %)"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1836
+#@ Awaken
+msgid "Progress Bar Color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1854
+#@ Awaken
+msgid "Add Progress bar"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1942
+#@ Awaken
+msgid "Edit Pie Charts Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1958
+#@ Awaken
+msgid "Data Info"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1962
+#@ Awaken
+msgid "Give the info abot your data"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1967
+#@ Awaken
+msgid "Data Percentage"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1972
+#@ Awaken
+msgid "Set currently data in percentage"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1991
+#@ Awaken
+msgid "Set a icon color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2000
+#@ Awaken
+msgid "Change icon color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2009
+#@ Awaken
+msgid "Set background color"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2014
+#@ Awaken
+msgid "Background Pattern Image"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2019
+#@ Awaken
+msgid "Set background images"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2148
+#@ Awaken
+msgid "Edit Services Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2159
+#@ Awaken
+msgid "Modern"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2163
+#@ Awaken
+msgid "Set a view from the dropdown"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2169
+#@ Awaken
+msgid "Choose"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2177
+#@ Awaken
+msgid "Choose a icon/image type form the dropdown"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2184
+#@ Awaken
+msgid "Choose Icon"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2199
+#@ Awaken
+msgid "Set custom colour for icon"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2240
+#@ Awaken
+msgid "Select Icon Size"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2258
+#@ Awaken
+msgid "Top left"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2262
+#: include/shortcodes/common_elements.php:2275
+#@ Awaken
+msgid "Give the position"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2290
+#: include/shortcodes/typography_elements.php:230
+#: include/shortcodes/typography_elements.php:481
+#: include/shortcodes/typography_elements.php:594
+#: include/shortcodes/typography_elements.php:707
+#: include/theme-options/theme_options.php:1194
+#@ Awaken
+msgid "Content"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2294
+#: include/shortcodes/common_elements.php:2511
+#: include/shortcodes/typography_elements.php:598
+#@ Awaken
+msgid "Enter the content"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2299
+#@ Awaken
+msgid "Link Text"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2304
+#@ Awaken
+msgid "Give a external/internal link for the services title"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2324
+#@ Awaken
+msgid "Give a external/internal link for the services Button"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2471
+#@ Awaken
+msgid "Edit Table Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2489
+#@ Awaken
+msgid "Table Style style"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2494
+#@ Awaken
+msgid "Modern Style"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2499
+#@ Awaken
+msgid "Select a table style"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2607
+#@ Awaken
+msgid "Edit Faq Options"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2675
+#: include/shortcodes/shortcode_functions.php:1832
+#@ Awaken
+msgid "FAQ"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:2710
+#@ Awaken
+msgid "Faq Text"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:61
+#@ Awaken
+msgid "Edit Infobox Options"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:92
+#@ Awaken
+msgid "Provide a hex background colour code here (include #)"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:111
+#@ Awaken
+msgid "Class"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:158
+#@ Awaken
+msgid "Infobox Item(s)"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:162
+#@ Awaken
+msgid "Info Box Fontawsome Icon"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:191
+#@ Awaken
+msgid "Short Description"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:292
+#@ Awaken
+msgid "Edit Icon Options"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:302
+#@ Awaken
+msgid "Background Style"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:303
+#@ Awaken
+msgid "Border Style"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:310
+#@ Awaken
+msgid "Icon Type"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:314
+#@ Awaken
+msgid "Circle"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:321
+#: include/shortcodes/typography_elements.php:455
+#: include/shortcodes/typography_elements.php:731
+#@ Awaken
+msgid "Font Size"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:329
+#@ Awaken
+msgid "Select font size"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:339
+#@ Awaken
+msgid "Provide a hex colour code, If you want to override the default"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:351
+#@ Awaken
+msgid "Add a hex background colour code, If you want to override the default"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:449
+#@ Awaken
+msgid "Edit Map Options"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:473
+#@ Awaken
+msgid "Map Height"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:477
+#@ Awaken
+msgid "Map height set here"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:482
+#@ Awaken
+msgid "Latitude"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:486
+#: include/shortcodes/contentblock_elements.php:495
+#@ Awaken
+msgid "The map will appear only if this field is filled correctly"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:491
+#@ Awaken
+msgid "Longitude"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:500
+#@ Awaken
+msgid "Zoom"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:509
+#@ Awaken
+msgid "Map Types"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:513
+#@ Awaken
+msgid "ROADMAP"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:514
+#@ Awaken
+msgid "Hybrid"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:515
+#@ Awaken
+msgid "SATELLITE"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:516
+#@ Awaken
+msgid "TERRAIN"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:522
+#@ Awaken
+msgid "Info Text"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:526
+#@ Awaken
+msgid "Enter the marker content"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:531
+#@ Awaken
+msgid "Info Max Width"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:535
+#@ Awaken
+msgid "set max width for the google map"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:540
+#@ Awaken
+msgid "Info Max Height"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:544
+#@ Awaken
+msgid "set max height for the google map"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:549
+#@ Awaken
+msgid "Marker Icon Path"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:572
+#@ Awaken
+msgid "Show Marker"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:576
+#: include/shortcodes/contentblock_elements.php:589
+#: include/shortcodes/contentblock_elements.php:600
+#: include/shortcodes/contentblock_elements.php:611
+#: include/shortcodes/typography_elements.php:758
+#: include/shortcodes/typography_elements.php:1767
+#@ Awaken
+msgid "On"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:577
+#: include/shortcodes/contentblock_elements.php:588
+#: include/shortcodes/contentblock_elements.php:601
+#: include/shortcodes/contentblock_elements.php:612
+#: include/shortcodes/typography_elements.php:759
+#: include/shortcodes/typography_elements.php:1768
+#@ Awaken
+msgid "Off"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:579
+#@ Awaken
+msgid "Set marker on/off for the map"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:584
+#@ Awaken
+msgid "Disable Map Controls"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:591
+#@ Awaken
+msgid "You can set map control disable/enable"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:596
+#@ Awaken
+msgid "Draggable"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:607
+#@ Awaken
+msgid "Scroll Wheel"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:614
+#@ Awaken
+msgid "Set scroll wheel"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:626
+#@ Awaken
+msgid "Set border for map"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:636
+#@ Awaken
+msgid "If you will select a border than select the border color"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:642
+#@ Awaken
+msgid "Map Color"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:62
+#@ Awaken
+msgid "Edit Clients Options"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:77
+#: include/shortcodes/typography_elements.php:1752
+#@ Awaken
+msgid "View"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:81
+#@ Awaken
+msgid "Grid View"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:82
+#@ Awaken
+msgid "Slider View"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:88
+#@ Awaken
+msgid "Gray Scale"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:152
+#: include/shortcodes/shortcode_functions.php:1623
+#@ Awaken
+msgid "Clients"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:172
+#@ Awaken
+msgid "Website Url"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:185
+#@ Awaken
+msgid "Client Logo"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:216
+#@ Awaken
+msgid "Add Client"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:295
+#@ Awaken
+msgid "Edit Content Slider Options"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:311
+#: include/shortcodes/loops_elements.php:317
+#@ Awaken
+msgid "Select Catgory"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:498
+#@ Awaken
+msgid "Timeline"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:500
+#: include/shortcodes/media_elements.php:204
+#@ Awaken
+msgid "Clean"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:502
+#@ Awaken
+msgid "Grid"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:503
+#@ Awaken
+msgid "Masonry"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:504
+#@ Awaken
+msgid "Boxed"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:691
+#@ Awaken
+msgid "Edit Team Options"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:704
+#@ Awaken
+msgid "Team Views"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:709
+#@ Awaken
+msgid "Default View"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:710
+#@ Awaken
+msgid "Thumbnails View"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:725
+#@ Awaken
+msgid "Designation"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:734
+#@ Awaken
+msgid "short Description"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:743
+#@ Awaken
+msgid "Team Profile Image"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:765
+#: include/theme-options/theme_options.php:1297
+#: include/theme-options/theme_options.php:1615
+#@ Awaken
+msgid "Facebook"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:773
+#@ Awaken
+msgid "Twitter Url"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:781
+#@ Awaken
+msgid "Google plus"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:789
+#@ Awaken
+msgid "Skype"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:903
+#@ Awaken
+msgid "Edit Twitter Options"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:912
+#@ Awaken
+msgid "User Name"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:926
+#@ Awaken
+msgid "No of Tweets"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:185
+#@ Awaken
+msgid "Edit Image Options"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:199
+#@ Awaken
+msgid "Image Style"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:203
+#: include/shortcodes/typography_elements.php:72
+#: include/shortcodes/typography_elements.php:449
+#: include/shortcodes/typography_elements.php:1236
+#: include/shortcodes/typography_elements.php:1756
+#@ Awaken
+msgid "Plain"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:212
+#@ Awaken
+msgid "Image Url"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:218
+#@ Awaken
+msgid "Browse the image"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:254
+#@ Awaken
+msgid "If you would like a caption to be shown below the image, add it here."
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:61
+#@ Awaken
+msgid "Edit Divider Option"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:71
+#@ Awaken
+msgid "Crossy"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:73
+#@ Awaken
+msgid "Zigzag"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:74
+#@ Awaken
+msgid "Small Zigzag"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:75
+#@ Awaken
+msgid "3 Box"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:81
+#@ Awaken
+msgid "Back to Top"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:88
+#@ Awaken
+msgid "set back to top from the dropdown"
+msgstr ""
+
+#: include/admin_functions.php:499
+#: include/shortcodes/typography_elements.php:93
+#@ Awaken
+msgid "Margin Top"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:98
+#@ Awaken
+msgid "set margin top for the divider in px"
+msgstr ""
+
+#: include/admin_functions.php:511
+#: include/shortcodes/typography_elements.php:103
+#@ Awaken
+msgid "Margin Bottom"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:108
+#@ Awaken
+msgid "set a margin bottom for the divider in px"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:950
+#: include/shortcodes/media_elements.php:90
+#: include/shortcodes/typography_elements.php:113
+#@ Awaken
+msgid "Height"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:118
+#@ Awaken
+msgid "set the divider height"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:322
+#@ Awaken
+msgid "Edit Flex Column Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:339
+#@ Awaken
+msgid "Column Text"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:428
+#@ Awaken
+msgid "Edit Dropcap Options"
+msgstr ""
+
+#: include/admin_functions.php:456
+#: include/shortcodes/typography_elements.php:448
+#@ Awaken
+msgid "Box"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:460
+#@ Awaken
+msgid "add your font size for the dropcap text"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:570
+#@ Awaken
+msgid "Edit Highlight Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:684
+#@ Awaken
+msgid "Edit Heading Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:699
+#@ Awaken
+msgid "Color Title"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:736
+#@ Awaken
+msgid "add font size number for the heading"
+msgstr ""
+
+#: include/admin_functions.php:362
+#: include/shortcodes/typography_elements.php:746
+#@ Awaken
+msgid "Center"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:749
+#@ Awaken
+msgid "Align the content position"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:754
+#@ Awaken
+msgid "Divider On/Off"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:761
+#@ Awaken
+msgid "set divider on/off for the list bottom border"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:766
+#@ Awaken
+msgid "Font Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:771
+#@ Awaken
+msgid "Italic"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:772
+#@ Awaken
+msgid "Oblique"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:774
+#@ Awaken
+msgid "select a font style from the drop down"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:779
+#@ Awaken
+msgid "Heading Color"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:784
+#@ Awaken
+msgid "heading color for the heading element"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:418
+#: include/shortcodes/typography_elements.php:790
+#@ Awaken
+msgid "Content Color"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:795
+#@ Awaken
+msgid "set a content color for the heading element"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:903
+#@ Awaken
+msgid "Edit List Style Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:920
+#@ Awaken
+msgid "List Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:926
+#@ Awaken
+msgid "Built"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:927
+#@ Awaken
+msgid "Decimal"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:928
+#@ Awaken
+msgid "Alphabatic"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:929
+#@ Awaken
+msgid "Numeric and Icon"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:932
+#@ Awaken
+msgid "set a list style from the dropdown"
+msgstr ""
+
+#: include/admin_functions.php:535
+#: include/shortcodes/typography_elements.php:937
+#@ Awaken
+msgid "Border Bottom"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:944
+#@ Awaken
+msgid "set on/off for the list bottom border "
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:968
+#@ Awaken
+msgid "List Item(s)"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:972
+#@ Awaken
+msgid "List Item"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1117
+#@ Awaken
+msgid "Edit Message Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1141
+#@ Awaken
+msgid "Message Type"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1145
+#@ Awaken
+msgid "Alert"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1148
+#@ Awaken
+msgid "Select the display type for the Message"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1153
+#@ Awaken
+msgid "Message Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1158
+#@ Awaken
+msgid "3D Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1198
+#@ Awaken
+msgid "Message Box Title"
+msgstr "پیام جعبه عنوان"
+
+#: include/shortcodes/typography_elements.php:1231
+#@ Awaken
+msgid "Style Type"
+msgstr "سبک نوع"
+
+#: include/shortcodes/typography_elements.php:1235
+#: include/shortcodes/typography_elements.php:1757
+#@ Awaken
+msgid "Fancy"
+msgstr "علاقه داشتن به"
+
+#: include/shortcodes/typography_elements.php:1242
+#@ Awaken
+msgid "Close Button"
+msgstr "دکمه بستن"
+
+#: include/shortcodes/typography_elements.php:1250
+#@ Awaken
+msgid "Set close button on/off"
+msgstr "تنظیم دکمه بستن روشن / خاموش"
+
+#: include/shortcodes/typography_elements.php:1256
+#@ Awaken
+msgid "Text"
+msgstr "متن"
+
+#: include/shortcodes/typography_elements.php:1736
+#@ Awaken
+msgid "Edit Contact Form Options"
+msgstr "ویرایش تنظیمات فرم تماس"
+
+#: include/shortcodes/typography_elements.php:1763
+#@ Awaken
+msgid "Label On/Off"
+msgstr "برچسب روشن / خاموش"
+
+#: include/shortcodes/typography_elements.php:1774
+#@ Awaken
+msgid "Send To"
+msgstr "فرستادن به"
+
+#: include/shortcodes/typography_elements.php:1778
+#@ Awaken
+msgid "add a email which you want to receive email"
+msgstr "اضافه کردن یک ایمیل که شما می خواهید برای دریافت ایمیل"
+
+#: include/shortcodes/typography_elements.php:1783
+#@ Awaken
+msgid "Success Message"
+msgstr "پیغام موفقیت"
+
+#: include/shortcodes/typography_elements.php:1787
+#@ Awaken
+msgid "set a meesage if your email sent successfully"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1792
+#@ Awaken
+msgid "Error Message"
+msgstr "پیغام خطا"
+
+#: include/shortcodes/typography_elements.php:1796
+#@ Awaken
+msgid "set a message for error message"
+msgstr "مجموعه یک پیام برای پیام خطا"
+
+#: include/page_builder.php:252
+#: include/post_meta.php:47
+#: include/theme-components/cs-woocommerce/product_meta.php:24
+#@ Awaken
+msgid "General Settings"
+msgstr ""
+
+#: include/page_builder.php:253
+#@ Awaken
+msgid "Sub header"
+msgstr ""
+
+#: include/page_builder.php:255
+#: include/post_meta.php:50
+#: include/theme-components/cs-woocommerce/product_meta.php:27
+#@ Awaken
+msgid "Seo Options"
+msgstr ""
+
+#: include/page_options.php:127
+#@ Awaken
+msgid "Choose Sub header"
+msgstr ""
+
+#: include/page_options.php:182
+#@ Awaken
+msgid "Sub Heading"
+msgstr ""
+
+#: include/page_options.php:192
+#: include/theme-options/theme_options.php:692
+#@ Awaken
+msgid "Breadcrumbs"
+msgstr ""
+
+#: include/page_options.php:203
+#@ Awaken
+msgid "Padding"
+msgstr ""
+
+#: include/page_options.php:211
+#@ Awaken
+msgid "Custom"
+msgstr ""
+
+#: include/admin_functions.php:475
+#: include/page_options.php:221
+#: include/theme-options/theme_options.php:657
+#@ Awaken
+msgid "Padding Top"
+msgstr ""
+
+#: include/page_options.php:225
+#@ Awaken
+msgid "Set the top padding (In PX)"
+msgstr ""
+
+#: include/admin_functions.php:487
+#: include/page_options.php:229
+#: include/theme-options/theme_options.php:666
+#@ Awaken
+msgid "Padding Bottom"
+msgstr ""
+
+#: include/page_options.php:233
+#@ Awaken
+msgid "Set the bottom padding (In PX)"
+msgstr ""
+
+#: include/page_options.php:271
+#@ Awaken
+msgid "Show Image"
+msgstr ""
+
+#: include/page_options.php:304
+#@ Awaken
+msgid "Parallax Background Image"
+msgstr ""
+
+#: include/page_options.php:318
+#: include/page_options.php:578
+#@ Awaken
+msgid "Select Slider"
+msgstr ""
+
+#: include/page_options.php:337
+#: include/page_options.php:599
+#@ Awaken
+msgid "Please select Revolution Slider if already included in package. Otherwise buy Sliders from"
+msgstr ""
+
+#: include/page_options.php:337
+#: include/page_options.php:599
+#@ Awaken
+msgid "Codecanyon"
+msgstr ""
+
+#: include/page_options.php:337
+#: include/page_options.php:599
+#@ Awaken
+msgid "But its optional"
+msgstr ""
+
+#: include/page_options.php:343
+#@ Awaken
+msgid "Select Slider Position"
+msgstr ""
+
+#: include/page_options.php:348
+#@ Awaken
+msgid "Below Header"
+msgstr ""
+
+#: include/page_options.php:349
+#@ Awaken
+msgid "Above Header"
+msgstr ""
+
+#: include/page_options.php:358
+#@ Awaken
+msgid "Custom Map Short Code"
+msgstr ""
+
+#: include/page_options.php:365
+#@ Awaken
+msgid "Please Add/Edit the short code for Map"
+msgstr ""
+
+#: include/page_options.php:374
+#: include/theme-options/theme_options.php:641
+#@ Awaken
+msgid "Header Border Color"
+msgstr ""
+
+#: include/admin_functions.php:313
+#: include/page_options.php:399
+#@ Awaken
+msgid "Background View"
+msgstr ""
+
+#: include/page_options.php:405
+#@ Awaken
+msgid "No Image"
+msgstr ""
+
+#: include/page_options.php:406
+#@ Awaken
+msgid "V1 Custom Background Image"
+msgstr ""
+
+#: include/page_options.php:407
+#@ Awaken
+msgid "V2 Big Image Zoom"
+msgstr ""
+
+#: include/page_options.php:408
+#@ Awaken
+msgid "V3 Fade Slider"
+msgstr ""
+
+#: include/page_options.php:409
+#@ Awaken
+msgid "V4 Left Slide"
+msgstr ""
+
+#: include/page_options.php:410
+#@ Awaken
+msgid "V6 Video"
+msgstr ""
+
+#: include/admin_functions.php:388
+#: include/page_options.php:419
+#: include/shortcodes/media_elements.php:72
+#@ Awaken
+msgid "Video Url"
+msgstr ""
+
+#: include/admin_functions.php:398
+#: include/page_options.php:426
+#@ Awaken
+msgid "Please enter Vimeo/Youtube Video Url"
+msgstr ""
+
+#: include/page_options.php:432
+#@ Awaken
+msgid "Choose Mute"
+msgstr ""
+
+#: include/page_options.php:467
+#@ Awaken
+msgid "Choose Slider/Gallery"
+msgstr ""
+
+#: include/page_options.php:489
+#@ Awaken
+msgid "Slider/Gallery images resolution should befull size. Create new Slider/Gallery from"
+msgstr ""
+
+#: include/page_options.php:489
+#@ Awaken
+msgid "here"
+msgstr ""
+
+#: include/page_options.php:528
+#@ Awaken
+msgid "Seo Description"
+msgstr ""
+
+#: include/page_options.php:538
+#@ Awaken
+msgid "Seo Keywords"
+msgstr ""
+
+#: include/page_options.php:563
+#: include/theme-options/theme_options.php:533
+#@ Awaken
+msgid "Header Background"
+msgstr ""
+
+#: include/page_options.php:570
+#@ Awaken
+msgid "Background Image / Background Color"
+msgstr ""
+
+#: include/page_options.php:652
+#@ Awaken
+msgid "Custom Classes"
+msgstr ""
+
+#: include/page_options.php:672
+#@ Awaken
+msgid "Sub Header Color"
+msgstr ""
+
+#: include/page_options.php:682
+#@ Awaken
+msgid "Header Color"
+msgstr ""
+
+#: include/page_options.php:736
+#@ Awaken
+msgid "Choose Sidebar"
+msgstr ""
+
+#: include/page_options.php:744
+#: include/theme-options/theme_options.php:1419
+#: include/theme-options/theme_options.php:1447
+#@ Awaken
+msgid "full width"
+msgstr ""
+
+#: include/page_options.php:748
+#@ Awaken
+msgid "Sidebar Right"
+msgstr ""
+
+#: include/page_options.php:752
+#@ Awaken
+msgid "Sidebar Left"
+msgstr ""
+
+#: include/admin_functions.php:591
+#: include/page_options.php:759
+#@ Awaken
+msgid "Select Left Sidebar"
+msgstr ""
+
+#: include/admin_functions.php:607
+#: include/admin_functions.php:626
+#: include/page_options.php:782
+#: include/page_options.php:813
+#@ Awaken
+msgid "Add New Sidebar"
+msgstr ""
+
+#: include/admin_functions.php:607
+#: include/admin_functions.php:626
+#: include/page_options.php:782
+#: include/page_options.php:813
+#@ Awaken
+msgid "Click Here"
+msgstr ""
+
+#: include/admin_functions.php:612
+#: include/page_options.php:788
+#@ Awaken
+msgid "Select Right Sidebar"
+msgstr ""
+
+#: include/page_options.php:880
+#@ Awaken
+msgid "Background Skin"
+msgstr ""
+
+#: include/page_options.php:886
+#@ Awaken
+msgid "Light"
+msgstr ""
+
+#: include/page_options.php:887
+#@ Awaken
+msgid "Dark"
+msgstr ""
+
+#: include/post_meta.php:48
+#: include/theme-components/cs-woocommerce/product_meta.php:25
+#@ Awaken
+msgid "Sub Header Options"
+msgstr ""
+
+#: include/post_meta.php:52
+#@ Awaken
+msgid "Post Settings"
+msgstr ""
+
+#: include/post_meta.php:173
+#@ Awaken
+msgid "Thumbnail View"
+msgstr ""
+
+#: include/post_meta.php:178
+#: include/post_meta.php:225
+#@ Awaken
+msgid "Single Image"
+msgstr ""
+
+#: include/post_meta.php:179
+#: include/post_meta.php:228
+#: include/shortcodes/shortcode_functions.php:1756
+#@ Awaken
+msgid "Slider"
+msgstr ""
+
+#: include/post_meta.php:184
+#: include/post_meta.php:233
+#@ Awaken
+msgid "Use Featured Image as Thumbnail"
+msgstr ""
+
+#: include/post_meta.php:188
+#: include/post_meta.php:237
+#@ Awaken
+msgid "Audio Url"
+msgstr ""
+
+#: include/post_meta.php:197
+#: include/post_meta.php:246
+#@ Awaken
+msgid "Enter Specific Audio URL (Youtube, Vimeo and all otheres wordpress supported)"
+msgstr ""
+
+#: include/post_meta.php:202
+#: include/post_meta.php:251
+#@ Awaken
+msgid "Thumbnail Video Url"
+msgstr ""
+
+#: include/post_meta.php:211
+#: include/post_meta.php:260
+#@ Awaken
+msgid "Enter Specific Video URL (Youtube, Vimeo and all otheres wordpress supported) OR you can select it from your media library"
+msgstr ""
+
+#: include/post_meta.php:220
+#@ Awaken
+msgid "Inside Post Thumbnail View"
+msgstr ""
+
+#: include/post_meta.php:226
+#@ Awaken
+msgid "Audio"
+msgstr ""
+
+#: include/post_meta.php:227
+#@ Awaken
+msgid "Video/Soundcloud"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:944
+#@ Awaken
+msgid "Edit Spacer Options"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:58
+#@ Awaken
+msgid "Edit Video Options"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:76
+#@ Awaken
+msgid "give the video url here"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:81
+#@ Awaken
+msgid "Width"
+msgstr "عرض"
+
+#: include/shortcodes/media_elements.php:85
+#@ Awaken
+msgid "Add a width in pix, If you want to override the default"
+msgstr "ارائه ارتفاع در پیکسل ، اگر می خواهید به نادیده گرفتن پیش فرض"
+
+#: include/shortcodes/media_elements.php:94
+#@ Awaken
+msgid "Provide height in px, if you want to override the default"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:342
+#@ Awaken
+msgid "Edit Promobox Options"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:363
+#@ Awaken
+msgid "Promo box Background image here"
+msgstr "هدایای تبلیغاتی تصویر جعبه سابقه و هدف در اینجا"
+
+#: include/shortcodes/media_elements.php:382
+#@ Awaken
+msgid "Background Repeat"
+msgstr "سابقه و هدف تکرار"
+
+#: include/shortcodes/media_elements.php:437
+#@ Awaken
+msgid "Link Title"
+msgstr "عنوان لینک"
+
+#: include/shortcodes/media_elements.php:445
+#@ Awaken
+msgid "Link Url"
+msgstr "لینک آدرس"
+
+#: include/shortcodes/media_elements.php:449
+#@ Awaken
+msgid "Give external&internal promo box Url"
+msgstr "را خارجی و داخلی آدرس جعبه های تبلیغاتی"
+
+#: include/shortcodes/media_elements.php:548
+#@ Awaken
+msgid "Edit Slider Options"
+msgstr "ویرایش تنظیمات لغزنده"
+
+#: include/shortcodes/media_elements.php:554
+#@ Awaken
+msgid "Slider Section Title"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:561
+#@ Awaken
+msgid "Please enter slider header title"
+msgstr "لطفا عنوان هدر کشویی وارد"
+
+#: include/shortcodes/media_elements.php:567
+#@ Awaken
+msgid "Choose Slider"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:203
+#@ Awaken
+msgid "Edit Tooltip Options"
+msgstr "یرایش تنظیمات ابزار"
+
+#: include/shortcodes/typography_elements.php:209
+#: include/shortcodes/typography_elements.php:217
+#@ Awaken
+msgid "Hover Title"
+msgstr "شناور عنوان"
+
+#: include/shortcodes/typography_elements.php:221
+#@ Awaken
+msgid "Top"
+msgstr "بالا"
+
+#: include/shortcodes/typography_elements.php:223
+#@ Awaken
+msgid "Bottom"
+msgstr "پایین"
+
+#: include/shortcodes/shortcode_functions.php:1583
+#@ Awaken
+msgid "Accordion"
+msgstr ""
+
+#: include/admin_functions.php:196
+#@ Awaken
+msgid "Filter by"
+msgstr ""
+
+#: include/admin_functions.php:198
+#@ Awaken
+msgid "Show all"
+msgstr ""
+
+#: include/admin_functions.php:223
+#@ Awaken
+msgid "Add Element"
+msgstr ""
+
+#: include/admin_functions.php:308
+#@ Awaken
+msgid "Edit Page Section"
+msgstr ""
+
+#: include/admin_functions.php:321
+#: include/admin_functions.php:376
+#@ Awaken
+msgid "Custom Slider"
+msgstr ""
+
+#: include/admin_functions.php:322
+#: include/shortcodes/shortcode_functions.php:1820
+#@ Awaken
+msgid "Video"
+msgstr ""
+
+#: include/admin_functions.php:353
+#@ Awaken
+msgid "Background Image Position"
+msgstr ""
+
+#: include/admin_functions.php:363
+#@ Awaken
+msgid "Repeat"
+msgstr ""
+
+#: include/admin_functions.php:404
+#@ Awaken
+msgid "Enable Mute"
+msgstr ""
+
+#: include/admin_functions.php:457
+#@ Awaken
+msgid "Wide"
+msgstr ""
+
+#: include/admin_functions.php:481
+#@ Awaken
+msgid "Set the Padding top (In px)"
+msgstr ""
+
+#: include/admin_functions.php:493
+#@ Awaken
+msgid "Set the Padding Bottom (In px)"
+msgstr ""
+
+#: include/admin_functions.php:505
+#: include/admin_functions.php:541
+#@ Awaken
+msgid "Set the Border Bottom (In px)"
+msgstr ""
+
+#: include/admin_functions.php:517
+#@ Awaken
+msgid "Set the Margin Bottom (In px)"
+msgstr ""
+
+#: include/admin_functions.php:523
+#@ Awaken
+msgid "Border Top"
+msgstr ""
+
+#: include/admin_functions.php:529
+#@ Awaken
+msgid "Set the Border top (In px)"
+msgstr ""
+
+#: include/admin_functions.php:568
+#@ Awaken
+msgid "Select Layout"
+msgstr ""
+
+#: include/admin_functions.php:712
+#@ Awaken
+msgid "Edit Event Options"
+msgstr ""
+
+#: include/admin_functions.php:717
+#@ Awaken
+msgid "Event Title"
+msgstr ""
+
+#: include/admin_functions.php:724
+#@ Awaken
+msgid "Event Page Title"
+msgstr ""
+
+#: include/admin_functions.php:730
+#@ Awaken
+msgid "Event Types"
+msgstr ""
+
+#: include/admin_functions.php:743
+#@ Awaken
+msgid "Select event type"
+msgstr ""
+
+#: include/admin_functions.php:764
+#@ Awaken
+msgid "Select View"
+msgstr ""
+
+#: include/admin_functions.php:770
+#@ Awaken
+msgid "Listing View"
+msgstr ""
+
+#: include/admin_functions.php:771
+#@ Awaken
+msgid "Timeline View"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1590
+#@ Awaken
+msgid "Blog"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1596
+#@ Awaken
+msgid "Sermon"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1609
+#@ Awaken
+msgid "Button"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1615
+#@ Awaken
+msgid "Call to Action"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1629
+#@ Awaken
+msgid "Form"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1635
+#@ Awaken
+msgid "Counter"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1641
+#@ Awaken
+msgid "Content Slider"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1647
+#@ Awaken
+msgid "Divider"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1653
+#@ Awaken
+msgid "Dropcap"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1659
+#@ Awaken
+msgid "Column"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1665
+#@ Awaken
+msgid "Heading"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1671
+#@ Awaken
+msgid "Highlight"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1677
+#@ Awaken
+msgid "Icons"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1683
+#@ Awaken
+msgid "Info box"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1689
+#@ Awaken
+msgid "Image Frame"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1695
+#@ Awaken
+msgid "List"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1714
+#@ Awaken
+msgid "Offer slider"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1726
+#@ Awaken
+msgid "Piecharts"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1732
+#@ Awaken
+msgid "Promobox"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1738
+#@ Awaken
+msgid "Pricetable"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1744
+#@ Awaken
+msgid "Quote"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1750
+#@ Awaken
+msgid "Register"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1762
+#@ Awaken
+msgid "Services"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1768
+#@ Awaken
+msgid "Team"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1774
+#@ Awaken
+msgid "Tooltip"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1790
+#@ Awaken
+msgid "Tabs"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1796
+#@ Awaken
+msgid "Toggle"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1802
+#@ Awaken
+msgid "Testimonials"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1808
+#@ Awaken
+msgid "Table"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1814
+#@ Awaken
+msgid "Tweets"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1826
+#@ Awaken
+msgid "Spacer"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1839
+#@ Awaken
+msgid "Project"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1856
+#@ Awaken
+msgid "cause"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1862
+#@ Awaken
+msgid "Latest Cause"
+msgstr ""
+
+#: include/theme-options/theme_options.php:210
+#: include/theme-options/theme_options.php:261
+#@ Awaken
+msgid "global"
+msgstr ""
+
+#: include/theme-options/theme_options.php:211
+#: include/theme-options/theme_options.php:227
+#@ Awaken
+msgid "Header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:213
+#: include/theme-options/theme_options.php:228
+#@ Awaken
+msgid "Footer"
+msgstr ""
+
+#: include/theme-options/theme_options.php:214
+#: include/theme-options/theme_options.php:1278
+#@ Awaken
+msgid "social icons"
+msgstr ""
+
+#: include/theme-options/theme_options.php:215
+#@ Awaken
+msgid "social sharing"
+msgstr ""
+
+#: include/theme-options/theme_options.php:216
+#: include/theme-options/theme_options.php:1372
+#@ Awaken
+msgid "custom code"
+msgstr ""
+
+#: include/theme-options/theme_options.php:220
+#@ Awaken
+msgid "color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:226
+#@ Awaken
+msgid "general"
+msgstr ""
+
+#: include/theme-options/theme_options.php:229
+#@ Awaken
+msgid "headings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:233
+#@ Awaken
+msgid "typography / fonts"
+msgstr ""
+
+#: include/theme-options/theme_options.php:239
+#@ Awaken
+msgid "Custom Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:240
+#: include/theme-options/theme_options.php:1120
+#@ Awaken
+msgid "font family"
+msgstr ""
+
+#: include/theme-options/theme_options.php:241
+#@ Awaken
+msgid "font size"
+msgstr ""
+
+#: include/theme-options/theme_options.php:245
+#: include/theme-options/theme_options.php:1393
+#@ Awaken
+msgid "sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options.php:253
+#: include/theme-options/theme_options.php:1469
+#@ Awaken
+msgid "SEO"
+msgstr ""
+
+#: include/theme-options/theme_options.php:266
+#@ Awaken
+msgid "Layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:268
+#@ Awaken
+msgid "Layout type"
+msgstr ""
+
+#: include/theme-options/theme_options.php:288
+#@ Awaken
+msgid "Background image"
+msgstr ""
+
+#: include/theme-options/theme_options.php:290
+#@ Awaken
+msgid "Choose from Predefined Background images."
+msgstr ""
+
+#: include/theme-options/theme_options.php:301
+#@ Awaken
+msgid "Background pattern"
+msgstr ""
+
+#: include/theme-options/theme_options.php:303
+#@ Awaken
+msgid "Choose from Predefined Pattern images."
+msgstr ""
+
+#: include/theme-options/theme_options.php:314
+#@ Awaken
+msgid "Custom image"
+msgstr ""
+
+#: include/theme-options/theme_options.php:316
+#@ Awaken
+msgid "This option can be used only with Boxed Layout."
+msgstr ""
+
+#: include/theme-options/theme_options.php:323
+#@ Awaken
+msgid "Background image position"
+msgstr ""
+
+#: include/theme-options/theme_options.php:325
+#@ Awaken
+msgid "Choose image position for body background"
+msgstr ""
+
+#: include/theme-options/theme_options.php:340
+#@ Awaken
+msgid "Custom favicon"
+msgstr ""
+
+#: include/theme-options/theme_options.php:342
+#@ Awaken
+msgid "Custom favicon for your site."
+msgstr ""
+
+#: include/theme-options/theme_options.php:349
+#@ Awaken
+msgid "Events Time Format"
+msgstr ""
+
+#: include/theme-options/theme_options.php:351
+#@ Awaken
+msgid "Select the time format for events"
+msgstr ""
+
+#: include/theme-options/theme_options.php:358
+#@ Awaken
+msgid "Smooth Scroll"
+msgstr ""
+
+#: include/theme-options/theme_options.php:360
+#@ Awaken
+msgid "Lightweight Script for Page Scrolling animation"
+msgstr ""
+
+#: include/theme-options/theme_options.php:369
+#@ Awaken
+msgid "Turn RTL ON/OFF here for Right to Left languages like Arabic etc."
+msgstr ""
+
+#: include/theme-options/theme_options.php:376
+#@ Awaken
+msgid "Responsive"
+msgstr ""
+
+#: include/theme-options/theme_options.php:378
+#@ Awaken
+msgid "Set responsive design layout for mobile devices ON/OFF here"
+msgstr ""
+
+#: include/theme-options/theme_options.php:388
+#@ Awaken
+msgid "header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:392
+#@ Awaken
+msgid "Attention for Header Position!"
+msgstr ""
+
+#: include/theme-options/theme_options.php:398
+#@ Awaken
+msgid "Logo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:400
+#@ Awaken
+msgid "Upload your custom logo in .png .jpg .gif formats only."
+msgstr ""
+
+#: include/theme-options/theme_options.php:405
+#@ Awaken
+msgid "Logo Height"
+msgstr ""
+
+#: include/theme-options/theme_options.php:407
+#@ Awaken
+msgid "Set exact logo height otherwise logo will not display normally."
+msgstr ""
+
+#: include/theme-options/theme_options.php:414
+#@ Awaken
+msgid "logo width"
+msgstr ""
+
+#: include/theme-options/theme_options.php:416
+#@ Awaken
+msgid "Set exact logo width otherwise logo will not display normally."
+msgstr ""
+
+#: include/theme-options/theme_options.php:424
+#@ Awaken
+msgid "Logo margin top and bottom"
+msgstr ""
+
+#: include/theme-options/theme_options.php:426
+#@ Awaken
+msgid "Logo spacing/margin from top and bottom."
+msgstr ""
+
+#: include/theme-options/theme_options.php:433
+#@ Awaken
+msgid "Logo margin left and right"
+msgstr ""
+
+#: include/theme-options/theme_options.php:435
+#@ Awaken
+msgid "Logo spacing/margin from left and right."
+msgstr ""
+
+#: include/theme-options/theme_options.php:442
+#@ Awaken
+msgid "Header Styles"
+msgstr ""
+
+#: include/theme-options/theme_options.php:444
+#@ Awaken
+msgid "Choose header style from the given options"
+msgstr ""
+
+#: include/theme-options/theme_options.php:458
+#@ Awaken
+msgid "Header Elements"
+msgstr ""
+
+#: include/theme-options/theme_options.php:464
+#@ Awaken
+msgid "Main Search"
+msgstr ""
+
+#: include/theme-options/theme_options.php:466
+#@ Awaken
+msgid "Set header search On/Off. Allow user to search site content."
+msgstr ""
+
+#: include/theme-options/theme_options.php:472
+#@ Awaken
+msgid "Login Options"
+msgstr ""
+
+#: include/theme-options/theme_options.php:474
+#@ Awaken
+msgid "Membership must be enabled from Dashboard Settings > General > Membership to allow user Registration "
+msgstr ""
+
+#: include/theme-options/theme_options.php:480
+#@ Awaken
+msgid "WPML"
+msgstr ""
+
+#: include/theme-options/theme_options.php:482
+#@ Awaken
+msgid "Set WordPress Multi Language switcher ON/OFF in header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:489
+#@ Awaken
+msgid "Sticky Header On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:492
+#@ Awaken
+msgid "If you enable this option , header will be fixed on top of your browser window."
+msgstr ""
+
+#: include/theme-options/theme_options.php:497
+#@ Awaken
+msgid "Tagline Text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:499
+#@ Awaken
+msgid "Enable/Disable Header Tagline Text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:504
+#@ Awaken
+msgid "Contribute now"
+msgstr ""
+
+#: include/theme-options/theme_options.php:506
+#@ Awaken
+msgid "Enable/Disable Contribute now  Button"
+msgstr ""
+
+#: include/theme-options/theme_options.php:511
+#@ Awaken
+msgid "Contribute now Button link"
+msgstr ""
+
+#: include/theme-options/theme_options.php:513
+#@ Awaken
+msgid "Enter the Contribute now Button Link"
+msgstr ""
+
+#: include/theme-options/theme_options.php:519
+#@ Awaken
+msgid "Header Position Settings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:525
+#@ Awaken
+msgid "Select Header Position"
+msgstr ""
+
+#: include/theme-options/theme_options.php:527
+#@ Awaken
+msgid "Select header position as Absolute OR Relative"
+msgstr ""
+
+#: include/theme-options/theme_options.php:535
+#@ Awaken
+msgid "Header settings made here will be implemented on default pages."
+msgstr ""
+
+#: include/theme-options/theme_options.php:543
+#: include/theme-options/theme_options.php:651
+#@ Awaken
+msgid "Please select Revolution Slider if already included in package. Otherwise buy Sliders from <a href='http://codecanyon.net/' target='_blank'>Codecanyon</a>. But its optional</p>"
+msgstr ""
+
+#: include/theme-options/theme_options.php:551
+#@ Awaken
+msgid "Upload your custom background image in .png .jpg .gif formats only."
+msgstr ""
+
+#: include/theme-options/theme_options.php:558
+#@ Awaken
+msgid "set header background color."
+msgstr ""
+
+#: include/theme-options/theme_options.php:563
+#@ Awaken
+msgid "Header Top Strip"
+msgstr ""
+
+#: include/theme-options/theme_options.php:570
+#@ Awaken
+msgid "Header Strip"
+msgstr ""
+
+#: include/theme-options/theme_options.php:572
+#@ Awaken
+msgid "Enable/Disable header top strip."
+msgstr ""
+
+#: include/theme-options/theme_options.php:578
+#@ Awaken
+msgid "Social Icon"
+msgstr ""
+
+#: include/theme-options/theme_options.php:580
+#@ Awaken
+msgid "Enable/Disable social icon. Add icons from General > social icon"
+msgstr ""
+
+#: include/theme-options/theme_options.php:588
+#@ Awaken
+msgid "Menu location can be set from Appearance > Menu > Manage Menu Locations."
+msgstr ""
+
+#: include/theme-options/theme_options.php:593
+#@ Awaken
+msgid "Cart Count"
+msgstr ""
+
+#: include/theme-options/theme_options.php:595
+#@ Awaken
+msgid "Enable/Disable Cart Count."
+msgstr ""
+
+#: include/theme-options/theme_options.php:602
+#@ Awaken
+msgid "Write phone no, email or address for Header top strip"
+msgstr ""
+
+#: include/theme-options/theme_options.php:606
+#@ Awaken
+msgid "Header addsense"
+msgstr ""
+
+#: include/theme-options/theme_options.php:608
+#@ Awaken
+msgid "Embed Image/Google addsense Code"
+msgstr ""
+
+#: include/theme-options/theme_options.php:614
+#@ Awaken
+msgid "sub header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:618
+#@ Awaken
+msgid "Announcement!"
+msgstr ""
+
+#: include/theme-options/theme_options.php:626
+#@ Awaken
+msgid "Sub Header settings made here will be implemented on all pages."
+msgstr ""
+
+#: include/theme-options/theme_options.php:632
+#@ Awaken
+msgid "Content Padding"
+msgstr ""
+
+#: include/theme-options/theme_options.php:634
+#@ Awaken
+msgid "Choose default or custom padding for sub header content."
+msgstr ""
+
+#: include/theme-options/theme_options.php:659
+#@ Awaken
+msgid "Set custom padding for sub header content top area."
+msgstr ""
+
+#: include/theme-options/theme_options.php:668
+#@ Awaken
+msgid "Set custom padding for sub header content bottom area."
+msgstr ""
+
+#: include/theme-options/theme_options.php:675
+#@ Awaken
+msgid "Content Text Align"
+msgstr ""
+
+#: include/theme-options/theme_options.php:677
+#@ Awaken
+msgid "select the text Alignment for sub header content."
+msgstr ""
+
+#: include/theme-options/theme_options.php:683
+#@ Awaken
+msgid "Page Title"
+msgstr ""
+
+#: include/theme-options/theme_options.php:685
+#@ Awaken
+msgid "Set page title On/Off in sub header"
+msgstr ""
+
+#: include/theme-options/theme_options.php:721
+#@ Awaken
+msgid "Background"
+msgstr ""
+
+#: include/theme-options/theme_options.php:729
+#@ Awaken
+msgid "Parallax"
+msgstr ""
+
+#: include/theme-options/theme_options.php:739
+#@ Awaken
+msgid "footer options"
+msgstr ""
+
+#: include/theme-options/theme_options.php:743
+#@ Awaken
+msgid "Footer section"
+msgstr ""
+
+#: include/theme-options/theme_options.php:745
+#@ Awaken
+msgid "enable/disable footer area"
+msgstr ""
+
+#: include/theme-options/theme_options.php:750
+#@ Awaken
+msgid "Footer Widgets"
+msgstr ""
+
+#: include/theme-options/theme_options.php:752
+#@ Awaken
+msgid "enable/disable footer widget area"
+msgstr ""
+
+#: include/theme-options/theme_options.php:759
+#@ Awaken
+msgid "Social Icons"
+msgstr ""
+
+#: include/theme-options/theme_options.php:761
+#@ Awaken
+msgid "enable/disable Social Icons"
+msgstr ""
+
+#: include/theme-options/theme_options.php:767
+#@ Awaken
+msgid "enable/disable Footer Menu"
+msgstr ""
+
+#: include/theme-options/theme_options.php:771
+#@ Awaken
+msgid "NewsLetter Signup"
+msgstr ""
+
+#: include/theme-options/theme_options.php:773
+#@ Awaken
+msgid "enable/disable NewsLetter Signup area"
+msgstr ""
+
+#: include/theme-options/theme_options.php:778
+#@ Awaken
+msgid "footer logo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:780
+#@ Awaken
+msgid "set custom footer logo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:785
+#@ Awaken
+msgid "Footer Background Image"
+msgstr ""
+
+#: include/theme-options/theme_options.php:787
+#@ Awaken
+msgid "Set custom Footer Background Image"
+msgstr ""
+
+#: include/theme-options/theme_options.php:791
+#@ Awaken
+msgid "copyright text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:793
+#: include/theme-options/theme_options.php:1790
+#@ Awaken
+msgid "write your own copyright text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:799
+#@ Awaken
+msgid "Footer Twitter Options"
+msgstr ""
+
+#: include/theme-options/theme_options.php:806
+#@ Awaken
+msgid "Footer Twitter Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:808
+#@ Awaken
+msgid "Set Footer Twitter Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:814
+#@ Awaken
+msgid "footer twitter"
+msgstr ""
+
+#: include/theme-options/theme_options.php:816
+#@ Awaken
+msgid "set footer twitter on/off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:822
+#@ Awaken
+msgid "twitter username"
+msgstr ""
+
+#: include/theme-options/theme_options.php:824
+#@ Awaken
+msgid "set footer twitter username"
+msgstr ""
+
+#: include/theme-options/theme_options.php:831
+#@ Awaken
+msgid "twitter no. of tweets"
+msgstr ""
+
+#: include/theme-options/theme_options.php:833
+#@ Awaken
+msgid "set number of tweets such as 5"
+msgstr ""
+
+#: include/theme-options/theme_options.php:841
+#@ Awaken
+msgid "general colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:845
+#@ Awaken
+msgid "Theme Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:847
+#@ Awaken
+msgid "Choose theme skin color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:855
+#@ Awaken
+msgid "Choose Body Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:861
+#@ Awaken
+msgid "Body Text Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:863
+#@ Awaken
+msgid "Choose text color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:870
+#@ Awaken
+msgid "header colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:874
+#@ Awaken
+msgid "top strip colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:882
+#@ Awaken
+msgid "Change Top Strip background color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:890
+#@ Awaken
+msgid "Change Top Strip text color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:896
+#@ Awaken
+msgid "Link Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:898
+#@ Awaken
+msgid "Change Top Strip link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:907
+#@ Awaken
+msgid "Header Colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:915
+#@ Awaken
+msgid "Change Header background color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:920
+#@ Awaken
+msgid "Navigation Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:922
+#@ Awaken
+msgid "Change Header Navigation Background color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:930
+#@ Awaken
+msgid "Menu Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:932
+#@ Awaken
+msgid "Change Header Menu Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:938
+#@ Awaken
+msgid "Menu Active Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:940
+#@ Awaken
+msgid "Change Header Menu Active Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:947
+#@ Awaken
+msgid "Submenu Background"
+msgstr ""
+
+#: include/theme-options/theme_options.php:949
+#@ Awaken
+msgid "Change Submenu Background color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:955
+#@ Awaken
+msgid "Submenu Link Color "
+msgstr ""
+
+#: include/theme-options/theme_options.php:957
+#@ Awaken
+msgid "Change Submenu Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:963
+#@ Awaken
+msgid "Submenu Hover Link Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:965
+#@ Awaken
+msgid "Change Submenu Hover Link color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:974
+#@ Awaken
+msgid "footer colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:978
+#@ Awaken
+msgid "Footer Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:986
+#@ Awaken
+msgid "Footer Title Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:994
+#@ Awaken
+msgid "Footer Text Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1002
+#@ Awaken
+msgid "Footer Link Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1010
+#@ Awaken
+msgid "Footer Widget Background Color"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1018
+#@ Awaken
+msgid "Copyright Text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1027
+#@ Awaken
+msgid "heading colors"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1031
+#@ Awaken
+msgid "heading h1"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1039
+#@ Awaken
+msgid "heading h2"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1047
+#@ Awaken
+msgid "heading h3"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1055
+#@ Awaken
+msgid "heading h4"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1063
+#@ Awaken
+msgid "heading h5"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1071
+#@ Awaken
+msgid "heading h6"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1082
+#@ Awaken
+msgid "Custom Fonts"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1087
+#@ Awaken
+msgid "Custom Font .woff"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1089
+#@ Awaken
+msgid "Custom font for your site upload .woff format file."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1095
+#@ Awaken
+msgid "Custom Font .ttf"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1097
+#@ Awaken
+msgid "Custom font for your site upload .ttf format file."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1103
+#@ Awaken
+msgid "Custom Font .svg"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1105
+#@ Awaken
+msgid "Custom font for your site upload .svg format file."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1111
+#@ Awaken
+msgid "Custom Font .eot"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1113
+#@ Awaken
+msgid "Custom font for your site upload .eot format file."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1124
+#@ Awaken
+msgid "Content Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1126
+#@ Awaken
+msgid "Set fonts for Body text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1132
+#@ Awaken
+msgid "Content Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1134
+#: include/theme-options/theme_options.php:1150
+#: include/theme-options/theme_options.php:1166
+#: include/theme-options/theme_options.php:1182
+#@ Awaken
+msgid "Set Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1140
+#@ Awaken
+msgid "Main Menu Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1142
+#@ Awaken
+msgid "Set font for main Menu. It will be applied to sub menu as well"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1148
+#@ Awaken
+msgid "Main Menu Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1156
+#@ Awaken
+msgid "Headings Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1158
+#@ Awaken
+msgid "Select font for Headings. It will apply on all posts and pages headings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1164
+#@ Awaken
+msgid "Headings Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1172
+#@ Awaken
+msgid "Widget Headings Font"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1174
+#@ Awaken
+msgid "Set font for Widget Headings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1180
+#@ Awaken
+msgid "Widget Headings Font Attribute"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1189
+#@ Awaken
+msgid "Font size"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1212
+#@ Awaken
+msgid "Heading 1"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1221
+#@ Awaken
+msgid "Heading 2"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1230
+#@ Awaken
+msgid "Heading 3"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1239
+#@ Awaken
+msgid "Heading 4"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1248
+#@ Awaken
+msgid "Heading 5"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1257
+#@ Awaken
+msgid "Heading 6"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1267
+#@ Awaken
+msgid "Widget Heading"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1282
+#@ Awaken
+msgid "Social Network"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1293
+#@ Awaken
+msgid "social Sharing"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1304
+#: include/theme-options/theme_options.php:1565
+#@ Awaken
+msgid "Twitter"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1311
+#@ Awaken
+msgid "Google Plus"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1318
+#@ Awaken
+msgid "Pinterest"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1325
+#@ Awaken
+msgid "Tumblr"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1332
+#@ Awaken
+msgid "Dribbble"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1339
+#@ Awaken
+msgid "Instagram"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1346
+#@ Awaken
+msgid "StumbleUpon"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1353
+#@ Awaken
+msgid "youtube"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1360
+#@ Awaken
+msgid "share more"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1376
+#@ Awaken
+msgid "Custom Css"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1378
+#@ Awaken
+msgid "write you custom css without style tag"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1384
+#@ Awaken
+msgid "Custom JavaScript"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1386
+#@ Awaken
+msgid "write you custom js without script tag"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1397
+#: include/theme-options/theme_options.php:1452
+#@ Awaken
+msgid "Sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1399
+#@ Awaken
+msgid "Select a sidebar from the list already given. (Nine pre-made sidebars are given)"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1406
+#@ Awaken
+msgid "post layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1412
+#@ Awaken
+msgid "Single Post Layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1414
+#@ Awaken
+msgid "Use this option to set default layout. It will be applied to all posts"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1420
+#: include/theme-options/theme_options.php:1448
+#@ Awaken
+msgid "sidebar left"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1421
+#: include/theme-options/theme_options.php:1449
+#@ Awaken
+msgid "sidebar right"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1425
+#@ Awaken
+msgid "Single Layout Sidebar"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1427
+#@ Awaken
+msgid "Select Single Post Layout of your choice for sidebar layout. You cannot select it for full width layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1434
+#@ Awaken
+msgid "default pages"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1440
+#@ Awaken
+msgid "Default Pages Layout"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1442
+#@ Awaken
+msgid "Set Sidebar for all pages like Search, Author Archive, Category Archive etc"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1454
+#@ Awaken
+msgid "Select pre-made sidebars for default pages on sidebar layout. Full width layout cannot have sidebars"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1460
+#@ Awaken
+msgid "Excerpt"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1462
+#@ Awaken
+msgid "Set excerpt length/limit from here. It controls text limit for post's content"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1479
+#@ Awaken
+msgid "Built-in SEO fields"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1481
+#@ Awaken
+msgid "Turn SEO options On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1486
+#@ Awaken
+msgid "Meta Description"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1488
+#@ Awaken
+msgid "HTML attributes that explain the contents of web pages commonly used on search engine result pages (SERPs) for pages snippets"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1494
+#@ Awaken
+msgid "Meta Keywords"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1496
+#@ Awaken
+msgid "Attributes of meta tags, a list of comma-separated words included in the HTML of a Web page that describe the topic of that page"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1502
+#@ Awaken
+msgid "Google Analytics"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1504
+#@ Awaken
+msgid "Google Analytics is a service offered by Google that generates detailed statistics about a website's traffic, traffic sources, measures conversions and sales. Paste Google Analytics code here"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1511
+#: include/theme-options/theme_options.php:1518
+#@ Awaken
+msgid "Maintenance Mode"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1522
+#@ Awaken
+msgid "Maintenace Page"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1524
+#@ Awaken
+msgid "Users will see Maintenance page & logged in Admin will see normal site."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1529
+#@ Awaken
+msgid "Show Logo"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1531
+#@ Awaken
+msgid "Show/Hide logo on Maintenance. Logo can be uploaded from General > Header in CS Theme options."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1536
+#@ Awaken
+msgid "Maintenance Text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1538
+#@ Awaken
+msgid "Text for Maintenance page. Insert some basic HTML or use shortcodes here."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1544
+#@ Awaken
+msgid "Launch Date"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1546
+#@ Awaken
+msgid "Estimated date for completion of site on Maintenance page."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1553
+#@ Awaken
+msgid "api settings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1561
+#@ Awaken
+msgid "all api settings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1571
+#@ Awaken
+msgid "Attention for API Settings!"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1573
+#@ Awaken
+msgid "API Settings allows admin of the site to show their activity on site semi-automatically. Set your social account API once, it will be update your social activity automatically on your site."
+msgstr ""
+
+#: include/theme-options/theme_options.php:1576
+#@ Awaken
+msgid "Show Twitter"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1578
+#@ Awaken
+msgid "Turn Twitter option On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1583
+#@ Awaken
+msgid "Consumer Key"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1590
+#@ Awaken
+msgid "Consumer Secret"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1592
+#@ Awaken
+msgid "Insert consumer key. To get your account key, <a href='https://dev.twitter.com/' target='_blank'>Click Here </a>"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1597
+#@ Awaken
+msgid "Access Token"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1599
+#@ Awaken
+msgid "Insert Twitter Access Token for permissions. When you create your Twitter App, you get this Token"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1604
+#@ Awaken
+msgid "Access Token Secret"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1606
+#@ Awaken
+msgid "Insert Twitter Access Token Secret here. When you create your Twitter App, you get this Token"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1621
+#@ Awaken
+msgid "Facebook Login On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1623
+#@ Awaken
+msgid "Turn Facebook Login ON/OFF"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1629
+#@ Awaken
+msgid "Facebook Application ID"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1631
+#@ Awaken
+msgid "To get your Facebook Aplication ID <a href='https://developers.facebook.com/docs/graph-api/reference/v2.1/app' target='_blank'>Click Here </a>"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1636
+#@ Awaken
+msgid "Facebook  Secret"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1638
+#@ Awaken
+msgid "Put your Facebook Secret here. You can find it in your facebook Application Dashboard"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1645
+#@ Awaken
+msgid "Google"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1651
+#@ Awaken
+msgid "Google+ Login On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1653
+#@ Awaken
+msgid "Turn Google+ Login ON/OFF"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1659
+#@ Awaken
+msgid "Google+ Client Id"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1661
+#@ Awaken
+msgid "Type your Google Login information here"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1666
+#@ Awaken
+msgid "Google+ Client Secret"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1673
+#@ Awaken
+msgid "Google+ API key"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1680
+#@ Awaken
+msgid "Fixed redirect url for login"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1689
+#@ Awaken
+msgid "MailChimp"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1695
+#@ Awaken
+msgid "MailChimp Key"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1697
+#@ Awaken
+msgid "Get your mailchimp key by <a href='https://login.mailchimp.com/' target='_blank'>Clicking Here </a>"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1703
+#@ Awaken
+msgid "MailChimp List"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1712
+#@ Awaken
+msgid "Flickr API Setting"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1718
+#@ Awaken
+msgid "Flickr key"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1724
+#@ Awaken
+msgid "Flickr secret"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1736
+#: include/theme-options/theme_options.php:1743
+#@ Awaken
+msgid "Cause settings"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1747
+#@ Awaken
+msgid "User Profile Page"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1749
+#@ Awaken
+msgid "Select page for user profile here"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1755
+#@ Awaken
+msgid "Allow Campaigns From Frontend"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1757
+#@ Awaken
+msgid "Allow Non Admins to Create Campaigns From Frontend"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1763
+#@ Awaken
+msgid "New Campaigns Status"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1765
+#@ Awaken
+msgid "New Campaigns Visibility. You can set default status of user compaigns"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1774
+#@ Awaken
+msgid "Campaigns Description"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1776
+#@ Awaken
+msgid "It will display on User Campaigns Listing"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1781
+#@ Awaken
+msgid "Add New Campaigns Text"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1783
+#@ Awaken
+msgid "It will display on Add Campaigns Page"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1788
+#@ Awaken
+msgid "Campaigns Terms & Conditions"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1798
+#@ Awaken
+msgid "Paypal Sandbox"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1800
+#@ Awaken
+msgid "Paypal Sandbox On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1806
+#@ Awaken
+msgid "Donor Registeration"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1808
+#@ Awaken
+msgid "User Registeration For Donation On/Off"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1814
+#@ Awaken
+msgid "Paypal Email"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1821
+#@ Awaken
+msgid "Paypal Ipn Url"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1834
+#@ Awaken
+msgid "Currency"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1836
+#@ Awaken
+msgid "Currency Code"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1842
+#@ Awaken
+msgid "Currency Sign"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1844
+#@ Awaken
+msgid "Use Currency Sign eg: &pound;,&yen;"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1852
+#: include/theme-options/theme_options.php:1859
+#@ Awaken
+msgid "import & export"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1865
+#@ Awaken
+msgid "If you want to make changes in your site or want to preserve your current settings, Export them code by saving this code with you. You can restore your settings by pasting this code in Import section below "
+msgstr ""
+
+#: include/theme-options/theme_options.php:1871
+#@ Awaken
+msgid "Import"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1873
+#@ Awaken
+msgid "To Import your settings, paste the code that you got in above area and saved it with you"
+msgstr ""
+

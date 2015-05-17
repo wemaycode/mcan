@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">events</custom-type>
+ 		<custom-type translate="1">project</custom-type>
+		<custom-type translate="1">sermons</custom-type>
+  	</custom-types>
+	
+	<taxonomies>
+		<taxonomy translate="1">event-category</taxonomy>
+		<taxonomy translate="1">event-tag</taxonomy>
+ 		<taxonomy translate="1">project-category</taxonomy>
+		<taxonomy translate="1">project-tag</taxonomy>
+		<taxonomy translate="1">sermon-category</taxonomy>
+		<taxonomy translate="1">sermon-tag</taxonomy>
+ 	</taxonomies>
+</wpml-config>

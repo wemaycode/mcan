@@ -1,0 +1,483 @@
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+	.col-md-4, .col-md-3 { width: 50% !important; }
+	.main-section .page-content .jp-progress {width: 62%;}
+	.main-section .prev-next-post .col-md-6 {width: 50%;}
+	.post-recent .col-md-12, .element-size-50 .col-md-3 {width: 100% !important; }
+	.main-section .cs-causes .btn-style1 {margin-top: 28px; float: right;}
+	.main-section .causes-classic .cs-progres-bar {width: 65%;}
+	.main-section .cs-causes.causes-medium .cs-progres-bar {width: 100%;}
+	.main-section .causes-detail .post-option {float: left;}
+	.col-md-9 {width: 67%}
+
+	.main-section .page-content, .main-section .page-content ~ .page-sidebar, .col-md-12, .main-section .image-frame figure, body .wrapper.wrapper_boxed, .widget-projects .cs-listing {width: 100%;}
+	.main-section .col-md-3.left-sec { width: 33.33% !important;}
+	.element-size-25 {width: 50% !important;}
+	.col-md-2 { width: 33.33%;}
+	.no-clients-border .col-md-2 {width: 16%;}
+	.col-md-5, .col-md-7, .col-md-6 {width: 50%;}
+	.main-section .widget {width: 50%; padding: 0 15px;}
+	.main-section.image-frame section {overflow: inherit;}
+	.main-section .image-frame figure {margin-bottom: 20px;}
+	footer .footer-nav { float: left; }
+	.main-section .cs-services.classic figure ~ .text {padding-left: 75px;}
+	footer .cs-donation-form ul li {width: 88px;}
+	.main-section .cs-testimonial figure {width: 44px;}
+	.main-section .under-wrapp .user-signup label.submit-btn {right: 15px !important; left: auto;}
+	/*============ Event Start ============ */
+	.main-section .element-size-25 .events-classic figure ~ .left-sp { padding-left: 176px; }
+	.main-section .messagebox-v3 .custom-btn {position: relative; right: 0px; bottom: 0px; float: right;}
+	.main-section .messagebox-v3 p { margin-bottom: 10px;}
+	/*============ Cs Causes Start ============ */
+	.main-section .causes-medium .btn-style1 {margin-top: 10px;}
+	.main-section .element-size-50 .events-classic figure ~ .left-sp {padding: 0px;}
+	.main-section .element-size-50 .events-classic figure {width: 100%; margin-bottom: 15px;}
+	.main-section .promo-box { background-image:repeat; background-size: cover!important;}
+	/*============ Projects  Start ============ */
+	.main-section .element-size-50 .projects-classic .cs-media a, .main-section .element-size-50 .projects-classic .cs-media, .main-section .col-md-6 .projects-classic .cs-media a, .main-section .col-md-6 .projects-classic .cs-media  {width: 100%;}
+	.main-section .element-size-50 .cs-projects.projects-classic section, .main-section .col-md-6 .cs-projects.projects-classic section {margin: 0px;}
+	/*============ Sermon  Start ============ */
+	.main-section .element-size-50 .sermon-grid h2 { font-size: 12px!important;}
+	.main-section .element-size-50 .sermon-grid .post-links li { margin: 0 5px 5px 0;}
+	.main-section .element-size-50 .sermon-grid .post-links .btn-style2 { padding: 0 11px;}
+	#main-header .search-top.cs-searchv2 {margin-bottom: 10px;}
+	#main-header .navigation, #main-header .main-head .navigation {margin-top: 12px;}
+	.header_1 .main-head .navbar.navigation {margin-top: 0px !important; float: left !important;}
+	#main-header .search-top.cs-searchv2 { margin: 12px 0 10px 0;}
+	#main-header .logo-section .btn-style1 {margin: 8px 0 0 0;}
+	#main-header .navigation ul.mega-grid > li {width: 50% !important; float: left;}
+	/*============ Header Style ============ */
+	
+	.nav{ padding-left:20px; padding-right:20px; }
+	.navigation{ float:inherit !important; }
+	.navigation, .navigation ul li{  background:none !important; }
+	.navigation ul li ul.dropdown-menu{ margin:0 !important; padding:0 0 0 0px !important; float:left; border:0 !important; box-shadow:none; background:none !important; }
+	.navbar-nav .sub-menu .dropdown-menu li a{ display:inline-block; }
+	.sub-menu .dropdown-menu{visibility:visible !important; opacity:1 !important; box-shadow:none !important; }
+	.navbar-nav > li > .dropdown-menu, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu, .sub-menu .dropdown-menu, .mega-grid{ width:100%; position:relative !important; background-color:none !important; visibility:visible !important; opacity:1 !important; display:block !important; left:0; box-shadow:none; border:0;}
+	.mega-grid{box-shadow:none !important;float:left; background:none !important;}
+	.navbar-nav > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li > .dropdown-menu > li{ padding:0 !important;}
+	.mega-grid ul.dropdown-menu, .main-head .navigation ul.mega-grid > li{ width:100%; float:left;}
+	
+	.navbar-toggle.addclose {background-color: #ffffff; left: 14px; padding: 4px 10px; position: absolute; top: 12px; width: 45px; z-index: 110;}
+	.navbar-toggle.addclose .icon-bar {display: none;}.navbar-toggle.addclose:before {content: "\f00d";font-family: FontAwesome;color: #777;font-size: 16px;}
+	li.parentIcon > a:after {display: none;}
+
+	.navbar-default .navbar-toggle{ display:block !important;}
+	.navbar-nav > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li > .dropdown-menu > li{padding:0;}
+	.collapse{ display:none;}
+	.dropdown-menu li:last-child{ border-bottom:0 !important;}
+	.navigation .navbar-collapse{ overflow-x: inherit !important; overflow-y: inherit !important; position: absolute; top: 100%; left: 0; background: #fff; max-height: inherit; width: 100%; z-index: 999; }
+
+	.navigation .navbar-collapse.collapse { display:none !important;}
+	.navigation .navbar-collapse.collapse.in{ display:block !important;}
+	.navigation .navbar-collapse.in{ overflow-x:hidden !important; overflow-y:auto !important; }
+	.navigation .navbar-collapse.in .navbar-nav{height: 360px !important; overflow: auto !important;}
+
+	.navbar-default{ width: 100%;float: left;background-color: transparent;}
+	.navbar-collapse{ max-height:300px; width:100%; background:#fff;}
+	.navbar-toggle{ margin: 0px;}
+	.navbar-header {float: right;}
+	.navigation ul.mega-grid > li {padding: 0px;}
+	.navigation ul li > .dropdown-menu,.navigation .mega-grid {
+		-webkit-transform: translateX(0px);
+		   -moz-transform: translateX(0px);
+		    -ms-transform: translateX(0px);
+		     -o-transform: translateX(0px);
+		        transform: translateX(0px);
+		-webkit-transition: none;
+		   -moz-transition: none;
+		    -ms-transition: none;
+		     -o-transition: none;
+		        transition: none;
+	}
+	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #fff !important;}
+	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0.5) !important; float: left; padding-left: 15px !important; width: 100%; }
+	/*============ Header Style ============ */
+	.main-section .upload-file li textarea {width: 94%;}
+
+	/* Rtl Responsive Style */
+	.rtl .main-section .cs-causes .btn-style1 {float: right !important;}
+	.rtl .main-section .cs-causes.causes-medium figure ~ section {padding: 10px 0 0 0; width: 100%; float: left;}
+	.rtl footer .footer-nav {width: 100%;}
+	.rtl .copyright .socialmedia {float: left!important; padding: 10px 0 0 0;}
+	.rtl .main-section .element-size-50 .cs-projects.projects-classic section, .rtl .main-section .col-md-6 .cs-projects.projects-classic section {margin: 0;}
+	.rtl .cs_counter, .rtl .call-actions .cell.text-area {text-align: center;}
+	.rtl .main-section .cs-services.classic figure ~ .text {width: 100%; float: left; padding: 0;}
+	#main-header .main-navbar .left-side {width: auto;}
+	.rtl .row {margin-right: -5px;}
+	.rtl .liststyle {padding: 0 15px 0 0;}
+	.rtl footer.group {padding: 0 5px 0 0;}
+	.rtl .navigation ul li {width: 100%;}
+	footer .footer-nav {float: left; width: 100%;}
+	
+}
+	
+
+
+/*============ Media 420Px Start ============ */
+@media (max-width: 767px) {
+	
+	.element-size-50,
+	.element-size-33,
+	.element-size-75,
+	.element-size-67,
+	.page-content,
+	.page-sidebar, 
+	.page-sidebar ~ .page-content,
+	.element-size-100 .col-md-12,
+	.element-size-75 .col-md-12,
+	.element-size-67 .col-md-12,
+	.element-size-50 .col-md-12,
+	.element-size-25 .col-md-12,
+	.element-size-33 .col-md-12,
+	.content-left, .col-md-12, .page-content, footer [class*="col-md-"], .col-md-6, body .wrapper.wrapper_boxed, .cs-login-sec .modal-dialog, .cs-signup .footer-element, .cs-signup .header-element, .col-md-9, .col-md-3.left-sec  { width: 100% !important; }
+	.col-md-4, .rtl .col-md-3, .col-md-3, .col-md-2, .element-size-25 { width: 50% !important; }
+	.main-section .page-content {padding-right: 0px;}
+	/* ======== CS Login sec Start ======== */
+	.main-section .logo-section .left-side, .main-section .events-classic figure, .main-section .cs-causes.latest-causes section, .main-section .main-navbar .right-side, .main-section .single-sermone,
+	.main-section .call-actions .cell.text-area, .main-section .cell.icon, .main-section .call-actions .cell.heading, .widget-projects .cs-listing
+	 { width: 100%; }
+	 .pageinfo h1 { font-size: 20px !important; }
+	/* ======== CS Login sec Start ======== */
+	.cs-login-sec .modal-dialog {padding: 15px;}
+	/* top Start */
+	#main-header .top-bar .left-side, #main-header .top-bar .right-side, #main-header .logo-section .left-side  { display: inline-block; text-align: center;}
+	#main-header .top-bar .left-side { margin: 10px 0 0px 0;}
+	#main-header .top-bar .left-side p a {line-height: 24px;}
+	#main-header .logo-section .left-side, #main-header .top-bar .right-side, #main-header .logo-section .left-side {width: 100%;}
+	#main-header .search-top.cs-searchv2 { margin: 12px 0 10px 0;}
+    #main-header .main-navbar .right-side {margin-bottom: 10px;}
+    #main-header .top-bar .cs-login-sec, #main-header .top-bar .socialmedia {display: inline-block; float: none;}
+    #main-header .top-bar .left-side p, #main-header .cs-login-sec > ul > li #main-header .top-bar .socialmedia {padding: 0px;}
+    .main-section .single-sermone .srtitle, .main-section .single-sermone .sr-info-sec {display: inline-block;}
+    #main-header .navigation {margin-top: 12px;}
+    .header_1 .main-head .navbar.navigation {margin-top: -3px; float: left !important;}
+    #main-header .header_4 .search-top {margin-top: 12px;}
+    #main-header .logo-section .right-side { display: inline-block; float: none; text-align: center; width: 100%;}
+    #main-header .main-head .navigation {margin-top: 0px;}
+    #main-header .navbar-toggle {margin: 0 !important;}
+    #main-header .navigation ul.mega-grid > li {width: 50% !important; float: left;}
+
+	/* ======== Align Center Start ======== */
+	#main-header .top-bar .right-side, #main-header .top-bar .left-side, #main-header .top-bar, .main-section .right-side, .main-section .single-sermone, #main-header .top-bar .socialmedia, .main-section .logo-section .left-side, .main-section .copyright  
+	{ text-align: center;}
+	/* ======== Float None Start ======== */
+	 #main-headern .top-bar .socialmedia, #main-header .top-bar .cs-login-sec, #main-header .top-bar .left-side, #main-header .logo-section p, #main-header .logo-section .logo, .main-section .search-top, .main-section .copyright .socialmedia, .main-section .copyright .signup, .main-section .top-bar .top-nav, .main-section .single-sermon,
+	.main-section .cs-sermons.single-sermone .btn-style1, .main-section .copyright, .main-section .copyright .footer-nav ul  { float: none !important; }
+	#main-header .top-bar .right-side,  .main-section .events-classic figure ~ .left-sp, footer .footer-nav, .main-section .skills-v2 .skillbar { float: left;}
+	/* ======== Display Start ======== */
+	/* Spreater Start */.spreater { width: 300px; }
+	.main-section .main-navbar .right-side, .main-section .events-classic figure { margin-bottom: 10px; }
+	/* ======== Events Start ======== */
+	.main-section .events-classic figure ~ .left-sp { padding: 0px;}
+	.rtl .main-section .events-classic figure ~ .left-sp {float: right;}
+	/* ======== Blog  Start ======== */
+	.main-section .cs-blog-grid time ~ .title { padding-left: 65px; }
+	.rtl .main-section .cs-blog-grid time ~ .title { padding: 0 65px 0 0; }
+	/* ======== Single Sermone Start ======== */
+	.main-section .sr-info-sec { margin-bottom: 10px;}
+	/* ======== Blog Start ======== */
+	.main-section .blog-small .cs-media ~ section, .main-section .page-content, .main-section .blog-medium .cs-media ~ section { padding-left: 0px; }
+	.main-section .cs-blog .cs-media, .main-section .cs-blog .cs-media figure, .main-section .skills-v2 span, .main-section .skills-v2 .skillbar { width: 100%;}
+	.main-section .blog-small time ~ .title, .main-section .blog-medium time ~ .title {overflow: inherit; padding-left: 80px;}
+	.main-section .blog-medium img {max-width: 100%;}
+	.main-section .blog-clean .cs-media {width: auto;}
+	.main-section .cs-blog-grid h2 {font-size: 16px !important;}
+	.main-section .cs-blog.blog-elite .bloginfo { margin: -50px 15px 0 15px;}
+	.main-section .blog-timeline section { padding:0px;}
+	.main-section .blog-timeline .cs-media, .main-section .cs-blog-classic .post-option li {margin-bottom: 10px;}
+	.blog-small .cs-media ~ section { padding: 0px;}
+	.main-section .cs-blog-grid .flexslider { margin-bottom: 15px;}
+	.main-section .blog-small .cs-media ~ section {padding: 0;}
+	.main-section .pagination ul li {margin-bottom: 3px;}
+	.main-section .owl-carousel.content-slider {padding: 0 15px;}
+	/* ======== Event Start ======== */
+	.main-section .cs-events .cstime { width: 100%;}
+	.main-section .cs-events .ev-inn section { overflow: inherit; float: left; padding: 0px; margin-bottom: 15px;}
+	.main-section .cs-events .cstime i {margin-right: 8px;}
+	.main-section .cs-events .cstime span {float: left;}
+	/* ======== Abiut us Start ======== */
+	.main-section .image-frame section { overflow: inherit;}
+	.main-section .image-frame { padding: 0 15px;}
+	.main-section .image-frame figure { margin-right: 0px;}
+	.main-section .cs-services.classic figure ~ .text {padding-left: 85px;}
+	/* ======== Footer Start ======== */
+	footer .footer-nav { float: left; }
+	/* ====== Defulet pages Start ====== */
+	.main-section .under-wrapp .user-signup label {width:280px;}
+	.main-section .under-wrapp .user-signup {width: 300px;}
+	.main-section .cs-testimonial .flex-control-nav {bottom: -30px;}
+	.main-section .messagebox-v3 .custom-btn {position: relative; right: 0px; bottom: 0px; float: right;}
+	.main-section .messagebox-v3 p { margin-bottom: 10px;}
+	.main-section .nav-tabs > li > a {font-size: 10px;}
+	.main-section .cs-tabs.box .nav-tabs > li > a {min-width: 110px;}
+	.main-section .plain .skillbar {width: 87%;}
+	.main-section .features {text-align: center;}
+	/* ======== Cs Causes Start ======== */
+	.main-section .cs-causes figure {margin-bottom: 0px;}
+	.main-section .causes-classic .cs-progres-bar {width: 100%;}
+	.main-section .causes-medium figure {margin-bottom: 15px;}
+	.main-section #cs-comments .thumblist li .text {padding-left: 0px; float: left;}
+	.main-section #cs-comments .children {margin: 0px;}
+	.main-section .detail-post .socialmedia > h6 {margin: 10px 0 10px 0;}
+	.main-section .prev-next-post .prev {padding-right: 0px;}
+	.main-section .causes-grid  .btn-style1 {padding-right: 16px;}
+	.cs-login-sec .modal-dialog {margin: 0px; padding: 10px;}
+	.main-section .left-sec .left-sec-holder {padding: 0 15px;}
+	/*============ Header Style ============ */
+	
+	.nav{ padding-left:20px; padding-right:20px; }
+	.navigation{ float:inherit !important; }
+	.navigation, .navigation ul li{  background:none !important; }
+	.navigation ul li ul.dropdown-menu{ margin:0 !important; padding:0 0 0 0px !important; float:left; border:0 !important; box-shadow:none; background:none !important; }
+	.navbar-nav .sub-menu .dropdown-menu li a{ display:inline-block; }
+	.sub-menu .dropdown-menu{visibility:visible !important; opacity:1 !important; box-shadow:none !important; }
+	.navbar-nav > li > .dropdown-menu, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu, .sub-menu .dropdown-menu, .mega-grid{ width:100%; position:relative !important; background-color:none !important; visibility:visible !important; opacity:1 !important; display:block !important; left:0; box-shadow:none; border:0;}
+	.mega-grid{box-shadow:none !important;float:left; background:none !important;}
+	.navbar-nav > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li > .dropdown-menu > li{ padding:0 !important;}
+	.mega-grid ul.dropdown-menu, .main-head .navigation ul.mega-grid > li{ width:100%; float:left;}
+	
+	.navbar-toggle.addclose {background-color: #ffffff; left: 14px; padding: 4px 10px; position: absolute; top: 12px; width: 45px; z-index: 110;}
+	.navbar-toggle.addclose .icon-bar {display: none;}.navbar-toggle.addclose:before {content: "\f00d";font-family: FontAwesome;color: #777;font-size: 16px;}
+	li.parentIcon > a:after {display: none;}
+
+	.navbar-default .navbar-toggle{ display:block !important;}
+	.navbar-nav > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li > .dropdown-menu > li{padding:0;}
+	.collapse{ display:none;}
+	.dropdown-menu li:last-child{ border-bottom:0 !important;}
+	.navigation .navbar-collapse{ height: 360px; overflow: auto; overflow-x: inherit !important; overflow-y: inherit !important; position: absolute; top: 100%; right: 0; background: #fff; max-height: inherit; width: 100%; z-index: 999; }
+	.navigation ul.mega-grid > li, .detail-post {width: 100%;float: left;}
+
+	.navigation .navbar-collapse.collapse { display:none !important;}
+	.navigation .navbar-collapse.collapse.in{ display:block !important;}
+	.navigation .navbar-collapse.in{ overflow-x:hidden !important; overflow-y:auto !important; }
+
+	.navbar-default{ width: 100%;float: left;background-color: transparent;}
+	.navbar-collapse{ max-height:300px; width:100%; background:#fff;}
+	.navbar-toggle{ margin: 0px;}
+	.navbar-header {float: right;}
+	.navigation ul.mega-grid > li {padding: 0px;}
+	.navigation ul li > .dropdown-menu,.navigation .mega-grid {
+		-webkit-transform: translateX(0px);
+		   -moz-transform: translateX(0px);
+		    -ms-transform: translateX(0px);
+		     -o-transform: translateX(0px);
+		        transform: translateX(0px);
+		-webkit-transition: none;
+		   -moz-transition: none;
+		    -ms-transition: none;
+		     -o-transition: none;
+		        transition: none;
+	}
+	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #fff !important;}
+	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0.5) !important; float: left; padding-left: 15px !important; width: 100%; }
+	/*============ Header Style ============ */
+	.main-section .upload-file li textarea {width: 94%;}
+	.main-section .register-page .cs-user-register {padding: 0px;}
+	.main-section .detail-post .socialmedia ul li {margin: 0 0 5px 5px !important;}
+	.main-section .prev-next-post .prev {border-right: none;}
+	
+
+/* Rtl Responsive Style */
+	.rtl .main-section .cs-causes.causes-medium figure ~ section {padding: 0; width: 100%; float: left;}
+	.rtl .heading-description {padding: 0 10px;}
+	.rtl .cs-testimonial {padding: 30px 0 0;}
+	.rtl .main-section .blog-small time ~ .title, .main-section .blog-medium time ~ .title {padding: 0 80px 0 0;}
+	.main-section .cs-events .cs-cat-list .toggle, footer .copyright .signup, footer .copyright .socialmedia, .main-section .single-sermone .srtitle, .main-section .single-sermone .sr-info-sec,
+	.rtl .main-section .causes-grid .btn-style1, .rtl .main-section .image-frame figure, #main-header .top-bar .cs-login-sec, #main-header .top-bar .socialmedia {float: none!important;}
+	.rtl .copyright .socialmedia {text-align: center;}
+	.rtl .copyright .socialmedia li, .rtl .widget-gallery ul li {float: none; display: inline-block;}
+	.rtl .copyright, .rtl .cs_counter {text-align: center;}
+	.rtl .copyright .signup {margin: 0 0 10px 0; display: inline-block;}
+	.rtl .widget-gallery ul li:nth-child(4n+4) {margin: 0 7px 7px 0;}
+	.rtl .main-section .causes-grid .btn-style1 {padding: 0 0 0 15px;}
+	.rtl .call-actions .cell.text-area, .rtl .call-actions .main-section .image-frame, .main-section .image-frame {text-align: center;}
+	.rtl .main-section .image-frame figure {display: inline-block; margin: 0;}
+	#main-header .main-navbar .left-side {width: auto;}
+	.main-section .cs-testimonial.left {padding: 0 25px 0 0;}
+	.main-section .cs-events .cs-cat-list .toggle {display: inline-block;}
+	.main-section .filter-nav {padding: 16px 10px 0;}
+	.main-section .page-section .cs-causes.causes-medium figure ~ section {padding: 0; width: 100%; float: left;}
+	.rtl .row {margin-right: -5px;}
+	.rtl .liststyle {padding: 0 15px 0 0;}
+	.rtl footer.group {padding: 0 5px 0 0;}
+	.rtl .navigation ul li {width: 100%;}
+	footer .footer-nav {float: left; width: 100%;}
+	.rtl .page-section {background-size: cover !important;}
+
+}
+@media (max-width: 580px) {
+	.col-md-3, .element-size-25, .main-section .sermon-list figure { width: 100%!important;}
+	.main-section .single-sermone .srtitle, .main-section .single-sermone .sr-info-sec, .cs-causes.causes-grid .btn-style1 {display: inline-block; float: none!important;}
+	.main-section .single-sermone .srtitle {margin: 0px 0 10px 0px;}
+	.main-section .cs-sermons.single-sermone .srtitle {margin: 0;}
+	.header_1 .main-head .left-side, .header_4 .logo-section .right-side, .header_1 .main-head .right-side { display: inline-block; float: none; text-align: center; width: 100%;}
+	/* ====== Header 1 Start ====== */
+	.main-section .cs-projects .cs-media,
+	.cs-projects .cs-media figure a {width: 100%; overflow: hidden;}
+	.main-section .cs-projects.projects-classic section { margin: 0; width: 100%;}
+	.main-section .blog-box section h2 a {font-size: 14px;}
+	.main-section .blog-box section P {font-size: 11px;}
+	.main-section .upload-file li textarea, .main-section .upload-file li label, .main-section .upload-file li .inner-sec { width: 100%;}
+	.main-section .sermon-list figure ~ section {padding: 0px;} 
+	.main-section .sermons-detail figure ~ section {padding-left: 0px;}
+	.main-section .sermon-list figure{margin-bottom: 15px;}
+	.cs-events .cs-cat-list ul {margin: 0 0 10px 0;}
+}
+
+/*============ Media 300Px Star ============ */
+@media (max-width: 480px) {
+
+	.page-content { padding: 0; }
+	.element-size-50,
+	.element-size-25,
+	.element-size-75,
+	.element-size-67,
+	.element-size-33,
+	.page-content,
+	.page-sidebar, 
+	.element-size-100 .col-md-12,
+	.element-size-75 .col-md-12,
+	.element-size-67 .col-md-12,
+	.element-size-50 .col-md-12,
+	.element-size-25 .col-md-12,
+	.element-size-33 .col-md-12, 
+	.col-md-3, .col-md-4, .col-md-12, .content-left, .page-content, .col-md-2, body .wrapper.wrapper_boxed, #main-header .top-bar .right-side, .header_4 .logo-section .logo img, .col-md-9, .col-md-3.left-sec, .rtl .col-md-3 { width: 100% !important; }
+	#main-header .top-bar .right-side {margin-bottom: 15px;}
+	#main-header .top-bar .top-nav, .main-section .wow.filter-nav  .pull-right {float: none!important; display: inline-block; padding: 0px;}
+	#main-header .top-bar .socialmedia {padding: 0 10px 0 0;}
+	#main-header .logo-section .left-side { text-align: center;}
+	#main-header .cs-login-sec > ul > li {padding: 0px;}
+	#main-header .navbar-toggle {margin: 0px;}
+	.header_4 .search-top {margin-top: 10px;}
+	#main-header .navigation ul.mega-grid > li { display: block; width: 100% !important; }
+	.breadcrumb-sec,.page-title-align-left { text-align: center; } .pageinfo h1 { font-size: 20px !important; }.breadcrumb-sec .pageinfo,.breadcrumb-sec .breadcrumb { float: left;width: 100%; }.breadcrumb-sec .breadcrumb ul {float: none;display: inline-block;}.pageinfo.page-title-align-left > h1 {text-align: center;}
+	.breadcrumb-sec .pageinfo { padding: 25px 0px 5px 0px; }
+	/* ====== Header 1 Start ====== */
+	.header_1 .main-head  {width: 100%; display: inline-block; text-align: center;}
+	.header_1 .main-head .left-side, .header_4 .logo-section .right-side { display: inline-block; float: none; text-align: center; width: 100%;}
+	.header_1 .main-head .right-side {float: left; width: 100%;}
+	.header_1 .main-head .navbar.navigation, .header_1 .main-head .navbar-toggle, .header_4 .main-head .navbar-toggle {margin-top: 0px;}
+	.header_4 .search-top {width: 200px;}
+	.header_4 .navigation {margin-top: 5px;}
+	/* ====== Cs Fillter Menu Start ====== */
+	.main-section .cs-filter-menu li a { padding: 0 0 8px 0; float: none;}
+	.main-section .cs-btnshowall {margin-bottom: 10px;}
+	.main-section .srtitle {display: inline-block; margin-bottom: 10px; float: none;}
+	/* ====== Blog Start ====== */
+	.main-section .cs-blog .cs-media, .main-section .cs-blog .cs-media figure, .main-section .sermon-list figure { width: 100%;}
+	.main-section .blog-lrg .continue-reading, .main-section .blog-lrg .post-option-btm li a, .main-section .blog-lrg .post-option li a {font-size: 10px;}
+	.main-section .blog-clean .cs-media ~ section {padding: 0px;}
+	.main-section .blog-clean figure {max-width: 100%;}
+	.main-section .cs-blog.blog-elite .bloginfo { margin: -50px 11px 0 11px;}
+	.main-section .cs-blog-grid ul.post-option-btm  { float: right; }
+	.main-section .cs-blog-classic .post-option-btm { margin-left: 10px;}
+	.main-section .cs-events .cs-cat-list {text-align: center;}
+	.main-section .cs-events .cs-cat-list .toggle {display: inline-block;}
+	/* ====== Event Start ====== */
+	.main-section .cs-events .cstime > time.time-period, .main-section .cs-events .cstime span, .main-section .cs-events .cs-cat-list .toggle {float: left;}
+	/* ====== About us Start ====== */
+	.main-section .heading-description {padding: 0 15px;}
+	/* ====== Footer Start ====== */
+	footer .copyright .signup, footer .copyright .socialmedia {display: inline-block; float: none;}
+	footer [class*="col-md-"] {text-align: center;}
+	.main-section .cs-search-area input[type="text"] {width: 248px;}
+	.main-section .nav-tabs > li > a {width: 290px; font-size: 14px;}
+	.main-section .vertical .nav-tabs {width: 30%;}
+	.main-section .vertical > ul > li > a {width: 100%; font-size: 10px;}
+	.main-section .cs-horizantal-tabs > li > a {font-size: 11px;}
+	.main-section .vertical .tab-content{width: 70%;}
+	.main-section .table > thead > tr > th, .main-section  .table > tbody > tr > th, .main-section .table > tfoot > tr > th, .main-section .table > thead > tr > td, .main-section .table > tbody > tr > td, .main-section .table > tfoot > tr > td 
+	{padding: 12px 8px; font-size: 12px;}
+	.main-section .cs-filter-menu li {margin: 0 0 8px 0px; width: 100%; text-align: center; border-bottom: 1px dotted #ccc;}
+	.main-section .filter-nav {text-align: center;}
+	.main-section .thumblist li a.comment-reply-link {top: 0px;}
+	.main-section .blog-editor .post-option-panel time ~ .post-option, .main-section .blog-editor .post-option-panel time ~ .rich_editor_text, .main-section .blog-editor .post-option-panel time ~ .cs-attachments {padding-left: 0px;}
+	.main-section .blog-editor time {margin: 0 15px 0 0;}
+	.main-section  blockquote {font-size: 16px;}
+	.main-section .promo-box { background-image:repeat; background-size: cover;}
+	.wow.filter-nav .pull-right {float: left !important;}
+	.main-section .page-content .jp-progress {width: 31%;}
+	.main-section .nowplaying .volume-wrap ul li {padding: 9px 0 0 2px;}
+	.main-section .jp-volume-bar {width: 35px}
+	.main-section .nowplaying .jp-gui {padding: 10px;}
+	.main-section .prev-next-post .prev .text h2, .main-section .prev-next-post .next .text h2 {width: auto; float: right;}
+	.main-section .cs-about-author .icon-auther {margin: 0 0 0 -10px;}
+	.main-section .cs-about-author .icon-auther ~ .inner {margin: 0 0 0 4px;}
+	.main-section .cs-about-author .text {width: 100%; float: left; margin:0;}
+	.main-section .cs-about-author .inner {display: inline-block;}
+	.main-section .cs-about-author figure {margin: 0 0 15px;}
+	.team-shortcode article{ width:30.44%; }
+	.left-header { width:73%; }
+	.main-section .toggle-sec .toggle-div table tbody tr td {font-size: 9px;}
+	.main-section .upload-file li textarea, .main-section .upload-file li label, .main-section .upload-file li .inner-sec { width: 100%;}
+	.main-section .register-page .cs-signup .forget-link a {padding: 3px 4px ;}
+	.main-section .register-page .cs-signup .forget-link {right: 0px ;}
+	.main-section .sermon-list figure ~ section {padding:18px 0 0 0;}
+	.main-section .sermons-detail figure ~ section {padding-left: 0px;}
+	.rtl .main-section .cs-causes.causes-medium .cs-progres-bar {width: 100%;}
+	.rtl .footer-tweets {padding: 25px 10px;}
+
+	.main-section .cs-events .cs-cat-list .toggle, footer .copyright .signup, footer .copyright .socialmedia{float: none !important;}
+	.rtl .has-login.cs-signup {right: -50%; margin: 0 -22px 0 0;}
+	.rtl .button_style .rtl .default, .rtl .flat, .rtl .strock, .rtl .three-d {padding: 0 6px;}
+	.main-section .cs-events .cs-cat-list {padding: 20px 0;}
+	.cs-events .cs-cat-list ul {margin: 0;}
+	.main-section .cs-causes.causes-medium .cs-progres-bar {width: 100%;}
+
+
+
+
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 991px) and (max-width: 1054px) {
+	/* Wrapper Boxed View */
+	body .wrapper.wrapper_boxed { width: 100% !important; }
+	.main-section .cs-blog-grid h2 {font-size: 14px !important;}
+	.main-section .cs-blog-grid time small {font-size: 22px;}
+	.main-section .cs-blog-grid time {font-size: 16px;}
+	footer .footer-nav { float: left; width: 100%; }
+	.main-section .cs-services.classic figure ~ .text { padding-left: 75px;}
+	footer .cs-donation-form ul li { width: 100%; margin-right: 0px;}
+	footer .cs-donation-form .other-amount label input {width: 93%;}
+	.main-section .messagebox-v3 .custom-btn {position: relative; right: 0px; bottom: 0px; float: right;}
+	/*============ Cs Causes Start ============ */
+	.main-section .causes-medium .btn-style1 {margin-top: 10px;}
+	/*============ Cs Sermons Start ============ */
+	.main-section .widget-sermon article h2 a {font-size: 12px !important;}
+	.main-section .cs-donation-form ul li {width: 100%; margin-right: 0px;}
+	.main-section .cs-donation-form .other-amount label input {width: 93%;}
+	/*============ Projects  Start ============ */
+	.main-section .element-size-50 .projects-classic .cs-media a, .main-section .col-md-6 .projects-classic .cs-media a, .main-section .col-md-6 .projects-classic .cs-media {width: 100%;}
+	.main-section .element-size-50 .cs-projects.projects-classic section, .main-section .col-md-6 .cs-projects.projects-classic section {margin: 0px;}
+	.main-section .blog-box section h2 a {font-size: 14px;}
+	.main-section .blog-box section P {font-size: 11px;}
+	.main-section .widget-projects .cs-listing .post-option li {font-size: 9px; margin: 0px;}
+	.main-section .widget-projects .cs-listing h2 {font-size: 11px !important;}
+	.main-section .cs-blog ul.post-option-btm {float: left; }
+	.main-section .cs-blog-grid .flexslider {margin-bottom: 15px;}
+	.main-section .col-md-3 .blog-box section h2 {font-size: 12px !important;}
+	#main-header .navigation ul > li > a { padding: 20px 10px;}
+   .header_1 .main-head .right-side { margin-top: 0px!important;}
+   .header_1 .main-head .navigation ul > li > a { padding: 14px 7px !important; font-size: 11px !important;}
+   /*============ two Start ============ */
+   .main-section .cs-projects .cs-media, .main-section .cs-causes.causes-medium .cs-progres-bar {width: 100%;}
+	.cs-projects .cs-media figure > a {overflow: hidden;}
+	.main-section .cs-sermons .post-links li {margin: 0 5px 10px 0;}
+	.main-section .page-content .jp-progress {width: 60%;}
+	.cs-causes.causes-grid .btn-style1 {font-size: 11px;}
+	.main-section .causes-classic .cs-progres-bar {width: 65%;}
+	.main-section .cs-causes .btn-style1 {margin-top: 28px; float: right;}
+	.main-section .progress-top .goal {font-size: 13px;}
+	.main-section .progress-top .raising strong {font-size: 18px;}
+	.causes-detail .progres-desc .post-option li {margin-right: 8px; font-size: 11px;}
+	.main-section .upload-file li textarea {width: 94%;}
+	.header_1 .left-side .logo img { width:180px !important;}
+	.main-section .widget-sermon article .post-option li {margin-right: 0px;}
+	.main-section .widget-sermon .socialmedia li a {width: 28px; height: 28px;}
+	.rtl .main-section .element-size-50 .cs-projects.projects-classic section, .rtl .main-section .col-md-6 .cs-projects.projects-classic section {margin: 0;}
+	.main-navbar .left-side, .main-navbar .right-side {display: table-cell; float: none !important; vertical-align: middle; width: 78%;}
+}

@@ -1,0 +1,2056 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Awaken v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-01 11:28:21+0000\n"
+"Last-Translator: lms-admin <dum1@chimpgroup.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: U.A.E.\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: include/shortcodes/loops_function.php:568
+#@ Awaken
+msgid "Posted On "
+msgstr "Qaiser"
+
+#: include/shortcodes/loops_function.php:574
+#@ Awaken
+msgid "BY "
+msgstr ""
+
+#: archive.php:196
+#: cs-templates/blog-styles/blog_templates.php:66
+#: cs-templates/blog-styles/blog_templates.php:128
+#: cs-templates/blog-styles/blog_templates.php:186
+#: cs-templates/blog-styles/blog_templates.php:262
+#: cs-templates/blog-styles/blog_templates.php:331
+#: cs-templates/blog-styles/blog_templates.php:387
+#: cs-templates/blog-styles/blog_templates.php:504
+#: cs-templates/blog-styles/blog_templates.php:618
+#: functions.php:4489
+#: include/shortcodes/loops_function.php:609
+#: index.php:113
+#@ Awaken
+#@ gk
+msgid "0"
+msgstr ""
+
+#: archive.php:196
+#: cs-templates/blog-styles/blog_templates.php:66
+#: cs-templates/blog-styles/blog_templates.php:128
+#: cs-templates/blog-styles/blog_templates.php:186
+#: cs-templates/blog-styles/blog_templates.php:262
+#: cs-templates/blog-styles/blog_templates.php:331
+#: cs-templates/blog-styles/blog_templates.php:387
+#: cs-templates/blog-styles/blog_templates.php:504
+#: cs-templates/blog-styles/blog_templates.php:618
+#: include/shortcodes/loops_function.php:609
+#: index.php:113
+#@ Awaken
+msgid "1"
+msgstr ""
+
+#: archive.php:196
+#: cs-templates/blog-styles/blog_templates.php:66
+#: cs-templates/blog-styles/blog_templates.php:128
+#: cs-templates/blog-styles/blog_templates.php:186
+#: cs-templates/blog-styles/blog_templates.php:262
+#: cs-templates/blog-styles/blog_templates.php:331
+#: cs-templates/blog-styles/blog_templates.php:387
+#: cs-templates/blog-styles/blog_templates.php:504
+#: cs-templates/blog-styles/blog_templates.php:618
+#: include/shortcodes/loops_function.php:609
+#: index.php:113
+#@ Awaken
+msgid "%"
+msgstr ""
+
+#: comments.php:15
+#@ Awaken
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:15
+#: include/shortcodes/loops_function.php:609
+#: include/theme-components/cs-widgets/widgets.php:614
+#@ Awaken
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:15
+#: include/shortcodes/loops_function.php:609
+#: include/theme-components/cs-widgets/widgets.php:614
+#@ Awaken
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:21
+#: comments.php:28
+#@ Awaken
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:22
+#: comments.php:29
+#@ Awaken
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:39
+#, php-format
+#@ Awaken
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:40
+#, php-format
+#@ Awaken
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:41
+#, php-format
+#@ Awaken
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+#@ Awaken
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: comments.php:50
+#@ Awaken
+msgid "Name"
+msgstr ""
+
+#: comments.php:56
+#@ Awaken
+msgid "Email"
+msgstr ""
+
+#: comments.php:63
+#: cs-templates/event-styles/single-events.php:156
+#@ Awaken
+msgid "Website"
+msgstr ""
+
+#: comments.php:69
+#@ Awaken
+msgid "Message"
+msgstr ""
+
+#: comments.php:82
+#@ Awaken
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:83
+#: functions.php:3334
+#: include/theme-components/cs-importer/wordpress-importer.php:299
+#@ Awaken
+msgid "Submit"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:283
+#: cs-templates/project-styles/single-project.php:205
+#: cs-templates/sermon-styles/single-sermons.php:326
+#: functions.php:3425
+#: functions.php:3852
+#: functions.php:3922
+#: functions.php:3975
+#: single.php:271
+#: single.php:274
+#@ Awaken
+msgid "Tags"
+msgstr ""
+
+#: archive.php:185
+#: cs-templates/blog-styles/blog_templates.php:232
+#: cs-templates/blog-styles/blog_templates.php:444
+#: cs-templates/blog-styles/blog_templates.php:543
+#: cs-templates/event-styles/event_templates.php:265
+#: cs-templates/event-styles/single-events.php:146
+#: cs-templates/event-styles/single-events.php:291
+#: cs-templates/project-styles/single-project.php:101
+#: cs-templates/project-styles/single-project.php:213
+#: cs-templates/sermon-styles/sermon_templates.php:71
+#: cs-templates/sermon-styles/single-sermons.php:143
+#: cs-templates/sermon-styles/single-sermons.php:334
+#: include/shortcodes/loops_function.php:528
+#: include/shortcodes/loops_function.php:549
+#: include/shortcodes/shortcode_functions.php:456
+#: include/shortcodes/shortcode_functions.php:496
+#: index.php:95
+#: single.php:202
+#: single.php:277
+#, php-format
+#@ Awaken
+msgid "%1$s"
+msgstr ""
+
+#: functions.php:3861
+#: functions.php:3928
+#: functions.php:3985
+#@ Awaken
+msgid "Date Published"
+msgstr ""
+
+#: functions.php:3861
+#: functions.php:3928
+#: functions.php:3986
+#@ Awaken
+msgid "Alphabetical"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:99
+#: functions.php:3429
+#: functions.php:3849
+#: functions.php:3919
+#: functions.php:3972
+#@ Awaken
+msgid "Categories"
+msgstr ""
+
+#: functions.php:3868
+#: functions.php:3935
+#: functions.php:3993
+#@ Awaken
+msgid "All Categories"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:37
+#@ backend
+msgid "Events"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:267
+#: cs-templates/sermon-styles/single-sermons.php:272
+#: include/shortcodes/shortcode_functions.php:514
+#: index.php:108
+#: page-blank.php:21
+#: page.php:74
+#: page.php:334
+#: single.php:215
+#@ Awaken
+msgid "Pages:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:675
+#@ Awaken
+msgid "Edit"
+msgstr ""
+
+#: single.php:320
+#@ Awaken
+msgid "Related Posts"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:221
+#@ Awaken
+msgid "Event Speakers"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:75
+#@ Awaken
+msgid "Project Detail"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:159
+#@ Awaken
+msgid "Description"
+msgstr ""
+
+#: functions-theme.php:497
+#@ Awaken
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions-theme.php:499
+#@ Awaken
+msgid "Main sidebar that appears on the right."
+msgstr ""
+
+#: functions-theme.php:553
+#@ Awaken
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions-theme.php:572
+#@ Awaken
+msgid "(Edit)"
+msgstr ""
+
+#: functions-theme.php:624
+#@ Awaken
+msgid "Sorry, We are down for maintenance"
+msgstr ""
+
+#: functions-theme.php:744
+#@ Awaken
+msgid "ERROR 404"
+msgstr ""
+
+#: functions-theme.php:795
+#@ Awaken
+msgid "Current Page"
+msgstr ""
+
+#: functions.php:2765
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:226
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:268
+#@ Awaken
+#@ dir
+#@ tgmpa
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:2766
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:227
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:269
+#@ Awaken
+#@ dir
+#@ tgmpa
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:2767
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:228
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:270
+#, php-format
+#@ Awaken
+#@ dir
+#@ tgmpa
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:2768
+#@ Awaken
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:2769
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:230
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:273
+#, php-format
+#@ Awaken
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2770
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:231
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:278
+#, php-format
+#@ Awaken
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2771
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:232
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2772
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:233
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:288
+#, php-format
+#@ Awaken
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2773
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:234
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:293
+#, php-format
+#@ Awaken
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2774
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:235
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2775
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:236
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:303
+#, php-format
+#@ Awaken
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2776
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:237
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2777
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:238
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:313
+#@ Awaken
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2778
+#@ Awaken
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2779
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:240
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:322
+#@ Awaken
+#@ dir
+#@ tgmpa
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:2780
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:242
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2054
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:324
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2277
+#@ Awaken
+#@ dir
+#@ tgmpa
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:2781
+#, php-format
+#@ Awaken
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:609
+#@ Awaken
+msgid "0 Comment"
+msgstr ""
+
+#: functions.php:3328
+#@ Awaken
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: functions.php:3403
+#@ Awaken
+msgid "Featured"
+msgstr ""
+
+#: functions.php:3421
+#: functions.php:3978
+#: include/shortcodes/shortcode_functions.php:628
+#@ Awaken
+msgid "Author"
+msgstr ""
+
+#: functions.php:3421
+#: functions.php:3425
+#: functions.php:3429
+#: functions.php:3453
+#@ Awaken
+msgid "Archives"
+msgstr ""
+
+#: functions.php:3433
+#, php-format
+#@ Awaken
+msgid "Search Results %1$s %2$s"
+msgstr ""
+
+#: functions.php:3437
+#, php-format
+#@ Awaken
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: functions.php:3441
+#, php-format
+#@ Awaken
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: functions.php:3441
+#@ Awaken
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: functions.php:3445
+#, php-format
+#@ Awaken
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: functions.php:3445
+#@ Awaken
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: functions.php:3449
+#@ Awaken
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:3470
+#: include/theme-components/cs-widgets/widgets.php:1420
+#@ Awaken
+msgid "No results found."
+msgstr ""
+
+#: functions.php:3679
+#@ Awaken
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:3680
+#@ Awaken
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:3681
+#@ Awaken
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:3846
+#: functions.php:3916
+#: functions.php:3969
+#@ Awaken
+msgid "Filter By"
+msgstr ""
+
+#: functions.php:3855
+#@ Awaken
+msgid "Organizers"
+msgstr ""
+
+#: functions.php:3859
+#: functions.php:3926
+#: functions.php:3982
+#@ Awaken
+msgid "Show All"
+msgstr ""
+
+#: functions.php:3892
+#@ Awaken
+msgid "No Organizer Found."
+msgstr ""
+
+#: functions.php:4126
+#@ Awaken
+msgid "Like This"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:150
+#: include/shortcodes/loops_elements.php:555
+#@ Awaken
+#@ backend
+msgid "Yes"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:151
+#: include/shortcodes/loops_elements.php:558
+#@ Awaken
+#@ backend
+msgid "No"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:144
+#: include/shortcodes/loops_elements.php:547
+#@ Awaken
+#@ backend
+msgid "Filterable"
+msgstr ""
+
+#: include/admin_functions.php:1177
+#@ backend
+msgid "http://fortawesome.github.io/Font-Awesome/icons/"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:38
+#@ backend
+msgid "Projects"
+msgstr ""
+
+#: include/page_options.php:336
+#: include/page_options.php:598
+#@ backend
+msgid "http://codecanyon.net/"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:426
+#@ Awaken
+msgid "Likes"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:586
+#@ Awaken
+msgid " Posted On "
+msgstr ""
+
+#: cs-templates/project-styles/project_templates.php:95
+#: include/shortcodes/common_function.php:602
+#: include/shortcodes/common_function.php:635
+#: include/shortcodes/loops_function.php:624
+#: include/shortcodes/loops_function.php:633
+#@ Awaken
+msgid "Read More"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:1186
+#: include/theme-components/cs-widgets/widgets.php:803
+#, php-format
+#@ Awaken
+msgid "%d seconds ago"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:1187
+#: include/theme-components/cs-widgets/widgets.php:804
+#, php-format
+#@ Awaken
+msgid "About a Minute Ago"
+msgid_plural "%d Minutes Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:1188
+#: include/shortcodes/loops_function.php:1189
+#: include/theme-components/cs-widgets/widgets.php:805
+#: include/theme-components/cs-widgets/widgets.php:806
+#, php-format
+#@ Awaken
+msgid "About an Hour Ago"
+msgid_plural "%d Hours Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:1190
+#: include/theme-components/cs-widgets/widgets.php:807
+#, php-format
+#@ Awaken
+msgid "About a Day Ago"
+msgid_plural "%d Days Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:1191
+#: include/theme-components/cs-widgets/widgets.php:808
+#, php-format
+#@ Awaken
+msgid "About a Week Ago"
+msgid_plural "%d Weeks Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:1192
+#: include/theme-components/cs-widgets/widgets.php:809
+#, php-format
+#@ Awaken
+msgid "About a Month Ago"
+msgid_plural "%d Months Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:1193
+#: include/theme-components/cs-widgets/widgets.php:810
+#, php-format
+#@ Awaken
+msgid "About a year Ago"
+msgid_plural "%d years Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/shortcode_functions.php:218
+#@ Awaken
+msgid "View All"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:628
+#@ Awaken
+msgid "About"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:820
+#, php-format
+#@ Awaken
+msgid "%s"
+msgstr ""
+
+#: cs-templates/event-styles/event_functions.php:276
+#: include/shortcodes/shortcode_functions.php:2381
+#@ Awaken
+msgid "No Event Found"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:180
+#@ backend
+msgid "Select Members"
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:41
+#: include/theme-components/cs-importer/parsers.php:62
+#@ Awaken
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:42
+#@ Awaken
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:66
+#: include/theme-components/cs-importer/parsers.php:71
+#: include/theme-components/cs-importer/parsers.php:261
+#: include/theme-components/cs-importer/parsers.php:450
+#@ Awaken
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:60
+#@ Awaken
+msgid "Error."
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:68
+#: include/theme-components/cs-importer/wordpress-importer.php:134
+#: include/theme-components/cs-importer/wordpress-importer.php:148
+#: include/theme-components/cs-importer/wordpress-importer.php:209
+#: include/theme-components/cs-importer/wordpress-importer.php:213
+#: include/theme-components/cs-importer/wordpress-importer.php:222
+#@ Awaken
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:70
+#: include/theme-components/cs-importer/wordpress-importer.php:135
+#@ Awaken
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:188
+#@ Awaken
+msgid "All done."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:188
+#@ Awaken
+msgid "Have fun!"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:189
+#@ Awaken
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:214
+#, php-format
+#@ Awaken
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:230
+#, php-format
+#@ Awaken
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:253
+#, php-format
+#@ Awaken
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:279
+#@ Awaken
+msgid "Assign Authors"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:280
+#@ Awaken
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:282
+#, php-format
+#@ Awaken
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:292
+#@ Awaken
+msgid "Import Attachments"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:295
+#@ Awaken
+msgid "Download and import file attachments"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:311
+#@ Awaken
+msgid "Import author:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:322
+#@ Awaken
+msgid "or create new user with login name:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:325
+#@ Awaken
+msgid "as a new user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:333
+#@ Awaken
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:335
+#@ Awaken
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:336
+#@ Awaken
+msgid "- Select -"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:386
+#, php-format
+#@ Awaken
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:434
+#, php-format
+#@ Awaken
+msgid "Failed to import category %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:471
+#, php-format
+#@ Awaken
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:514
+#: include/theme-components/cs-importer/wordpress-importer.php:639
+#, php-format
+#@ Awaken
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:535
+#, php-format
+#@ Awaken
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:556
+#, php-format
+#@ Awaken
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:611
+#, php-format
+#@ Awaken
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:754
+#@ Awaken
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:761
+#, php-format
+#@ Awaken
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:847
+#@ Awaken
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:860
+#@ Awaken
+msgid "Invalid file type"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:903
+#@ Awaken
+msgid "Remote server did not respond"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:909
+#, php-format
+#@ Awaken
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:916
+#@ Awaken
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:921
+#@ Awaken
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:927
+#, php-format
+#@ Awaken
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1024
+#@ Awaken
+msgid "Import WordPress"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1031
+#, php-format
+#@ Awaken
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1046
+#@ Awaken
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1047
+#@ Awaken
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:68
+#, php-format
+#@ Awaken
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:72
+#, php-format
+#@ Awaken
+msgid "%s (Pending)"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:96
+#@ Awaken
+msgid "Move up"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:109
+#@ Awaken
+msgid "Move down"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:111
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:113
+#@ Awaken
+msgid "Edit Menu Item"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:122
+#@ Awaken
+msgid "URL"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:129
+#@ Awaken
+msgid "Navigation Label"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:135
+#@ Awaken
+msgid "Title Attribute"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:142
+#@ Awaken
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:147
+#@ Awaken
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:153
+#@ Awaken
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:161
+#@ Awaken
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:169
+#@ Awaken
+msgid "Active Mega Menu"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:177
+#@ Awaken
+msgid "hide text"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:185
+#@ Awaken
+msgid "disable link"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:204
+#, php-format
+#@ Awaken
+msgid "Original: %s"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:217
+#@ Awaken
+msgid "Remove"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:218
+#@ Awaken
+msgid "Cancel"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:229
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:271
+#@ dir
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:244
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:326
+#, php-format
+#@ dir
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:589
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2272
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:645
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2517
+#@ dir
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:245
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:327
+#@ dir
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1267
+#@ dir
+msgid "Private Repository"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1270
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1540
+#@ dir
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1275
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1545
+#@ dir
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1278
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1549
+#@ dir
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1278
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1551
+#@ dir
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1281
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1555
+#@ dir
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1283
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1557
+#@ dir
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1480
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1721
+#@ dir
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1481
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1722
+#@ dir
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1482
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1723
+#@ dir
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1483
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1724
+#@ dir
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1501
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1742
+#@ dir
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1502
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1743
+#@ dir
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1740
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1911
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:243
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:325
+#@ dir
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2037
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2260
+#@ dir
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2038
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2261
+#, php-format
+#@ dir
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2039
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2262
+#@ dir
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2040
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2263
+#@ dir
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2041
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2264
+#@ dir
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2042
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2265
+#@ dir
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2053
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2276
+#@ dir
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2170
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2404
+#@ dir
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2171
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2405
+#, php-format
+#@ dir
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2171
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2178
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2405
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2412
+#@ dir
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2171
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2178
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2405
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2412
+#@ dir
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2172
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2406
+#@ dir
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2173
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2407
+#, php-format
+#@ dir
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2177
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2411
+#@ dir
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2165
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2399
+#, php-format
+#@ dir
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2166
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2400
+#, php-format
+#@ dir
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2178
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2412
+#, php-format
+#@ dir
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2179
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2413
+#@ dir
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:2180
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2414
+#, php-format
+#@ dir
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:420
+#: include/theme-components/cs-widgets/widgets.php:452
+#@ Awaken
+msgid "No result found."
+msgstr ""
+
+#: include/theme-options/theme_options.php:14
+#@ backend
+msgid "Saving changes..."
+msgstr ""
+
+#: archive.php:199
+#: cs-templates/blog-styles/blog_templates.php:69
+#: cs-templates/blog-styles/blog_templates.php:131
+#: cs-templates/blog-styles/blog_templates.php:189
+#: cs-templates/blog-styles/blog_templates.php:265
+#: cs-templates/blog-styles/blog_templates.php:334
+#: cs-templates/blog-styles/blog_templates.php:390
+#: cs-templates/blog-styles/blog_templates.php:507
+#: cs-templates/blog-styles/blog_templates.php:621
+#: cs-templates/event-styles/single-events.php:303
+#: cs-templates/sermon-styles/single-sermons.php:344
+#: index.php:116
+#: single.php:292
+#@ Awaken
+msgid "Share"
+msgstr ""
+
+#: archive.php:194
+#: cs-templates/blog-styles/blog_templates.php:64
+#: cs-templates/blog-styles/blog_templates.php:126
+#: cs-templates/blog-styles/blog_templates.php:184
+#: cs-templates/blog-styles/blog_templates.php:260
+#: cs-templates/blog-styles/blog_templates.php:329
+#: cs-templates/blog-styles/blog_templates.php:385
+#: cs-templates/blog-styles/blog_templates.php:502
+#: cs-templates/blog-styles/blog_templates.php:625
+#: index.php:110
+#@ Awaken
+msgid "Continue Reading"
+msgstr ""
+
+#: comments.php:80
+#@ Awaken
+msgid "<h2 class=\"cs-section-title\">Leave us a reply</h2>"
+msgstr ""
+
+#: comments.php:81
+#, php-format
+#@ Awaken
+msgid "<h2 class=\"cs-section-title\">Leave a Reply to %s </h2>"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:238
+#@ Awaken
+msgid "Comments 0"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:238
+#@ Awaken
+msgid "Comments 1"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:238
+#@ Awaken
+msgid "Comments %"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:611
+#@ Awaken
+msgid "Posted by"
+msgstr ""
+
+#: cs-templates/event-styles/event_templates.php:45
+#: cs-templates/event-styles/event_templates.php:122
+#@ Awaken
+msgid "TO"
+msgstr ""
+
+#: cs-templates/event-styles/event_templates.php:92
+#: cs-templates/event-styles/single-events.php:208
+#@ Awaken
+msgid "Event Location"
+msgstr ""
+
+#: cs-templates/event-styles/event_templates.php:175
+#: cs-templates/event-styles/event_templates.php:221
+#@ Awaken
+msgid "-"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:161
+#@ Awaken
+msgid "PHONE"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:168
+#@ Awaken
+msgid "EMAIL"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:196
+#@ Awaken
+msgid "Event Time"
+msgstr ""
+
+#: cs-templates/event-styles/single-events.php:202
+#@ Awaken
+msgid "Event Start Date"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:82
+#@ Awaken
+msgid "Started Date"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:90
+#: include/theme-components/cs-posttypes/pt_portfolios.php:214
+#@ Awaken
+#@ backend
+msgid "Completion Date"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:108
+#: include/theme-components/cs-posttypes/pt_portfolios.php:223
+#@ Awaken
+#@ backend
+msgid "Project Plan"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:156
+#: cs-templates/sermon-styles/single-sermons.php:286
+#: single.php:231
+#@ Awaken
+msgid "Attachments"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:229
+#@ Awaken
+msgid "Share Now"
+msgstr ""
+
+#: cs-templates/project-styles/single-project.php:257
+#@ Awaken
+msgid "Related Post"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_functions.php:193
+#@ Awaken
+msgid "Latest Sermon"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_templates.php:79
+#@ Awaken
+msgid "Play Now"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_templates.php:84
+#: cs-templates/sermon-styles/single-sermons.php:156
+#@ Awaken
+msgid "Download Audio"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_templates.php:88
+#@ Awaken
+msgid "Notes"
+msgstr ""
+
+#: cs-templates/sermon-styles/sermon_templates.php:265
+#@ Awaken
+msgid "Listen Now"
+msgstr ""
+
+#: cs-templates/sermon-styles/single-sermons.php:151
+#@ Awaken
+msgid "Summary:&nbsp;"
+msgstr ""
+
+#: cs-templates/sermon-styles/single-sermons.php:363
+#@ Awaken
+msgid "Related Sermons"
+msgstr ""
+
+#: functions-theme.php:138
+#@ Awaken
+msgid "<i class=\"fa fa-long-arrow-left\"></i>"
+msgstr ""
+
+#: functions-theme.php:174
+#@ Awaken
+msgid "<i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#: functions-theme.php:558
+#, php-format
+#@ Awaken
+msgid "<span>%1$s</span>"
+msgstr ""
+
+#: functions-theme.php:625
+#@ Awaken
+msgid "We're currently under maintenance, if all goas as planned we'll be back in"
+msgstr ""
+
+#: functions-theme.php:750
+#@ Awaken
+msgid "The Page you Were Looking for Could not be found."
+msgstr ""
+
+#: functions.php:2826
+#, php-format
+#@ Awaken
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:2903
+#@ Awaken
+msgid "View All Posts"
+msgstr ""
+
+#: functions.php:3478
+#, php-format
+#@ Awaken
+msgid "<p>Ready to publish your first post? <a href=\"%1$s\">Get Started Here</a>.</p>"
+msgstr ""
+
+#: functions.php:3484
+#@ Awaken
+msgid "Suggestions:"
+msgstr ""
+
+#: functions.php:3486
+#@ Awaken
+msgid "Make sure all words are spelled correctly"
+msgstr ""
+
+#: functions.php:3487
+#@ Awaken
+msgid "Wildcard searches (using the asterisk *) are not supported"
+msgstr ""
+
+#: functions.php:3488
+#@ Awaken
+msgid "Try more general keywords, especially if you are attempting a name"
+msgstr ""
+
+#: functions.php:3493
+#@ Awaken
+msgid "<p>It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.</p>"
+msgstr ""
+
+#: functions.php:3792
+#: functions.php:3828
+#@ Awaken
+msgid "<a>No Tags Found.</a>"
+msgstr ""
+
+#: functions.php:4486
+#@ gk
+msgid "Cart"
+msgstr ""
+
+#: include/page_options.php:127
+#@ backend
+msgid "Choose Sub-header"
+msgstr ""
+
+#: include/page_options.php:134
+#@ backend
+msgid "Default Subheader"
+msgstr ""
+
+#: include/page_options.php:135
+#@ backend
+msgid "Custom Subheader"
+msgstr ""
+
+#: include/page_options.php:136
+#@ backend
+msgid "Revolution Slider"
+msgstr ""
+
+#: include/page_options.php:137
+#@ backend
+msgid "Map"
+msgstr ""
+
+#: include/page_options.php:138
+#@ backend
+msgid "No Subheader"
+msgstr ""
+
+#: include/page_options.php:155
+#@ backend
+msgid "Text Align"
+msgstr ""
+
+#: include/page_options.php:829
+#@ backend
+msgid "Page Options"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:239
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:318
+#@ Awaken
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:241
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:323
+#@ dir
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1399
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1640
+#, php-format
+#@ dir
+#@ tgmpa
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1421
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1659
+#, php-format
+#@ dir
+#@ tgmpa
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1464
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1705
+#, php-format
+#@ dir
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1613
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1795
+#@ dir
+#@ tgmpa
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation - Copy.php:1718
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1893
+#@ dir
+#@ tgmpa
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:283
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:298
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:308
+#, php-format
+#@ Awaken
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:328
+#@ tgmpa
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:719
+#@ tgmpa
+msgid "The remote plugin package is does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:719
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:723
+#@ tgmpa
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:723
+#@ tgmpa
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:768
+#, php-format
+#@ tgmpa
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:893
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1907
+#@ tgmpa
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1536
+#@ tgmpa
+msgid "External Source"
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:314
+#: searchform.php:11
+#@ Awaken
+msgid "Enter your search"
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:329
+#@ Awaken
+msgid "Contribute Now"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:106
+#@ Awaken
+msgid "Attention Please Wait"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:107
+#@ Awaken
+msgid "Dont Refresh Page"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:107
+#@ Awaken
+msgid "We are fetching dummy data for you. It can take 2 to 10 minutes depending upon data speed."
+msgstr ""
+
+#: include/theme-components/cs-mailchimp/mailchimp_functions.php:32
+#@ Awaken
+msgid "Signup weekly newsletter"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:145
+#: include/theme-components/cs-posttypes/pt_portfolios.php:155
+#: include/theme-components/cs-posttypes/pt_sermons.php:145
+#@ backend
+msgid "General"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:146
+#: include/theme-components/cs-posttypes/pt_portfolios.php:156
+#: include/theme-components/cs-posttypes/pt_sermons.php:146
+#@ backend
+msgid "Sub Header"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:148
+#: include/theme-components/cs-posttypes/pt_portfolios.php:158
+#: include/theme-components/cs-posttypes/pt_sermons.php:148
+#@ backend
+msgid "Header Absolute"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:151
+#: include/theme-components/cs-posttypes/pt_portfolios.php:161
+#: include/theme-components/cs-posttypes/pt_sermons.php:151
+#@ backend
+msgid "SEO Options"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:153
+#@ backend
+msgid "Speakers"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:154
+#: include/theme-components/cs-posttypes/pt_portfolios.php:163
+#@ backend
+msgid "Location"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_events.php:155
+#@ backend
+msgid "Event Options"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:21
+#@ backend
+msgid "Speaker"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:31
+#@ backend
+msgid "Notes Link"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:41
+#@ backend
+msgid "Download Audio Link"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:51
+#@ backend
+msgid "Sermon Summery"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:61
+#@ backend
+msgid "Sermon Listings"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:65
+#: include/theme-components/cs-posttypes/pt_functions.php:103
+#: include/theme-components/cs-posttypes/pt_functions.php:168
+#@ backend
+msgid "Sermon Title"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:73
+#: include/theme-components/cs-posttypes/pt_functions.php:104
+#: include/theme-components/cs-posttypes/pt_functions.php:176
+#@ backend
+msgid "Sermon URL"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:97
+#@ backend
+msgid "Add Sermon"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:105
+#@ backend
+msgid "Actions"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_functions.php:158
+#@ backend
+msgid "Edit Sermon"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:164
+#@ backend
+msgid "Project Options"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:206
+#@ backend
+msgid "Start Date"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:232
+#@ backend
+msgid "Link"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:237
+#@ backend
+msgid "Title"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:241
+#@ backend
+msgid "Url"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:245
+#@ backend
+msgid "Color"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:252
+#@ backend
+msgid "Listing Color"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_portfolios.php:258
+#@ backend
+msgid "This color will apply only in Projet Listing (Classic View)"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_sermons.php:38
+#@ backend
+msgid "Sermons"
+msgstr ""
+
+#: include/theme-components/cs-posttypes/pt_sermons.php:154
+#@ backend
+msgid "Sermons Options"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:458
+#@ Awaken
+msgid "Please Enter Flickr API key from Theme Options."
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:614
+#@ Awaken
+msgid "Leave a comment"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:2323
+#@ Awaken
+msgid " Raised"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:2323
+#@ Awaken
+msgid "Goal "
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:2441
+#@ Awaken
+msgid "An error Occured, please try again later."
+msgstr ""
+
+#: search.php:44
+#@ Awaken
+msgid "Featured : "
+msgstr ""
+
