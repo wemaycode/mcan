@@ -404,24 +404,37 @@ if ( ! function_exists( 'cs_get_headers' ) ) {
 				} 
 			 ?>
           </aside>
-          <aside class="right-side"> <?php cs_contribute_now(); ?> </aside>
+          <aside class="right-side">
+			<!-- Add Top Nav -->
+			<div class="main-navbar">
+				<?php cs_main_navigation(); ?>
+			</div>
+			
+			<?php cs_contribute_now(); ?> 
+		</aside>
       </div>
     </section>
   <!-- Logo Section -->
+  
   <!-- Main Navigation -->
+  <!--
   <section class="main-navbar" style="background-color: #e17a26; ">
       <div class="container">
         <aside class="left-side">
-           <?php cs_main_navigation(); ?>
+           <?php //cs_main_navigation(); ?>
         </aside>
         <aside class="right-side">
           <?php
+			/*
 			if(isset($cs_search) and  $cs_search=='on'){
 				cs_search();
-			}?>
+			}
+			*/
+			?>
         </aside>
-      </div>
+	</div>
     </section>
+	-->
    <!-- Main Navigation --> 
 </header>
 <!-- Header 2 End -->
