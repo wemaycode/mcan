@@ -2043,3 +2043,12 @@ span.backtotop { float: right; margin: 10px 0px; }
 .cart-sec {float: left; margin: 0 0 0 10px;}
 .cart-sec i {margin: 0 5px 0 0;}
 .navigation ul > li > a i {margin: 0 10px 0 0;}
+
+/* ===== CUSTOM STYLES ====== */
+
+.top-bar {
+	display: none;
+}
+.metaslider-nivo {
+     margin: 20px 0px;
+}
