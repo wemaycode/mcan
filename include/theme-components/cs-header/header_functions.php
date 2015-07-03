@@ -61,22 +61,10 @@ if ( ! function_exists( 'cs_header_strip' ) ) {
       <?php if($container == 'on'){ ?>
       <div class="container"> 
       <?php } ?>
-     	<!-- Left Side -->
-        <aside class="left-side">
-        <?php if(isset($cs_top_menu_switch) and $cs_top_menu_switch=='on'){ ?>
-          <nav class="top-nav">
-              <?php cs_navigation('top-menu','','','1'); ?>
-          </nav>
-          <?php }
-          if(isset($cs_header_strip_tagline_text) and $cs_header_strip_tagline_text <> ''){ ?>
-          		<p><?php echo do_shortcode($cs_header_strip_tagline_text);?></p>
-          <?php 
-            } 
-            ?>
-        </aside>
+     	
         
-        <!-- Right Side -->
-        <aside class="right-side">
+        <!-- Left Side -->
+        <aside class="left-side">
          <?php if(isset($cs_socail_icon_switch) and $cs_socail_icon_switch=='on'){ 
            	  cs_social_network();
            } ?>
@@ -117,6 +105,20 @@ if ( ! function_exists( 'cs_header_strip' ) ) {
 
         </aside>
 
+		<!-- Right Side -->
+        <aside class="right-side">
+        <?php /*if(isset($cs_top_menu_switch) and $cs_top_menu_switch=='on'){ ?>
+          <nav class="top-nav">
+              <?php cs_navigation('top-menu','','','1'); ?>
+          </nav>
+          <?php }
+          if(isset($cs_header_strip_tagline_text) and $cs_header_strip_tagline_text <> ''){ ?>
+          		<p><?php echo do_shortcode($cs_header_strip_tagline_text);?></p>
+          <?php 
+            } 
+            */?>
+        </aside>
+		
         <!-- Right Section -->
  	 <!-- Container -->
       <?php if($container == 'on'){ ?>
@@ -394,7 +396,7 @@ if ( ! function_exists( 'cs_get_headers' ) ) {
   <?php cs_header_strip();?>
   <!-- Top Strip -->
   <!-- Logo Section -->
-  <section class="logo-section" style=" background-color: #ebf3f3; ">
+  <section class="logo-section" style=" background-color: #ffffff; ">
       <div class="container">
         <aside class="left-side">
             <div class="logo"><?php cs_logo(); ?></div>
@@ -406,6 +408,7 @@ if ( ! function_exists( 'cs_get_headers' ) ) {
           </aside>
           <aside class="right-side">
 			<!-- Add Top Nav -->
+			<?php cs_top_navigation(); ?>
 			<div class="main-navbar">
 				<?php cs_main_navigation(); ?>
 			</div>
@@ -1184,14 +1187,22 @@ if ( ! function_exists( 'get_default_post_title' ) ) {
 function cs_main_navigation(){
 	echo '<nav class="navigation">
           	<div class="navbar-default"><div class="navbar-header">
-      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          	</button>
-        	</div></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">';
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+        	</div></div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">';
 				cs_header_main_navigation();
 			echo '</div>
           </nav>';	
+}
+function cs_top_navigation(){
+	//if(isset($cs_top_menu_switch) and $cs_top_menu_switch=='on'){
+			echo '<nav class="top-nav">';
+				cs_navigation('top-menu','','','1');
+			echo '</nav>';
+	//}
 }
