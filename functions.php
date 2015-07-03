@@ -2671,11 +2671,11 @@ function cs_theme_setup() {
  * Disable admin bar on the frontend of your website
  * for subscribers.
  */
-/*function themeblvd_disable_admin_bar() { 
+function themeblvd_disable_admin_bar() { 
  //if( ! current_user_can('edit_posts') )
-  //add_filter('show_admin_bar', '__return_false'); 
-}*/
-//add_action( 'after_setup_theme', 'themeblvd_disable_admin_bar' );
+  add_filter('show_admin_bar', '__return_false'); 
+}
+add_action( 'after_setup_theme', 'themeblvd_disable_admin_bar' );
  
 /**
  * Redirect back to homepage and not allow access to 
