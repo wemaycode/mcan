@@ -394,7 +394,7 @@ if ( ! function_exists( 'cs_get_headers' ) ) {
 <header id="main-header" class="<?php echo cs_allow_special_char($cs_header_options);?>"> 
   <!-- Top Strip -->
   <?php cs_header_strip();?>
-  <!-- Top Strip -->
+  <!-- End Top Strip -->
   <!-- Logo Section -->
   <section class="logo-section" style=" background-color: #ffffff; ">
       <div class="container">
@@ -407,17 +407,17 @@ if ( ! function_exists( 'cs_get_headers' ) ) {
 			 ?>
           </aside>
           <aside class="right-side">
-			<!-- Add Top Nav -->
+			<!-- Top Nav -->
 			<?php cs_top_navigation(); ?>
 			<div class="main-navbar">
 				<?php cs_main_navigation(); ?>
 			</div>
-			
 			<?php cs_contribute_now(); ?> 
+			<!-- End Top Nav -->
 		</aside>
       </div>
     </section>
-  <!-- Logo Section -->
+  <!-- End Logo Section -->
   
   <!-- Main Navigation -->
   <!--
@@ -438,7 +438,7 @@ if ( ! function_exists( 'cs_get_headers' ) ) {
 	</div>
     </section>
 	-->
-   <!-- Main Navigation --> 
+   <!-- End Main Navigation --> 
 </header>
 <!-- Header 2 End -->
 <?php }

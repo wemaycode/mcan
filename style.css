@@ -10156,6 +10156,9 @@ nav.top-nav {
 	float: right;
 	margin-top: 15px;
 }
+.logo-section {
+	padding: 40px 0px!important;
+}
 .logo-section .main-navbar {
 	background: none!important;
 }
@@ -10176,6 +10179,6 @@ nav.top-nav {
 	display: none;
 }
 main#main-content { /* add top margin for header */ 
-	margin-top: 115px;
+	margin-top: 125px;
 }
 

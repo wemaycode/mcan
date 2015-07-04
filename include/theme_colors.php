@@ -118,7 +118,7 @@ if((is_page() || is_single()) and ($page_header_style == 'no-header' and $page_h
 	}
 	<?php
 }
-else{
+else {
 	if(isset($cs_theme_options['cs_default_header']) and $cs_theme_options['cs_default_header'] == 'No sub Header'){
 		if($main_header_border_color <> ''){
 		?>
@@ -387,6 +387,7 @@ if ( ! function_exists( 'cs_header_color' ) ) {
 		}
 		?>
 	}
+	#main-header { border-top: 10px solid <?php echo cs_allow_special_char($cs_topstrip_bgcolor);?>; }
 	.top-bar,#lang_sel ul ul {background-color:<?php echo cs_allow_special_char($cs_topstrip_bgcolor);?>;}
 	#lang_sel ul ul:before { border-bottom-color: <?php echo cs_allow_special_char($cs_topstrip_bgcolor);?>; }
 	.top-bar p{color:<?php echo cs_allow_special_char($cs_topstrip_text_color);?> !important;}
