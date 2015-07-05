@@ -329,7 +329,7 @@ widget_nav_menu ul li a{
     line-height: 34px;
     color: #7e7e7e;
 }
-.widget_latest_post .letest-post-title{
+.widget_latest_post .latest-post-title{
     padding: 6px 0 0 0px;
     overflow: hidden;
 }
@@ -347,13 +347,13 @@ widget_nav_menu ul li a{
     font-weight:500;
     text-transform: uppercase;
 }
-.widget_latest_post .letest-post-title h5 {
+.widget_latest_post .latest-post-title h5 {
     font-size: 14px;
     font-weight: normal;
     margin: 0 0 3px;
     text-transform: uppercase;
 }
-.widget_latest_post .letest-post-title h5 a {
+.widget_latest_post .latest-post-title h5 a {
     color: #000;
 }
 .widget_latest_post .post-options{

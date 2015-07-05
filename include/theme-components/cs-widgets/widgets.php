@@ -529,7 +529,7 @@ if ( ! class_exists( 'recentposts' ) ) {
           </label>
         </p>
         <p>
-          <label for="<?php echo cs_allow_special_char($this->get_field_id('thumb')); ?>"> Display Thumbinals:
+          <label for="<?php echo cs_allow_special_char($this->get_field_id('thumb')); ?>"> Display Thumbnails:
             <input class="upcoming" id="<?php echo cs_allow_special_char($this->get_field_id('thumb')); ?>" size='2' name="<?php echo cs_allow_special_char($this->get_field_name('thumb')); ?>" value="true" type="checkbox"  <?php if(isset($instance['thumb']) && $instance['thumb']=='true' ) echo 'checked="checked"'; ?> />
           </label>
         </p>
@@ -607,7 +607,7 @@ if ( ! class_exists( 'recentposts' ) ) {
 							<div class="cs-time"> <span><?php echo date_i18n('M',strtotime(get_the_date()));?></span>
 							  <time datetime="<?php echo date_i18n('Y-m-d',strtotime(get_the_date()));?>"><?php echo date_i18n('d',strtotime(get_the_date()));?></time>
 							</div>
-							<div class="letest-post-title">
+							<div class="latest-post-title">
 							  <h5><a href="<?php the_permalink();?>"><?php echo substr(get_the_title(),0,27); if ( strlen(get_the_title()) > 27) echo "..."; ?></a></h5>
 							  <ul class="post-options">
 								<li><?php echo cs_category_render('', 'category', ', '); ?></li>
@@ -1669,7 +1669,7 @@ class contactinfo extends WP_Widget{
     </p>
     
     <p style="margin-top:0px; float:left;">
-        <label for="<?php echo cs_allow_special_char($this->get_field_id('email')); ?>"> Email #:<br />
+        <label for="<?php echo cs_allow_special_char($this->get_field_id('email')); ?>"> Email:<br />
             <input class="upcoming" id="<?php echo cs_allow_special_char($this->get_field_id('email')); ?>" size="40" 
             name="<?php echo cs_allow_special_char($this->get_field_name('email')); ?>" type="text" value="<?php echo esc_attr($email); ?>" />
         </label>

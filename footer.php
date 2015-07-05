@@ -8,7 +8,7 @@
         </div>
         </main>
         <!-- Main Content Section -->
-        <div class="clear"></div>
+        <div class="clear"></div> 
         <!-- Footer Start -->
         <?php
 		$footer_twitter = '';
@@ -110,5 +110,6 @@
   }
   wp_footer();
 ?>
+<!-- End footer.php -->
 </body>
 </html>

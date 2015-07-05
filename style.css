@@ -10182,3 +10182,11 @@ main#main-content { /* add top margin for header */
 	margin-top: 125px;
 }
 
+/* FOOTER */
+
+footer.group .logo img {
+	width: 100%;
+}
+footer.group .widget_text h2 { /* hide text widget titles */
+	display: none;
+}

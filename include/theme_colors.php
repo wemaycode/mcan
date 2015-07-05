@@ -63,7 +63,7 @@
 
 /*!
 * Theme Color */
-.cs-color,/*widget*/.widget.widget_recent_comments li:hover, .widget_recent_entries li a:hover, .widget_meta li a:hover, .widget_pages li a:hover, .widget_latest_post .letest-post-title h5 a:hover,
+.cs-color,/*widget*/.widget.widget_recent_comments li:hover, .widget_recent_entries li a:hover, .widget_meta li a:hover, .widget_pages li a:hover, .widget_latest_post .latest-post-title h5 a:hover,
 .widget_archive ul li:hover, .widget-sermon article h2 a:hover, .widget-team h2 a:hover, .widget-causes .cs-causes h2 a:hover, .widget-topevent .events-classic h2 a:hover, .widget_nav_menu ul li a:hover,.widget-comments ul li:hover, .widget-recent-blog .text h6 a:hover,blockquote .cs-auther-name a,.widget.widget_recent_comments li a,.widget_categories ul li:hover a,
 /* ShopButton */.woocommerce ul.products li.product a.add_to_cart_button, .woocommerce-page ul.products li.product a.add_to_cart_button,
 .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button,.woocommerce ul.products li.product .price span.amount,.woocommerce ul.products li.product h3:hover /* ShopButton */,.cs-testimonial p:before,.cs-testimonial p:after,
@@ -439,9 +439,6 @@ if ( ! function_exists( 'cs_footer_color' ) ) {
 <style type="text/css">
         footer.group, footer.group:before {
             background-color:<?php echo cs_allow_special_char($cs_sub_footerbg_color); ?> !important;
-        }
-		footer.group {
-            background-image:url("<?php echo cs_allow_special_char($cs_footerbg_image); ?>") !important;
         }
         .copyright {
             background-color:<?php echo cs_allow_special_char($cs_footerbg_color); ?> !important;
