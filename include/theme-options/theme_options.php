@@ -740,9 +740,9 @@ if ( ! function_exists( 'cs_theme_option' ) ) {
 						"id" => "tab-footer-options",
 						"type" => "sub-heading"
 						);						
-	$options[] = array( "name" =>__("Footer section",'Awaken'),
+	$options[] = array( "name" =>__("Footer Section",'Awaken'),
 						"desc" => "",
-						"hint_text" =>__("enable/disable footer area",'Awaken'),
+						"hint_text" =>__("enable/disable Footer Area",'Awaken'),
 						"id" => "cs_footer_switch",
 						"std" => "on",
 						"type" => "checkbox"
@@ -775,9 +775,9 @@ if ( ! function_exists( 'cs_theme_option' ) ) {
 						"std" => "on",
 						"type" => "checkbox");		
 						
-	$options[] = array( "name" =>__("footer logo",'Awaken'),
+	$options[] = array( "name" =>__("Footer Logo",'Awaken'),
 						"desc" => "",
-						"hint_text" =>__("set custom footer logo",'Awaken'),
+						"hint_text" =>__("set custom Footer Logo",'Awaken'),
 						"id" =>   "cs_footer_logo",
 						"std" => get_template_directory_uri()."/assets/images/footer-logo.png",
 						"type" => "upload logo");
