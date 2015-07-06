@@ -604,15 +604,16 @@ if ( ! class_exists( 'recentposts' ) ) {
 				  if($thumb <> true){
 						?>
 						  <li>
-							<div class="cs-time"> <span><?php echo date_i18n('M',strtotime(get_the_date()));?></span>
-							  <time datetime="<?php echo date_i18n('Y-m-d',strtotime(get_the_date()));?>"><?php echo date_i18n('d',strtotime(get_the_date()));?></time>
-							</div>
+							<!--<div class="cs-time"> <span><?php //echo date_i18n('M',strtotime(get_the_date()));?></span>
+							  <time datetime="<?php //echo date_i18n('Y-m-d',strtotime(get_the_date()));?>"><?php //echo date_i18n('d',strtotime(get_the_date()));?></time>
+							</div>-->
 							<div class="latest-post-title">
-							  <h5><a href="<?php the_permalink();?>"><?php echo substr(get_the_title(),0,27); if ( strlen(get_the_title()) > 27) echo "..."; ?></a></h5>
-							  <ul class="post-options">
+							  <h5><a href="<?php the_permalink();?>"><?php echo substr(get_the_title(),0,27); if ( strlen(get_the_title()) > 27) echo "..."; ?></a><i class="fa fa-angle-right"></i></h5>
+							  
+							  <!--<ul class="post-options">
 								<li><?php echo cs_category_render('', 'category', ', '); ?></li>
-								<li><?php comments_popup_link( __( 'Leave a comment', 'Awaken' ), __( '1 Comment', 'Awaken' ), __( '% Comments', 'Awaken' ) ); ?></li>
-							  </ul>
+								<li><?php //comments_popup_link( __( 'Leave a comment', 'Awaken' ), __( '1 Comment', 'Awaken' ), __( '% Comments', 'Awaken' ) ); ?></li>
+							  </ul>-->
 							</div>
 						  </li>
 						  <?php
@@ -1654,6 +1655,14 @@ class contactinfo extends WP_Widget{
 			<textarea cols="20" rows="5" id="<?php echo cs_allow_special_char($this->get_field_id('address')); ?>" name="<?php echo cs_allow_special_char($this->get_field_name('address')); ?>" style="width:315px"><?php echo esc_attr($address); ?></textarea>
 		</label>
 	</p>
+	
+    <p style="margin-top:0px; float:left;">
+        <label for="<?php echo cs_allow_special_char($this->get_field_id('email')); ?>"> Email:<br />
+            <input class="upcoming" id="<?php echo cs_allow_special_char($this->get_field_id('email')); ?>" size="40" 
+            name="<?php echo cs_allow_special_char($this->get_field_name('email')); ?>" type="text" value="<?php echo esc_attr($email); ?>" />
+        </label>
+    </p>
+	
 	<p style="margin-top:0px; float:left;">
 		<label for="<?php echo cs_allow_special_char($this->get_field_id('phone')); ?>"> Phone #:<br />
 			<input class="upcoming" id="<?php echo cs_allow_special_char($this->get_field_id('phone')); ?>" size="40"
@@ -1668,12 +1677,6 @@ class contactinfo extends WP_Widget{
         </label>
     </p>
     
-    <p style="margin-top:0px; float:left;">
-        <label for="<?php echo cs_allow_special_char($this->get_field_id('email')); ?>"> Email:<br />
-            <input class="upcoming" id="<?php echo cs_allow_special_char($this->get_field_id('email')); ?>" size="40" 
-            name="<?php echo cs_allow_special_char($this->get_field_name('email')); ?>" type="text" value="<?php echo esc_attr($email); ?>" />
-        </label>
-    </p>
 	<?php
 	}
 	
@@ -1712,16 +1715,16 @@ class contactinfo extends WP_Widget{
          
 			echo '<ul class="group">';
 			if(isset($address) and $address<>''){
-				echo '<li><i class="fa fa-institution"></i>'.do_shortcode(htmlspecialchars_decode($address)).'</li>';
+				echo '<li>'.do_shortcode(htmlspecialchars_decode($address)).'</li>';
 			}
 			if(isset($phone) and $phone<>''){
-				echo '<li><i class="fa fa-phone"></i>'.htmlspecialchars_decode($phone).'</li>';
+				echo '<li>'.htmlspecialchars_decode($phone).'</li>';
 			}
 			if(isset($fax) and $fax<>''){
-				echo '<li><i class="fa fa-fax"></i>'.htmlspecialchars_decode($fax).'</li>';
+				echo '<li>'.htmlspecialchars_decode($fax).'</li>';
 			}
 			if(isset($email) and $email<>''){
-				echo '<li><i class="fa fa-envelope"></i>'.htmlspecialchars_decode($email).'</li>';
+				echo '<li>'.htmlspecialchars_decode($email).'</li>';
 			}
 			echo '</ul>';
 			

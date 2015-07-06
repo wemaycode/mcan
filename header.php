@@ -41,6 +41,8 @@ $header_style = '';
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
+	<!-- Google Font-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,800,400' rel='stylesheet' type='text/css'>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11">

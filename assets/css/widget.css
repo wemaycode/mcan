@@ -1004,3 +1004,40 @@ widget_nav_menu ul li a{
     margin-right: 7px;
 }
 .archive .widget.evorgnizer figure { float: left; margin: 0 20px 0 0; }
+
+
+
+/*
+   _____          _                     _____ _         _            
+  / ____|        | |                   / ____| |       | |           
+ | |    _   _ ___| |_ ___  _ __ ___   | (___ | |_ _   _| | ___  ___  
+ | |   | | | / __| __/ _ \| '_ ` _ \   \___ \| __| | | | |/ _ \/ __| 
+ | |___| |_| \__ \ || (_) | | | | | |  ____) | |_| |_| | |  __/\__ \ 
+  \_____\__,_|___/\__\___/|_| |_| |_| |_____/ \__|\__, |_|\___||___/ 
+                                                   __/ |             
+                                                  |___/              
+*/
+
+
+.widget_latest_post > ul > li {
+	padding: 0px!important;
+}
+
+.widget_latest_post .latest-post-title h5 {
+	text-transform: none;
+	margin-bottom: 0px!important;
+}
+.widget_latest_post .latest-post-title h5 i.fa.fa-angle-right {
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.widget-recent-blog.widget_latest_post h2 {
+	border-bottom: 1px solid;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-weight: bold!important;
+}
+.widget-recent-blog.widget_latest_post h2:after {
+	content: '\:';
+}
