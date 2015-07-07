@@ -388,6 +388,7 @@ if ( ! function_exists( 'cs_header_color' ) ) {
 		?>
 	}
 	#main-header { border-top: 10px solid <?php echo cs_allow_special_char($cs_topstrip_bgcolor);?>; }
+	footer { border-bottom: 10px solid <?php echo cs_allow_special_char($cs_topstrip_bgcolor);?>; }
 	.top-bar,#lang_sel ul ul {background-color:<?php echo cs_allow_special_char($cs_topstrip_bgcolor);?>;}
 	#lang_sel ul ul:before { border-bottom-color: <?php echo cs_allow_special_char($cs_topstrip_bgcolor);?>; }
 	.top-bar p{color:<?php echo cs_allow_special_char($cs_topstrip_text_color);?> !important;}

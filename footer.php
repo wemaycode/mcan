@@ -5,6 +5,7 @@
  global $wpdb,$cs_theme_options;
  ?>
         <!-- Main Section End -->
+		<!-- footer.php -->
         </div>
         </main>
         <!-- Main Content Section -->

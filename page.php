@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The template for displaying all pages
@@ -55,6 +56,7 @@
 				$image_url = cs_get_post_img_src($post->ID, $width, $height);
 			if(get_the_content() <> '' || $image_url <> '')	{
 				if ( function_exists( 'cs_prettyphoto_enqueue' ) ) { cs_prettyphoto_enqueue(); }?>
+				<!-- Page.php -->
 				<section class="page-section">
                     <div  class="container">
                         <div class="row">

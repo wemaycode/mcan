@@ -1,3 +1,4 @@
+<!-- page-blank.php -->
 <?php
 /*
 	Template Name: Blank Page

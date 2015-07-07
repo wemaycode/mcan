@@ -1,4 +1,5 @@
 <?php
+
 // Flexslider function
 if ( ! function_exists( 'cs_flex_slider' ) ) {
 	function cs_flex_slider($width,$height,$slider_id){

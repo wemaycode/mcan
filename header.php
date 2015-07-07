@@ -89,6 +89,7 @@ $header_style = '';
     </head>
     <?php flush(); ?>
 	<body <?php body_class($cs_rtl_class);  if($cs_site_layout !='full_width'){ if ( function_exists( 'cs_bg_image' ) ) { echo cs_bg_image(); } } ?>>
+	<!-- Header.php -->
      <?php  if ( function_exists( 'cs_under_construction' ) ) { cs_under_construction(); } ?>
     	<!-- Wrapper Start -->
     <div class="wrapper <?php if ( function_exists( 'cs_header_postion_class' ) ) { echo cs_header_postion_class(); } ?> wrapper_<?php if ( function_exists( 'cs_wrapper_class' ) ) { cs_wrapper_class(); }?>">
@@ -148,8 +149,9 @@ $header_style = '';
 				if ( function_exists( 'cs_subheader_style' ) ) { cs_subheader_style(); }
 			}
 			?>
-        <!-- Breadcrumb SecTion -->
+        <!-- Breadcrumb Section -->
         <!-- Main Content Section -->
         <main id="main-content">
             <!-- Main Section Start -->
             <div class="main-section">
+			<!-- End Header.php -->
