@@ -3001,6 +3001,7 @@ function cs_admin_scripts_enqueue() {
 		wp_enqueue_script('custom_page_builder_wp_admin_script', get_template_directory_uri() . '/include/assets/scripts/cs_page_builder_functions.js');
 		wp_enqueue_script('bootstrap.min_script', get_template_directory_uri() . '/include/assets/scripts/bootstrap.min.js');
 		wp_enqueue_style('wp-color-picker');
+		
 	}
 }
 
@@ -3155,6 +3156,9 @@ if ( ! function_exists( 'cs_front_scripts_enqueue' ) ) {
 				cs_rtl();
 			}
 			wp_enqueue_style('cs_woocommerce_css', get_template_directory_uri() . '/assets/css/cs_woocommerce.css');
+			
+			// Custom MCAN Scripts
+			wp_enqueue_script('mcan', get_template_directory_uri() . '/assets/scripts/mcan.js', '', '', true);
 		 }
 	}
 }
