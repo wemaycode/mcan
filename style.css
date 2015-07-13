@@ -10298,3 +10298,42 @@ body.home section.contact-form {
 	color: #ffffff;
 	font-size: 20px;
 }
+
+.main-section h2, .main-section h2 a {
+	/* color: #000000 !important; */
+	font-family: 'Open Sans';
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #515254!important;
+}
+
+/* Homepage Blog Reel */
+
+.cs-section-title h2 {
+	font-size: 27px!important;
+	color: #515254!Important;
+	font-weight: 900!important;
+}
+.cs-section-title:before, .cs-section-title:after {
+	border: none!important;
+}
+
+.cs-blog a.continue-reading, .cs-blog ul.post-option-btm li a {
+	color: #515254;
+	display: inline-block;
+	float: left;
+	
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 15px;
+	font-weight: 800;
+	line-height: 28px;
+	
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+.cs-blog a.continue-reading i {
+	color: #515254;
+	font-size: 18px;
+	margin-right: 5px;
+}

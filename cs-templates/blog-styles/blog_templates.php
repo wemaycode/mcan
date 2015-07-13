@@ -341,7 +341,7 @@ if ( !class_exists('BlogTemplates') ) {
         }
 		
 		//======================================================================
-		// Blog Mesnory View
+		// Blog Masonry View ( Blog 3 Column ) 
 		//======================================================================
 		public function cs_mesnory_view( $description,$excerpt ) {
 			global $post;
@@ -384,10 +384,11 @@ if ( !class_exists('BlogTemplates') ) {
                 <?php if ($description == 'yes') {?><p><?php echo cs_get_the_excerpt($excerpt,'ture','');?></p><?php } ?> 
                   <a href="<?php echo the_permalink();?>" class="continue-reading"><i class="fa fa-angle-right"></i><?php _e('Continue Reading','Awaken');?></a>
                   <ul class="post-option-btm clearfix">
-                    <li><a href="<?php comments_link(); ?>"><i class="fa fa-comment-o"></i><?php echo comments_number(__('0', 'Awaken'), __('1', 'Awaken'), __('%', 'Awaken') );?> </a></li>
+					<!-- COMMENT OUT -->
+                    <!--<li><a href="<?php //comments_link(); ?>"><i class="fa fa-comment-o"></i><?php //echo comments_number(__('0', 'Awaken'), __('1', 'Awaken'), __('%', 'Awaken') );?> </a></li>-->
                     <?php //if ( $post_social_sharing == 'on' ) { ?>
                         <?php cs_addthis_script_init_method();?>
-                        <li><a class="btnshare addthis_button_compact"><i class="fa fa-share-alt"></i><?php _e('Share','Awaken');?></a></li>
+                        <li><a class="btnshare addthis_button_compact"><!--<i class="fa fa-share-alt"></i>--><?php _e('Share','Awaken');?></a></li>
                     <?php //}?>
                   </ul>
               </section>
