@@ -10337,3 +10337,28 @@ body.home section.contact-form {
 	font-size: 18px;
 	margin-right: 5px;
 }
+
+/* Homepage Content Blocks */
+.main-section .homepage-content-dark {
+	background-color: #515254;
+	color: #ffffff;
+	text-align: center;
+}
+.main-section .homepage-content-dark:before {
+	content: "";
+	display: block;
+	height: 1px;
+	position: relative;
+	top: 20px;
+	/* background: red; */
+	border-top: 1px solid #ffffff;
+}
+.main-section .homepage-content-dark h2 {
+	float: none;
+	color: #ffffff!important;
+	background-color: #515254;
+	display: inline-block;
+	z-index: 1;
+	position: relative;
+	padding: 0px 20px;
+}
