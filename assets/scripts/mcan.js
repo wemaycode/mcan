@@ -8,4 +8,7 @@ jQuery(document).ready(function($) {
 	// add CSS to parent of form for fullwidth bg
 	$('#homepage-organizing').parent().parent().parent().parent().parent().addClass('homepage-content-dark');
 	
+	// HOMEPAGE CONTENT BLOCK "This Is How We Work"
+	// add CSS to parent of form for fullwidth bg
+	$('#homepage-howwework').parent().parent().parent().parent().parent().addClass('homepage-content-howwework');
 });

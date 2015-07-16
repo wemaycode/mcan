@@ -5560,3 +5560,8 @@ Backend Rtl Styling
 #cs_footer_logo_upload, #cs_footer_background_image_upload {
   display: none;
 }
+
+
+.bcevent_title li .input-sec:last-child {
+	width: 45% !important;
+}

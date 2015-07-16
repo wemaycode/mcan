@@ -10139,6 +10139,7 @@ h1 {
 .left { float: left!important; }
 .right { float: left!important; }
 
+
 /* TOP NAV CTA */
 nav.top-nav { 
 	float: right;
@@ -10254,12 +10255,15 @@ footer.group .widget_text ul li a {
 	line-height: 35px;
 }
 
+/* ======= PAGE SECTIONS =======*/
+section.page-section {
+	background-size: cover!important;
+}
 
 /* HOMEPAGE NEWSLETTER FORM */
 
 body.home section.contact-form {
 	background-color: transparent;
-	background-image: url(assets/images/homepage-contact-form-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -10310,7 +10314,7 @@ body.home section.contact-form {
 /* Homepage Blog Reel */
 
 .cs-section-title h2 {
-	font-size: 27px!important;
+	font-size: 25px!important;
 	color: #515254!Important;
 	font-weight: 900!important;
 }
@@ -10338,7 +10342,10 @@ body.home section.contact-form {
 	margin-right: 5px;
 }
 
-/* Homepage Content Blocks */
+/* ===== Homepage Content Blocks ===== */
+
+
+/* Organizing Across the State */
 .main-section .homepage-content-dark {
 	background-color: #515254;
 	color: #ffffff;
@@ -10361,4 +10368,49 @@ body.home section.contact-form {
 	z-index: 1;
 	position: relative;
 	padding: 0px 20px;
+}
+.main-section .homepage-organizing {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* How We Work */
+
+body.home section.homepage-content-howwework{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.main-section .homepage-content-howwework h2, .main-section .homepage-content-howwework p {
+	float: none;
+	background-color: #ffffff;
+	display: inline-block;
+	padding: 5px 15px;
+}
+.main-section .homepage-howwework {
+	padding: 0 15%;
+}
+.main-section .homepage-content-howwework h2 {
+	color: #007088!important;
+}
+.main-section .homepage-content-howwework p {
+	color: #515254;
+	font-size: 20px;
+	padding: 10px 15px;
+}
+.main-section .homepage-content-howwework .cta.orange {
+	position: relative;
+	display: block;
+	width: 360px;
+	margin: 20px auto;
+	padding: 15px 20px;
+	color: #ffffff;
+	background-color: #f8991d;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
 }
