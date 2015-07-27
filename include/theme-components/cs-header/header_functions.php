@@ -914,7 +914,7 @@ if ( ! function_exists( 'cs_breadcrumb_header' ) ) {
 			 $parallax_data_type = ' data-type="background"';
 		 }
 		 if($subheader_style_elements){
-			$subheader_style_elements = 'style="'.$subheader_style_elements.' min-height:'.$banner_image_height.'!important; '.$cs_sh_paddingtop.' '.$cs_sh_paddingbottom.'  "';	
+			$subheader_style_elements = 'style="'.$subheader_style_elements.' ; '.$cs_sh_paddingtop.' '.$cs_sh_paddingbottom.'  "';	
 		 } else {
 		   $subheader_style_elements = 'style="min-height:'.$banner_image_height.'; '.$cs_sh_paddingtop.' '.$cs_sh_paddingbottom.' "';	
 		 }

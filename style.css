@@ -10164,7 +10164,7 @@ nav.top-nav {
 	margin-top: 15px;
 }
 .logo-section {
-	padding: 40px 0px!important;
+	padding: 30px 0px!important;
 }
 .logo-section .main-navbar {
 	background: none!important;
@@ -10181,13 +10181,95 @@ nav.top-nav {
     margin: 20px 0px;
 }
 
-/* CONTENT */
-.breadcrumb-sec {
+
+/* Subheader (Post Title) */
+body.home .breadcrumb-sec {
 	display: none;
 }
-main#main-content { /* add top margin for header */ 
-	margin-top: 125px;
+.breadcrumb-sec {
+	height: 160px;
+	background-size: cover!important;
+	background-repeat: no-repeat!important;
 }
+	.breadcrumb-sec h1 {
+		font-size: 30px!important;
+		font-weight: 900!important;
+		color: #ffffff!important;
+	}
+
+body.home #main-content, .breadcrumb-sec { /* add top margin for header */ 
+	margin-top: 160px;
+}
+.breadcrumb-sec {
+	margin-bottom: 60px;
+}
+
+/* CONTENT */
+.main-section {
+	padding: 0px!important;
+}
+
+.pageinfo {
+	padding: 34px 0px!important;
+	width: 60%;
+}
+
+/* POST CONTENT */
+.rich_editor_text h1, .rich_editor_text h2, .rich_editor_text h3, .rich_editor_text h4, .rich_editor_text h5 {
+	margin-bottom: 20px;
+	margin-top: 20px!important;
+}
+
+.rich_editor_text h2, .rich_editor_text h2 a {
+  font-size: 30px!important;
+  font-weight: bold!important;
+}
+.rich_editor_text h3, .rich_editor_text h3 a {
+  font-size: 20px!important;
+  font-weight: bold!important;
+}
+
+.rich_editor_text p, .rich_editor_text p strong, .rich_editor_text ul li {
+	font-size: 15px!important;
+	line-height: 21px!important;
+	color: #515524!important;
+	
+}
+.rich_editor_text strong {
+	font-weight: bold;
+}
+.rich_editor_text ul {
+	list-style-type: disc!important;
+	margin-left: 4em!important;
+	margin-bottom: 20px!important;
+}
+.rich_editor_text hr {
+	border-top: 1px solid #515524;
+}
+
+/* CS THEME: DIVIDER */
+
+.cs-seprator .devider2 {
+  border-top: 1px solid #000;
+}
+
+/* CS THEME: BUTTON */
+.button_style {
+	margin: 0px!important;
+}
+	.button_style a {
+	
+	}
+	.button_style .extra-large-btn {
+		font-size: 20px!important;
+		font-weight: bold!important;
+		padding: 8px 20px 8px 45px!important;
+	}
+	.button_style i.fa.button-icon-right {
+		background-color: transparent;
+		float: right;
+	}
+
 
 /* FOOTER */
 footer .col-md-3:nth-child(1), footer .col-md-3:nth-child(4) {
