@@ -10233,7 +10233,7 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 	font-size: 15px!important;
 	line-height: 21px!important;
 	color: #515524!important;
-	
+	margin-bottom: 15px!important;
 }
 .rich_editor_text strong {
 	font-weight: bold;
@@ -10245,6 +10245,16 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 }
 .rich_editor_text hr {
 	border-top: 1px solid #515524;
+}
+
+.cs-section-title h2 {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.cs_counter .cs-numcount {
+	font-weight: 700!important;
 }
 
 /* CS THEME: DIVIDER */
@@ -10365,7 +10375,7 @@ body.home section.contact-form {
 
 #contact-form input[type="text"], #contact-form input[type="email"] {
 	width: 100%;
-	font: 16px 'Open Sans', sans-serif !important;
+	font: 20px 'Open Sans', sans-serif !important;
 	text-transform: uppercase;
 	font-weight: 700!important;
 	border: none;
@@ -10443,6 +10453,7 @@ body.home section.contact-form {
 	border-top: 1px solid #ffffff;
 }
 .main-section .homepage-content-dark h2 {
+	width: auto;
 	float: none;
 	color: #ffffff!important;
 	background-color: #515254;
@@ -10465,6 +10476,7 @@ body.home section.homepage-content-howwework{
 	background-position: center center;
 }
 .main-section .homepage-content-howwework h2, .main-section .homepage-content-howwework p {
+	width: auto;
 	float: none;
 	background-color: #ffffff;
 	display: inline-block;
@@ -10495,4 +10507,46 @@ body.home section.homepage-content-howwework{
 	font-size: 20px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+/* ======== Sidebar ========= */
+.page-sidebar:before {
+	background-color: #ffffff!important;
+	border-left: none!important;
+}
+.widget.event-calendar .eventsCalendar-monthWrap .eventsCalendar-currentTitle {
+	background-color: #ee8c3a!important;
+}
+.widget.event-calendar .eventsCalendar-monthWrap .eventsCalendar-day-header
+ {
+	background-color: #ec7f23!important;
+}
+.widget.event-calendar .eventCalendar-wrap .eventsCalendar-list-wrap {
+	border-left-color: #ec7f23!important;
+}
+.widget.event-calendar .eventCalendar-wrap {
+	background-color: #ffffff!important;
+}
+/* Widget Form */
+.widget-form ul li input[type=text], .widget-form ul li input[type=email] {
+    border: 1px solid #000;
+    outline: none;
+    background-color: #ffffff;
+    background-image: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* =========== PAGES =========== */
+.page-content {
+	width: 60.25%!important;
+    border-right: 1px solid #000!important;
+    margin-bottom: 40px!important;
+}
+.page-sidebar {
+	width: 34.75%!important;
+}
+.page-content ~ .page-sidebar {
+	padding: 0px!important;
 }
