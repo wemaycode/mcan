@@ -10166,6 +10166,7 @@ nav.top-nav {
 .logo-section {
 	padding: 30px 0px!important;
 }
+
 .logo-section .main-navbar {
 	background: none!important;
 }
@@ -10174,6 +10175,23 @@ nav.top-nav {
 }
 .logo-section .main-navbar ul.navbar-nav li.menu-item:last-child a {
   padding-right: 0px;
+}
+
+/* Hamburger Menu */
+.navigation .navbar-collapse {
+    top: 49px;
+}
+button.navbar-toggle.addclose {
+    left: 0px;
+}
+.navbar-toggle.addclose:before {
+	color: #ffffff!important;
+}
+button.navbar-toggle {
+    background-color: #515254!important;
+}
+button.navbar-toggle:hover {
+    background-color: #f8991d!important;
 }
 
 /* SLIDER */

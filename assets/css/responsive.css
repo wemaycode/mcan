@@ -1,4 +1,13 @@
-
+/* ========== CUSTOM MCAN ========= */
+	
+.logo-section .container aside.left-side {
+	width: 25%;
+}
+.logo-section .container aside.right-side {
+	width: 75%;
+}
+	
+	
 /*============	Media 768Px Start ============ */ 
 @media (min-width: 768px) and (max-width: 990px) {
 	.col-md-4, .col-md-3 { width: 50% !important; }
@@ -68,7 +77,7 @@
 	.navbar-nav > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li > .dropdown-menu > li{padding:0;}
 	.collapse{ display:none;}
 	.dropdown-menu li:last-child{ border-bottom:0 !important;}
-	.navigation .navbar-collapse{ overflow-x: inherit !important; overflow-y: inherit !important; position: absolute; top: 100%; left: 0; background: #fff; max-height: inherit; width: 100%; z-index: 999; }
+	.navigation .navbar-collapse{ overflow-x: inherit !important; overflow-y: inherit !important; position: absolute; /*top: 100%; left: 0;*/ background: #fff; max-height: inherit; width: 50%; z-index: 999; }
 
 	.navigation .navbar-collapse.collapse { display:none !important;}
 	.navigation .navbar-collapse.collapse.in{ display:block !important;}
@@ -76,7 +85,7 @@
 	.navigation .navbar-collapse.in .navbar-nav{height: 360px !important; overflow: auto !important;}
 
 	.navbar-default{ width: 100%;float: left;background-color: transparent;}
-	.navbar-collapse{ max-height:300px; width:100%; background:#fff;}
+	.navbar-collapse{ max-height:300px; width:50%; background:#fff;}
 	.navbar-toggle{ margin: 0px;}
 	.navbar-header {float: right;}
 	.navigation ul.mega-grid > li {padding: 0px;}
@@ -111,6 +120,34 @@
 	.rtl footer.group {padding: 0 5px 0 0;}
 	.rtl .navigation ul li {width: 100%;}
 	footer .footer-nav {float: left; width: 100%;}
+	
+	/* ======== CUSTOM MCAN ======== */
+	.logo-section .container aside.left-side {
+		width: 100%;
+	}
+	.logo-section .container aside.right-side {
+		width: 100%;
+	}
+	body.home #main-content, .breadcrumb-sec {
+		margin-top: 200px!important;
+	}
+	nav.top-nav {
+		position: relative;
+		top: -25px;
+	}
+	.navbar-collapse ul.nav.navbar-nav li {
+		width: 100%;		
+	}
+	.navigation .navbar-collapse.collapse.in {
+		top: 49px;
+		left: 0px;
+	}
+	.nav {
+		padding: 0px;
+	}
+	.logo-section .main-navbar ul.navbar-nav li.menu-item a {
+		padding-right: 15px!important;
+	}
 	
 }
 	
@@ -307,6 +344,26 @@
 	footer .footer-nav {float: left; width: 100%;}
 	.rtl .page-section {background-size: cover !important;}
 
+	/* ===== CUSTOM MCAN ===== */
+	nav.top-nav {
+		float: none;
+		height: 66px;
+		width: 100%;
+	}
+	ul.nav.navbar-nav li {
+		width: 100%;
+		text-align: left;
+	}
+	ul.menu-cta-menu {
+		left: 50%;
+		position: absolute;
+		margin-left: -135px;
+		margin-top: 30px;
+	}
+	body.home #main-content, .breadcrumb-sec {
+		margin-top: 250px!important;
+	}
+
 }
 @media (max-width: 580px) {
 	.col-md-3, .element-size-25, .main-section .sermon-list figure { width: 100%!important;}
@@ -460,7 +517,7 @@
 	.main-section .cs-blog ul.post-option-btm {float: left; }
 	.main-section .cs-blog-grid .flexslider {margin-bottom: 15px;}
 	.main-section .col-md-3 .blog-box section h2 {font-size: 12px !important;}
-	#main-header .navigation ul > li > a { padding: 20px 10px;}
+	#main-header .navigation ul > li > a { /*padding: 20px 10px;*/}
    .header_1 .main-head .right-side { margin-top: 0px!important;}
    .header_1 .main-head .navigation ul > li > a { padding: 14px 7px !important; font-size: 11px !important;}
    /*============ two Start ============ */
@@ -480,4 +537,7 @@
 	.main-section .widget-sermon .socialmedia li a {width: 28px; height: 28px;}
 	.rtl .main-section .element-size-50 .cs-projects.projects-classic section, .rtl .main-section .col-md-6 .cs-projects.projects-classic section {margin: 0;}
 	.main-navbar .left-side, .main-navbar .right-side {display: table-cell; float: none !important; vertical-align: middle; width: 78%;}
+	
+	
+	
 }
