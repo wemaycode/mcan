@@ -53,12 +53,22 @@ get_header();
 				$blogusers = get_users( $args );
 				// Array of WP_User objects.
 				foreach ( $blogusers as $user ) {
+					$user_info = get_userdata($user);
+					$username = $user->user_login;
+					$userid = absint($user->ID);
+					$usermeta = get_user_meta($userid);
+					//$arruser = print_r($usermeta);
+					
+					
 					echo '<a class="fancybox" rel="group" href="#' . esc_html( $user->user_login ) . '">';
-					echo 	esc_html( $user->user_login );
+					echo 	"<img src='" . $usermeta["user_avatar_display"][0] . "' /><br/>";
+					echo 	"<p>" . $usermeta["first_name"][0] . " " . $usermeta["last_name"][0] . "</p>";
+					echo 	"<p>" . $usermeta["tagline"][0] . "</p>";
 					echo '</a><br/>';
-					echo '<div id="' . esc_html( $user->user_login ) . '" style="display:none;">';
-					echo 	get_avatar($user_info->user_email,apply_filters('PixFill_author_bio_avatar_size', 60));
-					echo 	'<p>' . $user->description . '</p>';
+					
+					echo '<div id="' . esc_html( $user->user_login ) . '" style="display:none;">';					
+						echo 	"<img src='" . $usermeta["user_avatar_display"][0] . "' /><br/>";
+						echo 	'<p>' . $user->description . '</p>';
 					echo '</div>';
 				}
 				?>
