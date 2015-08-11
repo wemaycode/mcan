@@ -3157,8 +3157,14 @@ if ( ! function_exists( 'cs_front_scripts_enqueue' ) ) {
 			}
 			wp_enqueue_style('cs_woocommerce_css', get_template_directory_uri() . '/assets/css/cs_woocommerce.css');
 			
+			// Custom MCAN Styles
+			wp_enqueue_style('fancybox_css', get_template_directory_uri() . '/assets/css/jquery.fancybox.css');
+			
 			// Custom MCAN Scripts
+			wp_enqueue_script('fancybox', get_template_directory_uri() . '/assets/scripts/jquery.fancybox.pack.js', '', '', true);
 			wp_enqueue_script('mcan', get_template_directory_uri() . '/assets/scripts/mcan.js', '', '', true);
+			
+   
 		 }
 	}
 }
