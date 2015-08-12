@@ -19,9 +19,10 @@ jQuery(document).ready(function($) {
 			'type' : 'inline',
 			'mouseWheel' : false,
 			'autoSize' : true,
-			'fitToView' : false,
+			'fitToView' : true,
 			'scrolling' : 'auto',
-			'nextClick' : false
+			'nextClick' : false,
+			'maxWidth' : 800
 		});
 	}
 });

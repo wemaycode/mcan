@@ -10624,14 +10624,14 @@ body.home section.homepage-content-howwework{
 	}
 	/* fancybox lightbox content */
 	.fancybox-opened {
-		width: 95%!important;
+		/*width: 95%!important;*/
 	}
 	.fancybox-inner {
 		overflow: hidden;
-		width: 100%!important;
+		/*width: 100%!important;*/
 	}
 	.fancybox-inner img {
-		width: 25%;
+		width: 250px;
 		float: left;
 		margin: 0px 15px 5px 0px;
 	}
