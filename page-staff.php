@@ -12,12 +12,10 @@ get_header();
 <section class="page-section">
     <!-- Container -->
     <div class="container">
-        <!-- Row -->
+	
+        <!-- Page Content -->
         <div class="row">
-            <!-- Col Md 12 -->
-            <div class="col-md-12">
-            	 <!--<div class="col-md-12">-->
-				<!-- List of Users -->
+            <div class="col-md-12">				
 				<?php
                     if ( have_posts() ) {
                         while ( have_posts() ) {
@@ -28,7 +26,11 @@ get_header();
                     } // end if
                 ?>
 				
-				
+			</div>
+		</div>
+		
+		<!-- Grid -->
+		<div class="row">
 				<?php
 				$args = array(
 					'blog_id'      => $GLOBALS['blog_id'],
@@ -51,6 +53,7 @@ get_header();
 				);
 				
 				$blogusers = get_users( $args );
+				
 				// Array of WP_User objects.
 				foreach ( $blogusers as $user ) {
 					$user_info = get_userdata($user);
@@ -59,16 +62,21 @@ get_header();
 					$usermeta = get_user_meta($userid);
 					//$arruser = print_r($usermeta);
 					
+					echo '<div class="col-md-3">';
 					
-					echo '<a class="fancybox" rel="group" href="#' . esc_html( $user->user_login ) . '">';
-					echo 	"<img src='" . $usermeta["user_avatar_display"][0] . "' /><br/>";
-					echo 	"<p>" . $usermeta["first_name"][0] . " " . $usermeta["last_name"][0] . "</p>";
-					echo 	"<p>" . $usermeta["tagline"][0] . "</p>";
-					echo '</a><br/>';
-					
-					echo '<div id="' . esc_html( $user->user_login ) . '" style="display:none;">';					
-						echo 	"<img src='" . $usermeta["user_avatar_display"][0] . "' /><br/>";
-						echo 	'<p>' . $user->description . '</p>';
+						echo '<a class="fancybox" rel="group" href="#' . esc_html( $user->user_login ) . '">';
+							echo "<img src='" . $usermeta["user_avatar_display"][0] . "' /><br/>";
+							echo "<div class='staff-name'>" . $usermeta["first_name"][0] . " " . $usermeta["last_name"][0] . "</div>";
+							echo "<div class='staff-title'>" . $usermeta["tagline"][0] . "</div>";
+						echo '</a><br/>';
+						
+						echo '<div id="' . esc_html( $user->user_login ) . '" style="display:none;">';					
+							echo "<img src='" . $usermeta["user_avatar_display"][0] . "' />";
+							echo "<span class='staff-name'>" . $usermeta["first_name"][0] . " " . $usermeta["last_name"][0] . "</span>";
+							echo "<span class='staff-title'> - " . $usermeta["tagline"][0] . "</span>";
+							echo '<p>' . $user->description . '</p>';
+						echo '</div>';
+						
 					echo '</div>';
 				}
 				?>

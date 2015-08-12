@@ -10597,17 +10597,66 @@ body.home section.homepage-content-howwework{
 }
 
 /* Staff Grid Page Template */
-.page-template-page-staff { 
+.page-template-page-staff { }
 
-}
-.page-template-page-staff .main-section h2 {
-	font-size: 25px!important;
-	font-weight: bold!important;
-	text-transform: uppercase;
-}
-.page-template-page-staff .main-section p {
-	font-size: 20px!important;
-}
+	.page-template-page-staff .main-section h2 {
+		font-size: 25px!important;
+		font-weight: bold!important;
+		text-transform: uppercase;
+	}
+	.page-template-page-staff .main-section p {
+		font-size: 20px!important;
+	}
+
+	/* fancybox grid */
+	.page-template-page-staff a.fancybox img {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.page-template-page-staff a.fancybox .staff-name {
+		font-size: 19px;
+		color: #f8991d;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.page-template-page-staff a.fancybox .staff-title {
+		font-size: 19px;
+	}
+	/* fancybox lightbox content */
+	.fancybox-opened {
+		width: 95%!important;
+	}
+	.fancybox-inner {
+		overflow: hidden;
+		width: 100%!important;
+	}
+	.fancybox-inner img {
+		width: 25%;
+		float: left;
+		margin: 0px 15px 5px 0px;
+	}
+	.fancybox-inner .staff-name {
+		font-size: 19px;
+		color: #f8991d;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.fancybox-inner .staff-title {
+		font-size: 19px;
+		font-weight: bold;
+	}
+	.fancybox-inner p {
+	
+	}
+	.fancybox-nav {
+		width: 25%!important;
+	}
+	.fancybox-next {
+		right: 20px!important;
+	}
+	.fancybox-prev {
+		left: 20px!important;
+	}
 
 
 

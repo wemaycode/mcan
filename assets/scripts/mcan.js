@@ -16,7 +16,12 @@ jQuery(document).ready(function($) {
 	if ( ($('body').attr('class').indexOf('staff')) > 0 ){
 		console.log("is staff page");
 		$('.fancybox').fancybox({
-			'type' : 'inline'
+			'type' : 'inline',
+			'mouseWheel' : false,
+			'autoSize' : true,
+			'fitToView' : false,
+			'scrolling' : 'auto',
+			'nextClick' : false
 		});
 	}
 });
