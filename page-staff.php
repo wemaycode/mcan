@@ -52,33 +52,76 @@ get_header();
 					'who'          => ''
 				);
 				
-				$blogusers = get_users( $args );
+				// Get main Wordpress user data
+				$results = get_users( $args );
+				
+				// Sort
+				//echo $blogusers[0]->display_name;
 				
 				// Array of WP_User objects.
-				foreach ( $blogusers as $user ) {
-					$user_info = get_userdata($user);
-					$username = $user->user_login;
-					$userid = absint($user->ID);
-					$usermeta = get_user_meta($userid);
-					//$arruser = print_r($usermeta);
+				foreach ( $results as $result ) {
+					$userdata = get_userdata($result->ID);
+					$user = get_user_meta($result->ID);
+									
+					//$usermeta = get_user_meta($userid);
+					
+					// create custom array w/ user info, using nickname (sort) field as ID
+					$infousers[$user['nickname'][0]] = array(
+						'user_order' => $user['nickname'],
+						'user_nicename' => $userdata->user_nicename,
+						'user_fullname' => $user['first_name'][0] . " " . $user['last_name'][0],
+						'user_title' => $user['tagline'][0],
+						'user_bio' => $user['description'][0],
+						'user_avatar' => $user['user_avatar_display'][0]
+					);
+					
+					
+/*					
+					print "<pre>";
+					print_r($userdata);
+					print "</pre>";
+					
+					print "<pre>";
+					print_r($user);
+					print "</pre>";
+	*/			
+				}				
+				
+				// Sort by nickname/sort field
+				sort($infousers);
+					
+				// loop through sorted array
+				foreach ( $infousers as $infouser ) {
+					
+					//echo $infouser['user_fullname'] . "<br>";	
+					
 					
 					echo '<div class="col-md-3">';
 					
-						echo '<a class="fancybox" rel="group" href="#' . esc_html( $user->user_login ) . '">';
-							echo "<img src='" . $usermeta["user_avatar_display"][0] . "' /><br/>";
-							echo "<div class='staff-name'>" . $usermeta["first_name"][0] . " " . $usermeta["last_name"][0] . "</div>";
-							echo "<div class='staff-title'>" . $usermeta["tagline"][0] . "</div>";
+						echo '<a class="fancybox" rel="group" href="#' . $infouser["user_nicename"] . '">';
+							echo "<img src='" . $infouser["user_avatar"] . "' /><br/>";
+							echo "<div class='staff-name'>" . $infouser["user_fullname"] . "</div>";
+							echo "<div class='staff-title'>" . $infouser["user_title"] . "</div>";
 						echo '</a><br/>';
 						
-						echo '<div id="' . esc_html( $user->user_login ) . '" style="display:none;">';					
-							echo "<img src='" . $usermeta["user_avatar_display"][0] . "' />";
-							echo "<span class='staff-name'>" . $usermeta["first_name"][0] . " " . $usermeta["last_name"][0] . "</span>";
-							echo "<span class='staff-title'> - " . $usermeta["tagline"][0] . "</span>";
-							echo '<p>' . $user->description . '</p>';
+						echo '<div id="' . $infouser["user_nicename"] . '" style="display:none;">';					
+							echo "<img src='" . $infouser["user_avatar"] . "' />";
+							echo "<span class='staff-name'>" . $infouser["user_fullname"] . "</span>";
+							echo "<span class='staff-title'> - " . $infouser["user_title"] . "</span>";
+							echo '<p>' . $infouser['user_bio'] . '</p>';
 						echo '</div>';
 						
 					echo '</div>';
+					
 				}
+				
+				/*
+					print "<pre>";
+					print_r($infousers);
+					print "</pre>";
+					
+				*/
+				
 				?>
 				
 				
