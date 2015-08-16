@@ -10602,6 +10602,11 @@ body.home section.homepage-content-howwework{
 .page-sidebar {
 	width: 34.75%!important;
 }
+@media (max-width: 990px) and (min-width: 768px)
+.main-section .page-content, .main-section .page-content ~ .page-sidebar, .col-md-12, .main-section .image-frame figure, body .wrapper.wrapper_boxed, .widget-projects .cs-listing {
+    width: 100%!important;
+}
+
 .page-content ~ .page-sidebar {
 	padding: 0px!important;
 }
