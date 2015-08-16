@@ -1216,7 +1216,7 @@ td {
     float: left;
     padding: 0 30px 0 0;
     position: relative;
-    width: 75%;
+    width: 60.25%;
     z-index: 9;
 }
 .page-content ~ .page-sidebar {
@@ -1224,7 +1224,7 @@ td {
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
-    width: 25%;
+    width: 34.75%;
 }
 .page-section,
 figure img {
@@ -1236,10 +1236,11 @@ figure img {
 }
 .page-sidebar {
     float: left;
-    margin-bottom: -322550px;
+    /*margin-bottom: -322550px;
     padding: 0 15px 322550px 0;
+	*/
     position: relative;
-    width: 25%;
+    width: 34.75%;
 }
 .page-content ~ .page-sidebar:before {
     background-color: #fcfcfc;
@@ -10595,16 +10596,12 @@ body.home section.homepage-content-howwework{
 
 /* =========== PAGES =========== */
 .page-content {
-	width: 60.25%!important;
+	/*width: 60.25%!important;*/
     border-right: 1px solid #000!important;
     margin-bottom: 40px!important;
 }
 .page-sidebar {
-	width: 34.75%!important;
-}
-@media (max-width: 990px) and (min-width: 768px)
-.main-section .page-content, .main-section .page-content ~ .page-sidebar, .col-md-12, .main-section .image-frame figure, body .wrapper.wrapper_boxed, .widget-projects .cs-listing {
-    width: 100%!important;
+	/*width: 34.75%!important;*/
 }
 
 .page-content ~ .page-sidebar {
