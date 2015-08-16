@@ -10147,8 +10147,11 @@ h1 {
     position: fixed;
     top: 0px;
     width: 100%;
-    z-index: 9999!important;
-    box-shadow: 0px -6px 25px 5px #555555;
+    z-index: 9999!important;    
+}
+
+#main-header.shadow {
+	box-shadow: 0px -6px 25px 5px #555555;
 }
 
 /* TOP NAV CTA */
