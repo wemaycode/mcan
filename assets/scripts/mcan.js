@@ -13,8 +13,8 @@ jQuery(document).ready(function($) {
 	$('#homepage-howwework').parent().parent().parent().parent().parent().addClass('homepage-content-howwework');
 	
 	// Run Fancybox on Staff Page template
-	if ( ($('body').attr('class').indexOf('staff')) > 0 ){
-		console.log("is staff page");
+	if ( $('body').attr('class').indexOf('staff') > 0 ||  $('body').attr('class').indexOf('pastcampaigns') > 0 || $('body').attr('class').indexOf('resources') > 0 ){
+		console.log("run fancybox");
 		$('.fancybox').fancybox({
 			'type' : 'inline',
 			'mouseWheel' : false,
