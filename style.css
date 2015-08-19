@@ -10611,31 +10611,45 @@ body.home section.homepage-content-howwework{
 	padding: 0px!important;
 }
 
-/* Staff Grid Page Template */
+/* Grid Page Template */
 .page-template-page-staff { }
 
-	.page-template-page-staff .main-section h3 {
+	.page-template-page-staff .main-section h3, 
+	.page-template-page-currentcampaigns .main-section h3 {
 		font-size: 25px!important;
 		font-weight: bold!important;
 		text-transform: uppercase;
 	}
-	.page-template-page-staff .main-section p {
+	.page-template-page-staff .main-section p, 
+	.page-template-page-currentcampaigns .main-section p {
 		font-size: 20px!important;
 	}
 
 	/* fancybox grid */
-	.page-template-page-staff a.fancybox img {
+	.page-template-page-staff a.fancybox img,
+	.page-template-page-currentcampaigns a.fancybox .grid-img {
 		width: 100%;
 		margin-bottom: 20px;
 	}
-	.page-template-page-staff a.fancybox .staff-name {
+	.page-template-page-staff a.fancybox .staff-name,
+	.page-template-page-currentcampaigns a.fancybox .staff-name,
+	.grid-title
+	{
 		font-size: 19px;
 		color: #f8991d;
 		font-weight: bold;
 		text-transform: uppercase;
 	}
-	.page-template-page-staff a.fancybox .staff-title {
+	.page-template-page-staff a.fancybox .staff-title,
+	.page-template-page-currentcampaigns a.fancybox .staff-title	{
 		font-size: 19px;
+	}
+	/* Grid Background Image */
+	.grid-thumbnail {
+		width: 100%;
+		height: 200px;
+		background-size: cover;
+		background-position: center center;
 	}
 	/* fancybox lightbox content */
 	.fancybox-opened {
