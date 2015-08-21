@@ -10689,5 +10689,11 @@ body.home section.homepage-content-howwework{
 	}
 	*/
 
-
+/* BLOG LIST PAGE */
+.post-option {
+    float: none;
+}
+.blog-title-wrapper {
+    padding-left: 15px;
+}
 
