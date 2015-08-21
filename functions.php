@@ -3979,7 +3979,7 @@ function cs_get_blog_filters($cs_blog_cat,$author_filter,$filter_category,$filte
                _e('Filter By','Awaken'); ?>  
                </a> </li>
               <li><a href="#pager-2<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-list"></i><?php 
-                   _e('Categories','Awaken');  
+                   _e('Affiliates','Awaken');  
               ?></a></li>
               <li><a href="#pager-3<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-tags"></i><?php 
                  _e('Tags','Awaken'); 
@@ -4000,7 +4000,7 @@ function cs_get_blog_filters($cs_blog_cat,$author_filter,$filter_category,$filte
                 if( isset($cs_blog_cat) && ($cs_blog_cat <> "" && $cs_blog_cat <> "0")   && isset( $row_cat->term_id )){	
                   $categories = get_categories( array('child_of' => "$row_cat->term_id", 'taxonomy' => 'category', 'hide_empty' => 1));
                 ?>
-              <a href="?<?php echo 'by_author='.$author_filter.'&amp;filter_category='.$filter_category; ?>" class="<?php if(($cs_blog_cat == $filter_category)){ echo 'bgcolr';}?>"><?php  _e('All Categories','Awaken'); ?></a>
+              <a href="?<?php echo 'by_author='.$author_filter.'&amp;filter_category='.$filter_category; ?>" class="<?php if(($cs_blog_cat == $filter_category)){ echo 'bgcolr';}?>"><?php  _e('All Affiliates','Awaken'); ?></a>
               <?php
                 }else{
                     $categories = get_categories( array('taxonomy' => 'category', 'hide_empty' => 1) );
