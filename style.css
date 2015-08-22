@@ -10697,3 +10697,7 @@ body.home section.homepage-content-howwework{
     padding-left: 15px;
 }
 
+#at3win #at3winheader h3 { /* share popup */
+	line-height: 2.5em!important;
+    margin-left: 32px!important;
+}
