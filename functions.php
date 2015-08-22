@@ -3970,6 +3970,7 @@ function cs_get_blog_filters($cs_blog_cat,$author_filter,$filter_category,$filte
 	 global $post,$cs_theme_options,$cs_counter_node,$wpdb;
 	 $nav_count = rand(40, 9999999);
 	 if ( isset( $cs_blog_filterable ) && $cs_blog_filterable == 'yes') { 
+	 
 	 ?>
 		<!--Sorting Navigation-->
         <div class="col-md-12">
@@ -3992,28 +3993,45 @@ function cs_get_blog_filters($cs_blog_cat,$author_filter,$filter_category,$filte
                 <?php   _e('Show All','Awaken'); ?>  
             </a>
             <div id="pager-1<?php echo cs_allow_special_char($nav_count);?>" class="filter-pager" style="display: none;"> 
-            <a class="<?php if(isset($_GET['sort']) and $_GET['sort']=='asc') { echo 'active';}?>" href="?<?php echo 'by_author='.$author_filter.'&amp;sort=asc&amp;filter_category='.$filter_category.'&amp;filter-tag='.$filter_tag; ?>"> <?php    _e('Date Published','Awaken'); ?> </a>
-            <a class="<?php if(isset($_GET['sort']) and $_GET['sort']=='alphabetical') { echo 'active';}?>" href="?<?php echo 'by_author='.$author_filter.'&amp;sort=alphabetical&amp;filter_category='.$filter_category.'&amp;filter_tag='.$filter_tag; ?>"> <?php echo _e('Alphabetical','Awaken');?> </a> </div>
+				<a class="<?php if(isset($_GET['sort']) and $_GET['sort']=='asc') { echo 'active';}?>" 
+					href="?<?php echo 'by_author='.$author_filter.'&amp;sort=asc&amp;filter_category='.$filter_category.'&amp;filter-tag='.$filter_tag; ?>"> 
+						<?php    _e('Date Published','Awaken'); ?> 
+				</a>
+				<a class="<?php if(isset($_GET['sort']) and $_GET['sort']=='alphabetical') { echo 'active';}?>" 
+					href="?<?php echo 'by_author='.$author_filter.'&amp;sort=alphabetical&amp;filter_category='.$filter_category.'&amp;filter_tag='.$filter_tag; ?>"> 
+						<?php echo _e('Alphabetical','Awaken');?> 
+					</a> 
+			</div>
             <div id="pager-2<?php echo cs_allow_special_char($nav_count);?>" class="filter-pager" style="display: none;">
-              <?php
-				$row_cat = $wpdb->get_row($wpdb->prepare("SELECT * from $wpdb->terms WHERE slug = %s", $cs_blog_cat ));
-                if( isset($cs_blog_cat) && ($cs_blog_cat <> "" && $cs_blog_cat <> "0")   && isset( $row_cat->term_id )){	
-                  $categories = get_categories( array('child_of' => "$row_cat->term_id", 'taxonomy' => 'category', 'hide_empty' => 1));
-                ?>
-              <a href="?<?php echo 'by_author='.$author_filter.'&amp;filter_category='.$filter_category; ?>" class="<?php if(($cs_blog_cat == $filter_category)){ echo 'bgcolr';}?>"><?php  _e('All Affiliates','Awaken'); ?></a>
-              <?php
+				<?php
+					$row_cat = $wpdb->get_row($wpdb->prepare("SELECT * from $wpdb->terms WHERE slug = %s", $cs_blog_cat ));
+					if( isset($cs_blog_cat) && ($cs_blog_cat <> "" && $cs_blog_cat <> "0")   && isset( $row_cat->term_id )){	
+					  $categories = get_categories( array('child_of' => "$row_cat->term_id", 'taxonomy' => 'category', 'hide_empty' => 1));
+				?>
+					<!-- show all categories -->
+					<a href="<?php echo $postpermalink; ?>?<?php echo 'by_author='.$author_filter.'&amp;filter_category='.$filter_category; ?>" class="<?php if(($cs_blog_cat == $filter_category)){ echo 'bgcolr';}?>">
+						<?php  _e('All Affiliates','Awaken'); ?>
+					</a>
+				<?php
                 }else{
                     $categories = get_categories( array('taxonomy' => 'category', 'hide_empty' => 1) );
                 }
-                foreach ($categories as $category) {
-                ?>
-              <a href="?<?php echo "by_author=".$author_filter."&amp;filter_category=".$category->slug?>" 
-                          <?php if($category->slug==$filter_category){echo 'class="active"';}?>> <?php echo cs_allow_special_char($category->cat_name); ?> </a>
-              <?php }?>
+				foreach ($categories as $category) {
+				?>
+					<a href="<?php echo the_permalink(); ?>?<?php echo "by_author=".$author_filter."&amp;filter_category=".$category->slug?>" 
+					  <?php if($category->slug==$filter_category){echo 'class="active"';}?>> 
+						  <?php echo cs_allow_special_char($category->cat_name); ?> 
+					</a>
+              <?php 
+				}
+			  ?>
             </div>
+			<!-- filter by tag -->
             <div id="pager-3<?php echo cs_allow_special_char($nav_count);?>" class="filter-pager" style="display: none;">
-              <?php cs_get_post_tags_list ($filter_category,$filter_tag,$author_filter); ?>
+              <?php cs_get_post_tags_list ($filter_category,$filter_tag,$author_filter, $post->ID); ?>
             </div>
+			
+			<!-- filter by author -->
             <div id="pager-4<?php echo cs_allow_special_char($nav_count);?>" class="filter-pager" style="display: none;">
               <?php 
 			  			$user_ids = get_users( array(
@@ -4042,7 +4060,7 @@ function cs_get_blog_filters($cs_blog_cat,$author_filter,$filter_category,$filte
 //=====================================================================
 // Get Post tags list
 //=====================================================================
-function cs_get_post_tags_list($filter_category = '',$filter_tag  ='',$author_filter=''){
+function cs_get_post_tags_list($filter_category = '', $filter_tag  ='', $author_filter='', $postid=0){
 	global $post;
 	$args = array('posts_per_page'=>-1,'post_type' => 'post','catgory' => $filter_category);
 	$project_query = new WP_Query($args);
@@ -4064,7 +4082,7 @@ function cs_get_post_tags_list($filter_category = '',$filter_tag  ='',$author_fi
 				$active_class = "class='active'";
 			}
    			
-			echo '<a href="?by_author='.$author_filter.'&amp;filter_category='.$filter_category.'&amp;filter-tag='.$el->slug.'" id="taglink-tag-'.$el->slug.'" title="tag-'.$el->slug.'" '.$active_class.' >'.$el->name.'</a>';
+			echo '<a href="'. get_permalink($postid) . '?by_author='.$author_filter.'&amp;filter_category='.$filter_category.'&amp;filter-tag='.$el->slug.'" id="taglink-tag-'.$el->slug.'" title="tag-'.$el->slug.'" '.$active_class.' >'.$el->name.'</a>';
 	 	endforeach; 
  	endif;
 }
