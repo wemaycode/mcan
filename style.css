@@ -1309,7 +1309,7 @@ body.logged-in.admin-bar {
     width: 50%;
 }
 footer .widget h2:before {
-    background-color: #ec2c3b;
+    background-color: #f9991d;
     content: "";
     height: 100%;
     left: 0;
@@ -2253,11 +2253,11 @@ address {
 .cs-blog.cs-blog-classic figure > a ~ figcaption:before,
 .cs-blog.blog-lrg figure > a ~ figcaption:before {
     border-right: 115px solid transparent;
-    border-top: 220px solid rgba(236, 44, 59, 0.50);
+    border-top: 220px solid rgba(249, 153, 29, 0.50);
 }
 .cs-blog.cs-blog-classic figure > a ~ figcaption:after,
 .cs-blog.blog-lrg figure > a ~ figcaption:after {
-    border-bottom: 220px solid rgba(236, 44, 59, 0.50);
+    border-bottom: 220px solid rgba(249, 153, 29, 0.50);
     border-left: 115px solid transparent;
 }
 /* Blog Elite Setup */
@@ -2359,7 +2359,7 @@ address {
     font-weight: 400;
 }
 .pagination ul li a:hover {
-    background-color: #ec2c3b;
+    background-color: #f9991d;
     border-color: #a3a3a3;
     margin-top: -2px;
     padding: 8px 18px;
@@ -2764,7 +2764,7 @@ article.last_child.cs-blog.blog-timeline:before {
     margin-bottom: 20px;
 }
 blockquote .cs-auther-name {
-    color: #ec2c3b;
+    color: #f9991d;
     display: block;
     font-size: 14px;
     font-weight: 400;
@@ -3176,7 +3176,7 @@ a.btn-post-view:hover {
     width: 100%;
 }
 #form-style p span {
-    color: #ec2c3b;
+    color: #f9991d;
     display: inline-block;
     font-size: 20px;
     margin: 6px 0 0 14px;
@@ -3274,7 +3274,7 @@ a.btn-post-view:hover {
     background-color: #FFF;
     border-radius: 90px 0px 0px 90px / 45px 0px 0px 45px;
     border: 1px solid #ededed;
-    color: #ec2c3b;
+    color: #f9991d;
     display: block;
     font-size: 10px;
     line-height: 24px;
@@ -3426,8 +3426,8 @@ span.divider5 {
 }
 .dropcap-one:first-letter,
 .dropcap-one p:first-letter {
-    border: 5px solid #ec2c3b;
-    color: #ec2c3b;
+    border: 5px solid #f9991d;
+    color: #f9991d;
     float: left;
     font-size: 30px;
     font-weight: 400;
@@ -3436,7 +3436,7 @@ span.divider5 {
 }
 .dropcap-two:first-letter,
 .dropcap-two p:first-letter {
-    color: #ec2c3b;
+    color: #f9991d;
     float: left;
     font-size: 80px;
     font-weight: 400;
@@ -3798,7 +3798,7 @@ button.close-v2 {
     text-align: center;
 }
 .cs-testimonial p:before {
-    color: #ec2c3b;
+    color: #f9991d;
     content: '"';
     display: inline-block;
     font-size: 40px;
@@ -3813,7 +3813,7 @@ button.close-v2 {
 }
 .cs-testimonial p:after {
     bottom: -18px;
-    color: #ec2c3b;
+    color: #f9991d;
     content: '"';
     font-size: 40px;
     margin: 0 0 0 5px;
@@ -3906,7 +3906,7 @@ button.close-v2 {
 }
 .cs-testimonial .flex-control-nav li a.flex-active,
 .cs-testimonial .flex-control-nav li a:hover {
-    background-color: #ec2c3b;
+    background-color: #f9991d;
     border: 2px solid transparent;
 }
 .cs-testimonial .flex-control-nav {
@@ -4021,7 +4021,7 @@ button.close-v2 {
 }
 .panel-heading a.collapse,
 .panel-heading a.collapse i {
-    color: #ec2c3b !important;
+    color: #f9991d !important;
 }
 .panel-group .panel-heading + .panel-collapse > .panel-body {
     border-top: none;
@@ -4088,7 +4088,7 @@ button.close-v2 {
 }
 .nav-tabs > li.active > a {
     border-bottom-color: transparent;
-    border-top: 3px solid #ec2c3b;
+    border-top: 3px solid #f9991d;
     color: #000;
     font-weight: 500;
     margin-top: -6px;
@@ -4121,7 +4121,7 @@ button.close-v2 {
     border-left-color: #ededed;
     border-radius: 0;
     border-right-color: #ededed;
-    border-top-color: #ec2c3b;
+    border-top-color: #f9991d;
     border-width: 3px 1px 0 1px;
     color: inherit;
 }
@@ -4163,7 +4163,7 @@ button.close-v2 {
     text-align: left;
 }
 .borderless ul li.active a:before {
-    background-color: #ec2c3b;
+    background-color: #f9991d;
     bottom: -5px;
     height: 3px;
 }
@@ -4202,7 +4202,7 @@ button.close-v2 {
 }
 .vertical > ul li.active > a {
     border-bottom: 1px solid #f0f0f0;
-    border-left: 3px solid #ec2c3b;
+    border-left: 3px solid #f9991d;
     border-top: 1px solid #f0f0f0;
     margin: 0;
     padding: 8px 0 8px 15px;
@@ -4224,7 +4224,7 @@ button.close-v2 {
 .cs-tabs.vertical .cs-tabs .nav-tabs > li.active > a:hover,
 .cs-tabs.vertical .cs-tabs .nav-tabs > li.active > a:focus {
     border-bottom-color: #f0f0f0;
-    border-left-color: #ec2c3b;
+    border-left-color: #f9991d;
     border-radius: 0;
     border-top-color: #f0f0f0;
     border-width: 1px 0 1px 3px;
@@ -5470,7 +5470,7 @@ button.close-v2 {
 /* General Events Setup */
 
 .cs-events .location-info > time {
-    color: #EC2C3B;
+    color: #f9991d;
     float: left;
     font-size: 14px;
     font-weight: 300;
@@ -5527,7 +5527,7 @@ button.close-v2 {
     padding: 0 0 0px 25px;
 }
 .cs-events .cstime > time.time-period {
-    color: #ec2c3b;
+    color: #f9991d;
     font-size: 24px;
     line-height: 24px;
     text-transform: uppercase;
@@ -5538,7 +5538,7 @@ button.close-v2 {
     font-size: 16px;
 }
 .cs-events .cstime > time.time-period i {
-    color: #ec2c3b;
+    color: #f9991d;
     font-size: 24px;
     margin: 0 7px 0 0;
 }
@@ -5658,7 +5658,7 @@ button.close-v2 {
     margin: 0 5px 0 0;
 }
 .cs-events .cs-cat-list ul li a.custom-btn {
-    background: #ec2c3b;
+    background: #f9991d;
     border-radius: 0;
     color: #fff;
     float: left;
@@ -5696,8 +5696,8 @@ button.close-v2 {
 }
 .cs-events .cs-cat-list .toggle:hover {
     background: #fff;
-    border-bottom: 2px solid #EC2C3B;
-    color: #EC2C3B;
+    border-bottom: 2px solid #f9991d;
+    color: #f9991d;
     padding: 8px 25px;
 }
 .cs-events .cs-cat-list ul li a.custom-btn.active:after {
@@ -5708,8 +5708,8 @@ button.close-v2 {
 }
 .cs-events .cs-cat-list .toggle.active {
     background: #fff;
-    border-bottom: 2px solid #ec2c3b;
-    color: #ec2c3b;
+    border-bottom: 2px solid #f9991d;
+    color: #f9991d;
     padding: 8px 25px;
 }
 .cs-events .cs-cat-list .toggle.collapsed {
@@ -6050,7 +6050,7 @@ button.close-v2 {
     color: #999;
 }
 .event-editor .side-detail .custom-btn {
-    background-color: #ec2c3b;
+    background-color: #f9991d;
     display: inline-block;
     font-weight: 700;
     padding: 10px 0;
@@ -6086,7 +6086,7 @@ button.close-v2 {
     width: 100%;
 }
 .event-info ul li {
-    color: #ec2c3b;
+    color: #f9991d;
     float: left;
     font-size: 14px;
     font-weight: 500;
@@ -6117,7 +6117,7 @@ button.close-v2 {
     width: 100%;
 }
 .event-speakers h4 {
-    color: #ec2c3b;
+    color: #f9991d;
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
@@ -6429,7 +6429,7 @@ button.close-v2 {
 }
 .cs_assigment_tabs ul li.active a:before,
 .cs_assigment_tabs ul li:hover a:before {
-    background-color: #ec2c3b;
+    background-color: #f9991d;
     content: '';
     height: 100%;
     left: 0px;
@@ -6503,7 +6503,7 @@ button.close-v2 {
 .rich_editor_text .btn-style1 {
     -moz-box-shadow: 0 2px 0 0 rgba(140, 35, 44, 1);
     -webkit-box-shadow: 0 2px 0 0 rgba(140, 35, 44, 1);
-    background: #ec2c3b;
+    background: #f9991d;
     box-shadow: 0 2px 0 0 rgba(140, 35, 44, 1);
     color: #fff;
 }
@@ -6541,7 +6541,7 @@ button.close-v2 {
     background-color: transparent;
 }
 .fileUpload {
-    background-color: #ec2c3b;
+    background-color: #f9991d;
     border-radius: 3px;
     box-shadow: 0 2px 0 0 #8c232c;
     color: #fff;
@@ -6659,12 +6659,12 @@ button.close-v2 {
     color: #fff;
 }
 .my-courses .cs-causes .icons ul li a.toggle.active:after {
-    color: #ec2c3b;
+    color: #f9991d;
     content: "\f00d";
     font-family: FontAwesome;
 }
 .my-courses .cs-causes .icons ul li:hover a.toggle.active:after {
-    background: #ec2c3b;
+    background: #f9991d;
     color: #fff;
 }
 .my-courses .cs-causes .icons ul li:first-child a {
@@ -6919,7 +6919,7 @@ ul.upload-file {
 }
 .multiselect-holder.upload-file .ui-multiselect ul.available li:hover,
 .multiselect-holder.upload-file .ui-multiselect ul.available li:hover .ui-icon:after {
-    color: #ec2c3b;
+    color: #f9991d;
 }
 .multiselect-holder.upload-file .ui-multiselect .available .ui-state-default .ui-icon {
     background-image: none !important;
@@ -6952,7 +6952,7 @@ ul.upload-file {
 }
 .multiselect-holder.upload-file .ui-multiselect .selected li:hover,
 .multiselect-holder.upload-file .ui-multiselect ul.selected li:hover .ui-icon-minus:after {
-    color: #ec2c3b;
+    color: #f9991d;
 }
 .multiselect-holder.upload-file .ui-multiselect .selected .ui-state-default .ui-icon-arrowthick-2-n-s:after {
     color: #ebebeb;
@@ -7115,7 +7115,7 @@ ul.upload-file {
     width: 32px;
 }
 .upload-file li label.cs-calendar-combo i:hover {
-    background: #ec2c3b;
+    background: #f9991d;
     color: #fff;
 }
 .datepicker table tbody,
@@ -7324,7 +7324,7 @@ ul.upload-file {
     width: 100%;
 }
 .cs-profile-settings .form-title h4:before {
-    background-color: #EC2C3B;
+    background-color: #f9991d;
     content: "";
     height: 100%;
     left: 0;
@@ -7415,7 +7415,7 @@ ul.upload-file {
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
-    background: #ec2c3b;
+    background: #f9991d;
     content: "";
     height: 4px;
     left: 0;
@@ -7428,7 +7428,7 @@ ul.upload-file {
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
-    background: #ec2c3b;
+    background: #f9991d;
     content: "";
     height: 4px;
     left: 0;
@@ -7490,7 +7490,7 @@ ul.upload-file {
 }
 .cs-my-favorites .cs-tabs .tab-pane .holder:hover section h5 a,
 .cs-my-favorites .cs-tabs .tab-pane .holder.active section h5 a {
-    color: #ec2c3b;
+    color: #f9991d;
 }
 .cs-my-favorites .cs-tabs .tab-pane .holder .close {
     color: #999;
@@ -7501,7 +7501,7 @@ ul.upload-file {
 }
 .cs-my-favorites .cs-tabs .tab-pane .holder:hover .close,
 .cs-my-favorites .cs-tabs .tab-pane .holder.active .close {
-    color: #ec2c3b;
+    color: #f9991d;
 }
 /*Onn Off Switch*/
 
@@ -8463,7 +8463,7 @@ input.switch:checked ~ .switch-text label:after {
 }
 .cs-sermons .audio-sec .mejs-controls .mejs-play button,
 .cs-sermons .audio-sec .mejs-controls .mejs-pause button {
-    background-color: #ec2c3b;
+    background-color: #f9991d;
     border-radius: 100%;
     height: 26px;
     margin: 3px 0 0 -5px !important;
@@ -8474,7 +8474,7 @@ input.switch:checked ~ .switch-text label:after {
 .sermon-list .mejs-controls .mejs-time-rail .mejs-time-loaded,
 .sermon-list .mejs-controls .mejs-time-rail .mejs-time-current,
 .cs-sermons .audio-sec .mejs-time-rail .mejs-time-loaded {
-    background-color: #ec2c3b;
+    background-color: #f9991d;
     height: 10px !important;
 }
 /*----- Sermons Detail End */
@@ -8522,13 +8522,13 @@ input.switch:checked ~ .switch-text label:after {
     text-align: center;
 }
 .fancy-heading h3 {
-    color: #ec2c3b;
+    color: #f9991d;
     text-transform: uppercase;
 }
 .fancy-heading i {
     border-radius: 100%;
-    border: 4px solid #ec2c3b;
-    color: #ec2c3b;
+    border: 4px solid #f9991d;
+    color: #f9991d;
     font-size: 26px;
     height: 46px;
     line-height: 38px;
@@ -8628,7 +8628,7 @@ input.switch:checked ~ .switch-text label:after {
 /*-Second Style-*/
 
 .promo-box.second-view {
-    background: #ec2c3b url(assets/images/content-blog-img5.png) no-repeat 0 100%;
+    background: #f9991d url(assets/images/content-blog-img5.png) no-repeat 0 100%;
 }
 .promo-box.second-view figure {
     float: right;
@@ -8806,7 +8806,7 @@ article.cs-team .text h2 {
     margin-bottom: 0;
 }
 article.cs-team .text h2:hover a {
-    color: #ec2c3b;
+    color: #f9991d;
 }
 article.cs-team .social-media {
     float: left;
