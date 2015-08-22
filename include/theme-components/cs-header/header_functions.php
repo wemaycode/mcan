@@ -1140,7 +1140,15 @@ if ( ! function_exists( 'get_subheader_title' ) ) {
 									echo '</p>';
 								}
 							}else{
-								echo '<h1 '.$color.'>'.get_the_title($post_ID).'</h1>';
+								echo '<h1 '.$color.'>';
+									/* If a News post, display "News & Updates" category description in place of title */
+									if (in_category('news') == true ){
+										echo get_category_by_slug('news')->name;
+									}
+									else {
+										get_the_title($post_ID); 
+									}
+								echo '</h1>';
 							}
 						}
 					}

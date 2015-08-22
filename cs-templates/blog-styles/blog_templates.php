@@ -219,7 +219,7 @@ if ( !class_exists('BlogTemplates') ) {
 				foreach($postCats as $postCat){
 					if($postCat->description != null)
 						$catColorStyle = "border-left: 10px solid " . $postCat->description;
-					}
+				}
 			?>
 			<div class="col-md-12">
 			  <article class="cs-blog cs-blog-classic clearfix has_shapes"> 
@@ -244,6 +244,18 @@ if ( !class_exists('BlogTemplates') ) {
 						 }
 						?>
 					  </li>
+						<!-- Tags -->
+						<li>
+							<i class="fa fa-tags"></i>
+							<?php  
+								if ( empty($cs_xmlObject->post_tags_show_text) ) 
+									$post_tags_show_text = __('Tags', 'Awaken'); else $post_tags_show_text = $cs_xmlObject->post_tags_show_text;
+								$categories_list = get_the_term_list ( get_the_id(), 'post_tag', '', ', ', '' );
+								if ( $categories_list ){?>
+									<?php printf( __( '%1$s', 'Awaken'),$categories_list );
+								}
+							?>								 
+						</li>
 					  <!--
 					  <li> <i class="fa fa-comment-o"></i> <a href="<?php comments_link(); ?>"><?php echo comments_number(__('Comments 0', 'Awaken'), __('Comments 1', 'Awaken'), __('Comments %', 'Awaken') );?></a> </li>
 					  -->

@@ -10701,3 +10701,18 @@ body.home section.homepage-content-howwework{
 	line-height: 2.5em!important;
     margin-left: 32px!important;
 }
+
+/* BLOG INDIVIDUAL PAGE */
+.single-post .blog-title-wrapper {
+	margin-bottom: 20px;
+}
+figure {
+	overflow: auto;
+}
+.post-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post-option li a {
+	text-transform: none;
+}
