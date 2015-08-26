@@ -10716,3 +10716,12 @@ figure {
 .post-option li a {
 	text-transform: none;
 }
+.prevnext, .socialmedia h6 {
+    font-size: 20px!important;
+    font-weight: bold!important;
+    text-transform: uppercase!important;
+}
+.col-md-12.post-recent h2 {
+    text-align: left;
+	margin-bottom: 20px;
+}

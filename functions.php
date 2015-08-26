@@ -3852,7 +3852,7 @@ function cs_get_event_filters($cs_filter_category,$cs_filter_switch,$filter_cate
         <div class="col-md-12">
           <nav class="wow filter-nav <?php echo cs_allow_special_char($cs_custom_animation);?>">
             <ul class="cs-filter-menu pull-left">
-              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-search"></i><?php 
+              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-filter"></i><?php 
                _e('Filter By','Awaken'); ?>  
                </a> </li>
               <li><a href="#pager-2<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-list"></i><?php 
@@ -3922,7 +3922,7 @@ function cs_get_sermon_filters($cs_filter_category,$cs_filter_switch,$filter_cat
         <div class="col-md-12">
           <nav class="wow filter-nav <?php echo cs_allow_special_char($cs_custom_animation);?>">
             <ul class="cs-filter-menu pull-left">
-              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-search"></i><?php 
+              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-filter"></i><?php 
                _e('Filter By','Awaken'); ?>  
                </a> </li>
               <li><a href="#pager-2<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-list"></i><?php 
@@ -3976,7 +3976,7 @@ function cs_get_blog_filters($cs_blog_cat,$author_filter,$filter_category,$filte
         <div class="col-md-12">
           <nav class="wow filter-nav <?php echo cs_allow_special_char($cs_custom_animation);?>">
             <ul class="cs-filter-menu pull-left">
-              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-search"></i><?php
+              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-filter"></i><?php
                _e('Filter By','Awaken'); ?>  
                </a> </li>
               <li><a href="#pager-2<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-list"></i><?php 

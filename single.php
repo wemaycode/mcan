@@ -319,21 +319,30 @@
           
           
 		 <?php  
-			if ($cs_post_social_sharing == "on"){
+			//if ($cs_post_social_sharing == "on"){
 				?>
                 <div class="detail-post col-md-12">
                     <div class="socialmedia">
                     <?php
-                    if ( empty($cs_xmlObject->post_social_sharing_text) ) $post_social_sharing_text = __('Share', 'Awaken'); else $post_social_sharing_text = $cs_xmlObject->post_social_sharing_text;
-                    cs_social_share(false,true,$post_social_sharing_text);
+					
+                    if ( empty($cs_xmlObject->post_social_sharing_text) ) {
+						$post_social_sharing_text = __('Share', 'Awaken');
+					} else {
+						$post_social_sharing_text = $cs_xmlObject->post_social_sharing_text;
+					}
+					//cs_social_share(false,true,$post_social_sharing_text);
+					cs_social_share(false,true,'Share');
                     ?>
                     </div>
                 </div>
 			<?php
-		 }
+		 //}
 		 ?>
               
           <!-- Post Button Start-->
+		  <div class="col-md-12">
+			<div class="prevnext">View Older/Newer Posts</div>
+		  </div>
           <div class="col-md-12">
           <?php if(isset($post_pagination_show) &&  $post_pagination_show == 'on'){
                   px_next_prev_custom_links('post');
@@ -343,8 +352,8 @@
           
           <!-- Col Author Start -->
           <?php if(isset($cs_post_author_info_show) &&  $cs_post_author_info_show == 'on'){ ?>
-          <div class="col-md-12">
-			 <?php cs_author_description('show');?>    
+          <!--<div class="col-md-12">
+			 <?php //cs_author_description('show');?>    
           </div>
           <!-- Col Author End --> 
           
@@ -357,7 +366,7 @@
 						 ?>
           <div class="col-md-12 post-recent">
             <div class="cs-section-title">
-              <h2><?php echo esc_attr($cs_related_post_title);?></h2>
+              <h2><?php echo 'Related Posts' //esc_attr($cs_related_post_title);?></h2>
             </div>
             <div class="row">
               <?php 
