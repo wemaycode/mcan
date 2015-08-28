@@ -110,7 +110,7 @@
 		        transition: none;
 	}
 	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #fff !important;}
-	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0.5) !important; float: left; padding-left: 15px !important; width: 100%; }
+	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0) !important; float: left; padding-left: 15px !important; width: 100%; }
 	/*============ Header Style ============ */
 	.main-section .upload-file li textarea {width: 94%;}
 
@@ -188,6 +188,7 @@
 	/* ======== CS Login sec Start ======== */
 	.cs-login-sec .modal-dialog {padding: 15px;}
 	/* top Start */
+	.header-absolute #main-header { position: absolute !important; }
 	#main-header .top-bar .left-side, #main-header .top-bar .right-side, #main-header .logo-section .left-side  { display: inline-block; text-align: center;}
 	#main-header .top-bar .left-side { margin: 10px 0 0px 0;}
 	#main-header .top-bar .left-side p a {line-height: 24px;}
@@ -317,7 +318,13 @@
 		        transition: none;
 	}
 	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #fff !important;}
-	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0.5) !important; float: left; padding-left: 15px !important; width: 100%; }
+	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0) !important; float: left; padding-left: 15px !important; width: 100%; }
+	.logo-section .main-navbar ul.navbar-nav li.menu-item.menu-item-has-children a {
+		font-weight: bold!important;
+	}
+	.logo-section .main-navbar ul.navbar-nav li.menu-item ul.dropdown-menu li a {
+		font-weight: normal!important;
+	}
 	/*============ Header Style ============ */
 	.main-section .upload-file li textarea {width: 94%;}
 	.main-section .register-page .cs-user-register {padding: 0px;}
