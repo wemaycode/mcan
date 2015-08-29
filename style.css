@@ -686,7 +686,7 @@ td {
     position: relative;
 }
 .top-nav ul li:before {
-    content: '>';
+    /*content: '>';*/
     font-size: 9px;
     position: absolute;
     right: 8px;
@@ -1514,7 +1514,7 @@ address {
     line-height: 32px;
 }
 .socialmedia li a i {
-    color: #000;
+    color: #515254;
     font-size: 19px;
     vertical-align: middle;
 }
@@ -10132,6 +10132,9 @@ h1 {
   \_____\__,_|___/\__\___/|_| |_| |_| |_____/ \__|\__, |_|\___||___/ 
                                                    __/ |             
                                                   |___/              
+
+												  
+Custom MCAN Styles
 */
 
 /* GLOBAL  */
@@ -10154,7 +10157,10 @@ h1 {
 	box-shadow: 0px -6px 25px 5px #555555;
 }
 
-/* TOP NAV CTA */
+/* TOP NAV */
+.top-nav-wrapper {
+	float: right;
+}
 nav.top-nav { 
 	float: right;
 }
@@ -10162,6 +10168,10 @@ nav.top-nav {
   padding-right: 0;
 }
 
+/* CTA */
+ul.menu-cta-menu {
+    float: left;
+}
 .menu-cta-menu li a {
   background-color: #515254;
   color: #ffffff;
@@ -10171,6 +10181,15 @@ nav.top-nav {
   font-weight: bold;
 }
 
+/* TOP NAV SOCIAL */
+nav.social-nav {
+    float: right;
+}
+.socialmedia li a i {
+    color: #515254;
+    font-size: 19px;
+    vertical-align: middle;
+}
 
 /* MAIN NAV */
 .main-navbar nav.navigation {

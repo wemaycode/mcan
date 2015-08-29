@@ -360,23 +360,72 @@
 	.rtl .page-section {background-size: cover !important;}
 
 	/* ===== CUSTOM MCAN ===== */
-	nav.top-nav {
+	/*.top-nav-wrapper, nav.social-nav, ul.socialmedia, ul.socialmedia li { 
+		float: none!important; 
+	}*/
+	.header-absolute #main-header {
+		position: relative!important;
+	}
+	body.home #main-content {
+		margin-top: 0px!important;
+	}
+	.top-nav-wrapper {
+		margin: 25px 0;
 		float: none;
-		height: 66px;
 		width: 100%;
 	}
+		nav.top-nav {
+			float: none!important;
+			/*height: 66px;*/
+			width: 100%;
+		}
+		nav.top-nav ul li {
+			padding: 0px;
+		}
+			ul.menu-cta-menu {
+				/*
+				left: 50%;
+				position: absolute;
+				margin-left: -135px;
+				*/
+				float: left;
+				margin-top: 0px;
+				padding: 0px 8px 0px 0px;
+			}
+				nav.top-nav ul.menu-cta-menu li {
+					padding-right: 10px;
+				}
+				nav.top-nav ul.menu-cta-menu li:last-child {
+					padding-right: 0;
+				}
+				ul.menu-cta-menu li a {
+					font-size: 12px;
+					padding: 7px 12px;
+				}
+	
+			ul.socialmedia { 
+				margin-top: -10px; 
+				text-align: center; 
+				float: right;
+			}	
+				nav.top-nav ul.socialmedia li { 
+					margin: 0px;
+					padding: 0px 4px;
+				}
+					ul.socialmedia li a {
+						border: 2px solid #514525;
+						border-radius: 20px;
+					}
+						ul.socialmedia li a i.fa-facebook {
+							padding: 5px 10px;
+						}
+						ul.socialmedia li a i.fa-twitter {
+							padding: 5px 8px;
+						}
+	/* mobile menu */
 	ul.nav.navbar-nav li {
 		width: 100%;
-		text-align: left;
-	}
-	ul.menu-cta-menu {
-		left: 50%;
-		position: absolute;
-		margin-left: -135px;
-		margin-top: 30px;
-	}
-	body.home #main-content, .breadcrumb-sec {
-		margin-top: 250px!important;
+		text-align: left;		
 	}
 	.nivo-caption {
 	    font-size: 12px;

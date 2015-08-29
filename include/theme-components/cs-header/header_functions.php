@@ -1209,8 +1209,14 @@ function cs_main_navigation(){
 }
 function cs_top_navigation(){
 	//if(isset($cs_top_menu_switch) and $cs_top_menu_switch=='on'){
-			echo '<nav class="top-nav">';
-				cs_navigation('top-menu','','','1');
-			echo '</nav>';
+		
+			echo '<div class="top-nav-wrapper">';				
+				// CTA Top Nav
+				echo '<nav class="top-nav">';
+					cs_navigation('top-menu','','','1');
+					if ( function_exists( 'cs_social_network' ) ) { cs_social_network(); }
+				echo '</nav>';
+			echo '</div>';
+			
 	//}
 }
