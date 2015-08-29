@@ -1279,7 +1279,7 @@ body.logged-in.admin-bar {
 }
 [class*="element-size"] {
     display: inline-block;
-    margin: 0px 0px 0px -3px;
+    margin: 0px 0px 0px 0px;
     vertical-align: top;
 }
 .element-size-25 {
@@ -10254,7 +10254,7 @@ button.navbar-toggle:hover {
 }
 .fullwidth.col-md-12 {
     padding: 0px!important;
-    margin-left: 3px;
+    margin-left: 0px;
 }
 
 /* Subheader (Post Title) */
@@ -10288,7 +10288,6 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 	padding: 34px 0px!important;
 	width: 60%;
 }
-
 /* POST CONTENT */
 .rich_editor_text h1, .rich_editor_text h2, .rich_editor_text h3, .rich_editor_text h4, .rich_editor_text h5 {
 	margin-bottom: 20px;

@@ -427,6 +427,20 @@
 	    font-size: 12px;
 		line-height: 14px;
 	}
+	
+	.page-section {
+		margin-bottom: 0px!important;
+	}
+	/* How We Work */
+	.main-section .homepage-howwework {
+		padding: 0px 20px!important;
+	}
+	.main-section .homepage-content-howwework .cta.orange {
+		width: 100%!important;
+	}
+	.fullwidth.col-md-12 {
+		margin-bottom: 0px;
+	}
 
 }
 @media (max-width: 580px) {
