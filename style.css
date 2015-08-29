@@ -10210,9 +10210,12 @@ button.navbar-toggle:hover {
 
 /* SLIDER */
 .metaslider-nivo {
-    margin: 20px 0px;
+    /*margin: 20px 0px;*/
 }
-
+.fullwidth.col-md-12 {
+    padding: 0px!important;
+    margin-left: 3px;
+}
 
 /* Subheader (Post Title) */
 body.home .breadcrumb-sec {

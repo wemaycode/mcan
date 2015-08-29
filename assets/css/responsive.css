@@ -378,6 +378,10 @@
 	body.home #main-content, .breadcrumb-sec {
 		margin-top: 250px!important;
 	}
+	.nivo-caption {
+	    font-size: 12px;
+		line-height: 14px;
+	}
 
 }
 @media (max-width: 580px) {
