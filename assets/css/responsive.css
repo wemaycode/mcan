@@ -366,11 +366,14 @@
 	.header-absolute #main-header {
 		position: relative!important;
 	}
+	#main-header .navigation {
+		
+	}
 	body.home #main-content {
 		margin-top: 0px!important;
 	}
 	.top-nav-wrapper {
-		margin: 25px 0;
+		margin: 30px 0 10px 0;
 		float: none;
 		width: 100%;
 	}
