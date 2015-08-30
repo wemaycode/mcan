@@ -402,26 +402,40 @@ if ( !class_exists('BlogTemplates') ) {
 					  } 
 				 ?>
               <section>
-                <time datetime="<?php echo date_i18n('Y-m-d',strtotime(get_the_date()));?>"><?php echo date_i18n('M',strtotime(get_the_date()));?><small><?php echo date_i18n('j',strtotime(get_the_date()));?></small> </time>
+                <time datetime="<?php echo date_i18n('Y-m-d',strtotime(get_the_date()));?>">
+					<?php echo date_i18n('M',strtotime(get_the_date()));?>
+					<small><?php echo date_i18n('j',strtotime(get_the_date()));?></small> 
+				</time>
                 <div class="title clearfix">
-                  <h2><a href="<?php echo the_permalink();?>"><?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?></a></h2>
-                   <ul class="post-option clearfix">
+					<h2>
+						<a href="<?php echo the_permalink();?>">
+							<?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?>
+						</a>
+					</h2>
+					<ul class="post-option clearfix">
 						<li>Posted by: 
 							<a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
 								<?php echo get_the_author();?>
 							</a>
 						</li>
-                   </ul>
+					</ul>
                   <!--title--> 
                 </div>
                 <?php if ($description == 'yes') {?><p><?php echo cs_get_the_excerpt($excerpt,'ture','');?></p><?php } ?> 
-                  <a href="<?php echo the_permalink();?>" class="continue-reading"><i class="fa fa-angle-right"></i><?php _e('Continue Reading','Awaken');?></a>
+					<a href="<?php echo the_permalink();?>" class="continue-reading">
+						<?php _e('Continue Reading','Awaken');?> >>
+					</a>
                   <ul class="post-option-btm clearfix">
 					<!-- COMMENT OUT -->
                     <!--<li><a href="<?php //comments_link(); ?>"><i class="fa fa-comment-o"></i><?php //echo comments_number(__('0', 'Awaken'), __('1', 'Awaken'), __('%', 'Awaken') );?> </a></li>-->
                     <?php //if ( $post_social_sharing == 'on' ) { ?>
                         <?php cs_addthis_script_init_method();?>
-                        <li><a class="btnshare addthis_button_compact"><!--<i class="fa fa-share-alt"></i>--><?php _e('Share','Awaken');?></a></li>
+                        <li>
+							<a class="btnshare addthis_button_compact">
+								<i class="fa fa-share-alt"></i>
+								<?php _e('Share','Awaken');?>
+							</a>
+						</li>
                     <?php //}?>
                   </ul>
               </section>
