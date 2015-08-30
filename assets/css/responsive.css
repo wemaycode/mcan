@@ -177,7 +177,10 @@
 	.element-size-50 .col-md-12,
 	.element-size-25 .col-md-12,
 	.element-size-33 .col-md-12,
-	.content-left, .col-md-12, .page-content, footer [class*="col-md-"], .col-md-6, body .wrapper.wrapper_boxed, .cs-login-sec .modal-dialog, .cs-signup .footer-element, .cs-signup .header-element, .col-md-9, .col-md-3.left-sec  { width: 100% !important; }
+	.content-left, .col-md-12, .page-content, footer [class*="col-md-"], .col-md-6, body .wrapper.wrapper_boxed, .cs-login-sec .modal-dialog, .cs-signup .footer-element, .cs-signup .header-element, .col-md-9, .col-md-3.left-sec  { 
+		width: 100% !important; 
+		padding: 0px 10px;
+	}
 	.col-md-4, .rtl .col-md-3, .col-md-3, .col-md-2, .element-size-25 { width: 50% !important; }
 	.main-section .page-content {padding-right: 0px;}
 	/* ======== CS Login sec Start ======== */
@@ -369,8 +372,17 @@
 	#main-header .navigation {
 		
 	}
+	.main-section h2 {
+		font-size: 18px!important;
+		padding: 0 5px;
+	}
 	body.home #main-content {
 		margin-top: 0px!important;
+	}
+	#contact-form p {
+		font-size: 16px!important;
+		line-height: 1.5em!important;
+		padding: 0 15px;
 	}
 	.top-nav-wrapper {
 		margin: 30px 0 10px 0;
@@ -437,11 +449,20 @@
 	}
 	.main-section .homepage-content-howwework .cta.orange {
 		width: 100%!important;
+		font-size: 16px!important;
+	}
+	.main-section .homepage-content-howwework p {
+		font-size: 16px!important;
+		line-height: 1.5em;
 	}
 	.fullwidth.col-md-12 {
 		margin-bottom: 0px;
 	}
-
+	
+	/* Counter Section */
+	.cs_counter span {
+		line-height: 1.5em;
+	}
 }
 @media (max-width: 580px) {
 	.col-md-3, .element-size-25, .main-section .sermon-list figure { width: 100%!important;}
