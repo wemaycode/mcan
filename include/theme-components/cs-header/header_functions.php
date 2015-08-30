@@ -1142,12 +1142,19 @@ if ( ! function_exists( 'get_subheader_title' ) ) {
 							}else{
 								echo '<h1 '.$color.' class="test">';
 									/* If a News post, display "News & Updates" category description in place of title */
+								if (is_page($post_ID)){
+									/* if a page */
+									echo get_the_title($post_ID);
+								}
+								else {
+									/* if a post */
 									if (in_category('currentcampaigns') == true ){
 										echo get_category_by_slug('currentcampaigns')->name;
 									}
 									else {
 										echo "News & Updates"; //get_the_title($post_ID); 
 									}
+								}
 								echo '</h1>';
 							}
 						}
