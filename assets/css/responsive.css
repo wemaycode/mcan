@@ -463,6 +463,9 @@
 	.cs_counter span {
 		line-height: 1.5em;
 	}
+	
+	
+	
 }
 @media (max-width: 580px) {
 	.col-md-3, .element-size-25, .main-section .sermon-list figure { width: 100%!important;}

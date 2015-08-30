@@ -10503,6 +10503,22 @@ body.home section.contact-form {
 	text-transform: uppercase;
 	color: #515254!important;
 }
+/* Blog Element */
+	.main-section .cs-blog h2, .main-section .cs-blog h2 a {
+		text-transform: none!important;
+		font-size: 20px!important;
+		line-height: 1.25em!important;
+	}
+	.cs-blog-grid time small {
+		font-weight: bold;
+		color: #959595;
+	}
+	.cs-blog .post-option li {
+		text-transform: none!important;
+	}
+	.blog-title-wrapper h2 {
+		font-weight: bold!important;
+	}
 
 /* Homepage Blog Reel */
 

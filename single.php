@@ -158,11 +158,13 @@
 						$catColorStyle = "border-left: 10px solid " . $postCat->description;
 				}
 				/* Display post title if in News */
+				/*
 				if (in_category('news') == true )
 					$h2style = "font-size:30px!important;font-weight:bold!important;";
-					
+				*/
+				
 			?>
-			<div class="blog-title-wrapper" style="<?php echo $catColorStyle ?>">					
+			<div class="blog-title-wrapper test" style="<?php echo $catColorStyle ?>">					
 				<h2 style="<?php echo $h2style; ?>"><?php echo the_title(); ?></h2>
 			</div>
 				
@@ -279,7 +281,7 @@
 						//echo '<pre>';
 						//print_r($images);	  
 				?>
-                <div class="cs-attachments">
+                <!--<div class="cs-attachments">
                   <h5><?php _e('Attachments','Awaken');?></h5>
                   <ul>
                   	<?php 
@@ -311,6 +313,7 @@
                     <?php } ?>
                   </ul>
                </div>
+			   -->
                <?php } ?>
           </div>
             <!-- Post Content End--> 

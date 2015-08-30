@@ -406,7 +406,11 @@ if ( !class_exists('BlogTemplates') ) {
                 <div class="title clearfix">
                   <h2><a href="<?php echo the_permalink();?>"><?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?></a></h2>
                    <ul class="post-option clearfix">
-                      <li><i class="fa fa-user"></i> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author();?></a> </li>
+						<li>Posted by: 
+							<a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
+								<?php echo get_the_author();?>
+							</a>
+						</li>
                    </ul>
                   <!--title--> 
                 </div>
@@ -525,7 +529,7 @@ if ( !class_exists('BlogTemplates') ) {
                 <div class="title clearfix">
                   <h2><a href="<?php echo the_permalink();?>"><?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?></a></h2>
                    <ul class="post-option clearfix">
-                      <li><i class="fa fa-user"></i> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author();?></a> </li>
+                      <li>Posted by: <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author();?></a> </li>
                    </ul>
                   <!--title--> 
                 </div>
