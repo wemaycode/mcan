@@ -10258,7 +10258,7 @@ button.navbar-toggle:hover {
 }
 
 /* Subheader (Post Title) */
-body.home .breadcrumb-sec {
+body.home .breadcrumb-sec, .breadcrumb {
 	display: none;
 }
 .breadcrumb-sec {
@@ -10782,4 +10782,10 @@ figure {
 .col-md-12.post-recent h2 {
     text-align: left;
 	margin-bottom: 20px;
+}
+
+/* EVENTS */
+.event-editor h2 {
+    text-align: left;
+    margin-bottom: 10px;
 }
