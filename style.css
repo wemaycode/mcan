@@ -10462,11 +10462,11 @@ body.home section.contact-form {
 	background-position: center center;
 }
 
-#contact-form .col-md-12, #contact-form .wpcf7 {
+.contact-form .col-md-12, .contact-form .wpcf7 {
 	margin-bottom: 0px;
 }
 
-#contact-form p {
+.contact-form form p {
 	margin-bottom: 30px;
 	text-align: center;
 	text-transform: none;
@@ -10474,17 +10474,17 @@ body.home section.contact-form {
 	color: #ffffff;
 }
 
-#contact-form input[type="text"], #contact-form input[type="email"] {
+.contact-form input[type="text"], .contact-form input[type="email"] {
 	width: 100%;
 	font: 20px 'Open Sans', sans-serif !important;
 	text-transform: uppercase;
 	font-weight: 700!important;
 	border: none;
 }
-#contact-form .row {
+.contact-form .row {
 	text-align: center;
 }
-#contact-form input[type="submit"] {
+.contact-form input[type="submit"] {
 	background-color: #f8991d;
 	border: none;
 	padding: 15px 75px;
