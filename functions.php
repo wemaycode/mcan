@@ -1,4 +1,6 @@
 <?php
+
+
 remove_filter( 'the_title_rss', 'strip_tags');
 function cs_get_google_init_arrays(){
 $font_list_init = array
@@ -4520,3 +4522,8 @@ if ( ! function_exists( 'cs_woocommerce_header_cart' ) ) {
 		}
 	}
 }
+
+
+
+
+

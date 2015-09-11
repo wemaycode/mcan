@@ -57,12 +57,13 @@
 
 		$data = array(
 		   "firstname" => "Jessica",
-		   "lastname" => "Oei",
+		   "lastname" => "Test",
 		   "zip" => "02446",
-		   "email" => "jessica.oei@gmail.com"
+		   "email" => "jessica.oei1234@gmail.com"
 		);
 
 		post_to_url("http://mcan.bsd.net/page/sapi/test-signup", $data);
+		file_put_contents("test.txt", "test test test 123");
 	?>
 
 </body>
