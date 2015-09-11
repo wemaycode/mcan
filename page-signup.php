@@ -58,8 +58,8 @@
 		$data = array(
 		   "firstname" => "Jessica",
 		   "lastname" => "Oei",
-		   "zip" => "02446",
-		   "email" => "jessica.oei@gmail.com"
+		   "zip" => "02210",
+		   "email" => "jessicalikescameras@gmail.com"
 		);
 
 		post_to_url("http://mcan.bsd.net/page/sapi/test-signup", $data);
