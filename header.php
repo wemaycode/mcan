@@ -156,69 +156,8 @@ $header_style = '';
             <div class="main-section">
 			<!-- End Header.php -->
 			
-			<?php
-			  // MCAN Contact Form 7 
-// send submit to BSD
-add_action( 'wpcf7_before_send_mail', 'submit_to_bsd' );
+<?php
 
-function submit_to_bsd( $cf7 )
-{	
-	$submission = WPCF7_Submission::get_instance();
-	 
-	if ( $submission ) {
-		$posted_data = $submission->get_posted_data();		
-	}
-	
-	$firstname = $posted_data["first-name"];
-	$lastname = $posted_data["last-name"];
-	$email = $posted_data["email"];
-	$zipcode = $posted_data["zipcode"];
-	
-	//file_put_contents("test.txt", "Test " . date('Y-m-d H:i:s', $_SERVER['REQUEST_TIME']) . $firstname);
-	
-	function post_to_url($url, $data) {
-	   $fields = '';
-	   foreach($data as $key => $value) { 
-		  $fields .= $key . '=' . $value . '&'; 
-	   }
-	   rtrim($fields, '&');
 
-	   $post = curl_init();
 
-	   if($post === false)
-		{
-			die('Failed to create curl object');
-		}
-
-	   curl_setopt($post, CURLOPT_URL, $url);
-	   curl_setopt($post, CURLOPT_POST, count($data));
-	   curl_setopt($post, CURLOPT_POSTFIELDS, $fields);
-	   curl_setopt($post, CURLOPT_RETURNTRANSFER, true);
-
-	   $response = curl_exec($post);
-	   
-	   $httpCode = curl_getinfo($post, CURLINFO_HTTP_CODE);
-
-		if ( $httpCode != 200 ){
-			echo "Return code is {$httpCode} \n"
-				.curl_error($post);
-		} else {
-			echo "<pre>".htmlspecialchars($response)."</pre>";
-		}
-
-	   curl_close($post);
-	   
-	   echo $response;
-	}
-	
-	$data = array(
-	   "firstname" => $firstname,
-	   "lastname" => $lastname,
-	   "zip" => $zipcode,
-	   "email" => $email
-	);
-
-	post_to_url("http://mcan.bsd.net/page/sapi/test-signup", $data);
-}
-
-			?>
+?>

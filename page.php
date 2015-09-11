@@ -4,6 +4,9 @@
  * The template for displaying all pages
  */
 	get_header();
+	
+
+
 	global $cs_node,$cs_sidebarLayout,$cs_xmlObject;
 	wp_reset_query();
 	if ( !isset($_SESSION["px_page_back"]) ||  isset($_SESSION["px_page_back"])){
@@ -81,6 +84,9 @@
 	             </section>
 		<?php	}
 	}
+	
+	
+
 		/**
 		 * @Show All Sections
 		 *
@@ -233,6 +239,11 @@
 				}
 			?>
                 <!-- Page Section -->
+				
+<?php
+
+
+?>				
                 <section <?php echo cs_allow_special_char($cs_section_css_id);?> class="page-section <?php echo cs_allow_special_char($cs_section_css_class.' '.$parallax_class); ?>" <?php echo cs_allow_special_char($parallax_data_type);?>  <?php echo cs_allow_special_char($section_style_element);?> >
                 <?php echo cs_allow_special_char($section_video_element);?>
                 <?php 
@@ -344,5 +355,10 @@
        </div>
 <?php
 	}
-get_footer(); ?>
+
+
+get_footer(); 
+
+
+?>
 <!-- Columns End -->
