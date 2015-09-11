@@ -104,8 +104,7 @@
     </div>
     <!-- Wrapper End -->
     <?php
-	
-	  if(isset($cs_theme_options['cs_google_analytics']) and $cs_theme_options['cs_google_analytics']<>''){
+  if(isset($cs_theme_options['cs_google_analytics']) and $cs_theme_options['cs_google_analytics']<>''){
 	    echo '<script type="text/javascript">
    					'. htmlspecialchars_decode($cs_theme_options['cs_google_analytics']) .'
 			  </script>';

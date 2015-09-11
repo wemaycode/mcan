@@ -37,7 +37,6 @@ $header_style = '';
 	/* theme unit testing code end */
  	$cs_builtin_seo_fields =$cs_theme_options['cs_builtin_seo_fields'];
 	if(isset($cs_theme_options['cs_layout'])){ $cs_site_layout =$cs_theme_options['cs_layout'];} else { $cs_site_layout == '';}
-	
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>

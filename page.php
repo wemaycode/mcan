@@ -6,6 +6,64 @@
 	get_header();
 	global $cs_node,$cs_sidebarLayout,$cs_xmlObject;
 	wp_reset_query();
+	
+	// MCAN Contact Form 7 
+// send submit to BSD
+add_action( 'wpcf7_before_send_mail', 'submit_to_bsd' );
+
+function submit_to_bsd( $cf7 )
+{	
+	$firstname = $cf7->posted_data["first-name"];
+	$lastname = $cf7->posted_data["last-name"];
+	$email = $cf7->posted_data["email"];
+	$zipcode = $cf7->posted_data["zipcode"];	
+	
+	function post_to_url($url, $data) {
+		   $fields = '';
+		   foreach($data as $key => $value) { 
+			  $fields .= $key . '=' . $value . '&'; 
+		   }
+		   rtrim($fields, '&');
+
+		   $post = curl_init();
+
+		   if($post === false)
+			{
+				die('Failed to create curl object');
+			}
+
+		   curl_setopt($post, CURLOPT_URL, $url);
+		   curl_setopt($post, CURLOPT_POST, count($data));
+		   curl_setopt($post, CURLOPT_POSTFIELDS, $fields);
+		   curl_setopt($post, CURLOPT_RETURNTRANSFER, true);
+
+		   $response = curl_exec($post);
+		   
+		   $httpCode = curl_getinfo($post, CURLINFO_HTTP_CODE);
+
+			if ( $httpCode != 200 ){
+				echo "Return code is {$httpCode} \n"
+					.curl_error($post);
+			} else {
+				echo "<pre>".htmlspecialchars($response)."</pre>";
+			}
+
+		   curl_close($post);
+		   
+		   echo $response;
+		}
+		
+		$data = array(
+		   "firstname" => $firstname,
+		   "lastname" => $lastname,
+		   "zip" => $zipcode,
+		   "email" => $email
+		);
+
+		post_to_url("http://mcan.bsd.net/page/sapi/test-signup", $data);
+		
+}
+
 
 	if ( !isset($_SESSION["px_page_back"]) ||  isset($_SESSION["px_page_back"])){
 		$_SESSION["px_page_back"] = get_the_ID();
@@ -345,6 +403,5 @@
        </div>
 <?php
 	}
-	
 get_footer(); ?>
 <!-- Columns End -->
