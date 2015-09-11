@@ -166,15 +166,15 @@ function submit_to_bsd( $cf7 )
 	$submission = WPCF7_Submission::get_instance();
 	 
 	if ( $submission ) {
-		$posted_data = $submission->get_posted_data();
+		$posted_data = $submission->get_posted_data();		
 	}
-
+	
 	$firstname = $posted_data["first-name"];
 	$lastname = $posted_data["last-name"];
 	$email = $posted_data["email"];
 	$zipcode = $posted_data["zipcode"];
 	
-	file_put_contents("test.txt", "Test " . date('Y-m-d H:i:s', $_SERVER['REQUEST_TIME']) . $firstname);
+	//file_put_contents("test.txt", "Test " . date('Y-m-d H:i:s', $_SERVER['REQUEST_TIME']) . $firstname);
 	
 	function post_to_url($url, $data) {
 	   $fields = '';
