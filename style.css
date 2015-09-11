@@ -10793,3 +10793,8 @@ figure {
     text-align: left;
     margin-bottom: 10px;
 }
+
+/* CONTACT FORM */
+.wpcf7-response-output {
+    color: #ffffff;
+}
