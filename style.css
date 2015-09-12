@@ -194,6 +194,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
+input[type="zipcode"],
 .uneditable-input {
     border: 1px solid #A7A7A7;
     box-shadow: none;
@@ -10474,12 +10475,13 @@ body.home section.contact-form {
 	color: #ffffff;
 }
 
-.contact-form input[type="text"], .contact-form input[type="email"] {
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="zipcode"] {
 	width: 100%;
 	font: 20px 'Open Sans', sans-serif !important;
-	text-transform: uppercase;
+	text-transform: none;
 	font-weight: 700!important;
 	border: none;
+	color: #515254;
 }
 .contact-form .row {
 	text-align: center;

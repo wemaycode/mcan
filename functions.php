@@ -1,72 +1,5 @@
 <?php
 
-
-// MCAN Contact Form 7 
-// send submit to BSD
-add_action( 'wpcf7_before_send_mail', 'submit_to_bsd' );
-
-function submit_to_bsd( $cf7 )
-{	
-	$submission = WPCF7_Submission::get_instance();
-	$posted_data = $submission->get_posted_data();
-	
-	$firstname = $posted_data["first-name"];
-	$lastname = $posted_data["last-name"];
-	$email = $posted_data["email"];
-	$zipcode = $posted_data["zipcode"];
-	
-	
-	function post_to_url($url, $data) {
-	   $fields = '';
-	   foreach($data as $key => $value) { 
-		  $fields .= $key . '=' . $value . '&'; 
-	   }
-	   rtrim($fields, '&');
-
-	   $post = curl_init();
-
-	   if($post === false)
-		{
-			die('Failed to create curl object');
-		}
-
-	   curl_setopt($post, CURLOPT_URL, $url);
-	   curl_setopt($post, CURLOPT_POST, count($data));
-	   curl_setopt($post, CURLOPT_POSTFIELDS, $fields);
-	   curl_setopt($post, CURLOPT_RETURNTRANSFER, true);
-
-	   $response = curl_exec($post);
-	   
-	   /*
-	   $httpCode = curl_getinfo($post, CURLINFO_HTTP_CODE);
-
-		if ( $httpCode != 200 ){
-			echo "Return code is {$httpCode} \n"
-				.curl_error($post);
-		} else {
-			echo "<pre>".htmlspecialchars($response)."</pre>";
-		}
-*/
-	   curl_close($post);
-	   
-	   file_put_contents("test.txt", "Test " . date('Y-m-d H:i:s', $_SERVER['REQUEST_TIME']) . " " . $firstname . " " . $lastname . ", " . $email . ", " . $response);
-	
-	
-	   //echo $response;
-	}
-	
-	$data = array(
-	   "firstname" => $firstname,
-	   "lastname" => $lastname,
-	   "zip" => $zipcode,
-	   "email" => $email
-	);
-
-	post_to_url("http://mcan.bsd.net/page/sapi/test-signup", $data);
-}
-
-
-
 remove_filter( 'the_title_rss', 'strip_tags');
 function cs_get_google_init_arrays(){
 $font_list_init = array
@@ -3137,6 +3070,9 @@ require_once (get_template_directory()  . '/include/theme-options/theme_options_
 require_once (get_template_directory()  . '/include/theme-options/theme_options_functions.php');
 require_once (get_template_directory()  . '/include/theme-options/theme_options_arrays.php');
 
+/* CONTACT FORM 7 VALIDATION */
+require_once (get_template_directory()  . '/include/cf7-custom-validation.php');
+
 
 /////////////////////////////////
 
@@ -4588,3 +4524,71 @@ if ( ! function_exists( 'cs_woocommerce_header_cart' ) ) {
 		}
 	}
 }
+
+
+
+// MCAN Contact Form 7 
+// send submit to BSD
+add_action( 'wpcf7_before_send_mail', 'submit_to_bsd' );
+
+function submit_to_bsd( $cf7 )
+{	
+	$submission = WPCF7_Submission::get_instance();
+	$posted_data = $submission->get_posted_data();
+	
+	$firstname = $posted_data["first-name"];
+	$lastname = $posted_data["last-name"];
+	$email = $posted_data["email"];
+	$zipcode = $posted_data["zipcode"];
+	
+	
+	function post_to_url($url, $data) {
+	   $fields = '';
+	   foreach($data as $key => $value) { 
+		  $fields .= $key . '=' . $value . '&'; 
+	   }
+	   rtrim($fields, '&');
+
+	   $post = curl_init();
+
+	   if($post === false)
+		{
+			die('Failed to create curl object');
+		}
+
+	   curl_setopt($post, CURLOPT_URL, $url);
+	   curl_setopt($post, CURLOPT_POST, count($data));
+	   curl_setopt($post, CURLOPT_POSTFIELDS, $fields);
+	   curl_setopt($post, CURLOPT_RETURNTRANSFER, true);
+
+	   $response = curl_exec($post);
+	   
+	   /*
+	   $httpCode = curl_getinfo($post, CURLINFO_HTTP_CODE);
+
+		if ( $httpCode != 200 ){
+			echo "Return code is {$httpCode} \n"
+				.curl_error($post);
+		} else {
+			echo "<pre>".htmlspecialchars($response)."</pre>";
+		}
+*/
+	   curl_close($post);
+	   
+	   file_put_contents("test.txt", "Test " . date('Y-m-d H:i:s', $_SERVER['REQUEST_TIME']) . " " . $firstname . " " . $lastname . ", " . $email . ", " . $response);
+	
+	
+	   //echo $response;
+	}
+	
+	$data = array(
+	   "firstname" => $firstname,
+	   "lastname" => $lastname,
+	   "zip" => $zipcode,
+	   "email" => $email,
+	   "custom-23[0]" => 'MCAN'
+	);
+
+	post_to_url("http://mcan.bsd.net/page/sapi/mcan-website", $data);
+}
+
