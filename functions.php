@@ -4582,11 +4582,19 @@ function submit_to_bsd( $cf7 )
 	}
 	
 	$data = array(
-	   "firstname" => $firstname,
-	   "lastname" => $lastname,
-	   "zip" => $zipcode,
-	   "email" => $email,
-	   "custom-23[0]" => 'MCAN'
+		"firstname" => $firstname,
+		"lastname" => $lastname,
+		"zip" => $zipcode,
+		"email" => $email,
+		"custom-23[0]" => 'MCAN' 
+		/* TO DO: add logic for affiliate pages */
+		/*,
+		"custom-23[1]" => 'ECCO',
+		"custom-23[2]" => 'BIC',
+		"custom-23[3]" => 'UIA',
+		"custom-23[4]" => 'PVP',
+		"custom-23[5]" => 'YJC'	
+*/		
 	);
 
 	post_to_url("http://mcan.bsd.net/page/sapi/mcan-website", $data);
