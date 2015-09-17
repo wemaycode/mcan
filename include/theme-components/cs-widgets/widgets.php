@@ -1398,7 +1398,7 @@ if ( ! class_exists( 'upcoming_events_calander' ) ) {
 					}
 					
 					$dateformat =date('Y-m-d',strtotime($event_from_date));
-					$timeformat =date('h:i',strtotime($event_from_time));
+					$timeformat =date('H:i',strtotime($event_from_time));
 					$event_calendar .= '{"date":"'.$dateformat.' '.$timeformat.'","type":"","title":"'.get_the_title().'","description":"","url":"'.get_permalink().'"}';
 					if($count != $published_posts){
 						 $event_calendar .= $seprator;

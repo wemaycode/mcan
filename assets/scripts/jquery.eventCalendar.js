@@ -66,6 +66,7 @@ var $ = jQuery;
 
 	// show event description
 	flags.wrap.find('.eventsCalendar-list').on('click','.eventTitle',function(e){
+		/*
 	//flags.wrap.find('.eventsCalendar-list .eventTitle').live('click',function(e){
 		if(!eventsOpts.showDescription) {
 			e.preventDefault();
@@ -88,7 +89,7 @@ var $ = jQuery;
 				desc.slideDown();
 			}
 
-		}
+		}*/
 	});
 
 	function sortJson(a, b){
@@ -338,6 +339,7 @@ var $ = jQuery;
 							eventDay = eventDate.getDate(),
 							eventMonthToShow = eventMonth + 1,
 							eventHour = eventDate.getHours(),
+							amPm = eventHour > '12' ? 'pm' : 'am',
 							eventMinute = eventDate.getMinutes();
 
 					}
@@ -364,7 +366,8 @@ var $ = jQuery;
 									} else {
 										var eventTitle = '<span class="eventTitle">'+event.title+'</span>';
 									}
-									events.push('<li id="' + key + '" class="'+event.type+'"><time datetime="'+eventDate+'"><em>' + eventStringDate + '</em><small>'+eventHour+":"+eventMinute+'</small></time>'+eventTitle+'<p class="eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
+									var eventHourAmPm = eventHour;
+									events.push('<li id="' + key + '" class="'+event.type+'"><time datetime="'+eventDate+'"><em>' + eventStringDate + '</em><small>'+eventHour+":"+eventMinute+(eventHour > 12 ? 'PM' : 'AM')+''+'</small></time>'+eventTitle+'<p class="eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
 									i++;
 								}
 						}
