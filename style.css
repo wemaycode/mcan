@@ -10663,12 +10663,10 @@ body.home section.homepage-content-howwework{
 
 /* =========== PAGES =========== */
 .page-content {
-	/*width: 60.25%!important;*/
     border-right: 1px solid #000!important;
     margin-bottom: 40px!important;
 }
 .page-sidebar {
-	/*width: 34.75%!important;*/
 }
 
 .page-content ~ .page-sidebar {
@@ -10799,4 +10797,13 @@ figure {
 /* CONTACT FORM */
 .wpcf7-response-output {
 	color: #ffffff;
+}
+
+/* SIDEBAR */
+
+.page-content {
+    width: 71%;
+}
+.page-content ~ .page-sidebar {
+    width: 24%;
 }

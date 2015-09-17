@@ -358,7 +358,7 @@ var $ = jQuery;
 								if (month === false && eventDate < new Date()) {
 
 								} else {
-									eventStringDate = eventDay + "/" + eventMonthToShow + "/" + eventYear;
+									eventStringDate = eventMonthToShow + "/" + eventDay + "/" + eventYear;
 									if (event.url) {
 										var eventTitle = '<a href="'+event.url+'" target="' + eventLinkTarget + '" class="eventTitle">' + event.title + '</a>';
 									} else {
@@ -425,9 +425,9 @@ var $ = jQuery;
 	function setCalendarWidth(){
 		// resize calendar width on window resize
 		flags.directionLeftMove = flags.wrap.width();
-		flags.wrap.find('.eventsCalendar-monthWrap').width(flags.wrap.width() + 'px');
+		//flags.wrap.find('.eventsCalendar-monthWrap').width(flags.wrap.width() + 'px');
 
-		flags.wrap.find('.eventsCalendar-list-wrap').width(flags.wrap.width() + 'px');
+		//flags.wrap.find('.eventsCalendar-list-wrap').width(flags.wrap.width() + 'px');
 
 	}
 };
