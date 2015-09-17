@@ -108,7 +108,7 @@ a {
     text-decoration: none;
 }
 p a {
-    color: #04a4cc;
+    /* color: #04a4cc; */
 }
 a:hover,
 a:focus,
