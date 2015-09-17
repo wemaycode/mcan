@@ -338,8 +338,7 @@ var $ = jQuery;
 							eventMonth = eventDate.getMonth(),
 							eventDay = eventDate.getDate(),
 							eventMonthToShow = eventMonth + 1,
-							eventHour = eventDate.getHours(),
-							amPm = eventHour > '12' ? 'pm' : 'am',
+							eventHour = (eventDate.getHours() < 10 ? eventDate.getHours().substr(1) : eventDate.getHours()),
 							eventMinute = eventDate.getMinutes();
 
 					}
@@ -366,8 +365,7 @@ var $ = jQuery;
 									} else {
 										var eventTitle = '<span class="eventTitle">'+event.title+'</span>';
 									}
-									var eventHourAmPm = eventHour;
-									events.push('<li id="' + key + '" class="'+event.type+'"><time datetime="'+eventDate+'"><em>' + eventStringDate + '</em><small>'+eventHour+":"+eventMinute+(eventHour > 12 ? 'PM' : 'AM')+''+'</small></time>'+eventTitle+'<p class="eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
+									events.push('<li id="' + key + '" class="'+event.type+'"><time datetime="'+eventDate+'"><em>' + eventStringDate + '</em><small>'+(eventHour > 12 ? (eventHour-12) : eventHour < 10 ? eventHour.substr(1) : eventHour)+":"+eventMinute+(eventHour > 12 ? 'PM' : 'AM')+''+'</small></time>'+eventTitle+'<p class="eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
 									i++;
 								}
 						}
