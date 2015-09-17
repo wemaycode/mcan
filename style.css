@@ -10812,3 +10812,23 @@ figure {
 .page-content ~ .page-sidebar {
     width: 24%;
 }
+
+/* Sidebar Widget Form */
+.widget_text .address, .widget_text .phone, .widget_text .fax, .widget_text .email {
+	padding-left: 0px!important;
+}
+.wpcf7 form p input {
+	border: 1px solid #515524;
+}
+.page-sidebar .wpcf7 form p input[type="submit"] {
+	background-color: #f9991d!important;
+	color: #ffffff!important;
+}
+.page-sidebar div.wpcf7 img.ajax-loader {
+    width: 16px;
+    margin: 10px 15px;
+}
+.page-sidebar div.wpcf7-response-output {
+	display: inline-block;
+	color: #515524;
+}
