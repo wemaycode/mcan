@@ -10309,6 +10309,7 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 	line-height: 21px!important;
 	color: #515254!important;
 	margin-bottom: 15px!important;
+	overflow: auto;
 }
 .rich_editor_text strong {
 	font-weight: bold;
