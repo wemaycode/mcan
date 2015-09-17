@@ -450,7 +450,7 @@ $.fn.eventCalendar.defaults = {
 	txt_NextEvents: "Next events:",
 	txt_GoToEventUrl: "See the event",
 	showDayAsWeeks: true,
-	startWeekOnMonday: true,
+	startWeekOnMonday: false,
 	showDayNameInCalendar: true,
 	showDescription: false,
 	onlyOneDescription: true,
