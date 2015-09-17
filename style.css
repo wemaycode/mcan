@@ -10479,7 +10479,7 @@ body.home section.contact-form {
 	width: 100%;
 	font: 20px 'Open Sans', sans-serif !important;
 	text-transform: none;
-	font-weight: 700!important;
+	font-weight: normal!important;
 	border: none;
 	color: #515254;
 }
