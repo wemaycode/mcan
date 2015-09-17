@@ -158,7 +158,7 @@ if ( !class_exists('EventTemplates') ) {
 			$title_limit = 46;
 			$background	= '';
 		?>
-            <div class="col-md-12">
+            <div class="col-md-3">
                 <article class="cs-events events-minimal">
                     <div class="left-sp">
                         <h2><a href="<?php the_permalink();?>"><?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?></a></h2>
