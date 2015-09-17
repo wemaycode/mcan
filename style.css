@@ -10793,6 +10793,10 @@ figure {
     text-align: left;
     margin-bottom: 10px;
 }
+.eventCalendar-wrap .next {
+    right: 10px;
+    left: auto!important;
+}
 
 /* CONTACT FORM */
 .wpcf7-response-output {
