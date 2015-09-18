@@ -10789,7 +10789,7 @@ figure {
 	margin-bottom: 20px;
 }
 
-/* EVENTS */
+/* EVENTS Sidebar */
 .event-editor h2 {
     text-align: left;
     margin-bottom: 10px;
@@ -10831,4 +10831,65 @@ figure {
 .page-sidebar div.wpcf7-response-output {
 	display: inline-block;
 	color: #515524;
+}
+
+/* ======= Affiliate Page Styles ===== */
+.events-parent {
+	text-align: center;
+}
+article.cs-events.events-minimal {
+    border: none;
+	text-align: center;
+	padding: 20px 35px;
+    font-family: 'Open Sans',sans-serif!important;
+}
+.cs-events.events-minimal h2 {
+    border: 2px solid #000000;
+    height: 200px;
+    width: 200px;
+    font-family: 'Open Sans',sans-serif!important;
+    font-size: 50px!important;
+	font-weight: bold!important;
+    padding-top: 64px;
+    border-radius: 100px;
+	margin: auto;
+    text-align: center;
+}
+.cs-events.events-minimal h2:after {
+    border: 2px solid #000000;
+    content: " ";
+	width: 186px;
+    height: 186px;
+    display: block;
+    position: absolute;
+    top: 27px;
+    border-radius: 100px;
+    left: 67px;
+}
+.cs-events.events-minimal .event-title {
+    font-family: 'Open Sans',sans-serif!important;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.cs-events.events-minimal .info {
+    font-family: 'Open Sans',sans-serif!important;
+    line-height: 1.5em;
+}
+.cs-events.events-minimal .event-link {
+    font-family: 'Open Sans',sans-serif!important;
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#affiliate-ecco { }
+	#affiliate-ecco .cs-events.events-minimal h2, #affiliate-ecco .cs-events.events-minimal h2:after { border-color: #6ccdb3;  }
+	#affiliate-ecco .cs-events.events-minimal .event-link a { color: #6ccdb3; }
+	#affiliate-ecco .cs-events.events-minimal h2 { color: #003a5d!important; }
+	
+
+#affiliate-bic {
+
 }

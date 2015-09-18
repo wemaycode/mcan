@@ -88,7 +88,7 @@ $header_style = '';
     ?>
     </head>
     <?php flush(); ?>
-	<body <?php body_class($cs_rtl_class);  if($cs_site_layout !='full_width'){ if ( function_exists( 'cs_bg_image' ) ) { echo cs_bg_image(); } } ?>>
+	<body id="affiliate-<?php the_field('affiliate_type'); ?>" <?php body_class($cs_rtl_class);  if($cs_site_layout !='full_width'){ if ( function_exists( 'cs_bg_image' ) ) { echo cs_bg_image(); } } ?>>
 	<!-- Header.php -->
      <?php  if ( function_exists( 'cs_under_construction' ) ) { cs_under_construction(); } ?>
     	<!-- Wrapper Start -->

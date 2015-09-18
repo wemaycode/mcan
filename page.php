@@ -1,12 +1,13 @@
 
 <?php
+
+$affiliatetype = get_field('affiliate_type');
+
 /**
  * The template for displaying all pages
  */
 	get_header();
 	
-
-
 	global $cs_node,$cs_sidebarLayout,$cs_xmlObject;
 	wp_reset_query();
 	if ( !isset($_SESSION["px_page_back"]) ||  isset($_SESSION["px_page_back"])){

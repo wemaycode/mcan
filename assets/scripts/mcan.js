@@ -25,4 +25,7 @@ jQuery(document).ready(function($) {
 			'maxWidth' : 800
 		});
 	}
+	
+	// Add parent class to Events blog for centering purposes
+	$('.cs-events.events-minimal').parent().parent().addClass('events-parent');
 });
