@@ -10607,7 +10607,7 @@ body.home section.homepage-content-howwework{
 	padding: 5px 15px;
 }
 .main-section .homepage-howwework {
-	padding: 0 15%;
+	padding: 0 9%;
 }
 .main-section .homepage-content-howwework h2 {
 	color: #007088!important;
@@ -10615,6 +10615,7 @@ body.home section.homepage-content-howwework{
 .main-section .homepage-content-howwework p {
 	color: #515254;
 	font-size: 20px;
+	line-height: 30px!important;
 	padding: 10px 15px;
 }
 .main-section .homepage-content-howwework .cta {
@@ -10888,7 +10889,25 @@ article.cs-events.events-minimal {
 	#affiliate-ecco .cs-events.events-minimal h2, #affiliate-ecco .cs-events.events-minimal h2:after { border-color: #6ccdb3;  }
 	#affiliate-ecco .cs-events.events-minimal .event-link a { color: #6ccdb3; }
 	#affiliate-ecco .cs-events.events-minimal h2 { color: #003a5d!important; }
-	#affiliate-ecco .main-section .homepage-content-howwework .cta { background-color: #f8991d; }
+	
+	#affiliate-ecco .main-section .homepage-content-howwework { 
+		text-align: center; 
+		padding-top: 0px!important;
+	}
+	#affiliate-ecco .main-section .homepage-content-howwework p { text-align: left; }
+	#affiliate-ecco .main-section .homepage-content-howwework .cta { 
+		background-color: #6ccdb3; 
+		float: left;
+		width: 48%;
+	}
+	#affiliate-ecco .main-section .homepage-content-howwework .cta:last-child {
+		float: right;
+	}
+	#affiliate-ecco .main-section .homepage-content-howwework h2 { 
+		font-weight: bold!important; 
+		color: #6ccdb3!important; 
+		margin-top: 27px;
+	}
 
 #affiliate-bic {
 
