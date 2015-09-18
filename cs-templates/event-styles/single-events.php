@@ -128,8 +128,9 @@
       <!-- Event Detail Start -->
       <div class="<?php echo esc_attr($cs_layout); ?> event-editor"> 
         <!-- Event Start --> 
+		<h2><?php echo get_the_title(); ?></h2>
         <!-- Row -->
-		
+		<div class="event-content"><?php echo the_content(); ?></div>
  		 <div class="col-md-4">
             <div class="event-sidebar" >
 			<?php if($image_url <> ''){ ?>
@@ -195,19 +196,22 @@
                                 <ul>
 								<?php if($cs_post_event_start_time<>''){?>
                                     <li><?php _e('Event Time','Awaken');?>
-                                        <span><i class="fa fa-clock-o"></i><?php echo date(get_option('time_format'),strtotime($cs_post_event_start_time)) ?><?php echo ($cs_post_event_end_time<>'')?'-'.date(get_option('time_format'),strtotime($cs_post_event_end_time)):''; ?></span>
+                                        <span>
+											<!--<i class="fa fa-clock-o"></i>-->
+											<?php echo date(get_option('date_format'),strtotime($cs_post_event_from_date)) ?><br>
+											<?php echo date(get_option('time_format'),strtotime($cs_post_event_start_time)) ?><?php echo ($cs_post_event_end_time<>'')?'-'.date(get_option('time_format'),strtotime($cs_post_event_end_time)):''; ?>
+										</span>
                                     </li>
 									<?php 
 										}
-									if($cs_post_event_from_date<>''){?>
-                                    <li><?php _e('Event Start Date','Awaken');?>
-                                        <span><i class="fa fa-clock-o"></i><?php echo date(get_option('date_format'),strtotime($cs_post_event_from_date)) ?></span>
-                                    </li>
-									<?php 
-										}
+									
 									if($cs_post_location_address<>''){?>
 											<li><?php _e('Event Location','Awaken');?>
-												<span><i class="fa fa-map-marker"></i><?php echo esc_attr($cs_post_location_address); ?></span>
+												<span>
+													<!--<i class="fa fa-map-marker"></i>-->
+													<?php echo $cs_xmlObject->event_map_heading; ?><br>
+													<?php echo esc_attr($cs_post_location_address); ?>
+												</span>
 											</li>
 									<?php } ?>
                                 </ul>

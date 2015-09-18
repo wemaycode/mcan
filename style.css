@@ -10806,6 +10806,7 @@ figure {
     font: 20px 'Open Sans', sans-serif!important;
     line-height: 1.5em!important;
 }
+
 /* EVENTS Sidebar */
 .event-editor h2 {
     text-align: left;
@@ -10814,6 +10815,12 @@ figure {
 .eventCalendar-wrap .next {
     right: 10px;
     left: auto!important;
+}
+
+/* EVENTS SINGLE POST */
+
+.event-editor h2 {
+    font-weight: bold!important;
 }
 
 /* CONTACT FORM */
