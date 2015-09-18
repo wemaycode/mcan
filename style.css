@@ -10290,36 +10290,36 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 	width: 60%;
 }
 /* POST CONTENT */
-.rich_editor_text h1, .rich_editor_text h2, .rich_editor_text h3, .rich_editor_text h4, .rich_editor_text h5 {
+.main-section .rich_editor_text h1, .main-section .rich_editor_text h2, .main-section .rich_editor_text h3, .main-section .rich_editor_text h4, .main-section .rich_editor_text h5 {
 	margin-bottom: 20px;
 	margin-top: 20px!important;
 }
 
-.rich_editor_text h2, .rich_editor_text h2 a {
-  font-size: 30px!important;
-  font-weight: bold!important;
+.main-section .rich_editor_text h2, .main-section .rich_editor_text h2 a {
+  font-size: 30px;
+  font-weight: bold;
 }
-.rich_editor_text h3, .rich_editor_text h3 a {
-  font-size: 20px!important;
-  font-weight: bold!important;
+.main-section .rich_editor_text h3, .main-section .rich_editor_text h3 a {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.rich_editor_text p, .rich_editor_text p strong, .rich_editor_text ul li {
-	font-size: 15px!important;
-	line-height: 21px!important;
-	color: #515254!important;
-	margin-bottom: 15px!important;
+.main-section .rich_editor_text p, .main-section .rich_editor_text p strong, .main-section .rich_editor_text ul li {
+	font: 15px 'Open Sans', sans-serif;
+	line-height: 21px;
+	color: #515254;
+	margin-bottom: 15px;
 	overflow: auto;
 }
-.rich_editor_text strong {
+.main-section .rich_editor_text strong {
 	font-weight: bold;
 }
-.rich_editor_text ul {
-	list-style-type: disc!important;
-	margin-left: 4em!important;
-	margin-bottom: 20px!important;
+.main-section .rich_editor_text ul {
+	list-style-type: disc;
+	margin-left: 4em;
+	margin-bottom: 20px;
 }
-.rich_editor_text hr {
+.main-section .rich_editor_text hr {
 	border-top: 1px solid #515524;
 }
 
@@ -10789,7 +10789,23 @@ figure {
     text-align: left;
 	margin-bottom: 20px;
 }
-
+.main-section blockquote {
+	font-size: 30px;
+    padding: 0 0 0 50px;
+	float: none;
+	margin: 30px 0;
+}
+.main-section blockquote:before {
+	top: 5px;
+	content: "\f10d";
+    font-family: 'FontAwesome';
+    color: #f9991d;
+	background: none;
+}
+.main-section .rich_editor_text blockquote p {
+    font: 20px 'Open Sans', sans-serif!important;
+    line-height: 1.5em!important;
+}
 /* EVENTS Sidebar */
 .event-editor h2 {
     text-align: left;
@@ -10908,6 +10924,8 @@ article.cs-events.events-minimal {
 		color: #6ccdb3!important; 
 		margin-top: 27px;
 	}
+	
+	#affiliate-ecco .main-section blockquote:before { color: #f9991d; }
 
 #affiliate-bic {
 
