@@ -103,6 +103,10 @@
 					$cs_post_event_from_date = $cs_xmlObject->dynamic_post_event_from_date;
 					$cs_event_members = $cs_xmlObject->dynamic_event_members;
 					$cs_post_location_address = $cs_xmlObject->dynamic_post_location_address;
+					$cs_post_location_city = $cs_xmlObject->loc_city;
+					$cs_post_location_region = $cs_xmlObject->loc_region;
+					$cs_post_location_postcode = $cs_xmlObject->loc_postcode;
+					$cs_post_location_state = $cs_xmlObject->dynamic_post_location_state;
 					$cs_event_members = explode(',',$cs_event_members);
 								
 			}
@@ -209,8 +213,11 @@
 											<li><?php _e('Event Location','Awaken');?>
 												<span>
 													<!--<i class="fa fa-map-marker"></i>-->
-													<?php echo $cs_xmlObject->event_map_heading; ?><br>
-													<?php echo esc_attr($cs_post_location_address); ?>
+													<a href="https://www.google.com/maps/place/<?php echo esc_attr($cs_post_location_address) . '+' . esc_attr($cs_post_location_city) . '+' . esc_attr($cs_post_location_region) . '+' . esc_attr($cs_post_location_postcode); ?>" target="_blank">
+														<?php echo $cs_xmlObject->event_map_heading; ?><br>
+														<?php echo esc_attr($cs_post_location_address); ?><br>
+														<?php echo esc_attr($cs_post_location_city) . ', ' . esc_attr($cs_post_location_region) . ' ' . esc_attr($cs_post_location_postcode); ?>
+													</a>
 												</span>
 											</li>
 									<?php } ?>
