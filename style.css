@@ -10925,7 +10925,7 @@ article.cs-events.events-minimal {
 		margin-top: 27px;
 	}
 	
-	#affiliate-ecco .main-section blockquote:before { color: #f9991d; }
+	#affiliate-ecco .main-section blockquote:before { color: #f9991d; } /* doesn't work bc posts don't take the body id */
 
 #affiliate-bic {
 

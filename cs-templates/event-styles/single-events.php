@@ -1,3 +1,4 @@
+<!-- single-events.php -->
 <?php
 /**
  * The template for Event Detail

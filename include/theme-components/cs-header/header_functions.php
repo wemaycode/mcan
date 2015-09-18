@@ -1141,10 +1141,16 @@ if ( ! function_exists( 'get_subheader_title' ) ) {
 								}
 							}else{
 								echo '<h1 '.$color.' class="test">';
-									/* If a News post, display "News & Updates" category description in place of title */
+								
+								$post_type = get_post_type(get_the_ID());
+									// If a News post, display "News & Updates" category description in place of title 
 								if (is_page($post_ID)){
-									/* if a page */
+									// If Page
 									echo get_the_title($post_ID);
+								}
+								else if($post_type == 'events'){
+									// Is an Event
+									echo "Events";
 								}
 								else {
 									/* if a post */

@@ -11,12 +11,14 @@
 	}	
 	$cs_node = new stdClass();
   	get_header();
+	
+	
+	
  	$cs_layout = '';
 	$leftSidebarFlag	= false;
 	$rightSidebarFlag	= false;
 	?>
 <!-- PageSection Start -->
-
 <section class="page-section" style=" padding: 0; "> 
   <!-- Container -->
   <div class="container"> 
