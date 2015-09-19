@@ -10291,42 +10291,42 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 }
 /* POST CONTENT */
 .main-section .rich_editor_text h1, .main-section .rich_editor_text h2, .main-section .rich_editor_text h3, .main-section .rich_editor_text h4, .main-section .rich_editor_text h5 {
-	margin-bottom: 20px;
+	margin-bottom: 20px!important;
 	margin-top: 20px!important;
 }
 
 .main-section .rich_editor_text h2, .main-section .rich_editor_text h2 a {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 30px!important;
+  font-weight: bold!important;
 }
 .main-section .rich_editor_text h3, .main-section .rich_editor_text h3 a {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 20px!important;
+  font-weight: bold!important;
 }
 
 .main-section .rich_editor_text p, .main-section .rich_editor_text p strong, .main-section .rich_editor_text ul li {
-	font: 15px 'Open Sans', sans-serif;
-	line-height: 21px;
-	color: #515254;
-	margin-bottom: 15px;
-	overflow: auto;
+	font: 15px 'Open Sans', sans-serif!important;
+	line-height: 21px!important;
+	color: #515254!important;
+	margin-bottom: 15px!important;
+	overflow: auto!important;
 }
 .main-section .rich_editor_text strong {
-	font-weight: bold;
+	font-weight: bold!important;
 }
 .main-section .rich_editor_text ul {
-	list-style-type: disc;
-	margin-left: 4em;
-	margin-bottom: 20px;
+	list-style-type: disc!important;
+	margin-left: 4em!important;
+	margin-bottom: 20px!important;
 }
 .main-section .rich_editor_text hr {
-	border-top: 1px solid #515524;
+	border-top: 1px solid #515524!important;
 }
 
 .cs-section-title h2 {
-	width: 100%;
-	text-align: center;
-	margin-bottom: 50px;
+	width: 100!important%;
+	text-align: center!important;
+	margin-bottom: 50px!important;
 }
 
 .cs_counter .cs-numcount {
@@ -10352,8 +10352,8 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 		padding: 8px 20px 8px 45px!important;
 	}
 	.button_style i.fa.button-icon-right {
-		background-color: transparent;
-		float: right;
+		background-color: transparent!important;
+		float: right!important;
 	}
 
 
@@ -10374,57 +10374,57 @@ footer .col-md-3 {
     padding: 40px 24px!important;
 }
 footer .col-md-3:nth-child(1), footer .col-md-3:nth-child(3) {
-	width: 29%;
+	width: 29%!important;
 }
 footer .col-md-3:nth-child(2) {
-	width: 25%;
+	width: 25%!important;
 }
 footer .col-md-3:nth-child(4) {
-	width: 17%;
+	width: 17%!important;
 	padding-right: 0px!important;
 }
 .footer-widget-title {
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-    border-bottom: 1px solid;
-    margin-bottom: 25px;
+    font-size: 20px!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    padding-bottom: 20px!important;
+    border-bottom: 1px solid!important;
+    margin-bottom: 25px!important;
 }
 
 footer.group .logo img {
-	width: 100%;
-	max-width: 220px;
+	width: 100%!important;
+	max-width: 220px!important;
 }
 
 footer.group .widget_text h2 { /* hide text widget titles */
-	display: none;
+	display: none!important;
 }
 
 footer.group .widget_text .logo {
-	margin-bottom: 25px;
-	border-bottom: 1px solid #000;
-	padding-bottom: 25px;
+	margin-bottom: 25px!important;
+	border-bottom: 1px solid #000!important;
+	padding-bottom: 25px!important;
 }
 
 footer.group .widget_text ul li { 
 	padding: 0px!important;
-	line-height: 22px;
+	line-height: 22px!important;
 }
 
 footer.group .widget_text .cta {
-	background-color: #515254;
-	color: #ffffff;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin: 0 0 10px 0;
-	width: 100%;
-	text-align: center;
-	padding: 3px 0;
+	background-color: #515254!important;
+	color: #ffffff!important;
+	text-transform: uppercase!important;
+	font-weight: bold!important;
+	margin: 0 0 10px 0!important;
+	width: 100%!important;
+	text-align: center!important;
+	padding: 3px 0!important;
 }
 
 .footer-widget-cta ul {
-  margin-top: 20px;
+  margin-top: 20px!important;
 }
 
 
@@ -10437,17 +10437,17 @@ footer.group .widget_text .footer-widget-cta ul li:after {
 }
 
 footer.group .widget_text ul li a {
-	text-transform: uppercase;
-	font-weight: bold;
-	padding-right: 9px;
+	text-transform: uppercase!important;
+	font-weight: bold!important;
+	padding-right: 9px!important;
 }
 
 .footer-widget-affiliate, .footer-widget-affiliate a {
-	font-weight: 900;
-	font-size: 20px;
+	font-weight: 900!important;
+	font-size: 20px!important;
 }
 .footer-widget-affiliate a {
-	line-height: 35px;
+	line-height: 35px!important;
 }
 
 /* ======= PAGE SECTIONS =======*/
@@ -10458,22 +10458,22 @@ section.page-section {
 /* HOMEPAGE NEWSLETTER FORM */
 
 body.home section.contact-form {
-	background-color: transparent;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+	background-color: transparent!important;
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+	background-position: center center!important;
 }
 
 .contact-form .col-md-12, .contact-form .wpcf7 {
-	margin-bottom: 0px;
+	margin-bottom: 0px!important;
 }
 
 .contact-form form p {
-	margin-bottom: 30px;
-	text-align: center;
-	text-transform: none;
-	font-size: 20px;
-	color: #ffffff;
+	margin-bottom: 30px!important;
+	text-align: center!important;
+	text-transform: none!important;
+	font-size: 20px!important;
+	color: #ffffff!important;
 }
 
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="zipcode"] {
@@ -10682,7 +10682,7 @@ body.home section.homepage-content-howwework{
 	.page-template-page-currentcampaigns .main-section h3 {
 		font-size: 25px!important;
 		font-weight: bold!important;
-		text-transform: uppercase;
+		text-transform: uppercase!important;
 	}
 	.page-template-page-staff .main-section p, 
 	.page-template-page-currentcampaigns .main-section p {
@@ -10692,51 +10692,51 @@ body.home section.homepage-content-howwework{
 	/* fancybox grid */
 	.page-template-page-staff a.fancybox img,
 	.page-template-page-currentcampaigns a.fancybox .grid-img {
-		width: 100%;
-		margin-bottom: 20px;
+		width: 100%!important;
+		margin-bottom: 20px!important;
 	}
 	.page-template-page-staff a.fancybox .staff-name,
 	.page-template-page-currentcampaigns a.fancybox .staff-name,
 	.grid-title
 	{
-		font-size: 19px;
-		color: #f8991d;
-		font-weight: bold;
-		text-transform: uppercase;
+		font-size: 19px!important;
+		color: #f8991d!important;
+		font-weight: bold!important;
+		text-transform: uppercase!important;
 	}
 	.page-template-page-staff a.fancybox .staff-title,
 	.page-template-page-currentcampaigns a.fancybox .staff-title	{
-		font-size: 19px;
+		font-size: 19px!important;
 	}
 	/* Grid Background Image */
 	.grid-thumbnail {
-		width: 100%;
-		height: 200px;
-		background-size: cover;
-		background-position: center center;
+		width: 100%!important;
+		height: 200px!important;
+		background-size: cover!important;
+		background-position: center center!important;
 	}
 	/* fancybox lightbox content */
 	.fancybox-opened {
-		/*width: 95%!important;*/
+		/*width: 95%!important!important;*/
 	}
 	.fancybox-inner {
-		overflow: hidden;
-		/*width: 100%!important;*/
+		overflow: hidden!important;
+		/*width: 100%!important!important;*/
 	}
 	.fancybox-inner img {
-		width: 250px;
-		float: left;
-		margin: 0px 15px 5px 0px;
+		width: 250px!important;
+		float: left!important;
+		margin: 0px 15px 5px 0px!important;
 	}
 	.fancybox-inner .staff-name {
-		font-size: 19px;
-		color: #f8991d;
-		font-weight: bold;
-		text-transform: uppercase;
+		font-size: 19px!important;
+		color: #f8991d!important;
+		font-weight: bold!important;
+		text-transform: uppercase!important;
 	}
 	.fancybox-inner .staff-title {
-		font-size: 19px;
-		font-weight: bold;
+		font-size: 19px!important;
+		font-weight: bold!important;
 	}
 	.fancybox-inner p {
 	
@@ -10755,10 +10755,10 @@ body.home section.homepage-content-howwework{
 
 /* BLOG LIST PAGE */
 .post-option {
-    float: none;
+    float: none!important;
 }
 .blog-title-wrapper {
-    padding-left: 15px;
+    padding-left: 15px!important;
 }
 
 #at3win #at3winheader h3 { /* share popup */
@@ -10768,17 +10768,17 @@ body.home section.homepage-content-howwework{
 
 /* BLOG INDIVIDUAL PAGE */
 .single-post .blog-title-wrapper {
-	margin-bottom: 20px;
+	margin-bottom: 20px!important;
 }
 figure {
-	overflow: auto;
+	overflow: auto!important;
 }
 .post-info {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
 }
 .post-option li a {
-	text-transform: none;
+	text-transform: none!important;
 }
 .prevnext, .socialmedia h6 {
     font-size: 20px!important;
@@ -10786,21 +10786,21 @@ figure {
     text-transform: uppercase!important;
 }
 .col-md-12.post-recent h2 {
-    text-align: left;
-	margin-bottom: 20px;
+    text-align: left!important;
+	margin-bottom: 20px!important;
 }
 .main-section blockquote {
-	font-size: 30px;
-    padding: 0 0 0 50px;
-	float: none;
-	margin: 30px 0;
+	font-size: 30px!important;
+    padding: 0 0 0 50px!important;
+	float: none!important;
+	margin: 30px 0!important;
 }
 .main-section blockquote:before {
-	top: 5px;
-	content: "\f10d";
-    font-family: 'FontAwesome';
-    color: #f9991d;
-	background: none;
+	top: 5px!important;
+	content: "\f10d"!important;
+    font-family: 'FontAwesome'!important;
+    color: #f9991d!important;
+	background: none!important;
 }
 .main-section .rich_editor_text blockquote p {
     font: 20px 'Open Sans', sans-serif!important;
@@ -10809,11 +10809,11 @@ figure {
 
 /* EVENTS Sidebar */
 .event-editor h2 {
-    text-align: left;
-    margin-bottom: 10px;
+    text-align: left!important;
+    margin-bottom: 10px!important;
 }
 .eventCalendar-wrap .next {
-    right: 10px;
+    right: 10px!important;
     left: auto!important;
 }
 
@@ -10825,7 +10825,7 @@ figure {
 
 /* CONTACT FORM */
 .wpcf7-response-output {
-	color: #ffffff;
+	color: #ffffff!important;
 }
 
 /* SIDEBAR */
