@@ -1013,7 +1013,7 @@ if ( ! function_exists( 'get_subheader_breadcrumb' ) ) {
 			  if ( isset( $cs_theme_options['cs_sub_header_text_color'] ) &&  $cs_theme_options['cs_sub_header_text_color'] <> ''  ){ ?>
 				<style scoped="scoped">
 					.breadcrumb-sec, .breadcrumb ul li a,.breadcrumb ul li.active,.breadcrumb ul li:first-child:after {
-						color : <?php echo cs_allow_special_char($cs_theme_options['cs_sub_header_text_color']);?> !important;
+						color : <?php echo cs_allow_special_char($cs_theme_options['cs_sub_header_text_color']);?> ;
 					}	
 				</style>
   <?php  	   }
@@ -1022,7 +1022,7 @@ if ( ! function_exists( 'get_subheader_breadcrumb' ) ) {
 					if ( isset( $cs_theme_options['cs_sub_header_text_color'] ) &&  $cs_theme_options['cs_sub_header_text_color'] <> ''  ){ ?>
   					<style scoped="scoped">
 						.breadcrumb-sec, .breadcrumb ul li a,.breadcrumb ul li.active,.breadcrumb ul li:first-child:after {
-							color : <?php echo cs_allow_special_char($cs_theme_options['cs_sub_header_text_color']);?> !important;
+							color : <?php echo cs_allow_special_char($cs_theme_options['cs_sub_header_text_color']);?> ;
 						}	
 					</style>
   <?php  			} 
@@ -1037,7 +1037,7 @@ if ( ! function_exists( 'get_subheader_breadcrumb' ) ) {
 							background:url('<?php echo cs_allow_special_char($page_bg_image); ?>');
 						}	
 						.breadcrumb-sec, .breadcrumb ul li a,.breadcrumb ul li.active,.breadcrumb ul li:first-child:after {
-							color : <?php echo cs_allow_special_char($page_subheader_text_color);?> !important;
+							color : <?php echo cs_allow_special_char($page_subheader_text_color);?> ;
 						}
 					</style>
                     <?php 
@@ -1047,7 +1047,7 @@ if ( ! function_exists( 'get_subheader_breadcrumb' ) ) {
 				  else if(isset($page_subheader_text_color) && $page_subheader_text_color != ''){?>
   					<style>
 						.breadcrumb-sec, .breadcrumb ul li a,.breadcrumb ul li.active,.breadcrumb ul li:first-child:after {
-							color : <?php echo cs_allow_special_char($page_subheader_text_color);?> !important;
+							color : <?php echo cs_allow_special_char($page_subheader_text_color);?> ;
 						}	
 					</style>
   <?php			}
@@ -1124,7 +1124,7 @@ if ( ! function_exists( 'get_subheader_title' ) ) {
 					}
 				}
 				
-				$color	= 'style="color:'.$text_color.' !important"';
+				$color	= 'style="color:'.$text_color.' "';
  				if(isset($cs_xmlObject)){
 					if(isset($cs_xmlObject->page_title) && $cs_xmlObject->page_title == 'on'){
 						if(isset($cs_xmlObject->seosettings->cs_seo_title) && $cs_xmlObject->seosettings->cs_seo_title != ''){
