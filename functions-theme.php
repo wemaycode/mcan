@@ -494,7 +494,7 @@ if ( isset($cs_theme_sidebar['sidebar']) and !empty($cs_theme_sidebar['sidebar']
 // custom sidebar end
 register_sidebar( array(
 		'name'          => __( 'ECCO Sidebar', 'Awaken' ),
-		'id'            => 'sidebar-1',
+		'id'            => 'sidebar-3',
 		'description'   => __( 'Sidebar for ECCO','Awaken'),
   		'before_widget' => '<article class="element-size-100 group widget %2$s">',
  		'after_widget' => '</article>',
@@ -503,7 +503,7 @@ register_sidebar( array(
 	) );
 register_sidebar( array(
 		'name'          => __( 'BIC Sidebar', 'Awaken' ),
-		'id'            => 'sidebar-1',
+		'id'            => 'sidebar-2',
 		'description'   => __( 'Sidebar for BIC','Awaken'),
   		'before_widget' => '<article class="element-size-100 group widget %2$s">',
  		'after_widget' => '</article>',
