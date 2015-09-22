@@ -10516,14 +10516,9 @@ body.home section.contact-form {
 	
 	font-family: 'Open Sans', sans-serif !important;
 	font-weight: 700;
-	text-transform: uppercase;
 	color: #ffffff;
 	font-size: 20px;
 }
-	/* Affilliate Submit Colors */
-	.contact-form.ecco input[type="submit"] {
-		background-color: #6ccdb3;
-	}
 
 .main-section h2, .main-section h2 a {
 	/* color: #000000 !important; */
@@ -10936,6 +10931,8 @@ article.cs-events.events-minimal {
 	#affiliate-ecco .cs-events.events-minimal .event-link a { color: #6ccdb3; }
 	#affiliate-ecco .cs-events.events-minimal h2 { color: #003a5d!important; }
 	
+	.contact-form.ecco input[type="submit"] { background-color: #6ccdb3; }
+	
 	#affiliate-ecco .main-section .homepage-content-howwework { 
 		text-align: center; 
 		padding-top: 0px!important;
@@ -10955,6 +10952,17 @@ article.cs-events.events-minimal {
 	
 	#affiliate-ecco .main-section blockquote:before { color: #f9991d; } /* doesn't work bc posts don't take the body id */
 
+	
 #affiliate-bic {
-
+/* f6cf3f yellow, 252c6a blue */
 }
+	.contact-form.bic input[type="submit"] { background-color: #f6cf3f; color: #252c6a; }
+	
+	#affiliate-bic .cs-events.events-minimal h2, #affiliate-bic .cs-events.events-minimal h2:after { border-color: #f6cf3f;  }
+	#affiliate-bic .cs-events.events-minimal .event-link a { color: #f6cf3f; }
+	#affiliate-bic .cs-events.events-minimal h2 { color: #252c6a!important; }
+	
+	#affiliate-ecco .main-section .cta { background-color: #f6cf3f; color: #252c6a; }
+	
+	
+	
