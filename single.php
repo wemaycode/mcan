@@ -324,7 +324,7 @@
           
           
 		 <?php  
-			//if ($cs_post_social_sharing == "on"){
+			if ($cs_post_social_sharing == "on"){
 				?>
                 <div class="detail-post col-md-12">
                     <div class="socialmedia">
@@ -341,7 +341,7 @@
                     </div>
                 </div>
 			<?php
-		 //}
+		 }
 		 ?>
               
           <!-- Post Button Start-->
