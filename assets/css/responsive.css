@@ -466,7 +466,7 @@
 	
 	/* Custom Columns for Affiliate Buttons */
 	.column-50, .column-33 {
-		width: 100%;
+		width: 100%!important;
 	}
 	
 }
