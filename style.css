@@ -10526,6 +10526,7 @@ body.home section.contact-form {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #515254!important;
+	width: 100%;
 }
 /* Blog Element */
 	.main-section .cs-blog h2, .main-section .cs-blog h2 a {
@@ -10959,10 +10960,23 @@ article.cs-events.events-minimal {
 	.contact-form.bic input[type="submit"] { background-color: #f6cf3f; color: #252c6a; }
 	
 	#affiliate-bic .cs-events.events-minimal h2, #affiliate-bic .cs-events.events-minimal h2:after { border-color: #f6cf3f;  }
-	#affiliate-bic .cs-events.events-minimal .event-link a { color: #f6cf3f; }
+	#affiliate-bic .cs-events.events-minimal .event-link a { color: #252c6a; }
 	#affiliate-bic .cs-events.events-minimal h2 { color: #252c6a!important; }
 	
-	#affiliate-ecco .main-section .cta { background-color: #f6cf3f; color: #252c6a; }
+	#affiliate-bic .main-section .cta { background-color: #f6cf3f; color: #252c6a; }
+		
+	#affiliate-bic .main-section .homepage-content-howwework { 
+		text-align: center; 
+		padding-top: 0px!important;
+	}
+	#affiliate-bic .main-section .homepage-content-howwework p { text-align: left; }
 	
-	
+	#affiliate-bic .main-section .homepage-content-howwework .cta:last-child {
+		float: right;
+	}
+	#affiliate-bic .main-section .homepage-content-howwework h2 { 
+		font-weight: bold!important; 
+		color: #252c6a!important; 
+		margin-top: 27px;
+	}
 	
