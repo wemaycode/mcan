@@ -10145,21 +10145,22 @@ Custom MCAN Styles
 .right { float: left!important; }
 
 /* custom column widths */
-.column-33 {
-    width: 33%;
+.column-50, .column-33 {
     float: left;
     padding-right: 10px;
+	margin-bottom: -20px;
+}
+.column-33 {
+    width: 33%;
+}
+.column-50 {
+    width: 50%;
 }
 .column-33 a.cta {
     padding: 15px;
 }
 .column-50.last {
     padding: 0px;
-}
-.column-50 {
-    width: 50%;
-    float: left;
-    padding-right: 15px;
 }
 
 /* Header */
@@ -10638,12 +10639,13 @@ body.home section.homepage-content-howwework{
 .main-section .cta {
 	position: relative;
 	display: block;
-	width: 360px;
+	width: 100%;
+	max-width: 400px;
 	margin: 20px auto;
 	padding: 15px 20px;
-	color: #ffffff;
-	background-color: #f8991d;
 	
+	color: #ffffff;
+	background-color: #f8991d;	
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 20px;
