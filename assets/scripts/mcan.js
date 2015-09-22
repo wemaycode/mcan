@@ -28,4 +28,7 @@ jQuery(document).ready(function($) {
 	
 	// Add parent class to Events blog for centering purposes
 	$('.cs-events.events-minimal').parent().parent().addClass('events-parent');
+	
+	// Open CTA links in new window
+	$('.menu-cta-menu a').attr('target','_blank');
 });

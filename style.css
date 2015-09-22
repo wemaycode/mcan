@@ -10338,7 +10338,7 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 	margin-bottom: 20px!important;
 }
 .main-section .rich_editor_text hr {
-	border-top: 1px solid #515524!important;
+	border-top: 1px solid #515254!important;
 }
 
 .cs-section-title h2 {
@@ -10439,6 +10439,10 @@ footer.group .widget_text .cta {
 	width: 100%!important;
 	text-align: center!important;
 	padding: 3px 0!important;
+}
+
+footer .footer-widget-cta .cta a {
+    color: #ffffff!important;
 }
 
 .footer-widget-cta ul {
@@ -10861,7 +10865,7 @@ figure {
 	padding-left: 0px!important;
 }
 .wpcf7 form p input {
-	border: 1px solid #515524;
+	border: 1px solid #515254;
 }
 .page-sidebar .wpcf7 form p input[type="submit"] {
 	background-color: #f9991d!important;
@@ -10873,7 +10877,7 @@ figure {
 }
 .page-sidebar div.wpcf7-response-output {
 	display: inline-block;
-	color: #515524;
+	color: #515254;
 }
 
 /* ======= Affiliate Page Styles ===== */
