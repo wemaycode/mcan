@@ -10687,6 +10687,10 @@ body.home section.homepage-content-howwework{
     font-weight: 700;
 }
 
+.widget .cs-section-title h2 {
+	margin-bottom: 0px!important;
+}
+
 /* =========== PAGES =========== */
 .page-content {
     border-right: 1px solid #000!important;
