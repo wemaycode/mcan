@@ -464,7 +464,10 @@
 		line-height: 1.5em;
 	}
 	
-	
+	/* Custom Columns for Affiliate Buttons */
+	.column-50, .column-33 {
+		width: 100%;
+	}
 	
 }
 @media (max-width: 580px) {

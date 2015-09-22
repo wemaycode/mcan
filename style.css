@@ -10567,6 +10567,7 @@ body.home section.contact-form {
 	border: none!important;
 }
 
+.cs-blog figure figcaption { overflow: hidden; }
 .cs-blog a.continue-reading, .cs-blog ul.post-option-btm li a {
 	color: #515254;
 	display: inline-block;
