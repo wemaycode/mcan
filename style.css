@@ -10148,10 +10148,18 @@ Custom MCAN Styles
 .column-33 {
     width: 33%;
     float: left;
-    padding: 10px;
+    padding-right: 10px;
 }
 .column-33 a.cta {
     padding: 15px;
+}
+.column-50.last {
+    padding: 0px;
+}
+.column-50 {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
 }
 
 /* Header */
@@ -10928,9 +10936,7 @@ article.cs-events.events-minimal {
 	}
 	#affiliate-ecco .main-section .homepage-content-howwework p { text-align: left; }
 	#affiliate-ecco .main-section .cta { 
-		background-color: #6ccdb3; 
-		float: left;
-		width: 48%;
+		background-color: #6ccdb3;
 	}
 	#affiliate-ecco .main-section .homepage-content-howwework .cta:last-child {
 		float: right;
