@@ -3860,7 +3860,7 @@ function cs_get_event_filters($cs_filter_category,$cs_filter_switch,$filter_cate
                _e('Filter By','Awaken'); ?>  
                </a> </li>
               <li><a href="#pager-2<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-list"></i><?php 
-                   _e('Categories','Awaken');  
+                   _e('Affiliates','Awaken');  
               ?></a></li>
               <li><a href="#pager-3<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-tags"></i><?php 
                  _e('Tags','Awaken'); 
@@ -3930,7 +3930,7 @@ function cs_get_sermon_filters($cs_filter_category,$cs_filter_switch,$filter_cat
                _e('Filter By','Awaken'); ?>  
                </a> </li>
               <li><a href="#pager-2<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-list"></i><?php 
-                   _e('Categories','Awaken');  
+                   _e('Affiliates','Awaken');  
               ?></a></li>
               <li><a href="#pager-3<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-tags"></i><?php 
                  _e('Tags','Awaken'); 

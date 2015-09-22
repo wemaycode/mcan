@@ -10151,15 +10151,20 @@ Custom MCAN Styles
 	margin-bottom: -20px;
 }
 .column-33 {
-    width: 33%;
+    width: 33.3%;
 }
 .column-50 {
     width: 50%;
 }
-.column-33 a.cta {
-    padding: 15px;
+.column-33 a.cta, .column-50 a.cta {
+    padding: 10px;
 }
 .column-50.last, .column-33.last {
+    padding: 0px;
+}
+
+/* For Button Flex Columns to be 100% */
+.section-fullwidth .buttons {
     padding: 0px;
 }
 
