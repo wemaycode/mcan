@@ -320,7 +320,7 @@
             </div>
         </div>
 		  
-		 <!-- Sermon next/prev Button Start-->
+		 <!-- Events next/prev Button Start-->
           
           <?php if(isset($post_pagination_show) &&  $post_pagination_show == 'on'){
 				echo '<div class="col-md-12">';
@@ -378,7 +378,7 @@
 								<div class="col-md-4">
 									<article class="cs-events events-minimal minimal-grid">
 										<div class="left-sp">
-											<h2><a href="<?php the_permalink(); ?>"><?php echo substr($title,0,30); echo (strlen($title)>25)?'...':''; ?></a></h2>
+											<h3><a href="<?php the_permalink(); ?>"><?php echo substr($title,0,30); echo (strlen($title)>25)?'...':''; ?></a></h3>
 											<div class="location-info">
 												<time datetime="<?php echo esc_attr( $cs_post_event_from_date );?>"> <?php echo date_i18n('M',$cs_post_event_from_date); ?> <span><?php echo date_i18n('d',$cs_post_event_from_date); ?> </span> </time>
 												<div class="info">

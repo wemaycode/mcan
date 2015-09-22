@@ -10356,6 +10356,12 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 	font-weight: 700!important;
 }
 
+.main-section .prev-next-post h2, .main-section .prev-next-post h2 a {
+    font-size: 15px!important;
+    font-weight: normal!important;
+    text-transform: none!important;
+}
+
 /* CS THEME: DIVIDER */
 
 .cs-seprator .devider2 {
