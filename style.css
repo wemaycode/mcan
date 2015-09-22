@@ -10159,7 +10159,7 @@ Custom MCAN Styles
 .column-33 a.cta {
     padding: 15px;
 }
-.column-50.last {
+.column-50.last, .column-33.last {
     padding: 0px;
 }
 
