@@ -10317,7 +10317,10 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 	margin-bottom: 20px!important;
 	margin-top: 20px!important;
 }
-
+.main-section .rich_editor_text a {
+    color: #007088;
+    font-weight: bold;
+}
 .main-section .rich_editor_text h2, .main-section .rich_editor_text h2 a {
   font-size: 30px!important;
   font-weight: bold!important;
@@ -10327,12 +10330,17 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
   font-weight: bold!important;
 }
 
-.main-section .rich_editor_text p, .main-section .rich_editor_text p strong, .main-section .rich_editor_text ul li {
+.main-section .rich_editor_text p, .main-section .rich_editor_text ul li {
 	font: 15px 'Open Sans', sans-serif!important;
 	line-height: 21px!important;
 	color: #515254!important;
 	margin-bottom: 15px!important;
 	overflow: auto!important;
+}
+.main-section .rich_editor_text strong {
+    float: none;
+    font-size: 15px;
+    margin: 0;
 }
 .main-section .rich_editor_text strong {
 	font-weight: bold!important;

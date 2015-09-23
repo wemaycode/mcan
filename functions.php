@@ -4540,7 +4540,7 @@ function submit_to_bsd( $cf7 )
 	$lastname = $posted_data["last-name"];
 	$email = $posted_data["email"];
 	$zipcode = $posted_data["zipcode"];
-	
+	$affiliate = $posted_data["affiliate"];
 	
 	function post_to_url($url, $data) {
 	   $fields = '';
@@ -4586,7 +4586,8 @@ function submit_to_bsd( $cf7 )
 		"lastname" => $lastname,
 		"zip" => $zipcode,
 		"email" => $email,
-		"custom-23[0]" => 'MCAN' 
+		"custom-23[0]" => $affiliate
+		
 		/* TO DO: add logic for affiliate pages */
 		/*,
 		"custom-23[1]" => 'ECCO',
