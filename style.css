@@ -10317,7 +10317,7 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 	margin-bottom: 20px!important;
 	margin-top: 20px!important;
 }
-.main-section .rich_editor_text a {
+.main-section .rich_editor_text a, .main-section .event-info a {
     color: #007088;
     font-weight: bold;
 }
