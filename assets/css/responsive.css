@@ -469,6 +469,11 @@
 		width: 100%!important;
 	}
 	
+	/* Footer */
+	footer .col-md-3, footer .col-md-5 {
+		text-align: center;
+	}
+	
 }
 @media (max-width: 580px) {
 	.col-md-3, .element-size-25, .main-section .sermon-list figure { width: 100%!important;}
