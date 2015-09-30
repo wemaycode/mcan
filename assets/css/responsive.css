@@ -1,3 +1,20 @@
+/* ========== CUSTOM MCAN ========= */
+	
+.logo-section .container aside.left-side {
+	width: 25%;
+}
+.logo-section .container aside.right-side {
+	width: 75%;
+}
+/*
+.page-content {
+	width: 60.25%;
+}
+.page-sidebar {
+	width: 34.75%;
+}
+
+*/
 
 /*============	Media 768Px Start ============ */ 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -68,7 +85,7 @@
 	.navbar-nav > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li > .dropdown-menu > li{padding:0;}
 	.collapse{ display:none;}
 	.dropdown-menu li:last-child{ border-bottom:0 !important;}
-	.navigation .navbar-collapse{ overflow-x: inherit !important; overflow-y: inherit !important; position: absolute; top: 100%; left: 0; background: #fff; max-height: inherit; width: 100%; z-index: 999; }
+	.navigation .navbar-collapse{ overflow-x: inherit !important; overflow-y: inherit !important; position: absolute; /*top: 100%; left: 0;*/ background: #fff; max-height: inherit; width: 50%; z-index: 999; }
 
 	.navigation .navbar-collapse.collapse { display:none !important;}
 	.navigation .navbar-collapse.collapse.in{ display:block !important;}
@@ -76,7 +93,7 @@
 	.navigation .navbar-collapse.in .navbar-nav{height: 360px !important; overflow: auto !important;}
 
 	.navbar-default{ width: 100%;float: left;background-color: transparent;}
-	.navbar-collapse{ max-height:300px; width:100%; background:#fff;}
+	.navbar-collapse{ max-height:300px; width:50%; background:#fff;}
 	.navbar-toggle{ margin: 0px;}
 	.navbar-header {float: right;}
 	.navigation ul.mega-grid > li {padding: 0px;}
@@ -93,7 +110,7 @@
 		        transition: none;
 	}
 	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #fff !important;}
-	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0.5) !important; float: left; padding-left: 15px !important; width: 100%; }
+	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0) !important; float: left; padding-left: 15px !important; width: 100%; }
 	/*============ Header Style ============ */
 	.main-section .upload-file li textarea {width: 94%;}
 
@@ -111,6 +128,34 @@
 	.rtl footer.group {padding: 0 5px 0 0;}
 	.rtl .navigation ul li {width: 100%;}
 	footer .footer-nav {float: left; width: 100%;}
+	
+	/* ======== CUSTOM MCAN ======== */
+	.logo-section .container aside.left-side {
+		width: 100%;
+	}
+	.logo-section .container aside.right-side {
+		width: 100%;
+	}
+	body.home #main-content, .breadcrumb-sec {
+		margin-top: 200px!important;
+	}
+	nav.top-nav {
+		position: relative;
+		top: -25px;
+	}
+	.navbar-collapse ul.nav.navbar-nav li {
+		width: 100%;		
+	}
+	.navigation .navbar-collapse.collapse.in {
+		top: 49px;
+		left: 0px;
+	}
+	.nav {
+		padding: 0px;
+	}
+	.logo-section .main-navbar ul.navbar-nav li.menu-item a {
+		padding-right: 15px!important;
+	}
 	
 }
 	
@@ -132,7 +177,10 @@
 	.element-size-50 .col-md-12,
 	.element-size-25 .col-md-12,
 	.element-size-33 .col-md-12,
-	.content-left, .col-md-12, .page-content, footer [class*="col-md-"], .col-md-6, body .wrapper.wrapper_boxed, .cs-login-sec .modal-dialog, .cs-signup .footer-element, .cs-signup .header-element, .col-md-9, .col-md-3.left-sec  { width: 100% !important; }
+	.content-left, .col-md-12, .page-content, footer [class*="col-md-"], .col-md-6, body .wrapper.wrapper_boxed, .cs-login-sec .modal-dialog, .cs-signup .footer-element, .cs-signup .header-element, .col-md-9, .col-md-3.left-sec  { 
+		width: 100% !important; 
+		padding: 0px 10px;
+	}
 	.col-md-4, .rtl .col-md-3, .col-md-3, .col-md-2, .element-size-25 { width: 50% !important; }
 	.main-section .page-content {padding-right: 0px;}
 	/* ======== CS Login sec Start ======== */
@@ -143,6 +191,7 @@
 	/* ======== CS Login sec Start ======== */
 	.cs-login-sec .modal-dialog {padding: 15px;}
 	/* top Start */
+	.header-absolute #main-header { position: absolute !important; }
 	#main-header .top-bar .left-side, #main-header .top-bar .right-side, #main-header .logo-section .left-side  { display: inline-block; text-align: center;}
 	#main-header .top-bar .left-side { margin: 10px 0 0px 0;}
 	#main-header .top-bar .left-side p a {line-height: 24px;}
@@ -272,7 +321,13 @@
 		        transition: none;
 	}
 	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #fff !important;}
-	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0.5) !important; float: left; padding-left: 15px !important; width: 100%; }
+	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0) !important; float: left; padding-left: 15px !important; width: 100%; }
+	.logo-section .main-navbar ul.navbar-nav li.menu-item.menu-item-has-children a {
+		font-weight: bold!important;
+	}
+	.logo-section .main-navbar ul.navbar-nav li.menu-item ul.dropdown-menu li a {
+		font-weight: normal!important;
+	}
 	/*============ Header Style ============ */
 	.main-section .upload-file li textarea {width: 94%;}
 	.main-section .register-page .cs-user-register {padding: 0px;}
@@ -307,6 +362,113 @@
 	footer .footer-nav {float: left; width: 100%;}
 	.rtl .page-section {background-size: cover !important;}
 
+	/* ===== CUSTOM MCAN ===== */
+	/*.top-nav-wrapper, nav.social-nav, ul.socialmedia, ul.socialmedia li { 
+		float: none!important; 
+	}*/
+	.header-absolute #main-header {
+		position: relative!important;
+	}
+	#main-header .navigation {
+		
+	}
+	.main-section h2 {
+		font-size: 18px!important;
+		padding: 0 5px;
+	}
+	body.home #main-content {
+		margin-top: 0px!important;
+	}
+	#contact-form p {
+		font-size: 16px!important;
+		line-height: 1.5em!important;
+		padding: 0 15px;
+	}
+	.top-nav-wrapper {
+		margin: 30px 0 10px 0;
+		float: none;
+		width: 100%;
+	}
+		nav.top-nav {
+			float: none!important;
+			/*height: 66px;*/
+			width: 100%;
+		}
+		nav.top-nav ul li {
+			padding: 0px;
+		}
+			ul.menu-cta-menu {
+				/*
+				left: 50%;
+				position: absolute;
+				margin-left: -135px;
+				*/
+				float: left;
+				margin-top: 0px;
+				padding: 0px 8px 0px 0px;
+			}
+				nav.top-nav ul.menu-cta-menu li {
+					padding-right: 10px;
+				}
+				nav.top-nav ul.menu-cta-menu li:last-child {
+					padding-right: 0;
+				}
+				ul.menu-cta-menu li a {
+					font-size: 12px;
+					padding: 7px 12px;
+				}
+	
+			ul.socialmedia { 
+				margin: -10px 0 0 0; 
+				text-align: center; 
+				float: right;
+			}	
+				nav.top-nav ul.socialmedia li {
+					margin: 0px;
+					padding-right: 10px!important;
+				}
+				nav.top-nav ul.socialmedia li:last-child {
+					padding-right: 0px!important;
+				}
+	/* mobile menu */
+	ul.nav.navbar-nav li {
+		width: 100%;
+		text-align: left;		
+	}
+	.nivo-caption {
+	    font-size: 12px;
+		line-height: 14px;
+	}
+	
+	.page-section {
+		margin-bottom: 0px!important;
+	}
+	/* How We Work */
+	.main-section .homepage-howwework {
+		padding: 0px 20px!important;
+	}
+	.main-section .homepage-content-howwework .cta.orange {
+		width: 100%!important;
+		font-size: 16px!important;
+	}
+	.main-section .homepage-content-howwework p {
+		font-size: 16px!important;
+		line-height: 1.5em;
+	}
+	.fullwidth.col-md-12 {
+		margin-bottom: 0px;
+	}
+	
+	/* Counter Section */
+	.cs_counter span {
+		line-height: 1.5em;
+	}
+	
+	/* Custom Columns for Affiliate Buttons */
+	.column-50, .column-33 {
+		width: 100%!important;
+	}
+	
 }
 @media (max-width: 580px) {
 	.col-md-3, .element-size-25, .main-section .sermon-list figure { width: 100%!important;}
@@ -460,7 +622,7 @@
 	.main-section .cs-blog ul.post-option-btm {float: left; }
 	.main-section .cs-blog-grid .flexslider {margin-bottom: 15px;}
 	.main-section .col-md-3 .blog-box section h2 {font-size: 12px !important;}
-	#main-header .navigation ul > li > a { padding: 20px 10px;}
+	#main-header .navigation ul > li > a { /*padding: 20px 10px;*/}
    .header_1 .main-head .right-side { margin-top: 0px!important;}
    .header_1 .main-head .navigation ul > li > a { padding: 14px 7px !important; font-size: 11px !important;}
    /*============ two Start ============ */
@@ -480,4 +642,7 @@
 	.main-section .widget-sermon .socialmedia li a {width: 28px; height: 28px;}
 	.rtl .main-section .element-size-50 .cs-projects.projects-classic section, .rtl .main-section .col-md-6 .cs-projects.projects-classic section {margin: 0;}
 	.main-navbar .left-side, .main-navbar .right-side {display: table-cell; float: none !important; vertical-align: middle; width: 78%;}
+	
+	
+	
 }

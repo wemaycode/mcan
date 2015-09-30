@@ -1,3 +1,4 @@
+<!-- single.php -->
 <?php
 /**
  * The template for displaying all single posts
@@ -10,12 +11,14 @@
 	}	
 	$cs_node = new stdClass();
   	get_header();
+	
+	
+	
  	$cs_layout = '';
 	$leftSidebarFlag	= false;
 	$rightSidebarFlag	= false;
 	?>
 <!-- PageSection Start -->
-
 <section class="page-section" style=" padding: 0; "> 
   <!-- Container -->
   <div class="container"> 
@@ -148,7 +151,25 @@
       <div class="<?php echo esc_attr($cs_layout); ?>"> 
         <!-- Blog Start --> 
         <!-- Row -->
-          <div class="col-md-12">
+		<div class="col-md-12">
+			<?php 
+				/* Get Category Description for color bar */
+				$postCats = get_the_category();
+				foreach($postCats as $postCat){
+					if($postCat->description != null)
+						$catColorStyle = "border-left: 10px solid " . $postCat->description;
+				}
+				/* Display post title if in News */
+				/*
+				if (in_category('news') == true )
+					$h2style = "font-size:30px!important;font-weight:bold!important;";
+				*/
+				
+			?>
+			<div class="blog-title-wrapper test" style="<?php echo $catColorStyle ?>">					
+				<h2 style="<?php echo $h2style; ?>"><?php echo the_title(); ?></h2>
+			</div>
+				
 			  <?php 
 				if (isset($inside_post_view) and $inside_post_view <> '') {
 					if( $inside_post_view == "Slider"){
@@ -187,25 +208,60 @@
             
             <!-- Post Content Start-->
             <div class="post-option-panel">
-                <time datetime="<?php echo get_the_date();?>"><?php echo date_i18n('M',strtotime(get_the_date()));?><small><?php echo date_i18n('j',strtotime(get_the_date()));?></small> </time>
-                <ul class="post-option">
-                  <li><i class="fa fa-user"></i><a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author();?></a></li>
-                  <li> <i class="fa fa-bars"></i>
-                    <?php 
-                    if ( isset($cs_blog_cat) && $cs_blog_cat !='' && $cs_blog_cat !='0'){ 
-                        echo '<a href="'.site_url().'?cat='.$row_cat->term_id.'">'.$row_cat->name.'</a>';
-                     } else {
-                         /* Get All Tags */
- 
-                          $categories_list = get_the_term_list ( get_the_id(), 'category', '' , ', ', '' );
-                          if ( $categories_list ){
-                            printf( __( '%1$s', 'Awaken'),$categories_list );
-                          } 
-                         // End if Tags
-                     }
-                    ?>
-                  </li>
-                </ul>
+			
+				<div class="post-info">
+					<!-- Post Info -->
+					<ul class="post-option clearfix">
+						<!-- Author -->
+						<li> 
+							Posted by: 
+							<a class="author" href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
+								<?php echo get_the_author();?>
+							</a> 
+						</li>
+						<!-- Date -->
+						<li> 
+							<i class="fa fa-calendar-o"></i><?php echo date_i18n(get_option( 'date_format' ),strtotime(get_the_date()));?>
+						</li>
+						<!-- Categories -->
+						<li> 
+							<i class="fa fa-folder-o"></i> 
+							<?php 
+							if ( isset($cs_blog_cat) && $cs_blog_cat !='' && $cs_blog_cat !='0'){ 
+								echo '<a href="'.site_url().'?cat='.$row_cat->term_id.'">'.$row_cat->name.'</a>';
+							 } else {
+								 /* Get All Tags */
+		 
+								  $categories_list = get_the_term_list ( get_the_id(), 'category', '' , ', ', '' );
+								  if ( $categories_list ){
+									printf( __( '%1$s', 'Awaken'),$categories_list );
+								  } 
+								 // End if Tags 
+							 }
+							?>
+						</li>
+						<!-- Tags -->
+						<li>
+							<i class="fa fa-tags"></i>
+							<?php  
+								if ( empty($cs_xmlObject->post_tags_show_text) ) 
+									$post_tags_show_text = __('Tags', 'Awaken'); else $post_tags_show_text = $cs_xmlObject->post_tags_show_text;
+								$categories_list = get_the_term_list ( get_the_id(), 'post_tag', '', ', ', '' );
+								if ( $categories_list ){?>
+									<?php printf( __( '%1$s', 'Awaken'),$categories_list );
+								}
+							?>
+						</li>
+						  
+			  
+					  <!--
+					  <li> <i class="fa fa-comment-o"></i> <a href="<?php comments_link(); ?>"><?php echo comments_number(__('Comments 0', 'Awaken'), __('Comments 1', 'Awaken'), __('Comments %', 'Awaken') );?></a> </li>
+					  -->
+					</ul>
+					
+				</div>
+				
+                <!-- Post Content -->
                 <div class="rich_editor_text">
                  <p>
 				 
@@ -227,7 +283,7 @@
 						//echo '<pre>';
 						//print_r($images);	  
 				?>
-                <div class="cs-attachments">
+                <!--<div class="cs-attachments">
                   <h5><?php _e('Attachments','Awaken');?></h5>
                   <ul>
                   	<?php 
@@ -259,29 +315,13 @@
                     <?php } ?>
                   </ul>
                </div>
+			   -->
                <?php } ?>
           </div>
             <!-- Post Content End--> 
           </div>
           <!-- Col Tags Start -->
-          <?php if(isset($post_tags_show) &&  $post_tags_show == 'on'){ ?>
-          <div class="col-md-12">
-              <!-- cs Tages Start -->
-              <div class="cs-tags">
-                <div class="cs-title"><a href="#"><i class="fa fa-tags"></i><?php _e('Tags','Awaken');?></a></div>
-                <ul>
-                  <?php  
-					  if ( empty($cs_xmlObject->post_tags_show_text) ) $post_tags_show_text = __('Tags', 'Awaken'); else $post_tags_show_text = $cs_xmlObject->post_tags_show_text;
-							  $categories_list = get_the_term_list ( get_the_id(), 'post_tag', '<li>', '</li><li>', '</li>' );
-							  if ( $categories_list ){?>
-							  <?php printf( __( '%1$s', 'Awaken'),$categories_list );
-						  }
-					?>
-                </ul>
-              </div>
-              <!-- cs Tages End -->
-          </div>
-         <?php }?>
+          
           
 		 <?php  
 			if ($cs_post_social_sharing == "on"){
@@ -289,8 +329,14 @@
                 <div class="detail-post col-md-12">
                     <div class="socialmedia">
                     <?php
-                    if ( empty($cs_xmlObject->post_social_sharing_text) ) $post_social_sharing_text = __('Share', 'Awaken'); else $post_social_sharing_text = $cs_xmlObject->post_social_sharing_text;
-                    cs_social_share(false,true,$post_social_sharing_text);
+					
+                    if ( empty($cs_xmlObject->post_social_sharing_text) ) {
+						$post_social_sharing_text = __('Share', 'Awaken');
+					} else {
+						$post_social_sharing_text = $cs_xmlObject->post_social_sharing_text;
+					}
+					//cs_social_share(false,true,$post_social_sharing_text);
+					cs_social_share(false,true,'Share');
                     ?>
                     </div>
                 </div>
@@ -299,6 +345,9 @@
 		 ?>
               
           <!-- Post Button Start-->
+		  <div class="col-md-12">
+			<div class="prevnext">View Older/Newer Posts</div>
+		  </div>
           <div class="col-md-12">
           <?php if(isset($post_pagination_show) &&  $post_pagination_show == 'on'){
                   px_next_prev_custom_links('post');
@@ -308,8 +357,8 @@
           
           <!-- Col Author Start -->
           <?php if(isset($cs_post_author_info_show) &&  $cs_post_author_info_show == 'on'){ ?>
-          <div class="col-md-12">
-			 <?php cs_author_description('show');?>    
+          <!--<div class="col-md-12">
+			 <?php //cs_author_description('show');?>    
           </div>
           <!-- Col Author End --> 
           
@@ -322,7 +371,7 @@
 						 ?>
           <div class="col-md-12 post-recent">
             <div class="cs-section-title">
-              <h2><?php echo esc_attr($cs_related_post_title);?></h2>
+              <h2><?php echo 'Related Posts' //esc_attr($cs_related_post_title);?></h2>
             </div>
             <div class="row">
               <?php 

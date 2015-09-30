@@ -1,8 +1,13 @@
+
 <?php
+
+$affiliatetype = get_field('affiliate_type');
+
 /**
  * The template for displaying all pages
  */
 	get_header();
+	echo '<!-- page.php -->';
 	global $cs_node,$cs_sidebarLayout,$cs_xmlObject;
 	wp_reset_query();
 	if ( !isset($_SESSION["px_page_back"]) ||  isset($_SESSION["px_page_back"])){
@@ -55,6 +60,7 @@
 				$image_url = cs_get_post_img_src($post->ID, $width, $height);
 			if(get_the_content() <> '' || $image_url <> '')	{
 				if ( function_exists( 'cs_prettyphoto_enqueue' ) ) { cs_prettyphoto_enqueue(); }?>
+				<!-- Page.php -->
 				<section class="page-section">
                     <div  class="container">
                         <div class="row">
@@ -79,6 +85,9 @@
 	             </section>
 		<?php	}
 	}
+	
+	
+
 		/**
 		 * @Show All Sections
 		 *
@@ -231,6 +240,11 @@
 				}
 			?>
                 <!-- Page Section -->
+				
+<?php
+
+
+?>				
                 <section <?php echo cs_allow_special_char($cs_section_css_id);?> class="page-section <?php echo cs_allow_special_char($cs_section_css_class.' '.$parallax_class); ?>" <?php echo cs_allow_special_char($parallax_data_type);?>  <?php echo cs_allow_special_char($section_style_element);?> >
                 <?php echo cs_allow_special_char($section_video_element);?>
                 <?php 
@@ -342,5 +356,10 @@
        </div>
 <?php
 	}
-get_footer(); ?>
+
+
+get_footer(); 
+
+
+?>
 <!-- Columns End -->

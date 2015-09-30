@@ -61,22 +61,10 @@ if ( ! function_exists( 'cs_header_strip' ) ) {
       <?php if($container == 'on'){ ?>
       <div class="container"> 
       <?php } ?>
-     	<!-- Left Side -->
-        <aside class="left-side">
-        <?php if(isset($cs_top_menu_switch) and $cs_top_menu_switch=='on'){ ?>
-          <nav class="top-nav">
-              <?php cs_navigation('top-menu','','','1'); ?>
-          </nav>
-          <?php }
-          if(isset($cs_header_strip_tagline_text) and $cs_header_strip_tagline_text <> ''){ ?>
-          		<p><?php echo do_shortcode($cs_header_strip_tagline_text);?></p>
-          <?php 
-            } 
-            ?>
-        </aside>
+     	
         
-        <!-- Right Side -->
-        <aside class="right-side">
+        <!-- Left Side -->
+        <aside class="left-side">
          <?php if(isset($cs_socail_icon_switch) and $cs_socail_icon_switch=='on'){ 
            	  cs_social_network();
            } ?>
@@ -117,6 +105,20 @@ if ( ! function_exists( 'cs_header_strip' ) ) {
 
         </aside>
 
+		<!-- Right Side -->
+        <aside class="right-side">
+        <?php /*if(isset($cs_top_menu_switch) and $cs_top_menu_switch=='on'){ ?>
+          <nav class="top-nav">
+              <?php cs_navigation('top-menu','','','1'); ?>
+          </nav>
+          <?php }
+          if(isset($cs_header_strip_tagline_text) and $cs_header_strip_tagline_text <> ''){ ?>
+          		<p><?php echo do_shortcode($cs_header_strip_tagline_text);?></p>
+          <?php 
+            } 
+            */?>
+        </aside>
+		
         <!-- Right Section -->
  	 <!-- Container -->
       <?php if($container == 'on'){ ?>
@@ -392,9 +394,9 @@ if ( ! function_exists( 'cs_get_headers' ) ) {
 <header id="main-header" class="<?php echo cs_allow_special_char($cs_header_options);?>"> 
   <!-- Top Strip -->
   <?php cs_header_strip();?>
-  <!-- Top Strip -->
+  <!-- End Top Strip -->
   <!-- Logo Section -->
-  <section class="logo-section" style=" background-color: #ebf3f3; ">
+  <section class="logo-section" style=" background-color: #ffffff; ">
       <div class="container">
         <aside class="left-side">
             <div class="logo"><?php cs_logo(); ?></div>
@@ -404,25 +406,39 @@ if ( ! function_exists( 'cs_get_headers' ) ) {
 				} 
 			 ?>
           </aside>
-          <aside class="right-side"> <?php cs_contribute_now(); ?> </aside>
+          <aside class="right-side">
+			<!-- Top Nav -->
+			<?php cs_top_navigation(); ?>
+			<div class="main-navbar">
+				<?php cs_main_navigation(); ?>
+			</div>
+			<?php cs_contribute_now(); ?> 
+			<!-- End Top Nav -->
+		</aside>
       </div>
     </section>
-  <!-- Logo Section -->
+  <!-- End Logo Section -->
+  
   <!-- Main Navigation -->
+  <!--
   <section class="main-navbar" style="background-color: #e17a26; ">
       <div class="container">
         <aside class="left-side">
-           <?php cs_main_navigation(); ?>
+           <?php //cs_main_navigation(); ?>
         </aside>
         <aside class="right-side">
           <?php
+			/*
 			if(isset($cs_search) and  $cs_search=='on'){
 				cs_search();
-			}?>
+			}
+			*/
+			?>
         </aside>
-      </div>
+	</div>
     </section>
-   <!-- Main Navigation --> 
+	-->
+   <!-- End Main Navigation --> 
 </header>
 <!-- Header 2 End -->
 <?php }
@@ -898,7 +914,7 @@ if ( ! function_exists( 'cs_breadcrumb_header' ) ) {
 			 $parallax_data_type = ' data-type="background"';
 		 }
 		 if($subheader_style_elements){
-			$subheader_style_elements = 'style="'.$subheader_style_elements.' min-height:'.$banner_image_height.'!important; '.$cs_sh_paddingtop.' '.$cs_sh_paddingbottom.'  "';	
+			$subheader_style_elements = 'style="'.$subheader_style_elements.' ; '.$cs_sh_paddingtop.' '.$cs_sh_paddingbottom.'  "';	
 		 } else {
 		   $subheader_style_elements = 'style="min-height:'.$banner_image_height.'; '.$cs_sh_paddingtop.' '.$cs_sh_paddingbottom.' "';	
 		 }
@@ -997,7 +1013,7 @@ if ( ! function_exists( 'get_subheader_breadcrumb' ) ) {
 			  if ( isset( $cs_theme_options['cs_sub_header_text_color'] ) &&  $cs_theme_options['cs_sub_header_text_color'] <> ''  ){ ?>
 				<style scoped="scoped">
 					.breadcrumb-sec, .breadcrumb ul li a,.breadcrumb ul li.active,.breadcrumb ul li:first-child:after {
-						color : <?php echo cs_allow_special_char($cs_theme_options['cs_sub_header_text_color']);?> !important;
+						color : <?php echo cs_allow_special_char($cs_theme_options['cs_sub_header_text_color']);?> ;
 					}	
 				</style>
   <?php  	   }
@@ -1006,7 +1022,7 @@ if ( ! function_exists( 'get_subheader_breadcrumb' ) ) {
 					if ( isset( $cs_theme_options['cs_sub_header_text_color'] ) &&  $cs_theme_options['cs_sub_header_text_color'] <> ''  ){ ?>
   					<style scoped="scoped">
 						.breadcrumb-sec, .breadcrumb ul li a,.breadcrumb ul li.active,.breadcrumb ul li:first-child:after {
-							color : <?php echo cs_allow_special_char($cs_theme_options['cs_sub_header_text_color']);?> !important;
+							color : <?php echo cs_allow_special_char($cs_theme_options['cs_sub_header_text_color']);?> ;
 						}	
 					</style>
   <?php  			} 
@@ -1021,7 +1037,7 @@ if ( ! function_exists( 'get_subheader_breadcrumb' ) ) {
 							background:url('<?php echo cs_allow_special_char($page_bg_image); ?>');
 						}	
 						.breadcrumb-sec, .breadcrumb ul li a,.breadcrumb ul li.active,.breadcrumb ul li:first-child:after {
-							color : <?php echo cs_allow_special_char($page_subheader_text_color);?> !important;
+							color : <?php echo cs_allow_special_char($page_subheader_text_color);?> ;
 						}
 					</style>
                     <?php 
@@ -1031,7 +1047,7 @@ if ( ! function_exists( 'get_subheader_breadcrumb' ) ) {
 				  else if(isset($page_subheader_text_color) && $page_subheader_text_color != ''){?>
   					<style>
 						.breadcrumb-sec, .breadcrumb ul li a,.breadcrumb ul li.active,.breadcrumb ul li:first-child:after {
-							color : <?php echo cs_allow_special_char($page_subheader_text_color);?> !important;
+							color : <?php echo cs_allow_special_char($page_subheader_text_color);?> ;
 						}	
 					</style>
   <?php			}
@@ -1108,7 +1124,7 @@ if ( ! function_exists( 'get_subheader_title' ) ) {
 					}
 				}
 				
-				$color	= 'style="color:'.$text_color.' !important"';
+				$color	= 'style="color:'.$text_color.' "';
  				if(isset($cs_xmlObject)){
 					if(isset($cs_xmlObject->page_title) && $cs_xmlObject->page_title == 'on'){
 						if(isset($cs_xmlObject->seosettings->cs_seo_title) && $cs_xmlObject->seosettings->cs_seo_title != ''){
@@ -1124,7 +1140,28 @@ if ( ! function_exists( 'get_subheader_title' ) ) {
 									echo '</p>';
 								}
 							}else{
-								echo '<h1 '.$color.'>'.get_the_title($post_ID).'</h1>';
+								echo '<h1 '.$color.' class="test">';
+								
+								$post_type = get_post_type(get_the_ID());
+									// If a News post, display "News & Updates" category description in place of title 
+								if (is_page($post_ID)){
+									// If Page
+									echo get_the_title($post_ID);
+								}
+								else if($post_type == 'events'){
+									// Is an Event
+									echo "Events";
+								}
+								else {
+									/* if a post */
+									if (in_category('currentcampaigns') == true ){
+										echo get_category_by_slug('currentcampaigns')->name;
+									}
+									else {
+										echo "News & Updates"; //get_the_title($post_ID); 
+									}
+								}
+								echo '</h1>';
 							}
 						}
 					}
@@ -1171,14 +1208,28 @@ if ( ! function_exists( 'get_default_post_title' ) ) {
 function cs_main_navigation(){
 	echo '<nav class="navigation">
           	<div class="navbar-default"><div class="navbar-header">
-      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          	</button>
-        	</div></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">';
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+        	</div></div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">';
 				cs_header_main_navigation();
 			echo '</div>
           </nav>';	
+}
+function cs_top_navigation(){
+	//if(isset($cs_top_menu_switch) and $cs_top_menu_switch=='on'){
+		
+			echo '<div class="top-nav-wrapper">';				
+				// CTA Top Nav
+				echo '<nav class="top-nav">';
+					cs_navigation('top-menu','','','1');
+					if ( function_exists( 'cs_social_network' ) ) { cs_social_network(); }
+				echo '</nav>';
+			echo '</div>';
+			
+	//}
 }

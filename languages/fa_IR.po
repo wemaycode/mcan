@@ -5387,7 +5387,7 @@ msgstr ""
 
 #: include/theme-options/theme_options.php:780
 #@ Awaken
-msgid "set custom footer logo"
+msgid "set custom Footer Logo"
 msgstr ""
 
 #: include/theme-options/theme_options.php:785

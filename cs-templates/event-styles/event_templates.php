@@ -158,30 +158,45 @@ if ( !class_exists('EventTemplates') ) {
 			$title_limit = 46;
 			$background	= '';
 		?>
-            <div class="col-md-12">
+            <div class="col-md-4">
                 <article class="cs-events events-minimal">
-                    <div class="left-sp">
-                        <h2><a href="<?php the_permalink();?>"><?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?></a></h2>
+                    <div class="">
+					
+						<!-- Date -->
+                        <a href="<?php the_permalink();?>">
+							<h2>							
+								<div> 
+									<?php echo esc_attr( date_i18n('m',strtotime($event_from_date ) ) );?>/<?php echo esc_attr( date_i18n('j',strtotime( $event_from_date ) ) );?>
+								</div>
+							</h2>						
+						</a>
+						
                         <div class="location-info">
-                            <time datetime="<?php echo esc_attr( date_i18n('Y-m-d',strtotime( $event_from_date ) ) );?>"> <?php echo esc_attr( date_i18n('M',strtotime($event_from_date ) ) );?>  <span><?php echo esc_attr( date_i18n('j',strtotime( $event_from_date ) ) );?></span> </time>
+							<!-- Event Title -->
+                            <div class="event-title">
+								<?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?>
+							</div>
+							
                             <div class="info">
-                                <div class="time-period">
-                                    <time datetime="<?php echo esc_attr( date_i18n('Y-m-d',strtotime( $event_from_date ) ) );?>"><i class="fa fa-clock-o"></i>
-									<?php 
-										  if( isset( $cs_event_meta->dynamic_post_event_start_time ) && $cs_event_meta->dynamic_post_event_start_time <> ''){
-											echo esc_attr( $cs_event_meta->dynamic_post_event_start_time.' ' );
-										  }
-										  if(isset($cs_event_meta->dynamic_post_event_end_time) && $cs_event_meta->dynamic_post_event_end_time <> ''){
-											_e('-', 'Awaken');
-											echo esc_attr( ' '.$cs_event_meta->dynamic_post_event_end_time );
-										  }
-									 ?>
-                                   </time> 
-                                </div>
-                                <?php if( isset( $cs_event_meta->dynamic_post_location_address ) && $cs_event_meta->dynamic_post_location_address <> '' ){ ?>
-                                <span><i class="fa fa-map-marker"></i><?php echo esc_attr( $cs_event_meta->dynamic_post_location_address );?></span>
-                           		<?php }?>
+								<!-- Date / Time -->
+								<time datetime="<?php echo esc_attr( date_i18n('Y-m-d',strtotime( $event_from_date ) ) );?>">
+									<?php echo date_i18n("F j", strtotime($event_from_date)) . ', '; ?>									
+							   </time> 
+								<?php										
+									  if( isset( $cs_event_meta->dynamic_post_event_start_time ) && $cs_event_meta->dynamic_post_event_start_time <> ''){
+										$startTime = date_i18n('g:iA', strtotime($cs_event_meta->dynamic_post_event_start_time));
+										echo $startTime; //date_i18n('g:iA',$startTime);
+									  }
+								?>	
+							   <br/>								
+								<!-- Location Name -->
+								<?php echo $cs_event_meta->event_map_heading; ?>
+								
                             </div>
+							
+							<div class="event-link">
+								<a href="<?php the_permalink();?>">Click here for more info >></a>
+							</div>
                         </div>
                     </div>
                 </article>

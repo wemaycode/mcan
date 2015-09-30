@@ -1,4 +1,5 @@
 <?php
+
 // Flexslider function
 if ( ! function_exists( 'cs_flex_slider' ) ) {
 	function cs_flex_slider($width,$height,$slider_id){
@@ -491,6 +492,7 @@ if ( isset($cs_theme_sidebar['sidebar']) and !empty($cs_theme_sidebar['sidebar']
 }
 
 // custom sidebar end
+
 
 //primary widget
 register_sidebar( array(

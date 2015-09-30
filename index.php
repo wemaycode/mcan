@@ -1,3 +1,4 @@
+<!-- index.php -->
 <?php
 /**
  * The template for Home page

@@ -206,7 +206,7 @@
 				text-align:center;
 				font-size:10px;
 				border-bottom:1px solid #f0f0f0;
-				color:#ec2c3b;
+				color:#f9991d;
 				font-size:16px;
 				text-transform:uppercase;
 				padding: 6px 0;
@@ -239,7 +239,7 @@
 				border:0;
 			}
 				.eventsCalendar-day a:hover {
-					background-color:#ec2c3b;
+					background-color:#f9991d;
 					color:#fff;
 				/*	box-shadow:inset 5px 5px 10px #C1C1C1;
 					text-shadow: 2px 2px 2px #C1C1C1;*/
@@ -260,7 +260,7 @@
 				position:relative;
 				/*box-shadow:inset 5px 5px 10px #698B10;
 				text-shadow: 2px 2px 2px #698B10;*/
-				color:#ec2c3b;
+				color:#f9991d;
 			}
 			.eventsCalendar-daysList li.dayWithEvents a:after{
 				content:"....";
@@ -280,7 +280,7 @@
 
 			.eventsCalendar-daysList li.current a {
 				color:#fff;
-				background:#ec2c3b;
+				background:#f9991d;
 			}
 				li.eventsCalendar-day.current a:hover {
 					background-color:#79BDCC;
@@ -331,7 +331,7 @@
 		.eventsCalendar-list li time small {
 			font-size:10px;
 			float:left;
-			background-color:#807E7E;
+			background-color:#ec7f23;
 			color:#fff;
 			padding:0 5px 0 4px;
 			margin:0 0 0 3px;

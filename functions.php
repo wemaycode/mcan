@@ -1,4 +1,5 @@
 <?php
+
 remove_filter( 'the_title_rss', 'strip_tags');
 function cs_get_google_init_arrays(){
 $font_list_init = array
@@ -2671,11 +2672,11 @@ function cs_theme_setup() {
  * Disable admin bar on the frontend of your website
  * for subscribers.
  */
-/*function themeblvd_disable_admin_bar() { 
+function themeblvd_disable_admin_bar() { 
  //if( ! current_user_can('edit_posts') )
-  //add_filter('show_admin_bar', '__return_false'); 
-}*/
-//add_action( 'after_setup_theme', 'themeblvd_disable_admin_bar' );
+  add_filter('show_admin_bar', '__return_false'); 
+}
+add_action( 'after_setup_theme', 'themeblvd_disable_admin_bar' );
  
 /**
  * Redirect back to homepage and not allow access to 
@@ -3001,6 +3002,7 @@ function cs_admin_scripts_enqueue() {
 		wp_enqueue_script('custom_page_builder_wp_admin_script', get_template_directory_uri() . '/include/assets/scripts/cs_page_builder_functions.js');
 		wp_enqueue_script('bootstrap.min_script', get_template_directory_uri() . '/include/assets/scripts/bootstrap.min.js');
 		wp_enqueue_style('wp-color-picker');
+		
 	}
 }
 
@@ -3067,6 +3069,9 @@ require_once (get_template_directory()  . '/include/theme-options/theme_options.
 require_once (get_template_directory()  . '/include/theme-options/theme_options_fields.php');
 require_once (get_template_directory()  . '/include/theme-options/theme_options_functions.php');
 require_once (get_template_directory()  . '/include/theme-options/theme_options_arrays.php');
+
+/* CONTACT FORM 7 VALIDATION */
+require_once (get_template_directory()  . '/include/cf7-custom-validation.php');
 
 
 /////////////////////////////////
@@ -3155,6 +3160,15 @@ if ( ! function_exists( 'cs_front_scripts_enqueue' ) ) {
 				cs_rtl();
 			}
 			wp_enqueue_style('cs_woocommerce_css', get_template_directory_uri() . '/assets/css/cs_woocommerce.css');
+			
+			// Custom MCAN Styles
+			wp_enqueue_style('fancybox_css', get_template_directory_uri() . '/assets/css/jquery.fancybox.css');
+			
+			// Custom MCAN Scripts
+			wp_enqueue_script('fancybox', get_template_directory_uri() . '/assets/scripts/jquery.fancybox.pack.js', '', '', true);
+			wp_enqueue_script('mcan', get_template_directory_uri() . '/assets/scripts/mcan.js', '', '', true);
+			
+   
 		 }
 	}
 }
@@ -3842,11 +3856,11 @@ function cs_get_event_filters($cs_filter_category,$cs_filter_switch,$filter_cate
         <div class="col-md-12">
           <nav class="wow filter-nav <?php echo cs_allow_special_char($cs_custom_animation);?>">
             <ul class="cs-filter-menu pull-left">
-              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-search"></i><?php 
+              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-filter"></i><?php 
                _e('Filter By','Awaken'); ?>  
                </a> </li>
               <li><a href="#pager-2<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-list"></i><?php 
-                   _e('Categories','Awaken');  
+                   _e('Affiliates','Awaken');  
               ?></a></li>
               <li><a href="#pager-3<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-tags"></i><?php 
                  _e('Tags','Awaken'); 
@@ -3912,11 +3926,11 @@ function cs_get_sermon_filters($cs_filter_category,$cs_filter_switch,$filter_cat
         <div class="col-md-12">
           <nav class="wow filter-nav <?php echo cs_allow_special_char($cs_custom_animation);?>">
             <ul class="cs-filter-menu pull-left">
-              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-search"></i><?php 
+              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-filter"></i><?php 
                _e('Filter By','Awaken'); ?>  
                </a> </li>
               <li><a href="#pager-2<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-list"></i><?php 
-                   _e('Categories','Awaken');  
+                   _e('Affiliates','Awaken');  
               ?></a></li>
               <li><a href="#pager-3<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-tags"></i><?php 
                  _e('Tags','Awaken'); 
@@ -3960,16 +3974,17 @@ function cs_get_blog_filters($cs_blog_cat,$author_filter,$filter_category,$filte
 	 global $post,$cs_theme_options,$cs_counter_node,$wpdb;
 	 $nav_count = rand(40, 9999999);
 	 if ( isset( $cs_blog_filterable ) && $cs_blog_filterable == 'yes') { 
+	 
 	 ?>
 		<!--Sorting Navigation-->
         <div class="col-md-12">
           <nav class="wow filter-nav <?php echo cs_allow_special_char($cs_custom_animation);?>">
             <ul class="cs-filter-menu pull-left">
-              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-search"></i><?php
+              <li> <a href="#pager-1<?php echo cs_allow_special_char($nav_count);?>"> <i class="fa fa-filter"></i><?php
                _e('Filter By','Awaken'); ?>  
                </a> </li>
               <li><a href="#pager-2<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-list"></i><?php 
-                   _e('Categories','Awaken');  
+                   _e('Affiliates','Awaken');  
               ?></a></li>
               <li><a href="#pager-3<?php echo cs_allow_special_char($nav_count);?>"><i class="fa fa-tags"></i><?php 
                  _e('Tags','Awaken'); 
@@ -3982,28 +3997,45 @@ function cs_get_blog_filters($cs_blog_cat,$author_filter,$filter_category,$filte
                 <?php   _e('Show All','Awaken'); ?>  
             </a>
             <div id="pager-1<?php echo cs_allow_special_char($nav_count);?>" class="filter-pager" style="display: none;"> 
-            <a class="<?php if(isset($_GET['sort']) and $_GET['sort']=='asc') { echo 'active';}?>" href="?<?php echo 'by_author='.$author_filter.'&amp;sort=asc&amp;filter_category='.$filter_category.'&amp;filter-tag='.$filter_tag; ?>"> <?php    _e('Date Published','Awaken'); ?> </a>
-            <a class="<?php if(isset($_GET['sort']) and $_GET['sort']=='alphabetical') { echo 'active';}?>" href="?<?php echo 'by_author='.$author_filter.'&amp;sort=alphabetical&amp;filter_category='.$filter_category.'&amp;filter_tag='.$filter_tag; ?>"> <?php echo _e('Alphabetical','Awaken');?> </a> </div>
+				<a class="<?php if(isset($_GET['sort']) and $_GET['sort']=='asc') { echo 'active';}?>" 
+					href="?<?php echo 'by_author='.$author_filter.'&amp;sort=asc&amp;filter_category='.$filter_category.'&amp;filter-tag='.$filter_tag; ?>"> 
+						<?php    _e('Date Published','Awaken'); ?> 
+				</a>
+				<a class="<?php if(isset($_GET['sort']) and $_GET['sort']=='alphabetical') { echo 'active';}?>" 
+					href="?<?php echo 'by_author='.$author_filter.'&amp;sort=alphabetical&amp;filter_category='.$filter_category.'&amp;filter_tag='.$filter_tag; ?>"> 
+						<?php echo _e('Alphabetical','Awaken');?> 
+					</a> 
+			</div>
             <div id="pager-2<?php echo cs_allow_special_char($nav_count);?>" class="filter-pager" style="display: none;">
-              <?php
-				$row_cat = $wpdb->get_row($wpdb->prepare("SELECT * from $wpdb->terms WHERE slug = %s", $cs_blog_cat ));
-                if( isset($cs_blog_cat) && ($cs_blog_cat <> "" && $cs_blog_cat <> "0")   && isset( $row_cat->term_id )){	
-                  $categories = get_categories( array('child_of' => "$row_cat->term_id", 'taxonomy' => 'category', 'hide_empty' => 1));
-                ?>
-              <a href="?<?php echo 'by_author='.$author_filter.'&amp;filter_category='.$filter_category; ?>" class="<?php if(($cs_blog_cat == $filter_category)){ echo 'bgcolr';}?>"><?php  _e('All Categories','Awaken'); ?></a>
-              <?php
+				<?php
+					$row_cat = $wpdb->get_row($wpdb->prepare("SELECT * from $wpdb->terms WHERE slug = %s", $cs_blog_cat ));
+					if( isset($cs_blog_cat) && ($cs_blog_cat <> "" && $cs_blog_cat <> "0")   && isset( $row_cat->term_id )){	
+					  $categories = get_categories( array('child_of' => "$row_cat->term_id", 'taxonomy' => 'category', 'hide_empty' => 1));
+				?>
+					<!-- show all categories -->
+					<a href="<?php echo $postpermalink; ?>?<?php echo 'by_author='.$author_filter.'&amp;filter_category='.$filter_category; ?>" class="<?php if(($cs_blog_cat == $filter_category)){ echo 'bgcolr';}?>">
+						<?php  _e('All Affiliates','Awaken'); ?>
+					</a>
+				<?php
                 }else{
                     $categories = get_categories( array('taxonomy' => 'category', 'hide_empty' => 1) );
                 }
-                foreach ($categories as $category) {
-                ?>
-              <a href="?<?php echo "by_author=".$author_filter."&amp;filter_category=".$category->slug?>" 
-                          <?php if($category->slug==$filter_category){echo 'class="active"';}?>> <?php echo cs_allow_special_char($category->cat_name); ?> </a>
-              <?php }?>
+				foreach ($categories as $category) {
+				?>
+					<a href="<?php echo the_permalink(); ?>?<?php echo "by_author=".$author_filter."&amp;filter_category=".$category->slug?>" 
+					  <?php if($category->slug==$filter_category){echo 'class="active"';}?>> 
+						  <?php echo cs_allow_special_char($category->cat_name); ?> 
+					</a>
+              <?php 
+				}
+			  ?>
             </div>
+			<!-- filter by tag -->
             <div id="pager-3<?php echo cs_allow_special_char($nav_count);?>" class="filter-pager" style="display: none;">
-              <?php cs_get_post_tags_list ($filter_category,$filter_tag,$author_filter); ?>
+              <?php cs_get_post_tags_list ($filter_category,$filter_tag,$author_filter, $post->ID); ?>
             </div>
+			
+			<!-- filter by author -->
             <div id="pager-4<?php echo cs_allow_special_char($nav_count);?>" class="filter-pager" style="display: none;">
               <?php 
 			  			$user_ids = get_users( array(
@@ -4032,7 +4064,7 @@ function cs_get_blog_filters($cs_blog_cat,$author_filter,$filter_category,$filte
 //=====================================================================
 // Get Post tags list
 //=====================================================================
-function cs_get_post_tags_list($filter_category = '',$filter_tag  ='',$author_filter=''){
+function cs_get_post_tags_list($filter_category = '', $filter_tag  ='', $author_filter='', $postid=0){
 	global $post;
 	$args = array('posts_per_page'=>-1,'post_type' => 'post','catgory' => $filter_category);
 	$project_query = new WP_Query($args);
@@ -4054,7 +4086,7 @@ function cs_get_post_tags_list($filter_category = '',$filter_tag  ='',$author_fi
 				$active_class = "class='active'";
 			}
    			
-			echo '<a href="?by_author='.$author_filter.'&amp;filter_category='.$filter_category.'&amp;filter-tag='.$el->slug.'" id="taglink-tag-'.$el->slug.'" title="tag-'.$el->slug.'" '.$active_class.' >'.$el->name.'</a>';
+			echo '<a href="'. get_permalink($postid) . '?by_author='.$author_filter.'&amp;filter_category='.$filter_category.'&amp;filter-tag='.$el->slug.'" id="taglink-tag-'.$el->slug.'" title="tag-'.$el->slug.'" '.$active_class.' >'.$el->name.'</a>';
 	 	endforeach; 
  	endif;
 }
@@ -4492,3 +4524,80 @@ if ( ! function_exists( 'cs_woocommerce_header_cart' ) ) {
 		}
 	}
 }
+
+
+
+// MCAN Contact Form 7 
+// send submit to BSD
+add_action( 'wpcf7_before_send_mail', 'submit_to_bsd' );
+
+function submit_to_bsd( $cf7 )
+{	
+	$submission = WPCF7_Submission::get_instance();
+	$posted_data = $submission->get_posted_data();
+	
+	$firstname = $posted_data["first-name"];
+	$lastname = $posted_data["last-name"];
+	$email = $posted_data["email"];
+	$zipcode = $posted_data["zipcode"];
+	$affiliate = $posted_data["affiliate"];
+	
+	function post_to_url($url, $data) {
+	   $fields = '';
+	   foreach($data as $key => $value) { 
+		  $fields .= $key . '=' . $value . '&'; 
+	   }
+	   rtrim($fields, '&');
+
+	   $post = curl_init();
+
+	   if($post === false)
+		{
+			die('Failed to create curl object');
+		}
+
+	   curl_setopt($post, CURLOPT_URL, $url);
+	   curl_setopt($post, CURLOPT_POST, count($data));
+	   curl_setopt($post, CURLOPT_POSTFIELDS, $fields);
+	   curl_setopt($post, CURLOPT_RETURNTRANSFER, true);
+
+	   $response = curl_exec($post);
+	   
+	   /*
+	   $httpCode = curl_getinfo($post, CURLINFO_HTTP_CODE);
+
+		if ( $httpCode != 200 ){
+			echo "Return code is {$httpCode} \n"
+				.curl_error($post);
+		} else {
+			echo "<pre>".htmlspecialchars($response)."</pre>";
+		}
+*/
+	   curl_close($post);
+	   
+	   file_put_contents("test.txt", "Test " . date('Y-m-d H:i:s', $_SERVER['REQUEST_TIME']) . " " . $firstname . " " . $lastname . ", " . $email . ", " . $response);
+	
+	
+	   //echo $response;
+	}
+	
+	$data = array(
+		"firstname" => $firstname,
+		"lastname" => $lastname,
+		"zip" => $zipcode,
+		"email" => $email,
+		"custom-23[0]" => $affiliate
+		
+		/* TO DO: add logic for affiliate pages */
+		/*,
+		"custom-23[1]" => 'ECCO',
+		"custom-23[2]" => 'BIC',
+		"custom-23[3]" => 'UIA',
+		"custom-23[4]" => 'PVP',
+		"custom-23[5]" => 'YJC'	
+*/		
+	);
+
+	post_to_url("http://mcan.bsd.net/page/sapi/mcan-website", $data);
+}
+

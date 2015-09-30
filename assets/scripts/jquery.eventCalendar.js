@@ -66,6 +66,7 @@ var $ = jQuery;
 
 	// show event description
 	flags.wrap.find('.eventsCalendar-list').on('click','.eventTitle',function(e){
+		/*
 	//flags.wrap.find('.eventsCalendar-list .eventTitle').live('click',function(e){
 		if(!eventsOpts.showDescription) {
 			e.preventDefault();
@@ -88,7 +89,7 @@ var $ = jQuery;
 				desc.slideDown();
 			}
 
-		}
+		}*/
 	});
 
 	function sortJson(a, b){
@@ -337,7 +338,7 @@ var $ = jQuery;
 							eventMonth = eventDate.getMonth(),
 							eventDay = eventDate.getDate(),
 							eventMonthToShow = eventMonth + 1,
-							eventHour = eventDate.getHours(),
+							eventHour = (eventDate.getHours() < 10 ? eventDate.getHours().substr(1) : eventDate.getHours()),
 							eventMinute = eventDate.getMinutes();
 
 					}
@@ -358,13 +359,13 @@ var $ = jQuery;
 								if (month === false && eventDate < new Date()) {
 
 								} else {
-									eventStringDate = eventDay + "/" + eventMonthToShow + "/" + eventYear;
+									eventStringDate = eventMonthToShow + "/" + eventDay + "/" + eventYear;
 									if (event.url) {
 										var eventTitle = '<a href="'+event.url+'" target="' + eventLinkTarget + '" class="eventTitle">' + event.title + '</a>';
 									} else {
 										var eventTitle = '<span class="eventTitle">'+event.title+'</span>';
 									}
-									events.push('<li id="' + key + '" class="'+event.type+'"><time datetime="'+eventDate+'"><em>' + eventStringDate + '</em><small>'+eventHour+":"+eventMinute+'</small></time>'+eventTitle+'<p class="eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
+									events.push('<li id="' + key + '" class="'+event.type+'"><time datetime="'+eventDate+'"><em>' + eventStringDate + '</em><small>'+(eventHour > 12 ? (eventHour-12) : eventHour < 10 ? eventHour.substr(1) : eventHour)+":"+eventMinute+(eventHour > 12 ? 'PM' : 'AM')+''+'</small></time>'+eventTitle+'<p class="eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
 									i++;
 								}
 						}
@@ -425,9 +426,9 @@ var $ = jQuery;
 	function setCalendarWidth(){
 		// resize calendar width on window resize
 		flags.directionLeftMove = flags.wrap.width();
-		flags.wrap.find('.eventsCalendar-monthWrap').width(flags.wrap.width() + 'px');
+		//flags.wrap.find('.eventsCalendar-monthWrap').width(flags.wrap.width() + 'px');
 
-		flags.wrap.find('.eventsCalendar-list-wrap').width(flags.wrap.width() + 'px');
+		//flags.wrap.find('.eventsCalendar-list-wrap').width(flags.wrap.width() + 'px');
 
 	}
 };
@@ -450,7 +451,7 @@ $.fn.eventCalendar.defaults = {
 	txt_NextEvents: "Next events:",
 	txt_GoToEventUrl: "See the event",
 	showDayAsWeeks: true,
-	startWeekOnMonday: true,
+	startWeekOnMonday: false,
 	showDayNameInCalendar: true,
 	showDescription: false,
 	onlyOneDescription: true,

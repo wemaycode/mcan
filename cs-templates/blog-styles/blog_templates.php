@@ -214,29 +214,54 @@ if ( !class_exists('BlogTemplates') ) {
 				$post_thumb_view = $cs_xmlObject->post_thumb_view;	
 			}
 			?>
+			<?php 
+				$postCats = get_the_category();
+				foreach($postCats as $postCat){
+					if($postCat->description != null)
+						$catColorStyle = "border-left: 10px solid " . $postCat->description;
+				}
+			?>
 			<div class="col-md-12">
 			  <article class="cs-blog cs-blog-classic clearfix has_shapes"> 
-				<h2><a href="<?php echo the_permalink();?>"><?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?></a></h2>
-				<ul class="post-option clearfix">
-				  <li> <i class="fa fa-user"></i> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author();?></a> </li>
-				  <li> <i class="fa fa-calendar-o"></i><?php echo date_i18n(get_option( 'date_format' ),strtotime(get_the_date()));?></li>
-				  <li> <i class="fa fa-folder-o"></i> 
-                  	<?php 
-                    if ( isset($cs_blog_cat) && $cs_blog_cat !='' && $cs_blog_cat !='0'){ 
-                        echo '<a href="'.site_url().'?cat='.$row_cat->term_id.'">'.$row_cat->name.'</a>';
-                     } else {
-                         /* Get All Tags */
- 
-                          $categories_list = get_the_term_list ( get_the_id(), 'category', '' , ', ', '' );
-                          if ( $categories_list ){
-                            printf( __( '%1$s', 'Awaken'),$categories_list );
-                          } 
-                         // End if Tags 
-                     }
-					?>
-                  </li>
-				  <li> <i class="fa fa-comment-o"></i> <a href="<?php comments_link(); ?>"><?php echo comments_number(__('Comments 0', 'Awaken'), __('Comments 1', 'Awaken'), __('Comments %', 'Awaken') );?></a> </li>
-				</ul>
+				<div class="blog-title-wrapper" style="<?php echo $catColorStyle ?>">
+					
+					<h2><a href="<?php echo the_permalink();?>"><?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?></a></h2>
+					<ul class="post-option clearfix">
+					  <li> <i class="fa fa-user"></i> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author();?></a> </li>
+					  <li> <i class="fa fa-calendar-o"></i><?php echo date_i18n(get_option( 'date_format' ),strtotime(get_the_date()));?></li>
+					  <li> <i class="fa fa-folder-o"></i> 
+						<?php 
+						if ( isset($cs_blog_cat) && $cs_blog_cat !='' && $cs_blog_cat !='0'){ 
+							echo '<a href="'.site_url().'?cat='.$row_cat->term_id.'">'.$row_cat->name.'</a>';
+						 } else {
+							 /* Get All Tags */
+	 
+							  $categories_list = get_the_term_list ( get_the_id(), 'category', '' , ', ', '' );
+							  if ( $categories_list ){
+								printf( __( '%1$s', 'Awaken'),$categories_list );
+							  } 
+							 // End if Tags 
+						 }
+						?>
+					  </li>
+						<!-- Tags -->
+						<li>
+							<i class="fa fa-tags"></i>
+							<?php  
+								if ( empty($cs_xmlObject->post_tags_show_text) ) 
+									$post_tags_show_text = __('Tags', 'Awaken'); else $post_tags_show_text = $cs_xmlObject->post_tags_show_text;
+								$categories_list = get_the_term_list ( get_the_id(), 'post_tag', '', ', ', '' );
+								if ( $categories_list ){?>
+									<?php printf( __( '%1$s', 'Awaken'),$categories_list );
+								}
+							?>								 
+						</li>
+					  <!--
+					  <li> <i class="fa fa-comment-o"></i> <a href="<?php comments_link(); ?>"><?php echo comments_number(__('Comments 0', 'Awaken'), __('Comments 1', 'Awaken'), __('Comments %', 'Awaken') );?></a> </li>
+					  -->
+					</ul>
+				</div>
+				
 				<?php if ( $post_thumb_view == 'Single Image' ){
 						if ( isset( $thumbnail ) && $thumbnail !='' ) {?>
 							<div class="cs-media">
@@ -257,9 +282,13 @@ if ( !class_exists('BlogTemplates') ) {
 				<section>
 				  <?php if ($description == 'yes') {?><p> <?php echo cs_get_the_excerpt($excerpt,'ture','');?></p><?php } ?> 
 				  <div class="clearfix"> 
-                  	  <a href="<?php echo the_permalink();?>" class="continue-reading"><i class="fa fa-angle-right"></i><?php _e('Continue Reading','Awaken');?></a>
+                  	  <a href="<?php echo the_permalink();?>" class="continue-reading">
+						<?php _e('Continue Reading','Awaken');?>
+						>>
+					</a>
                       <ul class="post-option-btm clearfix">
-                        <li><a href="<?php comments_link(); ?>"><i class="fa fa-comment-o"></i><?php echo comments_number(__('0', 'Awaken'), __('1', 'Awaken'), __('%', 'Awaken') );?></a></li>
+                        <!--<li><a href="<?php comments_link(); ?>"><i class="fa fa-comment-o"></i><?php echo comments_number(__('0', 'Awaken'), __('1', 'Awaken'), __('%', 'Awaken') );?></a></li>
+						-->
                         <?php //if ( $post_social_sharing == 'on' ) { ?>
                             <?php cs_addthis_script_init_method();?>
                             <li><a class="btnshare addthis_button_compact"><i class="fa fa-share-alt"></i><?php _e('Share','Awaken');?></a></li>
@@ -341,7 +370,7 @@ if ( !class_exists('BlogTemplates') ) {
         }
 		
 		//======================================================================
-		// Blog Mesnory View
+		// Blog Masonry View ( Blog 3 Column ) 
 		//======================================================================
 		public function cs_mesnory_view( $description,$excerpt ) {
 			global $post;
@@ -373,21 +402,40 @@ if ( !class_exists('BlogTemplates') ) {
 					  } 
 				 ?>
               <section>
-                <time datetime="<?php echo date_i18n('Y-m-d',strtotime(get_the_date()));?>"><?php echo date_i18n('M',strtotime(get_the_date()));?><small><?php echo date_i18n('j',strtotime(get_the_date()));?></small> </time>
+                <time datetime="<?php echo date_i18n('Y-m-d',strtotime(get_the_date()));?>">
+					<?php echo date_i18n('M',strtotime(get_the_date()));?>
+					<small><?php echo date_i18n('j',strtotime(get_the_date()));?></small> 
+				</time>
                 <div class="title clearfix">
-                  <h2><a href="<?php echo the_permalink();?>"><?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?></a></h2>
-                   <ul class="post-option clearfix">
-                      <li><i class="fa fa-user"></i> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author();?></a> </li>
-                   </ul>
+					<h2>
+						<a href="<?php echo the_permalink();?>">
+							<?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?>
+						</a>
+					</h2>
+					<ul class="post-option clearfix">
+						<li>Posted by: 
+							<a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
+								<?php echo get_the_author();?>
+							</a>
+						</li>
+					</ul>
                   <!--title--> 
                 </div>
                 <?php if ($description == 'yes') {?><p><?php echo cs_get_the_excerpt($excerpt,'ture','');?></p><?php } ?> 
-                  <a href="<?php echo the_permalink();?>" class="continue-reading"><i class="fa fa-angle-right"></i><?php _e('Continue Reading','Awaken');?></a>
+					<a href="<?php echo the_permalink();?>" class="continue-reading">
+						<?php _e('Continue Reading','Awaken');?> >>
+					</a>
                   <ul class="post-option-btm clearfix">
-                    <li><a href="<?php comments_link(); ?>"><i class="fa fa-comment-o"></i><?php echo comments_number(__('0', 'Awaken'), __('1', 'Awaken'), __('%', 'Awaken') );?> </a></li>
+					<!-- COMMENT OUT -->
+                    <!--<li><a href="<?php //comments_link(); ?>"><i class="fa fa-comment-o"></i><?php //echo comments_number(__('0', 'Awaken'), __('1', 'Awaken'), __('%', 'Awaken') );?> </a></li>-->
                     <?php //if ( $post_social_sharing == 'on' ) { ?>
                         <?php cs_addthis_script_init_method();?>
-                        <li><a class="btnshare addthis_button_compact"><i class="fa fa-share-alt"></i><?php _e('Share','Awaken');?></a></li>
+                        <li>
+							<a class="btnshare addthis_button_compact">
+								<i class="fa fa-share-alt"></i>
+								<?php _e('Share','Awaken');?>
+							</a>
+						</li>
                     <?php //}?>
                   </ul>
               </section>
@@ -495,7 +543,7 @@ if ( !class_exists('BlogTemplates') ) {
                 <div class="title clearfix">
                   <h2><a href="<?php echo the_permalink();?>"><?php echo substr(get_the_title(),0, $title_limit); if(strlen(get_the_title())>$title_limit){echo '...';}?></a></h2>
                    <ul class="post-option clearfix">
-                      <li><i class="fa fa-user"></i> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author();?></a> </li>
+                      <li>Posted by: <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php echo get_the_author();?></a> </li>
                    </ul>
                   <!--title--> 
                 </div>

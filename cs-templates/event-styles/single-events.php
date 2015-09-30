@@ -1,3 +1,4 @@
+<!-- single-events.php -->
 <?php
 /**
  * The template for Event Detail
@@ -102,6 +103,10 @@
 					$cs_post_event_from_date = $cs_xmlObject->dynamic_post_event_from_date;
 					$cs_event_members = $cs_xmlObject->dynamic_event_members;
 					$cs_post_location_address = $cs_xmlObject->dynamic_post_location_address;
+					$cs_post_location_city = $cs_xmlObject->loc_city;
+					$cs_post_location_region = $cs_xmlObject->loc_region;
+					$cs_post_location_postcode = $cs_xmlObject->loc_postcode;
+					$cs_post_location_state = $cs_xmlObject->dynamic_post_location_state;
 					$cs_event_members = explode(',',$cs_event_members);
 								
 			}
@@ -127,8 +132,9 @@
       <!-- Event Detail Start -->
       <div class="<?php echo esc_attr($cs_layout); ?> event-editor"> 
         <!-- Event Start --> 
+		<h2><?php echo get_the_title(); ?></h2>
         <!-- Row -->
-		
+		<div class="event-content"><?php echo the_content(); ?></div>
  		 <div class="col-md-4">
             <div class="event-sidebar" >
 			<?php if($image_url <> ''){ ?>
@@ -194,19 +200,25 @@
                                 <ul>
 								<?php if($cs_post_event_start_time<>''){?>
                                     <li><?php _e('Event Time','Awaken');?>
-                                        <span><i class="fa fa-clock-o"></i><?php echo date(get_option('time_format'),strtotime($cs_post_event_start_time)) ?><?php echo ($cs_post_event_end_time<>'')?'-'.date(get_option('time_format'),strtotime($cs_post_event_end_time)):''; ?></span>
+                                        <span>
+											<!--<i class="fa fa-clock-o"></i>-->
+											<?php echo date(get_option('date_format'),strtotime($cs_post_event_from_date)) ?><br>
+											<?php echo date(get_option('time_format'),strtotime($cs_post_event_start_time)) ?><?php echo ($cs_post_event_end_time<>'')?'-'.date(get_option('time_format'),strtotime($cs_post_event_end_time)):''; ?>
+										</span>
                                     </li>
 									<?php 
 										}
-									if($cs_post_event_from_date<>''){?>
-                                    <li><?php _e('Event Start Date','Awaken');?>
-                                        <span><i class="fa fa-clock-o"></i><?php echo date(get_option('date_format'),strtotime($cs_post_event_from_date)) ?></span>
-                                    </li>
-									<?php 
-										}
+									
 									if($cs_post_location_address<>''){?>
 											<li><?php _e('Event Location','Awaken');?>
-												<span><i class="fa fa-map-marker"></i><?php echo esc_attr($cs_post_location_address); ?></span>
+												<span>
+													<!--<i class="fa fa-map-marker"></i>-->
+													<a href="https://www.google.com/maps/place/<?php echo esc_attr($cs_post_location_address) . '+' . esc_attr($cs_post_location_city) . '+' . esc_attr($cs_post_location_region) . '+' . esc_attr($cs_post_location_postcode); ?>" target="_blank">
+														<?php echo $cs_xmlObject->event_map_heading; ?><br>
+														<?php echo esc_attr($cs_post_location_address); ?><br>
+														<?php echo esc_attr($cs_post_location_city) . ', ' . esc_attr($cs_post_location_region) . ' ' . esc_attr($cs_post_location_postcode); ?>
+													</a>
+												</span>
 											</li>
 									<?php } ?>
                                 </ul>
@@ -261,12 +273,15 @@
                             </div>
 						<?php } ?>
 							
-                            <div class="rich_editor_text">
+                            <!--<div class="rich_editor_text">
                               <?php 
-							  	the_content(); 
-							 	wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'Awaken' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) );							  ?>
-                              
+							  	/*
+								the_content(); 
+							 	wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'Awaken' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) );*/
+								?>                              
                             </div>
+							-->
+							
                           </div>
                         
                       <!-- Related post Start -->
@@ -308,7 +323,7 @@
             </div>
         </div>
 		  
-		 <!-- Sermon next/prev Button Start-->
+		 <!-- Events next/prev Button Start-->
           
           <?php if(isset($post_pagination_show) &&  $post_pagination_show == 'on'){
 				echo '<div class="col-md-12">';
@@ -366,7 +381,7 @@
 								<div class="col-md-4">
 									<article class="cs-events events-minimal minimal-grid">
 										<div class="left-sp">
-											<h2><a href="<?php the_permalink(); ?>"><?php echo substr($title,0,30); echo (strlen($title)>25)?'...':''; ?></a></h2>
+											<h3><a href="<?php the_permalink(); ?>"><?php echo substr($title,0,30); echo (strlen($title)>25)?'...':''; ?></a></h3>
 											<div class="location-info">
 												<time datetime="<?php echo esc_attr( $cs_post_event_from_date );?>"> <?php echo date_i18n('M',$cs_post_event_from_date); ?> <span><?php echo date_i18n('d',$cs_post_event_from_date); ?> </span> </time>
 												<div class="info">
