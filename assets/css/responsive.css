@@ -90,7 +90,7 @@
 	.navigation .navbar-collapse.collapse { display:none !important;}
 	.navigation .navbar-collapse.collapse.in{ display:block !important;}
 	.navigation .navbar-collapse.in{ overflow-x:hidden !important; overflow-y:auto !important; }
-	.navigation .navbar-collapse.in .navbar-nav{height: 360px !important; overflow: auto !important;}
+	.navigation .navbar-collapse.in .navbar-nav, .navigation .navbar-collapsing .navbar-nav {height: 360px !important; overflow: auto !important;}
 
 	.navbar-default{ width: 100%;float: left;background-color: transparent;}
 	.navbar-collapse{ max-height:300px; width:50%; background:#fff;}
@@ -376,6 +376,10 @@
 		font-size: 18px!important;
 		padding: 0 5px;
 	}
+	body.home #main-content, .breadcrumb-sec {
+		margin-top: 0px!important;
+	}
+	
 	body.home #main-content {
 		margin-top: 0px!important;
 	}
