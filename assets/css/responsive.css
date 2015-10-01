@@ -471,8 +471,12 @@
 	/* Custom Columns for Affiliate Buttons */
 	.column-50, .column-33 {
 		width: 100%!important;
+		padding: 0px!important;
 	}
-	
+	.section-fullwidth .column-33, .section-fullwidth .column-40 {
+		padding: 0 10px!Important;
+	}
+
 	/* Footer */
 	footer .col-md-3, footer .col-md-5 {
 		text-align: center;
@@ -524,8 +528,25 @@
 	#main-header .navbar-toggle {margin: 0px;}
 	.header_4 .search-top {margin-top: 10px;}
 	#main-header .navigation ul.mega-grid > li { display: block; width: 100% !important; }
-	.breadcrumb-sec,.page-title-align-left { text-align: center; } .pageinfo h1 { font-size: 20px !important; }.breadcrumb-sec .pageinfo,.breadcrumb-sec .breadcrumb { float: left;width: 100%; }.breadcrumb-sec .breadcrumb ul {float: none;display: inline-block;}.pageinfo.page-title-align-left > h1 {text-align: center;}
-	.breadcrumb-sec .pageinfo { padding: 25px 0px 5px 0px; }
+	.breadcrumb-sec {
+		margin-bottom: 20px!important;
+	}
+	.breadcrumb-sec,.page-title-align-left { text-align: center; } 
+	.pageinfo h1 { font-size: 20px !important; }
+	.breadcrumb-sec .pageinfo,.breadcrumb-sec .breadcrumb { float: left;width: 100%; }
+	.breadcrumb-sec .breadcrumb ul {float: none;display: inline-block;}
+	.pageinfo.page-title-align-left > h1 {
+		text-align: center;
+		font-size: 22px!important;
+	}
+	.breadcrumb-sec .pageinfo { 
+		padding: 0!important;
+		top: 50%;
+		transform: translateY(-50%);
+		position: absolute;
+		width: 100%;
+		left: 0px;		
+	}
 	/* ====== Header 1 Start ====== */
 	.header_1 .main-head  {width: 100%; display: inline-block; text-align: center;}
 	.header_1 .main-head .left-side, .header_4 .logo-section .right-side { display: inline-block; float: none; text-align: center; width: 100%;}
@@ -597,7 +618,10 @@
 	.main-section .cs-events .cs-cat-list {padding: 20px 0;}
 	.cs-events .cs-cat-list ul {margin: 0;}
 	.main-section .cs-causes.causes-medium .cs-progres-bar {width: 100%;}
-
+	#main-content .main-section .rich_editor_text h2, .main-section .rich_editor_text h2 a {
+		font-size: 22px!important;
+		line-height: 28px!important;
+	}
 
 
 
