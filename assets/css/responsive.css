@@ -296,11 +296,11 @@
 	.navbar-nav > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li > .dropdown-menu > li{padding:0;}
 	.collapse{ display:none;}
 	.dropdown-menu li:last-child{ border-bottom:0 !important;}
-	.navigation .navbar-collapse{ height: 360px; overflow: auto; overflow-x: inherit !important; overflow-y: inherit !important; position: absolute; top: 100%; right: 0; background: #fff; max-height: inherit; width: 100%; z-index: 999; }
+	.navigation .navbar-collapse{ /*height: 360px;*/ overflow: auto; overflow-x: inherit !important; overflow-y: inherit !important; position: absolute; top: 100%; right: 0; background: #fff; max-height: inherit; width: 100%; z-index: 999; }
 	.navigation ul.mega-grid > li, .detail-post {width: 100%;float: left;}
 
 	.navigation .navbar-collapse.collapse { display:none !important;}
-	.navigation .navbar-collapse.collapse.in{ display:block !important; height: 55vh;}
+	.navigation .navbar-collapse.collapse.in{ display:block !important; }
 	.navigation .navbar-collapse.in{ overflow-x:hidden !important; overflow-y:auto !important; }
 
 	.navbar-default{ width: 100%;float: left;background-color: transparent;}
