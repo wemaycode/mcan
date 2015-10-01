@@ -346,11 +346,12 @@
               
           <!-- Post Button Start-->
 		  <div class="col-md-12">
-			<div class="prevnext">View Older/Newer Posts</div>
+			
 		  </div>
           <div class="col-md-12">
           <?php if(isset($post_pagination_show) &&  $post_pagination_show == 'on'){
-                  px_next_prev_custom_links('post');
+                  echo '<div class="prevnext">View Older/Newer Posts</div>';
+				  px_next_prev_custom_links('post');
              }
           ?>
           </div>
