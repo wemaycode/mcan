@@ -10297,7 +10297,7 @@ body.home .breadcrumb-sec, .breadcrumb {
 	}
 
 body.home #main-content, .breadcrumb-sec { /* add top margin for header */ 
-	margin-top: 160px;
+	margin-top: 150px;
 }
 .breadcrumb-sec {
 	margin-bottom: 60px;
@@ -10331,8 +10331,8 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 }
 
 .main-section .rich_editor_text p, .main-section .rich_editor_text ul li {
-	font: 15px 'Open Sans', sans-serif!important;
-	line-height: 21px!important;
+	font: 12pt 'Open Sans', sans-serif!important;
+	line-height: 1.5em!important;
 	color: #515254!important;
 	margin-bottom: 15px!important;
 	overflow: auto!important;
@@ -10508,7 +10508,7 @@ body.home section.contact-form {
 
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="zipcode"] {
 	width: 100%;
-	font: 20px 'Open Sans', sans-serif !important;
+	font: 12pt 'Open Sans', sans-serif !important;
 	text-transform: none;
 	font-weight: normal!important;
 	border: none;
@@ -10641,8 +10641,8 @@ body.home section.homepage-content-howwework{
 }
 .main-section .homepage-content-howwework p {
 	color: #515254;
-	font-size: 20px;
-	line-height: 30px!important;
+	font-size: 12pt;
+	line-height: 1.5em!important;
 	padding: 10px 15px;
 }
 .main-section .cta {
@@ -10712,13 +10712,13 @@ body.home section.homepage-content-howwework{
 
 	.page-template-page-staff .main-section h3, 
 	.page-template-page-currentcampaigns .main-section h3 {
-		font-size: 25px!important;
+		font-size: 12pt!important;
 		font-weight: bold!important;
 		text-transform: uppercase!important;
 	}
 	.page-template-page-staff .main-section p, 
 	.page-template-page-currentcampaigns .main-section p {
-		font-size: 20px!important;
+		font-size: 12pt!important;
 	}
 
 	/* fancybox grid */
@@ -10731,14 +10731,14 @@ body.home section.homepage-content-howwework{
 	.page-template-page-currentcampaigns a.fancybox .staff-name,
 	.grid-title
 	{
-		font-size: 19px!important;
+		font-size: 12pt!important;
 		color: #f8991d!important;
 		font-weight: bold!important;
 		text-transform: uppercase!important;
 	}
 	.page-template-page-staff a.fancybox .staff-title,
 	.page-template-page-currentcampaigns a.fancybox .staff-title	{
-		font-size: 19px!important;
+		font-size: 12pt!important;
 	}
 	/* Grid Background Image */
 	.grid-thumbnail {
@@ -10761,13 +10761,13 @@ body.home section.homepage-content-howwework{
 		margin: 0px 15px 5px 0px!important;
 	}
 	.fancybox-inner .staff-name {
-		font-size: 19px!important;
+		font-size: 12pt!important;
 		color: #f8991d!important;
 		font-weight: bold!important;
 		text-transform: uppercase!important;
 	}
 	.fancybox-inner .staff-title {
-		font-size: 19px!important;
+		font-size: 12pt!important;
 		font-weight: bold!important;
 	}
 	.fancybox-inner p {
@@ -10813,7 +10813,7 @@ figure {
 	text-transform: none!important;
 }
 .prevnext, .socialmedia h6 {
-    font-size: 20px!important;
+    font-size: 12pt!important;
     font-weight: bold!important;
     text-transform: uppercase!important;
 }
@@ -10835,7 +10835,7 @@ figure {
 	background: none!important;
 }
 .main-section .rich_editor_text blockquote p {
-    font: 20px 'Open Sans', sans-serif!important;
+    font: 12pt 'Open Sans', sans-serif!important;
     line-height: 1.5em!important;
 }
 
