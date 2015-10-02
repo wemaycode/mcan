@@ -28,7 +28,10 @@
 	.main-section .causes-detail .post-option {float: left;}
 	.col-md-9 {width: 67%}
 
-	.main-section .page-content, .main-section .page-content ~ .page-sidebar, .col-md-12, .main-section .image-frame figure, body .wrapper.wrapper_boxed, .widget-projects .cs-listing {width: 100%;}
+	.main-section .page-content, .main-section .page-content ~ .page-sidebar, .col-md-12, .main-section .image-frame figure, body .wrapper.wrapper_boxed, .widget-projects .cs-listing {
+		width: 100%;
+		border: none!important;
+	}
 	.main-section .col-md-3.left-sec { width: 33.33% !important;}
 	.element-size-25 {width: 50% !important;}
 	.col-md-2 { width: 33.33%;}
@@ -81,7 +84,7 @@
 	.navbar-toggle.addclose .icon-bar {display: none;}.navbar-toggle.addclose:before {content: "\f00d";font-family: FontAwesome;color: #777;font-size: 16px;}
 	li.parentIcon > a:after {display: none;}
 
-	.navbar-default .navbar-toggle{ display:block !important;}
+	.navbar-default .navbar-toggle{ display:block !important; border-color: transparent; }
 	.navbar-nav > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li > .dropdown-menu > li{padding:0;}
 	.collapse{ display:none;}
 	.dropdown-menu li:last-child{ border-bottom:0 !important;}
@@ -109,7 +112,7 @@
 		     -o-transition: none;
 		        transition: none;
 	}
-	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #fff !important;}
+	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #515524 !important;}
 	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0) !important; float: left; padding-left: 15px !important; width: 100%; }
 	/*============ Header Style ============ */
 	.main-section .upload-file li textarea {width: 94%;}
@@ -181,8 +184,14 @@
 		width: 100% !important; 
 		padding: 0px 10px;
 	}
+	#main-content .page-content ~ .page-sidebar {
+		padding: 0 10px!important;
+	}
 	.col-md-4, .rtl .col-md-3, .col-md-3, .col-md-2, .element-size-25 { width: 50% !important; }
-	.main-section .page-content {padding-right: 0px;}
+	.main-section .page-content {
+		padding-right: 0px;
+		border: none!important;
+	}
 	/* ======== CS Login sec Start ======== */
 	.main-section .logo-section .left-side, .main-section .events-classic figure, .main-section .cs-causes.latest-causes section, .main-section .main-navbar .right-side, .main-section .single-sermone,
 	.main-section .call-actions .cell.text-area, .main-section .cell.icon, .main-section .call-actions .cell.heading, .widget-projects .cs-listing
@@ -292,7 +301,10 @@
 	.navbar-toggle.addclose .icon-bar {display: none;}.navbar-toggle.addclose:before {content: "\f00d";font-family: FontAwesome;color: #777;font-size: 16px;}
 	li.parentIcon > a:after {display: none;}
 
-	.navbar-default .navbar-toggle{ display:block !important;}
+	.navbar-default .navbar-toggle{ 
+		display:block !important;
+		border: none!important;
+	}
 	.navbar-nav > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li, .navbar-nav > li > .dropdown-menu > li > .dropdown-menu > li > .dropdown-menu > li{padding:0;}
 	.collapse{ display:none;}
 	.dropdown-menu li:last-child{ border-bottom:0 !important;}
@@ -320,7 +332,7 @@
 		     -o-transition: none;
 		        transition: none;
 	}
-	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #fff !important;}
+	#main-header .navbar-default .navbar-toggle .icon-bar {background-color: #515524 !important;}
 	.navigation .navbar-nav > li > a { background-color: rgba(0, 0, 0, 0) !important; float: left; padding-left: 15px !important; width: 100%; }
 	.logo-section .main-navbar ul.navbar-nav li.menu-item.menu-item-has-children a {
 		font-weight: bold!important;

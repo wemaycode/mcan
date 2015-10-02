@@ -10263,13 +10263,16 @@ button.navbar-toggle.addclose {
     left: 0px;
 }
 .navbar-toggle.addclose:before {
-	color: #ffffff!important;
+	color: #515524!important;
 }
 button.navbar-toggle {
-    background-color: #515254!important;
+    background-color: #ffffff!important;
 }
-button.navbar-toggle:hover {
-    background-color: #f8991d!important;
+#main-header .navbar-default button.navbar-toggle:hover .icon-bar {
+	background-color: #f9991d !important;
+}
+#main-header .navbar-default button.navbar-toggle:hover.navbar-toggle.addclose:before {
+    color: #f9991d !important;
 }
 
 /* SLIDER */
