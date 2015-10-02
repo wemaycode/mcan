@@ -10206,7 +10206,9 @@ ul.menu-cta-menu {
   text-transform: uppercase;
   font-weight: bold;
 }
-
+.menu-cta-menu li a:hover {
+  background-color: #B1B3B6;
+}
 /* TOP NAV SOCIAL */
 nav.social-nav {
     float: right;
@@ -10219,6 +10221,9 @@ nav.social-nav {
     font-size: 19px;
     vertical-align: middle;
 }
+.socialmedia li a i:hover {
+    color: #E98300;
+}
 nav.top-nav ul.socialmedia li { 
 	margin: 0px;
 	padding: 0px 15px 0 0;
@@ -10230,12 +10235,16 @@ nav.top-nav ul.socialmedia li:last-child {
 		border: 2px solid #514525;
 		border-radius: 20px;
 	}
+	ul.socialmedia li a:hover {
+	    border: 2px solid #E98300;
+	}
 		ul.socialmedia li a i.fa-facebook {
 			padding: 5px 10px;
 		}
 		ul.socialmedia li a i.fa-twitter {
 			padding: 5px 8px;
 		}
+		
 /* MAIN NAV */
 .main-navbar nav.navigation {
 	float: right;
@@ -10324,6 +10333,9 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
     color: #007088;
     font-weight: bold;
 }
+.main-section .rich_editor_text a:hover, .main-section .event-info a:hover {
+    text-decoration: underline;
+}
 .main-section .rich_editor_text h2, .main-section .rich_editor_text h2 a {
   font-size: 30px!important;
   font-weight: bold!important;
@@ -10376,7 +10388,9 @@ body.home #main-content, .breadcrumb-sec { /* add top margin for header */
 .main-section .cs-blog h5, .main-section .cs-blog h5 a {
     font-weight: bold;
 }
-
+.main-section .rich_editor_text a:hover, .post-option li a:hover {
+	text-decoration: underline;
+}
 
 /* CS THEME: DIVIDER */
 
@@ -10446,6 +10460,9 @@ footer.group .widget_text ul li {
 	line-height: 22px!important;
 }
 
+footer.group .widget_text .cta:hover {
+	background-color: #B1B3B6!important;
+}
 footer.group .widget_text .cta {
 	background-color: #515254!important;
 	color: #ffffff!important;
@@ -10464,7 +10481,9 @@ footer .footer-widget-cta .cta a {
 .footer-widget-cta ul {
   margin-top: 20px!important;
 }
-
+.footer-widget-cta ul li a:hover, .footer-widget a:hover {
+	text-decoration: underline;
+}
 
 footer.group .widget_text .footer-widget-cta ul li:after {
 	/*
@@ -10483,6 +10502,9 @@ footer.group .widget_text ul li a {
 .footer-widget-affiliate, .footer-widget-affiliate a {
 	font-weight: 900!important;
 	font-size: 20px!important;
+}
+.footer-widget-affiliate a:hover {
+	color: #B1B3B6!important;
 }
 .footer-widget-affiliate a {
 	line-height: 35px!important;
@@ -10550,6 +10572,9 @@ body.home section.contact-form {
 		font-size: 20px!important;
 		line-height: 1.25em!important;
 	}
+	.main-section .cs-blog a:hover {
+		text-decoration: underline;
+	}
 	.cs-blog-grid time small {
 		font-weight: bold;
 		color: #959595;
@@ -10559,6 +10584,9 @@ body.home section.contact-form {
 	}
 	.blog-title-wrapper h2 {
 		font-weight: bold!important;
+	}
+	.cs-blog-grid a:hover, .prev-next-post a:hover {
+		text-decoration: underline;
 	}
 
 /* Homepage Blog Reel */
@@ -10948,6 +10976,9 @@ article.cs-events.events-minimal {
     font-weight: bold;
     font-style: italic;
 }
+.cs-events a:hover {
+    text-decoration: underline;
+}
 
 #affiliate-ecco { }
 	#affiliate-ecco .cs-events.events-minimal h2, #affiliate-ecco .cs-events.events-minimal h2:after { border-color: #6ccdb3;  }
@@ -10955,15 +10986,16 @@ article.cs-events.events-minimal {
 	#affiliate-ecco .cs-events.events-minimal h2 { color: #003a5d!important; }
 	
 	.contact-form.ecco input[type="submit"] { background-color: #6ccdb3; }
+	.contact-form.ecco input[type="submit"]:hover { background-color: #3CAFAB; }
 	
 	#affiliate-ecco .main-section .homepage-content-howwework { 
 		text-align: center; 
 		padding-top: 0px!important;
 	}
 	#affiliate-ecco .main-section .homepage-content-howwework p { text-align: left; }
-	#affiliate-ecco .main-section .cta { 
-		background-color: #6ccdb3;
-	}
+	#affiliate-ecco .main-section .cta { background-color: #6ccdb3; }
+	#affiliate-ecco .main-section .cta:hover { background-color: #3CAFAB; }
+	
 	#affiliate-ecco .main-section .homepage-content-howwework .cta:last-child {
 		float: right;
 	}
@@ -10986,6 +11018,7 @@ article.cs-events.events-minimal {
 	#affiliate-bic .cs-events.events-minimal h2 { color: #252c6a!important; }
 	
 	#affiliate-bic .main-section .cta { background-color: #f6cf3f; color: #252c6a; }
+	#affiliate-bic .main-section .cta:hover { background-color: #EEB537; }
 		
 	#affiliate-bic .main-section .homepage-content-howwework { 
 		text-align: center; 
