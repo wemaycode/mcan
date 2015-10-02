@@ -10758,7 +10758,7 @@ body.home section.homepage-content-howwework{
 	}
 	
 	.page-template-page-currentcampaigns .grid-title {
-		color: #515524;
+		color: #515524!important;
 	}
 	.page-template-page-currentcampaigns a:hover .grid-title {
 		color: #f8991d!important;
