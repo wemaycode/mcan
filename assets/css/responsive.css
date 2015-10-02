@@ -384,6 +384,29 @@
 	#main-header .navigation {
 		
 	}
+	/* hamburger menu, hide social media menu */
+	#main-header .logo-section {
+		position: relative;
+		padding-bottom: 0px!important;
+	}
+	.socialmedia {
+		display: none;
+	}
+	.logo-section .top-nav-wrapper {
+	    width: auto;
+		float: left;
+	}
+	.logo-section .main-navbar {
+	    position: absolute;
+		right: 10px;
+		float: none;
+		margin-top: 13px;
+	}
+	#main-header .navbar-toggle {
+	    position: absolute;
+		left: auto;
+		right: 0px;
+	}
 	.main-section h2 {
 		font-size: 18px!important;
 		padding: 0 5px;
