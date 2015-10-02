@@ -10221,9 +10221,6 @@ nav.social-nav {
     font-size: 19px;
     vertical-align: middle;
 }
-.socialmedia li a i:hover {
-    color: #E98300;
-}
 nav.top-nav ul.socialmedia li { 
 	margin: 0px;
 	padding: 0px 15px 0 0;
@@ -10237,6 +10234,9 @@ nav.top-nav ul.socialmedia li:last-child {
 	}
 	ul.socialmedia li a:hover {
 	    border: 2px solid #E98300;
+	}	
+	ul.socialmedia li a:hover i {
+		color: #E98300;
 	}
 		ul.socialmedia li a i.fa-facebook {
 			padding: 5px 10px;
@@ -10756,7 +10756,14 @@ body.home section.homepage-content-howwework{
 	.page-template-page-currentcampaigns .main-section p {
 		font-size: 12pt!important;
 	}
-
+	
+	.page-template-page-currentcampaigns .grid-title {
+		color: #515524;
+	}
+	.page-template-page-currentcampaigns a:hover .grid-title {
+		color: #f8991d!important;
+	}
+	
 	/* fancybox grid */
 	.page-template-page-staff a.fancybox img,
 	.page-template-page-currentcampaigns a.fancybox .grid-img {
@@ -10977,8 +10984,12 @@ article.cs-events.events-minimal {
     font-style: italic;
 }
 .cs-events a:hover {
-    text-decoration: underline;
+    color: #E98300;
 }
+.event-content a:hover {
+	text-decoration: underline;
+}
+
 
 #affiliate-ecco { }
 	#affiliate-ecco .cs-events.events-minimal h2, #affiliate-ecco .cs-events.events-minimal h2:after { border-color: #6ccdb3;  }
