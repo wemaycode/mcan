@@ -10906,7 +10906,9 @@ figure {
 .wpcf7-response-output {
 	color: #ffffff!important;
 }
-
+.page-sidebar .wpcf7-response-output {
+    color: #515524!important;
+}
 /* SIDEBAR */
 
 .page-content {
