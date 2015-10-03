@@ -4527,7 +4527,147 @@ if ( ! function_exists( 'cs_woocommerce_header_cart' ) ) {
 
 
 
-// MCAN Contact Form 7 
+// MCAN CONTACT FORM 7 
+
+// add custom zipcode field
+add_action( 'wpcf7_init', 'wpcf7_add_shortcode_zipcode' );
+
+function wpcf7_add_shortcode_zipcode() {
+	wpcf7_add_shortcode(
+		array('zipcode', 'zipcode*'),
+		'wpcf7_zipcode_shortcode_handler', true );
+}
+
+function wpcf7_zipcode_shortcode_handler( $tag ) {
+	$tag = new WPCF7_Shortcode( $tag );
+
+	if ( empty( $tag->name ) )
+		return '';
+
+	$validation_error = wpcf7_get_validation_error( $tag->name );
+
+	$class = wpcf7_form_controls_class( $tag->type, 'wpcf7-zipcode' );
+
+	if ( in_array( $tag->basetype, array( 'zipcode' ) ) )
+		$class .= ' wpcf7-validates-as-' . $tag->basetype;
+
+	if ( $validation_error )
+		$class .= ' wpcf7-not-valid';
+
+	$atts = array();
+
+	$atts['size'] = $tag->get_size_option( '40' );
+	$atts['maxlength'] = $tag->get_maxlength_option();
+	$atts['minlength'] = $tag->get_minlength_option();
+
+	if ( $atts['maxlength'] && $atts['minlength'] && $atts['maxlength'] < $atts['minlength'] ) {
+		unset( $atts['maxlength'], $atts['minlength'] );
+	}
+
+	$atts['class'] = $tag->get_class_option( $class );
+	$atts['id'] = $tag->get_id_option();
+	$atts['tabindex'] = $tag->get_option( 'tabindex', 'int', true );
+
+	if ( $tag->has_option( 'readonly' ) )
+		$atts['readonly'] = 'readonly';
+
+	if ( $tag->is_required() )
+		$atts['aria-required'] = 'true';
+
+	$atts['aria-invalid'] = $validation_error ? 'true' : 'false';
+
+	$value = (string) reset( $tag->values );
+
+	if ( $tag->has_option( 'placeholder' ) || $tag->has_option( 'watermark' ) ) {
+		$atts['placeholder'] = $value;
+		$value = '';
+	}
+
+	$value = $tag->get_default_option( $value );
+
+	$value = wpcf7_get_hangover( $tag->name, $value );
+
+	$atts['value'] = $value;
+
+	if ( wpcf7_support_html5() ) {
+		$atts['type'] = $tag->basetype;
+	} else {
+		$atts['type'] = 'text';
+	}
+
+	$atts['name'] = $tag->name;
+
+	$atts = wpcf7_format_atts( $atts );
+
+	$html = sprintf(
+		'<span class="wpcf7-form-control-wrap %1$s"><input %2$s />%3$s</span>',
+		sanitize_html_class( $tag->name ), $atts, $validation_error );
+
+	return $html;
+}
+
+/* Validation filter */
+add_filter( 'wpcf7_validate_zipcode', 'wpcf7_zipcode_validation_filter', 10, 2 );
+add_filter( 'wpcf7_validate_zipcode*', 'wpcf7_zipcode_validation_filter', 10, 2 );
+
+
+function wpcf7_zipcode_validation_filter( $result, $tag ) {
+	$tag = new WPCF7_Shortcode( $tag );
+	$name = $tag->name;
+	$value = isset( $_POST[$name] )
+		? trim( wp_unslash( strtr( (string) $_POST[$name], "\n", " " ) ) )
+		: '';
+
+	if ( 'zipcode' == $tag->basetype ) {
+		if ( $tag->is_required() && '' == $value ) {
+			$result->invalidate( $tag, wpcf7_get_message( 'invalid_required' ) );
+		} elseif ( '' != $value && ! wpcf7_is_zipcode( $value ) ) {
+			$result->invalidate( $tag, wpcf7_get_message( 'invalid_zipcode' ) );
+		}
+	}
+	return $result;
+}
+
+function wpcf7_is_zipcode( $zipcode ) {
+	$result = preg_match( '/^\d{5}(-\d{4})?$/', $zipcode );
+	return apply_filters( 'wpcf7_is_zipcode', $result, $zipcode );
+}
+
+/* Messages */
+add_filter( 'wpcf7_messages', 'wpcf7_zipcode_messages' );
+function wpcf7_zipcode_messages( $messages ) {
+	return array_merge( $messages, array(
+		'invalid_zipcode' => array(
+			'description' => __( "Zip code that the sender entered is invalid", 'contact-form-7' ),
+			'default' => __( 'Zip code seems invalid.', 'contact-form-7' )
+		)
+	));
+}
+
+/* Tag generator */
+add_action( 'wpcf7_admin_init', 'wpcf7_add_tag_generator_zipcode', 15 );
+
+function wpcf7_add_tag_generator_zipcode() {
+	$tag_generator = WPCF7_TagGenerator::get_instance();
+	$tag_generator->add( 'zipcode', __( 'zipcode', 'contact-form-7' ),
+		'wpcf7_tag_generator_zipcode' );
+}
+function wpcf7_tag_generator_zipcode( $contact_form, $args = '' ) {
+	$args = wp_parse_args( $args, array() );
+	$type = $args['id'];
+
+	if ( ! in_array( $type, array( 'zipcode' ) ) ) {
+		$type = 'zipcode';
+	}
+	if ( 'zipcode' == $type ) {
+		$description = __( "Generate a form-tag for a single-line plain zipcode input field.", 'contact-form-7' );
+	}
+}
+	
+
+
+
+
 // send submit to BSD
 add_action( 'wpcf7_before_send_mail', 'submit_to_bsd' );
 
